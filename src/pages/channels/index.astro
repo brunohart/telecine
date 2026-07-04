@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import network from '../../data/network.json';
 
 const hours = (ch) => Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360) / 10;
+const filmCount = (ch) => ch.blocks.filter((b) => b.type === 'film').length;
 ---
 
 <Base
@@ -24,7 +25,7 @@ const hours = (ch) => Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0
           <h2 class="ch-name">{ch.name}</h2>
           <p class="ch-tagline">{ch.tagline}</p>
           <p class="ch-desc">{ch.description}</p>
-          <p class="mono-label">{ch.films.length} films · {hours(ch)}h rotation</p>
+          <p class="mono-label">{filmCount(ch)} films · {hours(ch)}h rotation</p>
         </a>
       ))}
     </div>
