@@ -7,7 +7,16 @@
       "tagline": "Cinema before it spoke.",
       "epoch": "2026-07-01T00:00:00Z",
       "description": "The first grammar of the medium, transmitted whole. These films had no dialogue to lean on, so they solved everything — dread, longing, comedy, revolution — with light, faces, and cutting. A century later the solutions still work on you. That is not nostalgia; that is engineering.",
-      "films": ["sherlock-jr-1924", "nosferatu-1922", "the-general-1926", "the-cabinet-of-dr-caligari-1920", "sunrise-1927", "battleship-potemkin-1925", "the-lodger-1927", "metropolis-1927"]
+      "films": [
+        "sherlock-jr-1924",
+        "nosferatu-1922",
+        "the-general-1926",
+        "the-cabinet-of-dr-caligari-1920",
+        "sunrise-1927",
+        "battleship-potemkin-1925",
+        "the-lodger-1927",
+        "metropolis-1927"
+      ]
     },
     {
       "id": "noir-after-dark",
@@ -16,7 +25,16 @@
       "tagline": "The night shift of the American picture.",
       "epoch": "2026-07-01T00:47:00Z",
       "description": "Cheap films that turned their poverty into a style and their style into a worldview. Shot fast, lit hard, cut to the bone — the B-picture underworld where the American dream files its incident reports. Nobody here is innocent, and the cinematography agrees.",
-      "films": ["detour-1945", "the-hitch-hiker-1953", "scarlet-street-1945", "doa-1950", "too-late-for-tears-1949", "the-stranger-1946", "kansas-city-confidential-1952", "suddenly-1954"]
+      "films": [
+        "detour-1945",
+        "the-hitch-hiker-1953",
+        "scarlet-street-1945",
+        "doa-1950",
+        "too-late-for-tears-1949",
+        "the-stranger-1946",
+        "kansas-city-confidential-1952",
+        "suddenly-1954"
+      ]
     },
     {
       "id": "haunted-screen",
@@ -25,7 +43,15 @@
       "tagline": "What the dark does with an audience.",
       "epoch": "2026-07-01T01:23:00Z",
       "description": "Named for Lotte Eisner's study of German expressionism, programmed for the hours when the house is quiet. Horror is the genre most honest about why we watch together: it is easier to look when someone is beside you. These prints have frightened three generations and are not finished.",
-      "films": ["carnival-of-souls-1962", "night-of-the-living-dead-1968", "house-on-haunted-hill-1959", "the-last-man-on-earth-1964", "white-zombie-1932", "dementia-13-1963", "the-little-shop-of-horrors-1960"]
+      "films": [
+        "carnival-of-souls-1962",
+        "night-of-the-living-dead-1968",
+        "house-on-haunted-hill-1959",
+        "the-last-man-on-earth-1964",
+        "white-zombie-1932",
+        "dementia-13-1963",
+        "the-little-shop-of-horrors-1960"
+      ]
     },
     {
       "id": "the-matinee",
@@ -34,7 +60,15 @@
       "tagline": "Fast talk, slow afternoons.",
       "epoch": "2026-07-01T02:11:00Z",
       "description": "The daylight programme: screwball, romance, and one perfect thriller in evening wear. Dialogue as choreography, charm as craft. These are the films that made talking itself cinematic — proof that wit, timed to the frame, is a special effect.",
-      "films": ["his-girl-friday-1940", "charade-1963", "my-man-godfrey-1936", "nothing-sacred-1937", "love-affair-1939", "made-for-each-other-1939", "royal-wedding-1951"]
+      "films": [
+        "his-girl-friday-1940",
+        "charade-1963",
+        "my-man-godfrey-1936",
+        "nothing-sacred-1937",
+        "love-affair-1939",
+        "made-for-each-other-1939",
+        "royal-wedding-1951"
+      ]
     }
   ],
   "films": {
@@ -70,7 +104,6 @@
       "logline": "A city of towers above, a city of shifts below, and a machine wearing a woman's face.",
       "note": "The most expensive film of the silent era, cut apart by its distributors within months of release and passed down the century in fragments — the version transmitted here is one of those inheritances, and its incompleteness is part of its biography. Lang's city became the default image of the future; every skyline in science fiction pays it rent. The robot Maria's transformation still looks like a transmission from somewhere else."
     },
-
     "detour-1945": {
       "logline": "A hitchhiker, a dead man's wallet, and the worst phone call in noir.",
       "note": "Shot in six days for nothing, and the nothing shows — as style. Rear-projection deserts, one motel room, a narration that keeps explaining and keeps incriminating. Ann Savage's Vera is the genre's most feral performance, no glamour anywhere near it. Detour is the proof text of the B-picture thesis: constraint, fully accepted, becomes a worldview. Fate, in this film, is just the road with the lights off."
@@ -103,7 +136,6 @@
       "logline": "A quiet town, a house on a hill, and a rifle waiting for a train.",
       "note": "Sinatra took the role no star wanted — a chattering, wounded assassin holding a family at gunpoint until the President's train arrives — and gave the most unnerving performance of his career. The film sat effectively out of circulation for years after history rhymed with it too closely. Small, airless, nearly real-time: the thriller reduced to one room, one window, one American afternoon going wrong."
     },
-
     "carnival-of-souls-1962": {
       "logline": "A church organist survives a crash, moves west, and stops casting a shadow on the world.",
       "note": "Made for pocket change by a Kansas industrial-film director who never made another feature, and quietly one of the most influential horror films in the canon — Romero borrowed its dead, Lynch its atmosphere of a world one layer out of register. The abandoned Saltair pavilion is the great found location of the genre. Its dread is administrative: a woman who can no longer get the world to acknowledge receipt of her."
@@ -132,7 +164,6 @@
       "logline": "A florist's assistant breeds a plant with a diet problem.",
       "note": "Shot in two days and a night on a bet and a leftover set, and the speed is legible on screen as a kind of jazz. Corman's black comedy about retail, appetite, and giving the public what it wants — the plant is a hit; the shop thrives; the arithmetic is the joke. A young Jack Nicholson appears for one scene as a dental masochist and walks off with the picture's id."
     },
-
     "his-girl-friday-1940": {
       "logline": "An editor has one afternoon to un-divorce his best reporter.",
       "note": "Hawks took The Front Page, made the reporter a woman and the ex-wife of her editor, and turned American speech into a percussion instrument — dialogue overlapped and compressed until 92 minutes contain roughly 190 minutes of talk. It is the fastest film ever made about the fact that some people are only alive at full speed, and that the story — there is a hanging at dawn — will happily eat every scruple in the room. The remarriage comedy at terminal velocity."
@@ -161,5 +192,147 @@
       "logline": "A brother-sister act plays London the week of the royal wedding.",
       "note": "The one where Astaire dances on the ceiling — a rotating room and a bolted-down camera, a trick explained a thousand times and still not diminished, because the trick was never the room; it was that Astaire treats impossibility as a mild change in the floor plan. Donen's first solo feature. The hat-rack duet in the gymnasium is the quieter miracle: a man making a partner out of furniture and the furniture holding up its end."
     }
-  }
+  },
+  "threads": [
+    {
+      "films": [
+        "the-last-man-on-earth-1964",
+        "night-of-the-living-dead-1968"
+      ],
+      "note": "Romero named this adaptation of Matheson's I Am Legend as the blueprint he worked from. Watch the besiegers at Price's door, then watch the farmhouse: the same shuffle, four years and one revolution apart."
+    },
+    {
+      "films": [
+        "carnival-of-souls-1962",
+        "night-of-the-living-dead-1968"
+      ],
+      "note": "Two industrial-film crews from the middle of the country, borrowing the company gear to make a horror picture. The pallid dead of Saltair walk again outside a Pennsylvania farmhouse — regional filmmaking becoming modern horror."
+    },
+    {
+      "films": [
+        "white-zombie-1932",
+        "night-of-the-living-dead-1968"
+      ],
+      "note": "The word 'zombie' changes meaning between these two films: from the dead as owned labour to the dead as pure appetite. The whole politics of the genre is in that swap."
+    },
+    {
+      "films": [
+        "nosferatu-1922",
+        "white-zombie-1932"
+      ],
+      "note": "Two unauthorized routes out of Bram Stoker: Murnau rewrote Dracula and was sued into near-oblivion; a decade later Lugosi, fresh from playing the licensed Count, walked into the mill of the undead."
+    },
+    {
+      "films": [
+        "the-cabinet-of-dr-caligari-1920",
+        "carnival-of-souls-1962"
+      ],
+      "note": "A somnambulist in a painted world; an organist one layer out of register with hers. Expressionism's central idea — the world bent to the shape of a mind — crosses forty years and an ocean intact."
+    },
+    {
+      "films": [
+        "metropolis-1927",
+        "scarlet-street-1945"
+      ],
+      "note": "Fritz Lang, twice: the city as a machine that consumes its workers, then the city as a set of small rooms that do the same job more quietly. The architecture shrank; the trap didn't."
+    },
+    {
+      "films": [
+        "battleship-potemkin-1925",
+        "metropolis-1927"
+      ],
+      "note": "The crowd as protagonist, staged two ways in two years: Eisenstein cuts the masses into a weapon; Lang choreographs them into a machine. Every stadium crowd shot since is quoting one or the other."
+    },
+    {
+      "films": [
+        "detour-1945",
+        "doa-1950"
+      ],
+      "note": "Two men narrating their own autopsies. Noir's boldest structural idea — the voice that already knows how this ends — done first on poverty row, then with a studio's polish."
+    },
+    {
+      "films": [
+        "detour-1945",
+        "the-hitch-hiker-1953"
+      ],
+      "note": "The fatal ride, from both sides: Ulmer's drifter accepts one, Lupino's killer is one. Between the two films, the American road stops being freedom."
+    },
+    {
+      "films": [
+        "the-stranger-1946",
+        "suddenly-1954"
+      ],
+      "note": "A quiet American town hosts a monster wearing ordinary clothes — first the war criminal grading papers, then the assassin at the window. Postwar noir kept asking the same question: what if he lives here?"
+    },
+    {
+      "films": [
+        "the-lodger-1927",
+        "suddenly-1954"
+      ],
+      "note": "The threat is upstairs. Hitchcock built suspense out of a household's suspicion; Suddenly locks the household in with the answer. Same architecture, opposite disclosure."
+    },
+    {
+      "films": [
+        "his-girl-friday-1940",
+        "nothing-sacred-1937"
+      ],
+      "note": "Ben Hecht's newsroom, twice over: the press that will hang a man for a headline and the press that will canonize a healthy woman for circulation. Screwball is the sugar; the indictment is the pill."
+    },
+    {
+      "films": [
+        "nothing-sacred-1937",
+        "made-for-each-other-1939"
+      ],
+      "note": "Carole Lombard's two registers, two years apart — the great comedienne in Technicolor farce, then playing a marriage almost entirely straight. The timing is identical; only the stakes change."
+    },
+    {
+      "films": [
+        "my-man-godfrey-1936",
+        "his-girl-friday-1940"
+      ],
+      "note": "Class comedy at two speeds: Godfrey walks up from the dump into Fifth Avenue at a stroll; Hildy talks her way around the whole social order at 240 words a minute."
+    },
+    {
+      "films": [
+        "his-girl-friday-1940",
+        "charade-1963"
+      ],
+      "note": "The two poles of Cary Grant, twenty-three years apart: the fast-talking operator who won't let her leave, and the unknowable charmer she probably shouldn't trust. Both films run on the same current — charm as suspense."
+    },
+    {
+      "films": [
+        "sherlock-jr-1924",
+        "royal-wedding-1951"
+      ],
+      "note": "Keaton walks into the screen; Astaire walks up the wall. Two impossible spaces, both built with a camera trick played perfectly straight — the special effect hidden inside a straight face."
+    },
+    {
+      "films": [
+        "the-general-1926",
+        "metropolis-1927"
+      ],
+      "note": "The machine as co-star, 1926 and 1927: Keaton loves his locomotive like a person; Lang fears his Machine like a god. Between those two feelings sits the whole century's argument with technology."
+    },
+    {
+      "films": [
+        "dementia-13-1963",
+        "the-little-shop-of-horrors-1960"
+      ],
+      "note": "Two graduates of the Corman factory: a 24-year-old Coppola given a castle and a schedule, and a two-day comedy that hands Jack Nicholson his first unforgettable scene. The B-movie as film school, tuition paid in speed."
+    },
+    {
+      "films": [
+        "house-on-haunted-hill-1959",
+        "the-little-shop-of-horrors-1960"
+      ],
+      "note": "Horror as showmanship economics: Castle wired the seats, Corman beat the clock. Both films understand the audience is part of the machine — the scream is the product."
+    },
+    {
+      "films": [
+        "sunrise-1927",
+        "love-affair-1939"
+      ],
+      "note": "A love nearly destroyed by one decision, then rebuilt in public spaces — the tram and the city for Murnau, the liner and the Empire State for McCarey. The near-loss is what makes the tenderness legible."
+    }
+  ]
 }

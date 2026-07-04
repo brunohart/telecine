@@ -80,7 +80,7 @@ body::after {
   inset: 0;
   pointer-events: none;
   z-index: 999;
-  opacity: 0.16;
+  opacity: 0.09;
   mix-blend-mode: multiply;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
 }
@@ -173,13 +173,13 @@ main { flex: 1; }
 .page-lede { font-size: 1.12rem; color: var(--ink-soft); max-width: var(--measure); font-style: italic; margin-bottom: 1.2rem; }
 
 /* ────────────────────────────────────────────────────────────────
-   The signatures — misregistration, stamps, rotation, offset ink,
-   wash bleeds, broken rules. Structure beneath scatter: every tilt
-   is authored, every spring is tuned. (digital-design-taste.md,
-   evolved for the broadcast format.)
+   Brand character — restrained on product surfaces. The recurring
+   designedbybruno sense lives in the wordmark's misregistration,
+   the test-card bars, the stamps, and the physics of interaction —
+   not in scattered angles. Product first; character earns its way in.
    ──────────────────────────────────────────────────────────────── */
 
-/* 1 · misregistration ghost — the plate that didn't align */
+/* misregistration ghost — reserved for the wordmark */
 .ghost { position: relative; }
 .ghost::before {
   content: attr(data-text);
@@ -194,7 +194,7 @@ main { flex: 1; }
 }
 .lights-down .ghost::before { opacity: 0.34; }
 
-/* 2 · rubber-stamp labels — pressed by hand, never quite level */
+/* archival labels — a labelling system, set level */
 .stamp {
   display: inline-block;
   font-family: var(--mono);
@@ -205,47 +205,10 @@ main { flex: 1; }
   color: var(--ink-soft);
   border: 1px solid var(--line-strong);
   padding: 0.3em 0.7em 0.26em;
-  rotate: -0.8deg;
   border-radius: 2px;
 }
 
-/* 3 · rotation as character — resting tilts that snap to attention */
-.tilt-a { rotate: -0.55deg; }
-.tilt-b { rotate: 0.7deg; }
-.tilt-c { rotate: -0.35deg; }
-.tilt-a, .tilt-b, .tilt-c { transition: rotate 0.45s var(--spring), translate 0.45s var(--spring), box-shadow 0.45s var(--spring-soft); }
-.tilt-a:hover, .tilt-b:hover, .tilt-c:hover { rotate: 0deg; }
-
-/* 4 · offset ink blocks — the second print pass, misaligned */
-.offset-ink { position: relative; }
-.offset-ink::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  translate: 6px 8px;
-  background: var(--tube);
-  opacity: 0.07;
-  z-index: -1;
-  border-radius: inherit;
-  transition: translate 0.45s var(--spring), opacity 0.3s ease;
-  pointer-events: none;
-}
-.offset-ink:hover::after { translate: 3px 4px; opacity: 0.11; }
-
-/* 5 · colour wash bleeds — ink that doesn't respect the margin */
-.wash {
-  position: absolute;
-  pointer-events: none;
-  mix-blend-mode: multiply;
-  opacity: 0.038;
-  z-index: -1;
-  rotate: -4deg;
-}
-.wash-signal { background: var(--signal); }
-.wash-tube { background: var(--tube); }
-.lights-down .wash { mix-blend-mode: screen; opacity: 0.05; }
-
-/* 6 · broken rules — the stroke that ran out of ink */
+/* broken rules — the stroke that ran out of ink */
 .rule-broken {
   border: 0;
   height: 2px;
@@ -262,7 +225,7 @@ main { flex: 1; }
 /* ── settle choreography — objects placed on the table one by one ── */
 [data-settle] {
   opacity: 0;
-  translate: 0 18px;
+  translate: 0 10px;
   transition:
     opacity var(--settle-dur) var(--spring-soft),
     translate var(--settle-dur) var(--spring);

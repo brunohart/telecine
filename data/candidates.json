@@ -15,7 +15,8 @@
         "nosferatu",
         "Nosferatu1922Original"
       ],
-      "query": "Nosferatu 1922 Murnau"
+      "query": "Nosferatu 1922 Murnau",
+      "wikidataQid": "Q151895"
     },
     {
       "slug": "the-cabinet-of-dr-caligari-1920",
@@ -273,7 +274,8 @@
         "CarnivalOfSouls",
         "carnival_of_souls"
       ],
-      "query": "Carnival of Souls 1962"
+      "query": "Carnival of Souls 1962",
+      "wikidataQid": "Q1852671"
     },
     {
       "slug": "night-of-the-living-dead-1968",
@@ -339,7 +341,8 @@
         "WhiteZombie1932",
         "white_zombie"
       ],
-      "query": "White Zombie 1932 Bela Lugosi"
+      "query": "White Zombie 1932 Bela Lugosi",
+      "wikidataQid": "Q1751461"
     },
     {
       "slug": "dementia-13-1963",

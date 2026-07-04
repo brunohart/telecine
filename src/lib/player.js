@@ -179,7 +179,6 @@ function showBreak(r) {
   els.cardNum.textContent = state.channel.number;
   els.cardName.textContent = state.channel.name;
   els.cardTitle.textContent = film.title;
-  els.cardTitle.dataset.text = film.title;
   els.cardMeta.textContent = `${film.year} · ${film.director}`;
   // while the set is off, the screen stays dark behind the lens
   els.card.hidden = !state.powered;

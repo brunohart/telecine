@@ -23,6 +23,16 @@ const read = async (p) => JSON.parse(await readFile(path.join(root, p), 'utf8'))
 const { films: candidates } = await read('data/candidates.json');
 const verified = await read('data/verified.json');
 const programme = await read('data/programme.json');
+let enriched = {};
+try { enriched = await read('data/enriched.json'); } catch {}
+
+const personSlug = (name) =>
+  name
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 
 const INTERSTITIAL_SEC = 90;
 
@@ -30,12 +40,25 @@ const filmMeta = Object.fromEntries(candidates.map((f) => [f.slug, f]));
 const errors = [];
 
 const films = {};
+const filmGraph = {};
+const people = {};
+
+function credit(person, filmSlug, role) {
+  if (!person?.name) return null;
+  const slug = personSlug(person.name);
+  people[slug] ??= { slug, name: person.name, qid: person.qid ?? null, description: person.description ?? '', credits: [] };
+  if (!people[slug].description && person.description) people[slug].description = person.description;
+  people[slug].credits.push({ film: filmSlug, role });
+  return { slug, name: person.name };
+}
+
 for (const [slug, editorial] of Object.entries(programme.films)) {
   const meta = filmMeta[slug];
   const v = verified[slug];
   if (!meta) errors.push(`programme.json film not in candidates: ${slug}`);
   if (!v || v.failed) errors.push(`unverified film scheduled: ${slug}`);
   if (!meta || !v || v.failed) continue;
+  const e = enriched[slug] && !enriched[slug].failed ? enriched[slug] : null;
   films[slug] = {
     slug,
     title: meta.title,
@@ -48,6 +71,22 @@ for (const [slug, editorial] of Object.entries(programme.films)) {
     logline: editorial.logline,
     note: editorial.note,
   };
+  filmGraph[slug] = {
+    qid: e?.qid ?? null,
+    poster: e?.poster ?? null,
+    posterSource: e?.posterSource ?? null,
+    directors: (e?.directors ?? []).map((p) => credit(p, slug, 'Directed by')).filter(Boolean),
+    cinematography: e?.cinematographer ? [credit(e.cinematographer, slug, 'Photographed by')].filter(Boolean) : [],
+    cast: (e?.cast ?? []).map((p) => credit(p, slug, 'Cast')).filter(Boolean),
+  };
+}
+
+// threads — the editor's connective tissue; both ends must exist
+const threads = [];
+for (const t of programme.threads ?? []) {
+  const missing = t.films.filter((f) => !films[f]);
+  if (missing.length) { errors.push(`thread references unknown film(s): ${missing.join(', ')}`); continue; }
+  threads.push(t);
 }
 
 const channels = programme.channels.map((ch) => {
@@ -86,9 +125,14 @@ if (errors.length) {
   process.exit(1);
 }
 
+// network.json ships to the player; graph.json is server-side only (pages)
 const network = { generatedAt: new Date().toISOString(), interstitialSec: INTERSTITIAL_SEC, channels, films };
 const out = path.join(root, 'src', 'data', 'network.json');
 await writeFile(out, JSON.stringify(network, null, 2));
+await writeFile(path.join(root, 'src', 'data', 'graph.json'), JSON.stringify({ films: filmGraph, people, threads }, null, 2));
 
 const totalHours = channels.reduce((s, c) => s + c.blocks.reduce((x, b) => x + b.durationSec, 0), 0) / 3600;
-console.log(`✓ ${channels.length} channels, ${Object.keys(films).length} films, ${totalHours.toFixed(1)}h of programming → src/data/network.json`);
+const posters = Object.values(filmGraph).filter((f) => f.poster).length;
+console.log(
+  `✓ ${channels.length} channels, ${Object.keys(films).length} films (${posters} posters), ${threads.length} threads, ${Object.keys(people).length} people, ${totalHours.toFixed(1)}h of programming → src/data/network.json`
+);

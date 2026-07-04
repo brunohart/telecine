@@ -1,0 +1,4797 @@
+{
+  "films": {
+    "sherlock-jr-1924": {
+      "qid": "Q1569918",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Sherlock%2520jr%2520poster.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Sherlock jr poster.jpg",
+      "directors": [
+        {
+          "slug": "buster-keaton",
+          "name": "Buster Keaton"
+        },
+        {
+          "slug": "roscoe-arbuckle",
+          "name": "Roscoe Arbuckle"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "elgin-lessley",
+          "name": "Elgin Lessley"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "buster-keaton",
+          "name": "Buster Keaton"
+        },
+        {
+          "slug": "kathryn-mcguire",
+          "name": "Kathryn McGuire"
+        },
+        {
+          "slug": "joe-keaton",
+          "name": "Joe Keaton"
+        },
+        {
+          "slug": "kewpie-morgan",
+          "name": "Kewpie Morgan"
+        },
+        {
+          "slug": "ward-crane",
+          "name": "Ward Crane"
+        }
+      ]
+    },
+    "nosferatu-1922": {
+      "qid": "Q151895",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Wismar%2520Markt%2520Nosferatu%252001%2520%2528cropped%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Wismar Markt Nosferatu 01 (cropped).jpg",
+      "directors": [
+        {
+          "slug": "f-w-murnau",
+          "name": "F. W. Murnau"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "fritz-arno-wagner",
+          "name": "Fritz Arno Wagner"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "max-schreck",
+          "name": "Max Schreck"
+        },
+        {
+          "slug": "gustav-von-wangenheim",
+          "name": "Gustav von Wangenheim"
+        },
+        {
+          "slug": "greta-schroder",
+          "name": "Greta Schröder"
+        },
+        {
+          "slug": "alexander-granach",
+          "name": "Alexander Granach"
+        },
+        {
+          "slug": "karl-etlinger",
+          "name": "Karl Etlinger"
+        },
+        {
+          "slug": "john-gottowt",
+          "name": "John Gottowt"
+        },
+        {
+          "slug": "fanny-schreck",
+          "name": "Fanny Schreck"
+        },
+        {
+          "slug": "wolfgang-heinz",
+          "name": "Wolfgang Heinz"
+        }
+      ]
+    },
+    "the-general-1926": {
+      "qid": "Q850159",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/The%2520General%2520%25281926%2529%2520-%2520Movie%2520Poster%25202.png?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:The General (1926) - Movie Poster 2.png",
+      "directors": [
+        {
+          "slug": "buster-keaton",
+          "name": "Buster Keaton"
+        },
+        {
+          "slug": "clyde-bruckman",
+          "name": "Clyde Bruckman"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "devereux-jennings",
+          "name": "Devereux Jennings"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "buster-keaton",
+          "name": "Buster Keaton"
+        },
+        {
+          "slug": "al-st-john",
+          "name": "Al St. John"
+        },
+        {
+          "slug": "boris-karloff",
+          "name": "Boris Karloff"
+        },
+        {
+          "slug": "marion-mack",
+          "name": "Marion Mack"
+        },
+        {
+          "slug": "charles-henry-smith",
+          "name": "Charles Henry Smith"
+        },
+        {
+          "slug": "joe-keaton",
+          "name": "Joe Keaton"
+        },
+        {
+          "slug": "glen-cavender",
+          "name": "Glen Cavender"
+        },
+        {
+          "slug": "edward-hearn",
+          "name": "Edward Hearn"
+        }
+      ]
+    },
+    "the-cabinet-of-dr-caligari-1920": {
+      "qid": "Q153886",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/CABINETOFDRCALIGARI-poster.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:CABINETOFDRCALIGARI-poster.jpg",
+      "directors": [
+        {
+          "slug": "robert-wiene",
+          "name": "Robert Wiene"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "willy-hameister",
+          "name": "Willy Hameister"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "conrad-veidt",
+          "name": "Conrad Veidt"
+        },
+        {
+          "slug": "werner-krauss",
+          "name": "Werner Krauss"
+        },
+        {
+          "slug": "rudolf-klein-rogge",
+          "name": "Rudolf Klein-Rogge"
+        },
+        {
+          "slug": "lil-dagover",
+          "name": "Lil Dagover"
+        },
+        {
+          "slug": "friedrich-feher",
+          "name": "Friedrich Feher"
+        },
+        {
+          "slug": "hans-heinrich-von-twardowski",
+          "name": "Hans Heinrich von Twardowski"
+        },
+        {
+          "slug": "rudolf-lettinger",
+          "name": "Rudolf Lettinger"
+        },
+        {
+          "slug": "elsa-wagner",
+          "name": "Elsa Wagner"
+        }
+      ]
+    },
+    "sunrise-1927": {
+      "qid": "Q431093",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%2520-%2520A%2520Song%2520of%2520Two%2520Humans.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Sunrise - A Song of Two Humans.jpg",
+      "directors": [
+        {
+          "slug": "f-w-murnau",
+          "name": "F. W. Murnau"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "charles-rosher",
+          "name": "Charles Rosher"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "herman-bing",
+          "name": "Herman Bing"
+        },
+        {
+          "slug": "janet-gaynor",
+          "name": "Janet Gaynor"
+        },
+        {
+          "slug": "margaret-livingston",
+          "name": "Margaret Livingston"
+        },
+        {
+          "slug": "jane-winton",
+          "name": "Jane Winton"
+        },
+        {
+          "slug": "gibson-gowland",
+          "name": "Gibson Gowland"
+        },
+        {
+          "slug": "george-o-brien",
+          "name": "George O'Brien"
+        },
+        {
+          "slug": "robert-parrish",
+          "name": "Robert Parrish"
+        },
+        {
+          "slug": "arthur-housman",
+          "name": "Arthur Housman"
+        }
+      ]
+    },
+    "battleship-potemkin-1925": {
+      "qid": "Q152350",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Vintage%2520Potemkin.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Vintage Potemkin.jpg",
+      "directors": [
+        {
+          "slug": "sergei-eisenstein",
+          "name": "Sergei Eisenstein"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "eduard-tisse",
+          "name": "Eduard Tisse"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "sergei-eisenstein",
+          "name": "Sergei Eisenstein"
+        },
+        {
+          "slug": "aleksandr-pavlovich-antonov",
+          "name": "Aleksandr Pavlovich Antonov"
+        },
+        {
+          "slug": "grigori-aleksandrov",
+          "name": "Grigori Aleksandrov"
+        },
+        {
+          "slug": "alexander-stepanovich-antonov",
+          "name": "Alexander Stepanovich Antonov"
+        },
+        {
+          "slug": "andrei-fajt",
+          "name": "Andrei Fajt"
+        },
+        {
+          "slug": "aleksanteri-ahola-valo",
+          "name": "Aleksanteri Ahola-Valo"
+        },
+        {
+          "slug": "beatrice-vitoldi",
+          "name": "Beatrice Vitoldi"
+        },
+        {
+          "slug": "vladimir-barsky",
+          "name": "Vladimir Barsky"
+        }
+      ]
+    },
+    "the-lodger-1927": {
+      "qid": "Q504961",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/The%2520Lodger%2520%25281927%2520film%2520poster%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:The Lodger (1927 film poster).jpg",
+      "directors": [
+        {
+          "slug": "alfred-hitchcock",
+          "name": "Alfred Hitchcock"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "gaetano-di-ventimiglia",
+          "name": "Gaetano di Ventimiglia"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "alfred-hitchcock",
+          "name": "Alfred Hitchcock"
+        },
+        {
+          "slug": "alma-reville",
+          "name": "Alma Reville"
+        },
+        {
+          "slug": "ivor-novello",
+          "name": "Ivor Novello"
+        },
+        {
+          "slug": "malcolm-keen",
+          "name": "Malcolm Keen"
+        },
+        {
+          "slug": "reginald-gardiner",
+          "name": "Reginald Gardiner"
+        },
+        {
+          "slug": "june-tripp",
+          "name": "June Tripp"
+        },
+        {
+          "slug": "marie-ault",
+          "name": "Marie Ault"
+        },
+        {
+          "slug": "arthur-chesney",
+          "name": "Arthur Chesney"
+        }
+      ]
+    },
+    "metropolis-1927": {
+      "qid": "Q151599",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/1927%2520Boris%2520Bilinski%2520%25281900-1948%2529%2520Plakat%2520f%25C3%25BCr%2520den%2520Film%2520Metropolis%252C%2520Staatliche%2520Museen%2520zu%2520Berlin.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:1927 Boris Bilinski (1900-1948) Plakat für den Film Metropolis, Staatliche Museen zu Berlin.jpg",
+      "directors": [
+        {
+          "slug": "fritz-lang",
+          "name": "Fritz Lang"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "karl-freund",
+          "name": "Karl Freund"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "helene-weigel",
+          "name": "Helene Weigel"
+        },
+        {
+          "slug": "alfred-abel",
+          "name": "Alfred Abel"
+        },
+        {
+          "slug": "heinrich-george",
+          "name": "Heinrich George"
+        },
+        {
+          "slug": "rudolf-klein-rogge",
+          "name": "Rudolf Klein-Rogge"
+        },
+        {
+          "slug": "gustav-frohlich",
+          "name": "Gustav Fröhlich"
+        },
+        {
+          "slug": "brigitte-helm",
+          "name": "Brigitte Helm"
+        },
+        {
+          "slug": "curt-siodmak",
+          "name": "Curt Siodmak"
+        },
+        {
+          "slug": "grete-berger",
+          "name": "Grete Berger"
+        }
+      ]
+    },
+    "detour-1945": {
+      "qid": "Q2062566",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Detour%2520%2528poster%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Detour (poster).jpg",
+      "directors": [
+        {
+          "slug": "edgar-g-ulmer",
+          "name": "Edgar G. Ulmer"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "benjamin-h-kline",
+          "name": "Benjamin H. Kline"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "ann-savage",
+          "name": "Ann Savage"
+        },
+        {
+          "slug": "don-brodie",
+          "name": "Don Brodie"
+        },
+        {
+          "slug": "tom-neal",
+          "name": "Tom Neal"
+        },
+        {
+          "slug": "esther-howard",
+          "name": "Esther Howard"
+        },
+        {
+          "slug": "tim-ryan",
+          "name": "Tim Ryan"
+        },
+        {
+          "slug": "claudia-drake",
+          "name": "Claudia Drake"
+        }
+      ]
+    },
+    "the-hitch-hiker-1953": {
+      "qid": "Q2625053",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/The%2520Hitch-Hiker%2520%25281953%2520poster%2529.jpeg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:The Hitch-Hiker (1953 poster).jpeg",
+      "directors": [
+        {
+          "slug": "ida-lupino",
+          "name": "Ida Lupino"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "nicholas-musuraca",
+          "name": "Nicholas Musuraca"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "edmond-o-brien",
+          "name": "Edmond O'Brien"
+        },
+        {
+          "slug": "frank-lovejoy",
+          "name": "Frank Lovejoy"
+        },
+        {
+          "slug": "jose-torvay",
+          "name": "José Torvay"
+        },
+        {
+          "slug": "william-talman",
+          "name": "William Talman"
+        },
+        {
+          "slug": "natividad-vacio",
+          "name": "Natividad Vacío"
+        },
+        {
+          "slug": "jean-del-val",
+          "name": "Jean Del Val"
+        },
+        {
+          "slug": "nacho-galindo",
+          "name": "Nacho Galindo"
+        },
+        {
+          "slug": "wade-crosby",
+          "name": "Wade Crosby"
+        }
+      ]
+    },
+    "scarlet-street-1945": {
+      "qid": "Q128930",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlet%2520Street%2520%25281945%2529%25201.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Scarlet Street (1945) 1.jpg",
+      "directors": [
+        {
+          "slug": "fritz-lang",
+          "name": "Fritz Lang"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "milton-krasner",
+          "name": "Milton Krasner"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "edward-g-robinson",
+          "name": "Edward G. Robinson"
+        },
+        {
+          "slug": "joan-bennett",
+          "name": "Joan Bennett"
+        },
+        {
+          "slug": "margaret-lindsay",
+          "name": "Margaret Lindsay"
+        },
+        {
+          "slug": "fritz-leiber",
+          "name": "Fritz Leiber"
+        },
+        {
+          "slug": "dan-duryea",
+          "name": "Dan Duryea"
+        },
+        {
+          "slug": "rosalind-ivan",
+          "name": "Rosalind Ivan"
+        },
+        {
+          "slug": "vladimir-sokoloff",
+          "name": "Vladimir Sokoloff"
+        },
+        {
+          "slug": "samuel-s-hinds",
+          "name": "Samuel S. Hinds"
+        }
+      ]
+    },
+    "doa-1950": {
+      "qid": "Q585983",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/D.O.A.%2520%25281950%2520poster%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:D.O.A. (1950 poster).jpg",
+      "directors": [
+        {
+          "slug": "rudolph-mate",
+          "name": "Rudolph Maté"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "ernest-laszlo",
+          "name": "Ernest Laszlo"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "edmond-o-brien",
+          "name": "Edmond O'Brien"
+        },
+        {
+          "slug": "beverly-garland",
+          "name": "Beverly Garland"
+        },
+        {
+          "slug": "lawrence-dobkin",
+          "name": "Lawrence Dobkin"
+        },
+        {
+          "slug": "frank-cady",
+          "name": "Frank Cady"
+        },
+        {
+          "slug": "luther-adler",
+          "name": "Luther Adler"
+        },
+        {
+          "slug": "neville-brand",
+          "name": "Neville Brand"
+        },
+        {
+          "slug": "pamela-britton",
+          "name": "Pamela Britton"
+        },
+        {
+          "slug": "carol-hughes",
+          "name": "Carol Hughes"
+        }
+      ]
+    },
+    "too-late-for-tears-1949": {
+      "qid": "Q1198412",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Toolatefortears.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Toolatefortears.jpg",
+      "directors": [
+        {
+          "slug": "byron-haskin",
+          "name": "Byron Haskin"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "william-c-mellor",
+          "name": "William C. Mellor"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "lizabeth-scott",
+          "name": "Lizabeth Scott"
+        },
+        {
+          "slug": "arthur-kennedy",
+          "name": "Arthur Kennedy"
+        },
+        {
+          "slug": "kristine-miller",
+          "name": "Kristine Miller"
+        },
+        {
+          "slug": "dan-duryea",
+          "name": "Dan Duryea"
+        },
+        {
+          "slug": "don-defore",
+          "name": "Don DeFore"
+        },
+        {
+          "slug": "barry-kelley",
+          "name": "Barry Kelley"
+        },
+        {
+          "slug": "george-mann",
+          "name": "George Mann"
+        }
+      ]
+    },
+    "the-stranger-1946": {
+      "qid": "Q978770",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/The%2520Stranger%2520%25281946%2520film%2520poster%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:The Stranger (1946 film poster).jpg",
+      "directors": [
+        {
+          "slug": "orson-welles",
+          "name": "Orson Welles"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "russell-metty",
+          "name": "Russell Metty"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "orson-welles",
+          "name": "Orson Welles"
+        },
+        {
+          "slug": "edward-g-robinson",
+          "name": "Edward G. Robinson"
+        },
+        {
+          "slug": "loretta-young",
+          "name": "Loretta Young"
+        },
+        {
+          "slug": "richard-long",
+          "name": "Richard Long"
+        },
+        {
+          "slug": "philip-merivale",
+          "name": "Philip Merivale"
+        },
+        {
+          "slug": "martha-wentworth",
+          "name": "Martha Wentworth"
+        },
+        {
+          "slug": "byron-keith",
+          "name": "Byron Keith"
+        },
+        {
+          "slug": "erskine-sanford",
+          "name": "Erskine Sanford"
+        }
+      ]
+    },
+    "kansas-city-confidential-1952": {
+      "qid": "Q1056727",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Lee%2520Van%2520Cleef-Dona%2520Drake%2520in%2520Kansas%2520City%2520Confidential.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Lee Van Cleef-Dona Drake in Kansas City Confidential.jpg",
+      "directors": [
+        {
+          "slug": "phil-karlson",
+          "name": "Phil Karlson"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "george-e-diskant",
+          "name": "George E. Diskant"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "mario-siletti",
+          "name": "Mario Siletti"
+        },
+        {
+          "slug": "lee-van-cleef",
+          "name": "Lee Van Cleef"
+        },
+        {
+          "slug": "jack-elam",
+          "name": "Jack Elam"
+        },
+        {
+          "slug": "john-payne",
+          "name": "John Payne"
+        },
+        {
+          "slug": "preston-foster",
+          "name": "Preston Foster"
+        },
+        {
+          "slug": "coleen-gray",
+          "name": "Coleen Gray"
+        },
+        {
+          "slug": "house-peters-jr",
+          "name": "House Peters, Jr."
+        },
+        {
+          "slug": "don-orlando",
+          "name": "Don Orlando"
+        }
+      ]
+    },
+    "suddenly-1954": {
+      "qid": "Q1041834",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Sterling%2520Hayden%2520in%2520the%2520movie%2520%2522Suddenly%2522.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Sterling Hayden in the movie \"Suddenly\".jpg",
+      "directors": [
+        {
+          "slug": "lewis-allen",
+          "name": "Lewis Allen"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "charles-g-clarke",
+          "name": "Charles G. Clarke"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "frank-sinatra",
+          "name": "Frank Sinatra"
+        },
+        {
+          "slug": "sterling-hayden",
+          "name": "Sterling Hayden"
+        },
+        {
+          "slug": "james-gleason",
+          "name": "James Gleason"
+        },
+        {
+          "slug": "john-beradino",
+          "name": "John Beradino"
+        },
+        {
+          "slug": "nancy-gates",
+          "name": "Nancy Gates"
+        },
+        {
+          "slug": "willis-bouchey",
+          "name": "Willis Bouchey"
+        },
+        {
+          "slug": "q3013243",
+          "name": "Q3013243"
+        },
+        {
+          "slug": "paul-frees",
+          "name": "Paul Frees"
+        }
+      ]
+    },
+    "carnival-of-souls-1962": {
+      "qid": "Q1852671",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Carnival%2520of%2520Souls%2520%25281962%2520pressbook%2520cover%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Carnival of Souls (1962 pressbook cover).jpg",
+      "directors": [
+        {
+          "slug": "herk-harvey",
+          "name": "Herk Harvey"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "maurice-prather",
+          "name": "Maurice Prather"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "candace-hilligoss",
+          "name": "Candace Hilligoss"
+        },
+        {
+          "slug": "herk-harvey",
+          "name": "Herk Harvey"
+        },
+        {
+          "slug": "art-ellison",
+          "name": "Art Ellison"
+        }
+      ]
+    },
+    "night-of-the-living-dead-1968": {
+      "qid": "Q623051",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Night%2520Of%2520The%2520Living%2520Dead%2520trailer%2520screenshot.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Night Of The Living Dead trailer screenshot.jpg",
+      "directors": [
+        {
+          "slug": "george-a-romero",
+          "name": "George A. Romero"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "george-a-romero",
+          "name": "George A. Romero"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "george-a-romero",
+          "name": "George A. Romero"
+        },
+        {
+          "slug": "judith-o-dea",
+          "name": "Judith O'Dea"
+        },
+        {
+          "slug": "debbie-rochon",
+          "name": "Debbie Rochon"
+        },
+        {
+          "slug": "kyra-schon",
+          "name": "Kyra Schon"
+        },
+        {
+          "slug": "marilyn-eastman",
+          "name": "Marilyn Eastman"
+        },
+        {
+          "slug": "duane-jones",
+          "name": "Duane Jones"
+        },
+        {
+          "slug": "karl-hardman",
+          "name": "Karl Hardman"
+        },
+        {
+          "slug": "russell-streiner",
+          "name": "Russell Streiner"
+        }
+      ]
+    },
+    "house-on-haunted-hill-1959": {
+      "qid": "Q263583",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/House%2520on%2520Haunted%2520Hill.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:House on Haunted Hill.jpg",
+      "directors": [
+        {
+          "slug": "william-castle",
+          "name": "William Castle"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "carl-e-guthrie",
+          "name": "Carl E. Guthrie"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "vincent-price",
+          "name": "Vincent Price"
+        },
+        {
+          "slug": "richard-long",
+          "name": "Richard Long"
+        },
+        {
+          "slug": "elisha-cook-jr",
+          "name": "Elisha Cook Jr."
+        },
+        {
+          "slug": "alan-marshal",
+          "name": "Alan Marshal"
+        },
+        {
+          "slug": "julie-mitchum",
+          "name": "Julie Mitchum"
+        },
+        {
+          "slug": "carolyn-craig",
+          "name": "Carolyn Craig"
+        },
+        {
+          "slug": "armelia-carol-ohmart",
+          "name": "Armelia Carol Ohmart"
+        },
+        {
+          "slug": "leona-anderson",
+          "name": "Leona Anderson"
+        }
+      ]
+    },
+    "the-last-man-on-earth-1964": {
+      "qid": "Q1242772",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%2520Price%2520%2528Last%2520Man%2520on%2520Earth%2529%25203.JPG?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Vincent Price (Last Man on Earth) 3.JPG",
+      "directors": [],
+      "cinematography": [
+        {
+          "slug": "franco-delli-colli",
+          "name": "Franco Delli Colli"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "giacomo-rossi-stuart",
+          "name": "Giacomo Rossi-Stuart"
+        },
+        {
+          "slug": "vincent-price",
+          "name": "Vincent Price"
+        },
+        {
+          "slug": "franca-bettoia",
+          "name": "Franca Bettoia"
+        },
+        {
+          "slug": "franco-gasparri",
+          "name": "Franco Gasparri"
+        },
+        {
+          "slug": "umberto-raho",
+          "name": "Umberto Raho"
+        },
+        {
+          "slug": "aldo-silvani",
+          "name": "Aldo Silvani"
+        },
+        {
+          "slug": "emma-danieli",
+          "name": "Emma Danieli"
+        },
+        {
+          "slug": "carolyn-de-fonseca",
+          "name": "Carolyn De Fonseca"
+        }
+      ]
+    },
+    "white-zombie-1932": {
+      "qid": "Q1751461",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Poster%2520-%2520White%2520Zombie%252001%2520Crisco%2520restoration.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Poster - White Zombie 01 Crisco restoration.jpg",
+      "directors": [
+        {
+          "slug": "victor-hugo-halperin",
+          "name": "Victor Hugo Halperin"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "arthur-martinelli",
+          "name": "Arthur Martinelli"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "bela-lugosi",
+          "name": "Bela Lugosi"
+        },
+        {
+          "slug": "madge-bellamy",
+          "name": "Madge Bellamy"
+        },
+        {
+          "slug": "robert-frazer",
+          "name": "Robert Frazer"
+        },
+        {
+          "slug": "john-harron",
+          "name": "John Harron"
+        },
+        {
+          "slug": "joseph-cawthorn",
+          "name": "Joseph Cawthorn"
+        }
+      ]
+    },
+    "dementia-13-1963": {
+      "qid": "Q1185312",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Dementia13.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Dementia13.jpg",
+      "directors": [
+        {
+          "slug": "francis-ford-coppola",
+          "name": "Francis Ford Coppola"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "charles-hannawalt",
+          "name": "Charles Hannawalt"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "william-campbell",
+          "name": "William Campbell"
+        },
+        {
+          "slug": "patrick-magee",
+          "name": "Patrick Magee"
+        },
+        {
+          "slug": "bart-patton",
+          "name": "Bart Patton"
+        },
+        {
+          "slug": "luana-anders",
+          "name": "Luana Anders"
+        }
+      ]
+    },
+    "the-little-shop-of-horrors-1960": {
+      "qid": "Q500296",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Little%2520Shop%2520of%2520Horrors%2520Mushnick%2527s%2520interior.JPG?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Little Shop of Horrors Mushnick's interior.JPG",
+      "directors": [
+        {
+          "slug": "roger-corman",
+          "name": "Roger Corman"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "archie-r-dalzell",
+          "name": "Archie R. Dalzell"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "jack-nicholson",
+          "name": "Jack Nicholson"
+        },
+        {
+          "slug": "jonathan-haze",
+          "name": "Jonathan Haze"
+        },
+        {
+          "slug": "jackie-joseph",
+          "name": "Jackie Joseph"
+        },
+        {
+          "slug": "dick-miller",
+          "name": "Dick Miller"
+        },
+        {
+          "slug": "karyn-kupcinet",
+          "name": "Karyn Kupcinet"
+        },
+        {
+          "slug": "charles-b-griffith",
+          "name": "Charles B. Griffith"
+        },
+        {
+          "slug": "frank-mills",
+          "name": "Frank Mills"
+        },
+        {
+          "slug": "mel-welles",
+          "name": "Mel Welles"
+        }
+      ]
+    },
+    "his-girl-friday-1940": {
+      "qid": "Q1066714",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/His%2520Girl%2520Friday%2520%25281940%2520poster%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:His Girl Friday (1940 poster).jpg",
+      "directors": [
+        {
+          "slug": "howard-hawks",
+          "name": "Howard Hawks"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "joseph-walker",
+          "name": "Joseph Walker"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "cary-grant",
+          "name": "Cary Grant"
+        },
+        {
+          "slug": "abner-biberman",
+          "name": "Abner Biberman"
+        },
+        {
+          "slug": "billy-gilbert",
+          "name": "Billy Gilbert"
+        },
+        {
+          "slug": "rosalind-russell",
+          "name": "Rosalind Russell"
+        },
+        {
+          "slug": "gene-morgan",
+          "name": "Gene Morgan"
+        },
+        {
+          "slug": "regis-toomey",
+          "name": "Regis Toomey"
+        },
+        {
+          "slug": "ralph-bellamy",
+          "name": "Ralph Bellamy"
+        },
+        {
+          "slug": "ann-doran",
+          "name": "Ann Doran"
+        }
+      ]
+    },
+    "charade-1963": {
+      "qid": "Q496266",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Charade%2520%25281963%2520poster%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Charade (1963 poster).jpg",
+      "directors": [
+        {
+          "slug": "stanley-donen",
+          "name": "Stanley Donen"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "charles-lang",
+          "name": "Charles Lang"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "james-coburn",
+          "name": "James Coburn"
+        },
+        {
+          "slug": "audrey-hepburn",
+          "name": "Audrey Hepburn"
+        },
+        {
+          "slug": "stanley-donen",
+          "name": "Stanley Donen"
+        },
+        {
+          "slug": "cary-grant",
+          "name": "Cary Grant"
+        },
+        {
+          "slug": "walter-matthau",
+          "name": "Walter Matthau"
+        },
+        {
+          "slug": "george-kennedy",
+          "name": "George Kennedy"
+        },
+        {
+          "slug": "chantal-goya",
+          "name": "Chantal Goya"
+        },
+        {
+          "slug": "ned-glass",
+          "name": "Ned Glass"
+        }
+      ]
+    },
+    "my-man-godfrey-1936": {
+      "qid": "Q1811134",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/My%2520Man%2520Godfrey%2520%25281936%2520poster%2520-%2520Style%2520C%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:My Man Godfrey (1936 poster - Style C).jpg",
+      "directors": [
+        {
+          "slug": "gregory-la-cava",
+          "name": "Gregory La Cava"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "ted-tetzlaff",
+          "name": "Ted Tetzlaff"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "jane-wyman",
+          "name": "Jane Wyman"
+        },
+        {
+          "slug": "william-powell",
+          "name": "William Powell"
+        },
+        {
+          "slug": "carole-lombard",
+          "name": "Carole Lombard"
+        },
+        {
+          "slug": "alice-brady",
+          "name": "Alice Brady"
+        },
+        {
+          "slug": "gail-patrick",
+          "name": "Gail Patrick"
+        },
+        {
+          "slug": "eugene-pallette",
+          "name": "Eugene Pallette"
+        },
+        {
+          "slug": "james-flavin",
+          "name": "James Flavin"
+        },
+        {
+          "slug": "mischa-auer",
+          "name": "Mischa Auer"
+        }
+      ]
+    },
+    "nothing-sacred-1937": {
+      "qid": "Q964771",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Fredric%2520March%2520and%2520Carole%2520Lombard%2520in%2520Nothing%2520Sacred%25203.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Fredric March and Carole Lombard in Nothing Sacred 3.jpg",
+      "directors": [
+        {
+          "slug": "william-a-wellman",
+          "name": "William A. Wellman"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "w-howard-greene",
+          "name": "W. Howard Greene"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "sig-ruman",
+          "name": "Sig Ruman"
+        },
+        {
+          "slug": "fredric-march",
+          "name": "Fredric March"
+        },
+        {
+          "slug": "carole-lombard",
+          "name": "Carole Lombard"
+        },
+        {
+          "slug": "hattie-mcdaniel",
+          "name": "Hattie McDaniel"
+        },
+        {
+          "slug": "margaret-hamilton",
+          "name": "Margaret Hamilton"
+        },
+        {
+          "slug": "hedda-hopper",
+          "name": "Hedda Hopper"
+        },
+        {
+          "slug": "aileen-pringle",
+          "name": "Aileen Pringle"
+        },
+        {
+          "slug": "ann-doran",
+          "name": "Ann Doran"
+        }
+      ]
+    },
+    "love-affair-1939": {
+      "qid": "Q1620069",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Irene%2520Dunne-Charles%2520Boyer%2520in%2520Love%2520Affair.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Irene Dunne-Charles Boyer in Love Affair.jpg",
+      "directors": [
+        {
+          "slug": "leo-mccarey",
+          "name": "Leo McCarey"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "rudolph-mate",
+          "name": "Rudolph Maté"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "charles-boyer",
+          "name": "Charles Boyer"
+        },
+        {
+          "slug": "irene-dunne",
+          "name": "Irene Dunne"
+        },
+        {
+          "slug": "maria-ouspenskaya",
+          "name": "Maria Ouspenskaya"
+        },
+        {
+          "slug": "joan-leslie",
+          "name": "Joan Leslie"
+        },
+        {
+          "slug": "scotty-beckett",
+          "name": "Scotty Beckett"
+        },
+        {
+          "slug": "bess-flowers",
+          "name": "Bess Flowers"
+        },
+        {
+          "slug": "lee-bowman",
+          "name": "Lee Bowman"
+        },
+        {
+          "slug": "gerald-mohr",
+          "name": "Gerald Mohr"
+        }
+      ]
+    },
+    "made-for-each-other-1939": {
+      "qid": "Q1305557",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Made%2520for%2520Each%2520Other-%25201939-%2520Poster.png?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Made for Each Other- 1939- Poster.png",
+      "directors": [
+        {
+          "slug": "john-cromwell",
+          "name": "John Cromwell"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "leon-shamroy",
+          "name": "Leon Shamroy"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "james-stewart",
+          "name": "James Stewart"
+        },
+        {
+          "slug": "carole-lombard",
+          "name": "Carole Lombard"
+        },
+        {
+          "slug": "lucile-watson",
+          "name": "Lucile Watson"
+        },
+        {
+          "slug": "eddie-quillan",
+          "name": "Eddie Quillan"
+        },
+        {
+          "slug": "charles-coburn",
+          "name": "Charles Coburn"
+        },
+        {
+          "slug": "harry-davenport",
+          "name": "Harry Davenport"
+        },
+        {
+          "slug": "ward-bond",
+          "name": "Ward Bond"
+        },
+        {
+          "slug": "ivan-simpson",
+          "name": "Ivan Simpson"
+        }
+      ]
+    },
+    "royal-wedding-1951": {
+      "qid": "Q538600",
+      "poster": "https://commons.wikimedia.org/wiki/Special:FilePath/Fred%2520Astaire%2520in%2520Royal%2520Wedding%2520%25282%2529.jpg?width=700",
+      "posterSource": "https://commons.wikimedia.org/wiki/File:Fred Astaire in Royal Wedding (2).jpg",
+      "directors": [
+        {
+          "slug": "stanley-donen",
+          "name": "Stanley Donen"
+        }
+      ],
+      "cinematography": [
+        {
+          "slug": "robert-h-planck",
+          "name": "Robert H. Planck"
+        }
+      ],
+      "cast": [
+        {
+          "slug": "fred-astaire",
+          "name": "Fred Astaire"
+        },
+        {
+          "slug": "jane-powell",
+          "name": "Jane Powell"
+        },
+        {
+          "slug": "peter-lawford",
+          "name": "Peter Lawford"
+        },
+        {
+          "slug": "mae-clarke",
+          "name": "Mae Clarke"
+        },
+        {
+          "slug": "snub-pollard",
+          "name": "Snub Pollard"
+        },
+        {
+          "slug": "bess-flowers",
+          "name": "Bess Flowers"
+        },
+        {
+          "slug": "albert-sharpe",
+          "name": "Albert Sharpe"
+        },
+        {
+          "slug": "keenan-wynn",
+          "name": "Keenan Wynn"
+        }
+      ]
+    }
+  },
+  "people": {
+    "buster-keaton": {
+      "slug": "buster-keaton",
+      "name": "Buster Keaton",
+      "qid": "Q103949",
+      "description": "American actor, comedian, and director (1895–1966)",
+      "credits": [
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Directed by"
+        },
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Cast"
+        },
+        {
+          "film": "the-general-1926",
+          "role": "Directed by"
+        },
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "roscoe-arbuckle": {
+      "slug": "roscoe-arbuckle",
+      "name": "Roscoe Arbuckle",
+      "qid": "Q315202",
+      "description": "American actor, director and comedian",
+      "credits": [
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "elgin-lessley": {
+      "slug": "elgin-lessley",
+      "name": "Elgin Lessley",
+      "qid": "Q3050858",
+      "description": "American cinematographer",
+      "credits": [
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "kathryn-mcguire": {
+      "slug": "kathryn-mcguire",
+      "name": "Kathryn McGuire",
+      "qid": "Q450065",
+      "description": "American actress (1903-1978)",
+      "credits": [
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Cast"
+        }
+      ]
+    },
+    "joe-keaton": {
+      "slug": "joe-keaton",
+      "name": "Joe Keaton",
+      "qid": "Q1557810",
+      "description": "American actor (1867-1946)",
+      "credits": [
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Cast"
+        },
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "kewpie-morgan": {
+      "slug": "kewpie-morgan",
+      "name": "Kewpie Morgan",
+      "qid": "Q3195849",
+      "description": "American actor (1892-1956)",
+      "credits": [
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ward-crane": {
+      "slug": "ward-crane",
+      "name": "Ward Crane",
+      "qid": "Q7968994",
+      "description": "American actor (1890–1928)",
+      "credits": [
+        {
+          "film": "sherlock-jr-1924",
+          "role": "Cast"
+        }
+      ]
+    },
+    "f-w-murnau": {
+      "slug": "f-w-murnau",
+      "name": "F. W. Murnau",
+      "qid": "Q55412",
+      "description": "German film director (1888–1931)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Directed by"
+        },
+        {
+          "film": "sunrise-1927",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "fritz-arno-wagner": {
+      "slug": "fritz-arno-wagner",
+      "name": "Fritz Arno Wagner",
+      "qid": "Q77757",
+      "description": "German cinematographer (1889-1958)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "max-schreck": {
+      "slug": "max-schreck",
+      "name": "Max Schreck",
+      "qid": "Q58822",
+      "description": "German actor (1879-1936)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gustav-von-wangenheim": {
+      "slug": "gustav-von-wangenheim",
+      "name": "Gustav von Wangenheim",
+      "qid": "Q66097",
+      "description": "German actor (1895-1975)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "greta-schroder": {
+      "slug": "greta-schroder",
+      "name": "Greta Schröder",
+      "qid": "Q76656",
+      "description": "German actress (1891–1967)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "alexander-granach": {
+      "slug": "alexander-granach",
+      "name": "Alexander Granach",
+      "qid": "Q78817",
+      "description": "German-Austrian actor",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "karl-etlinger": {
+      "slug": "karl-etlinger",
+      "name": "Karl Etlinger",
+      "qid": "Q86293",
+      "description": "actor (1879-1946)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "john-gottowt": {
+      "slug": "john-gottowt",
+      "name": "John Gottowt",
+      "qid": "Q87468",
+      "description": "Austrian actor (1881–1942)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "fanny-schreck": {
+      "slug": "fanny-schreck",
+      "name": "Fanny Schreck",
+      "qid": "Q89069",
+      "description": "German actress (1877–1951)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "wolfgang-heinz": {
+      "slug": "wolfgang-heinz",
+      "name": "Wolfgang Heinz",
+      "qid": "Q89376",
+      "description": "East German actor (1900-1984)",
+      "credits": [
+        {
+          "film": "nosferatu-1922",
+          "role": "Cast"
+        }
+      ]
+    },
+    "clyde-bruckman": {
+      "slug": "clyde-bruckman",
+      "name": "Clyde Bruckman",
+      "qid": "Q726107",
+      "description": "American film director and writer (1894–1955)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "devereux-jennings": {
+      "slug": "devereux-jennings",
+      "name": "Devereux Jennings",
+      "qid": "Q13461808",
+      "description": "American cinematographer (1884-1952)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "al-st-john": {
+      "slug": "al-st-john",
+      "name": "Al St. John",
+      "qid": "Q153239",
+      "description": "American film actor (1892–1963)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "boris-karloff": {
+      "slug": "boris-karloff",
+      "name": "Boris Karloff",
+      "qid": "Q203219",
+      "description": "British actor (1887–1969)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "marion-mack": {
+      "slug": "marion-mack",
+      "name": "Marion Mack",
+      "qid": "Q531591",
+      "description": "American actress and screenwriter (1902-1989)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "charles-henry-smith": {
+      "slug": "charles-henry-smith",
+      "name": "Charles Henry Smith",
+      "qid": "Q1064818",
+      "description": "American actor (1865–1942)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "glen-cavender": {
+      "slug": "glen-cavender",
+      "name": "Glen Cavender",
+      "qid": "Q3108668",
+      "description": "actor (1883-1962)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "edward-hearn": {
+      "slug": "edward-hearn",
+      "name": "Edward Hearn",
+      "qid": "Q5343388",
+      "description": "actor (1888-1963)",
+      "credits": [
+        {
+          "film": "the-general-1926",
+          "role": "Cast"
+        }
+      ]
+    },
+    "robert-wiene": {
+      "slug": "robert-wiene",
+      "name": "Robert Wiene",
+      "qid": "Q76552",
+      "description": "German film director (1873–1938)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "willy-hameister": {
+      "slug": "willy-hameister",
+      "name": "Willy Hameister",
+      "qid": "Q99376",
+      "description": "German cinematographer (1889–1938)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "conrad-veidt": {
+      "slug": "conrad-veidt",
+      "name": "Conrad Veidt",
+      "qid": "Q58801",
+      "description": "German actor (1893–1943)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        }
+      ]
+    },
+    "werner-krauss": {
+      "slug": "werner-krauss",
+      "name": "Werner Krauss",
+      "qid": "Q63051",
+      "description": "German actor (1884–1959)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        }
+      ]
+    },
+    "rudolf-klein-rogge": {
+      "slug": "rudolf-klein-rogge",
+      "name": "Rudolf Klein-Rogge",
+      "qid": "Q65154",
+      "description": "German actor (1885-1955)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        },
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "lil-dagover": {
+      "slug": "lil-dagover",
+      "name": "Lil Dagover",
+      "qid": "Q66115",
+      "description": "German actress (1887–1980)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        }
+      ]
+    },
+    "friedrich-feher": {
+      "slug": "friedrich-feher",
+      "name": "Friedrich Feher",
+      "qid": "Q87651",
+      "description": "Austrian actor and director (1889-1950)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        }
+      ]
+    },
+    "hans-heinrich-von-twardowski": {
+      "slug": "hans-heinrich-von-twardowski",
+      "name": "Hans Heinrich von Twardowski",
+      "qid": "Q88143",
+      "description": "German actor (1898-1958)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        }
+      ]
+    },
+    "rudolf-lettinger": {
+      "slug": "rudolf-lettinger",
+      "name": "Rudolf Lettinger",
+      "qid": "Q100338",
+      "description": "German actor (1865-1937)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        }
+      ]
+    },
+    "elsa-wagner": {
+      "slug": "elsa-wagner",
+      "name": "Elsa Wagner",
+      "qid": "Q110721",
+      "description": "German actress (1881-1975)",
+      "credits": [
+        {
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "role": "Cast"
+        }
+      ]
+    },
+    "charles-rosher": {
+      "slug": "charles-rosher",
+      "name": "Charles Rosher",
+      "qid": "Q774270",
+      "description": "English cinematographer (1885–1974)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "herman-bing": {
+      "slug": "herman-bing",
+      "name": "Herman Bing",
+      "qid": "Q76708",
+      "description": "1930s-1940's character actor",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "janet-gaynor": {
+      "slug": "janet-gaynor",
+      "name": "Janet Gaynor",
+      "qid": "Q182462",
+      "description": "American actress (1906–1984)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "margaret-livingston": {
+      "slug": "margaret-livingston",
+      "name": "Margaret Livingston",
+      "qid": "Q292865",
+      "description": "American actress (1895-1984)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "jane-winton": {
+      "slug": "jane-winton",
+      "name": "Jane Winton",
+      "qid": "Q456757",
+      "description": "American actress (1905–1959)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gibson-gowland": {
+      "slug": "gibson-gowland",
+      "name": "Gibson Gowland",
+      "qid": "Q731233",
+      "description": "British film actor (1877-1951)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "george-o-brien": {
+      "slug": "george-o-brien",
+      "name": "George O'Brien",
+      "qid": "Q1009495",
+      "description": "American actor (1899–1985)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "robert-parrish": {
+      "slug": "robert-parrish",
+      "name": "Robert Parrish",
+      "qid": "Q1386549",
+      "description": "American film director (1916–1995)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "arthur-housman": {
+      "slug": "arthur-housman",
+      "name": "Arthur Housman",
+      "qid": "Q2865156",
+      "description": "American actor (1889–1942)",
+      "credits": [
+        {
+          "film": "sunrise-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "sergei-eisenstein": {
+      "slug": "sergei-eisenstein",
+      "name": "Sergei Eisenstein",
+      "qid": "Q8003",
+      "description": "Soviet filmmaker (1898–1948)",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Directed by"
+        },
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "eduard-tisse": {
+      "slug": "eduard-tisse",
+      "name": "Eduard Tisse",
+      "qid": "Q987708",
+      "description": "Soviet cinematographer (1897–1961)",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "aleksandr-pavlovich-antonov": {
+      "slug": "aleksandr-pavlovich-antonov",
+      "name": "Aleksandr Pavlovich Antonov",
+      "qid": "Q203639",
+      "description": "Soviet actor",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "grigori-aleksandrov": {
+      "slug": "grigori-aleksandrov",
+      "name": "Grigori Aleksandrov",
+      "qid": "Q561459",
+      "description": "Soviet film director (1903-1983)",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "alexander-stepanovich-antonov": {
+      "slug": "alexander-stepanovich-antonov",
+      "name": "Alexander Stepanovich Antonov",
+      "qid": "Q1343261",
+      "description": "Member:Socialist Revolutionary Party/one of the leaders:Tambov Rebellion against the Soviet regime (1889-1922)",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "andrei-fajt": {
+      "slug": "andrei-fajt",
+      "name": "Andrei Fajt",
+      "qid": "Q2382918",
+      "description": "Soviet actor",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "aleksanteri-ahola-valo": {
+      "slug": "aleksanteri-ahola-valo",
+      "name": "Aleksanteri Ahola-Valo",
+      "qid": "Q2832615",
+      "description": "Finnish artist, writer and thinker (1900-1997)",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "beatrice-vitoldi": {
+      "slug": "beatrice-vitoldi",
+      "name": "Beatrice Vitoldi",
+      "qid": "Q4877204",
+      "description": "Soviet actor",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "vladimir-barsky": {
+      "slug": "vladimir-barsky",
+      "name": "Vladimir Barsky",
+      "qid": "Q8803797",
+      "description": "Russian film director",
+      "credits": [
+        {
+          "film": "battleship-potemkin-1925",
+          "role": "Cast"
+        }
+      ]
+    },
+    "alfred-hitchcock": {
+      "slug": "alfred-hitchcock",
+      "name": "Alfred Hitchcock",
+      "qid": "Q7374",
+      "description": "British filmmaker (1899–1980)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Directed by"
+        },
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gaetano-di-ventimiglia": {
+      "slug": "gaetano-di-ventimiglia",
+      "name": "Gaetano di Ventimiglia",
+      "qid": "Q982621",
+      "description": "Italian cinematographer (1888–1973)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "alma-reville": {
+      "slug": "alma-reville",
+      "name": "Alma Reville",
+      "qid": "Q203165",
+      "description": "English film editor and screenwriter (1899–1982)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ivor-novello": {
+      "slug": "ivor-novello",
+      "name": "Ivor Novello",
+      "qid": "Q436693",
+      "description": "Welsh composer and actor (1893–1951)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "malcolm-keen": {
+      "slug": "malcolm-keen",
+      "name": "Malcolm Keen",
+      "qid": "Q629955",
+      "description": "British actor (1887-1970)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "reginald-gardiner": {
+      "slug": "reginald-gardiner",
+      "name": "Reginald Gardiner",
+      "qid": "Q2448340",
+      "description": "actor (1903-1980)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "june-tripp": {
+      "slug": "june-tripp",
+      "name": "June Tripp",
+      "qid": "Q3811251",
+      "description": "British actress (1901-1985)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "marie-ault": {
+      "slug": "marie-ault",
+      "name": "Marie Ault",
+      "qid": "Q3847861",
+      "description": "British actress (1870-1951)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "arthur-chesney": {
+      "slug": "arthur-chesney",
+      "name": "Arthur Chesney",
+      "qid": "Q4798246",
+      "description": "British actor (1881-1949)",
+      "credits": [
+        {
+          "film": "the-lodger-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "fritz-lang": {
+      "slug": "fritz-lang",
+      "name": "Fritz Lang",
+      "qid": "Q19504",
+      "description": "Austrian filmmaker (1890–1976)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Directed by"
+        },
+        {
+          "film": "scarlet-street-1945",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "karl-freund": {
+      "slug": "karl-freund",
+      "name": "Karl Freund",
+      "qid": "Q62099",
+      "description": "German film director and cinematographer (1890-1969)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "helene-weigel": {
+      "slug": "helene-weigel",
+      "name": "Helene Weigel",
+      "qid": "Q60528",
+      "description": "German actress and artistic director (1900–1971)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "alfred-abel": {
+      "slug": "alfred-abel",
+      "name": "Alfred Abel",
+      "qid": "Q63781",
+      "description": "German actor (1879–1937)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "heinrich-george": {
+      "slug": "heinrich-george",
+      "name": "Heinrich George",
+      "qid": "Q63816",
+      "description": "German actor (1893–1946)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gustav-frohlich": {
+      "slug": "gustav-frohlich",
+      "name": "Gustav Fröhlich",
+      "qid": "Q65496",
+      "description": "German actor and film director (1902-1987)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "brigitte-helm": {
+      "slug": "brigitte-helm",
+      "name": "Brigitte Helm",
+      "qid": "Q76813",
+      "description": "German actress (1908–1996)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "curt-siodmak": {
+      "slug": "curt-siodmak",
+      "name": "Curt Siodmak",
+      "qid": "Q77489",
+      "description": "German-American writer",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "grete-berger": {
+      "slug": "grete-berger",
+      "name": "Grete Berger",
+      "qid": "Q90008",
+      "description": "German Jewish actress murdered in the Holocaust (1883-1944)",
+      "credits": [
+        {
+          "film": "metropolis-1927",
+          "role": "Cast"
+        }
+      ]
+    },
+    "edgar-g-ulmer": {
+      "slug": "edgar-g-ulmer",
+      "name": "Edgar G. Ulmer",
+      "qid": "Q1283902",
+      "description": "American film director, set designer (1904-1972)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "benjamin-h-kline": {
+      "slug": "benjamin-h-kline",
+      "name": "Benjamin H. Kline",
+      "qid": "Q4888745",
+      "description": "American cinematographer and film director (1894-1974)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "ann-savage": {
+      "slug": "ann-savage",
+      "name": "Ann Savage",
+      "qid": "Q291825",
+      "description": "American actress (1921–2008)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "don-brodie": {
+      "slug": "don-brodie",
+      "name": "Don Brodie",
+      "qid": "Q3035739",
+      "description": "American actor (1904–2001)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "tom-neal": {
+      "slug": "tom-neal",
+      "name": "Tom Neal",
+      "qid": "Q3530819",
+      "description": "American actor (1914–1972)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "esther-howard": {
+      "slug": "esther-howard",
+      "name": "Esther Howard",
+      "qid": "Q5401196",
+      "description": "American actress (1892-1965)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "tim-ryan": {
+      "slug": "tim-ryan",
+      "name": "Tim Ryan",
+      "qid": "Q7804213",
+      "description": "American actor (1899-1956)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "claudia-drake": {
+      "slug": "claudia-drake",
+      "name": "Claudia Drake",
+      "qid": "Q19864996",
+      "description": "American singer and actor (1918-1997)",
+      "credits": [
+        {
+          "film": "detour-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ida-lupino": {
+      "slug": "ida-lupino",
+      "name": "Ida Lupino",
+      "qid": "Q148669",
+      "description": "British actress and filmmaker (1918–1995)",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "nicholas-musuraca": {
+      "slug": "nicholas-musuraca",
+      "name": "Nicholas Musuraca",
+      "qid": "Q543004",
+      "description": "American cinematographer (1892–1975)",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "edmond-o-brien": {
+      "slug": "edmond-o-brien",
+      "name": "Edmond O'Brien",
+      "qid": "Q119935",
+      "description": "American actor (1915–1985)",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        },
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "frank-lovejoy": {
+      "slug": "frank-lovejoy",
+      "name": "Frank Lovejoy",
+      "qid": "Q2557512",
+      "description": "American actor (1914–1962)",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        }
+      ]
+    },
+    "jose-torvay": {
+      "slug": "jose-torvay",
+      "name": "José Torvay",
+      "qid": "Q3186574",
+      "description": "Mexican actor",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        }
+      ]
+    },
+    "william-talman": {
+      "slug": "william-talman",
+      "name": "William Talman",
+      "qid": "Q3568989",
+      "description": "American actor (1915-1968)",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        }
+      ]
+    },
+    "natividad-vacio": {
+      "slug": "natividad-vacio",
+      "name": "Natividad Vacío",
+      "qid": "Q15441006",
+      "description": "American actor (1912-1996)",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        }
+      ]
+    },
+    "jean-del-val": {
+      "slug": "jean-del-val",
+      "name": "Jean Del Val",
+      "qid": "Q15512268",
+      "description": "actor",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        }
+      ]
+    },
+    "nacho-galindo": {
+      "slug": "nacho-galindo",
+      "name": "Nacho Galindo",
+      "qid": "Q22959191",
+      "description": "Mexican-American film and television actor (1908-1973)",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        }
+      ]
+    },
+    "wade-crosby": {
+      "slug": "wade-crosby",
+      "name": "Wade Crosby",
+      "qid": "Q44485984",
+      "description": "actor",
+      "credits": [
+        {
+          "film": "the-hitch-hiker-1953",
+          "role": "Cast"
+        }
+      ]
+    },
+    "milton-krasner": {
+      "slug": "milton-krasner",
+      "name": "Milton Krasner",
+      "qid": "Q1396531",
+      "description": "American cinematographer (1904–1988)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "edward-g-robinson": {
+      "slug": "edward-g-robinson",
+      "name": "Edward G. Robinson",
+      "qid": "Q83812",
+      "description": "Romanian-American actor (1893-1973)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        },
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        }
+      ]
+    },
+    "joan-bennett": {
+      "slug": "joan-bennett",
+      "name": "Joan Bennett",
+      "qid": "Q128944",
+      "description": "American actress (1910–1990)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "margaret-lindsay": {
+      "slug": "margaret-lindsay",
+      "name": "Margaret Lindsay",
+      "qid": "Q272061",
+      "description": "American actress (1910-1981)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "fritz-leiber": {
+      "slug": "fritz-leiber",
+      "name": "Fritz Leiber",
+      "qid": "Q962037",
+      "description": "American actor (1882–1949)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "dan-duryea": {
+      "slug": "dan-duryea",
+      "name": "Dan Duryea",
+      "qid": "Q1159055",
+      "description": "American actor (1907–1968)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        },
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Cast"
+        }
+      ]
+    },
+    "rosalind-ivan": {
+      "slug": "rosalind-ivan",
+      "name": "Rosalind Ivan",
+      "qid": "Q1395893",
+      "description": "actress (1880-1959)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "vladimir-sokoloff": {
+      "slug": "vladimir-sokoloff",
+      "name": "Vladimir Sokoloff",
+      "qid": "Q1855635",
+      "description": "Russian actor (1889–1962)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "samuel-s-hinds": {
+      "slug": "samuel-s-hinds",
+      "name": "Samuel S. Hinds",
+      "qid": "Q2750248",
+      "description": "American actor (1875-1948)",
+      "credits": [
+        {
+          "film": "scarlet-street-1945",
+          "role": "Cast"
+        }
+      ]
+    },
+    "rudolph-mate": {
+      "slug": "rudolph-mate",
+      "name": "Rudolph Maté",
+      "qid": "Q1668173",
+      "description": "Polish-Hungarian-American cinematographer, film director and producer (1898–1964)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Directed by"
+        },
+        {
+          "film": "love-affair-1939",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "ernest-laszlo": {
+      "slug": "ernest-laszlo",
+      "name": "Ernest Laszlo",
+      "qid": "Q1356226",
+      "description": "American cinematographer (1898-1984)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "beverly-garland": {
+      "slug": "beverly-garland",
+      "name": "Beverly Garland",
+      "qid": "Q508986",
+      "description": "American actress (1926–2008)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "lawrence-dobkin": {
+      "slug": "lawrence-dobkin",
+      "name": "Lawrence Dobkin",
+      "qid": "Q516630",
+      "description": "American television director, actor and screenwriter (1919-2002)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "frank-cady": {
+      "slug": "frank-cady",
+      "name": "Frank Cady",
+      "qid": "Q763065",
+      "description": "American actor (1915–2012)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "luther-adler": {
+      "slug": "luther-adler",
+      "name": "Luther Adler",
+      "qid": "Q1425739",
+      "description": "American actor (1903–1984)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "neville-brand": {
+      "slug": "neville-brand",
+      "name": "Neville Brand",
+      "qid": "Q1982288",
+      "description": "American actor (1920–1992)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "pamela-britton": {
+      "slug": "pamela-britton",
+      "name": "Pamela Britton",
+      "qid": "Q3361772",
+      "description": "American actress and singer (1923-1974)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "carol-hughes": {
+      "slug": "carol-hughes",
+      "name": "Carol Hughes",
+      "qid": "Q5044383",
+      "description": "American actress (1910-1995)",
+      "credits": [
+        {
+          "film": "doa-1950",
+          "role": "Cast"
+        }
+      ]
+    },
+    "byron-haskin": {
+      "slug": "byron-haskin",
+      "name": "Byron Haskin",
+      "qid": "Q1018614",
+      "description": "American film and television director (1899-1984)",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "william-c-mellor": {
+      "slug": "william-c-mellor",
+      "name": "William C. Mellor",
+      "qid": "Q362210",
+      "description": "American cinematographer (1903-1963)",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "lizabeth-scott": {
+      "slug": "lizabeth-scott",
+      "name": "Lizabeth Scott",
+      "qid": "Q264011",
+      "description": "American actress and singer (1921–2015)",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Cast"
+        }
+      ]
+    },
+    "arthur-kennedy": {
+      "slug": "arthur-kennedy",
+      "name": "Arthur Kennedy",
+      "qid": "Q351838",
+      "description": "American actor (1914–1990)",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Cast"
+        }
+      ]
+    },
+    "kristine-miller": {
+      "slug": "kristine-miller",
+      "name": "Kristine Miller",
+      "qid": "Q920065",
+      "description": "actress",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Cast"
+        }
+      ]
+    },
+    "don-defore": {
+      "slug": "don-defore",
+      "name": "Don DeFore",
+      "qid": "Q1239082",
+      "description": "American actor (1913–1993)",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Cast"
+        }
+      ]
+    },
+    "barry-kelley": {
+      "slug": "barry-kelley",
+      "name": "Barry Kelley",
+      "qid": "Q4864376",
+      "description": "American actor (1908-1991)",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Cast"
+        }
+      ]
+    },
+    "george-mann": {
+      "slug": "george-mann",
+      "name": "George Mann",
+      "qid": "Q5542107",
+      "description": "American actor and comedian (1905-1977)",
+      "credits": [
+        {
+          "film": "too-late-for-tears-1949",
+          "role": "Cast"
+        }
+      ]
+    },
+    "orson-welles": {
+      "slug": "orson-welles",
+      "name": "Orson Welles",
+      "qid": "Q24829",
+      "description": "American actor and filmmaker (1915–1985)",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Directed by"
+        },
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        }
+      ]
+    },
+    "russell-metty": {
+      "slug": "russell-metty",
+      "name": "Russell Metty",
+      "qid": "Q1312577",
+      "description": "American cinematographer (1906–1978)",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "loretta-young": {
+      "slug": "loretta-young",
+      "name": "Loretta Young",
+      "qid": "Q253384",
+      "description": "American actress (1913–2000)",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        }
+      ]
+    },
+    "richard-long": {
+      "slug": "richard-long",
+      "name": "Richard Long",
+      "qid": "Q339593",
+      "description": "American actor (1927-1974)",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        },
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        }
+      ]
+    },
+    "philip-merivale": {
+      "slug": "philip-merivale",
+      "name": "Philip Merivale",
+      "qid": "Q429823",
+      "description": "British actor (1886–1946)",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        }
+      ]
+    },
+    "martha-wentworth": {
+      "slug": "martha-wentworth",
+      "name": "Martha Wentworth",
+      "qid": "Q2069183",
+      "description": "American actress (1889-1974)",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        }
+      ]
+    },
+    "byron-keith": {
+      "slug": "byron-keith",
+      "name": "Byron Keith",
+      "qid": "Q2929184",
+      "description": "American actor (1917-1996)",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        }
+      ]
+    },
+    "erskine-sanford": {
+      "slug": "erskine-sanford",
+      "name": "Erskine Sanford",
+      "qid": "Q3057498",
+      "description": "American actor",
+      "credits": [
+        {
+          "film": "the-stranger-1946",
+          "role": "Cast"
+        }
+      ]
+    },
+    "phil-karlson": {
+      "slug": "phil-karlson",
+      "name": "Phil Karlson",
+      "qid": "Q1888272",
+      "description": "American film director (1908–1982)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "george-e-diskant": {
+      "slug": "george-e-diskant",
+      "name": "George E. Diskant",
+      "qid": "Q3101544",
+      "description": "American cinematographer",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "mario-siletti": {
+      "slug": "mario-siletti",
+      "name": "Mario Siletti",
+      "qid": "Q118184",
+      "description": "Italian actor (1903-1964)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "lee-van-cleef": {
+      "slug": "lee-van-cleef",
+      "name": "Lee Van Cleef",
+      "qid": "Q193278",
+      "description": "American actor (1925–1989)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "jack-elam": {
+      "slug": "jack-elam",
+      "name": "Jack Elam",
+      "qid": "Q500155",
+      "description": "American actor (1920–2003)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "john-payne": {
+      "slug": "john-payne",
+      "name": "John Payne",
+      "qid": "Q723415",
+      "description": "American actor (1912–1989)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "preston-foster": {
+      "slug": "preston-foster",
+      "name": "Preston Foster",
+      "qid": "Q981418",
+      "description": "American actor, vocalist (1900-1970)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "coleen-gray": {
+      "slug": "coleen-gray",
+      "name": "Coleen Gray",
+      "qid": "Q1112554",
+      "description": "American actress (1922–2015)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "house-peters-jr": {
+      "slug": "house-peters-jr",
+      "name": "House Peters, Jr.",
+      "qid": "Q1117034",
+      "description": "American actor (1916–2008)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "don-orlando": {
+      "slug": "don-orlando",
+      "name": "Don Orlando",
+      "qid": "Q1239381",
+      "description": "American actor (1912-1987)",
+      "credits": [
+        {
+          "film": "kansas-city-confidential-1952",
+          "role": "Cast"
+        }
+      ]
+    },
+    "lewis-allen": {
+      "slug": "lewis-allen",
+      "name": "Lewis Allen",
+      "qid": "Q709398",
+      "description": "English film and television director (1905–2000)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "charles-g-clarke": {
+      "slug": "charles-g-clarke",
+      "name": "Charles G. Clarke",
+      "qid": "Q1064479",
+      "description": "American cinematographer (1899–1983)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "frank-sinatra": {
+      "slug": "frank-sinatra",
+      "name": "Frank Sinatra",
+      "qid": "Q40912",
+      "description": "American singer and actor (1915–1998)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "sterling-hayden": {
+      "slug": "sterling-hayden",
+      "name": "Sterling Hayden",
+      "qid": "Q323166",
+      "description": "American actor (1916–1986)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "james-gleason": {
+      "slug": "james-gleason",
+      "name": "James Gleason",
+      "qid": "Q726398",
+      "description": "American actor (1882-1959)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "john-beradino": {
+      "slug": "john-beradino",
+      "name": "John Beradino",
+      "qid": "Q1699321",
+      "description": "American infielder in Major League Baseball and an actor (1917-1996)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "nancy-gates": {
+      "slug": "nancy-gates",
+      "name": "Nancy Gates",
+      "qid": "Q2025814",
+      "description": "American actress (1926-2019)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "willis-bouchey": {
+      "slug": "willis-bouchey",
+      "name": "Willis Bouchey",
+      "qid": "Q2581539",
+      "description": "American actor (1907-1977)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "q3013243": {
+      "slug": "q3013243",
+      "name": "Q3013243",
+      "qid": "Q3013243",
+      "description": "American actor (1908-1980)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "paul-frees": {
+      "slug": "paul-frees",
+      "name": "Paul Frees",
+      "qid": "Q3090544",
+      "description": "American actor (1920–1986)",
+      "credits": [
+        {
+          "film": "suddenly-1954",
+          "role": "Cast"
+        }
+      ]
+    },
+    "herk-harvey": {
+      "slug": "herk-harvey",
+      "name": "Herk Harvey",
+      "qid": "Q3134025",
+      "description": "American actor and director (1924-1996)",
+      "credits": [
+        {
+          "film": "carnival-of-souls-1962",
+          "role": "Directed by"
+        },
+        {
+          "film": "carnival-of-souls-1962",
+          "role": "Cast"
+        }
+      ]
+    },
+    "maurice-prather": {
+      "slug": "maurice-prather",
+      "name": "Maurice Prather",
+      "qid": "Q3852438",
+      "description": "American photographer and film director (1926–2001)",
+      "credits": [
+        {
+          "film": "carnival-of-souls-1962",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "candace-hilligoss": {
+      "slug": "candace-hilligoss",
+      "name": "Candace Hilligoss",
+      "qid": "Q2328155",
+      "description": "American actress",
+      "credits": [
+        {
+          "film": "carnival-of-souls-1962",
+          "role": "Cast"
+        }
+      ]
+    },
+    "art-ellison": {
+      "slug": "art-ellison",
+      "name": "Art Ellison",
+      "qid": "Q4796806",
+      "description": "actor",
+      "credits": [
+        {
+          "film": "carnival-of-souls-1962",
+          "role": "Cast"
+        }
+      ]
+    },
+    "george-a-romero": {
+      "slug": "george-a-romero",
+      "name": "George A. Romero",
+      "qid": "Q51511",
+      "description": "Canadian-American filmmaker (1940–2017)",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Directed by"
+        },
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Photographed by"
+        },
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "judith-o-dea": {
+      "slug": "judith-o-dea",
+      "name": "Judith O'Dea",
+      "qid": "Q271297",
+      "description": "actress",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "debbie-rochon": {
+      "slug": "debbie-rochon",
+      "name": "Debbie Rochon",
+      "qid": "Q437576",
+      "description": "Canadian actress",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "kyra-schon": {
+      "slug": "kyra-schon",
+      "name": "Kyra Schon",
+      "qid": "Q463610",
+      "description": "American actress",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "marilyn-eastman": {
+      "slug": "marilyn-eastman",
+      "name": "Marilyn Eastman",
+      "qid": "Q463814",
+      "description": "American actress (1933–2021)",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "duane-jones": {
+      "slug": "duane-jones",
+      "name": "Duane Jones",
+      "qid": "Q941415",
+      "description": "American actor (1937–1988)",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "karl-hardman": {
+      "slug": "karl-hardman",
+      "name": "Karl Hardman",
+      "qid": "Q1372866",
+      "description": "American actor (1927–2007)",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "russell-streiner": {
+      "slug": "russell-streiner",
+      "name": "Russell Streiner",
+      "qid": "Q1399390",
+      "description": "American actor and producer",
+      "credits": [
+        {
+          "film": "night-of-the-living-dead-1968",
+          "role": "Cast"
+        }
+      ]
+    },
+    "william-castle": {
+      "slug": "william-castle",
+      "name": "William Castle",
+      "qid": "Q934087",
+      "description": "American film director, producer, screenwriter, and actor (1914–1977)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "carl-e-guthrie": {
+      "slug": "carl-e-guthrie",
+      "name": "Carl E. Guthrie",
+      "qid": "Q2938894",
+      "description": "American cinematographer",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "vincent-price": {
+      "slug": "vincent-price",
+      "name": "Vincent Price",
+      "qid": "Q219640",
+      "description": "American actor (1911–1993)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        },
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "elisha-cook-jr": {
+      "slug": "elisha-cook-jr",
+      "name": "Elisha Cook Jr.",
+      "qid": "Q1330714",
+      "description": "American actor (1903-1995)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        }
+      ]
+    },
+    "alan-marshal": {
+      "slug": "alan-marshal",
+      "name": "Alan Marshal",
+      "qid": "Q2830551",
+      "description": "Australian actor (1909-1961)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        }
+      ]
+    },
+    "julie-mitchum": {
+      "slug": "julie-mitchum",
+      "name": "Julie Mitchum",
+      "qid": "Q3189245",
+      "description": "actress, dancer, night club performer (1914-2003)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        }
+      ]
+    },
+    "carolyn-craig": {
+      "slug": "carolyn-craig",
+      "name": "Carolyn Craig",
+      "qid": "Q4251151",
+      "description": "American actress (1934-1970)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        }
+      ]
+    },
+    "armelia-carol-ohmart": {
+      "slug": "armelia-carol-ohmart",
+      "name": "Armelia Carol Ohmart",
+      "qid": "Q5044492",
+      "description": "American actress and model (1927-2002)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        }
+      ]
+    },
+    "leona-anderson": {
+      "slug": "leona-anderson",
+      "name": "Leona Anderson",
+      "qid": "Q19559954",
+      "description": "American actress (1885–1973)",
+      "credits": [
+        {
+          "film": "house-on-haunted-hill-1959",
+          "role": "Cast"
+        }
+      ]
+    },
+    "franco-delli-colli": {
+      "slug": "franco-delli-colli",
+      "name": "Franco Delli Colli",
+      "qid": "Q3751268",
+      "description": "Italian cinematographer",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "giacomo-rossi-stuart": {
+      "slug": "giacomo-rossi-stuart",
+      "name": "Giacomo Rossi-Stuart",
+      "qid": "Q180010",
+      "description": "Italian actor (1925-1994)",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "franca-bettoia": {
+      "slug": "franca-bettoia",
+      "name": "Franca Bettoia",
+      "qid": "Q516106",
+      "description": "Italian actress (1936–2024)",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "franco-gasparri": {
+      "slug": "franco-gasparri",
+      "name": "Franco Gasparri",
+      "qid": "Q1117124",
+      "description": "Italian actor (1948–1999)",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "umberto-raho": {
+      "slug": "umberto-raho",
+      "name": "Umberto Raho",
+      "qid": "Q1394131",
+      "description": "Italian actor (1922-2016)",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "aldo-silvani": {
+      "slug": "aldo-silvani",
+      "name": "Aldo Silvani",
+      "qid": "Q2832333",
+      "description": "Italian actor, voice actor and director (1891-1964)",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "emma-danieli": {
+      "slug": "emma-danieli",
+      "name": "Emma Danieli",
+      "qid": "Q3724636",
+      "description": "Italian actress (1936-1998)",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "carolyn-de-fonseca": {
+      "slug": "carolyn-de-fonseca",
+      "name": "Carolyn De Fonseca",
+      "qid": "Q5045344",
+      "description": "American actress (1929–2009)",
+      "credits": [
+        {
+          "film": "the-last-man-on-earth-1964",
+          "role": "Cast"
+        }
+      ]
+    },
+    "victor-hugo-halperin": {
+      "slug": "victor-hugo-halperin",
+      "name": "Victor Hugo Halperin",
+      "qid": "Q1937093",
+      "description": "American film director (1895–1983)",
+      "credits": [
+        {
+          "film": "white-zombie-1932",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "arthur-martinelli": {
+      "slug": "arthur-martinelli",
+      "name": "Arthur Martinelli",
+      "qid": "Q21664092",
+      "description": "American cinematographer (1881–1967)",
+      "credits": [
+        {
+          "film": "white-zombie-1932",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "bela-lugosi": {
+      "slug": "bela-lugosi",
+      "name": "Bela Lugosi",
+      "qid": "Q34529",
+      "description": "Hungarian-American actor (1882–1956)",
+      "credits": [
+        {
+          "film": "white-zombie-1932",
+          "role": "Cast"
+        }
+      ]
+    },
+    "madge-bellamy": {
+      "slug": "madge-bellamy",
+      "name": "Madge Bellamy",
+      "qid": "Q391314",
+      "description": "American actress (1899–1990)",
+      "credits": [
+        {
+          "film": "white-zombie-1932",
+          "role": "Cast"
+        }
+      ]
+    },
+    "robert-frazer": {
+      "slug": "robert-frazer",
+      "name": "Robert Frazer",
+      "qid": "Q948929",
+      "description": "American actor (1891-1944)",
+      "credits": [
+        {
+          "film": "white-zombie-1932",
+          "role": "Cast"
+        }
+      ]
+    },
+    "john-harron": {
+      "slug": "john-harron",
+      "name": "John Harron",
+      "qid": "Q2003971",
+      "description": "American actor (1903-1939)",
+      "credits": [
+        {
+          "film": "white-zombie-1932",
+          "role": "Cast"
+        }
+      ]
+    },
+    "joseph-cawthorn": {
+      "slug": "joseph-cawthorn",
+      "name": "Joseph Cawthorn",
+      "qid": "Q3184724",
+      "description": "American stage and film comic actor (1868-1949)",
+      "credits": [
+        {
+          "film": "white-zombie-1932",
+          "role": "Cast"
+        }
+      ]
+    },
+    "francis-ford-coppola": {
+      "slug": "francis-ford-coppola",
+      "name": "Francis Ford Coppola",
+      "qid": "Q56094",
+      "description": "American filmmaker (born 1939)",
+      "credits": [
+        {
+          "film": "dementia-13-1963",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "charles-hannawalt": {
+      "slug": "charles-hannawalt",
+      "name": "Charles Hannawalt",
+      "qid": "Q5078748",
+      "description": "American key grip, film producer, and cinematographer",
+      "credits": [
+        {
+          "film": "dementia-13-1963",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "william-campbell": {
+      "slug": "william-campbell",
+      "name": "William Campbell",
+      "qid": "Q179393",
+      "description": "American actor (1926–2011)",
+      "credits": [
+        {
+          "film": "dementia-13-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "patrick-magee": {
+      "slug": "patrick-magee",
+      "name": "Patrick Magee",
+      "qid": "Q925310",
+      "description": "Northern Irish actor (1922–1982)",
+      "credits": [
+        {
+          "film": "dementia-13-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "bart-patton": {
+      "slug": "bart-patton",
+      "name": "Bart Patton",
+      "qid": "Q4865099",
+      "description": "American film director and actor",
+      "credits": [
+        {
+          "film": "dementia-13-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "luana-anders": {
+      "slug": "luana-anders",
+      "name": "Luana Anders",
+      "qid": "Q6694988",
+      "description": "American actress (1938-1996)",
+      "credits": [
+        {
+          "film": "dementia-13-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "roger-corman": {
+      "slug": "roger-corman",
+      "name": "Roger Corman",
+      "qid": "Q318292",
+      "description": "American film director, producer, and actor (1926–2024)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "archie-r-dalzell": {
+      "slug": "archie-r-dalzell",
+      "name": "Archie R. Dalzell",
+      "qid": "Q633967",
+      "description": "American cinematographer (1911–1992)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "jack-nicholson": {
+      "slug": "jack-nicholson",
+      "name": "Jack Nicholson",
+      "qid": "Q39792",
+      "description": "American actor and filmmaker (born 1937)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "jonathan-haze": {
+      "slug": "jonathan-haze",
+      "name": "Jonathan Haze",
+      "qid": "Q472842",
+      "description": "American actor (1929–2024)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "jackie-joseph": {
+      "slug": "jackie-joseph",
+      "name": "Jackie Joseph",
+      "qid": "Q526365",
+      "description": "American actress",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "dick-miller": {
+      "slug": "dick-miller",
+      "name": "Dick Miller",
+      "qid": "Q1209753",
+      "description": "American actor (1928-2019)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "karyn-kupcinet": {
+      "slug": "karyn-kupcinet",
+      "name": "Karyn Kupcinet",
+      "qid": "Q2343863",
+      "description": "American actress (1941-1963)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "charles-b-griffith": {
+      "slug": "charles-b-griffith",
+      "name": "Charles B. Griffith",
+      "qid": "Q2958461",
+      "description": "American screenwriter (1930–2007)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "frank-mills": {
+      "slug": "frank-mills",
+      "name": "Frank Mills",
+      "qid": "Q5488455",
+      "description": "American actor (1891-1973)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "mel-welles": {
+      "slug": "mel-welles",
+      "name": "Mel Welles",
+      "qid": "Q6810902",
+      "description": "American film actor (1924-2005)",
+      "credits": [
+        {
+          "film": "the-little-shop-of-horrors-1960",
+          "role": "Cast"
+        }
+      ]
+    },
+    "howard-hawks": {
+      "slug": "howard-hawks",
+      "name": "Howard Hawks",
+      "qid": "Q51581",
+      "description": "American film director, producer and screenwriter (1896–1977)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "joseph-walker": {
+      "slug": "joseph-walker",
+      "name": "Joseph Walker",
+      "qid": "Q960230",
+      "description": "American cinematographer (1892-1985)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "cary-grant": {
+      "slug": "cary-grant",
+      "name": "Cary Grant",
+      "qid": "Q83410",
+      "description": "British-American actor (1904–1986)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        },
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "abner-biberman": {
+      "slug": "abner-biberman",
+      "name": "Abner Biberman",
+      "qid": "Q129386",
+      "description": "American actor, director, and screenwriter (1909–1977)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        }
+      ]
+    },
+    "billy-gilbert": {
+      "slug": "billy-gilbert",
+      "name": "Billy Gilbert",
+      "qid": "Q186798",
+      "description": "American comedian and actor (1894–1971)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        }
+      ]
+    },
+    "rosalind-russell": {
+      "slug": "rosalind-russell",
+      "name": "Rosalind Russell",
+      "qid": "Q233854",
+      "description": "American actress (1907–1976)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gene-morgan": {
+      "slug": "gene-morgan",
+      "name": "Gene Morgan",
+      "qid": "Q259365",
+      "description": "American actor (1893-1940)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        }
+      ]
+    },
+    "regis-toomey": {
+      "slug": "regis-toomey",
+      "name": "Regis Toomey",
+      "qid": "Q359446",
+      "description": "American actor (1898–1991)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ralph-bellamy": {
+      "slug": "ralph-bellamy",
+      "name": "Ralph Bellamy",
+      "qid": "Q364135",
+      "description": "American actor (1904–1991)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ann-doran": {
+      "slug": "ann-doran",
+      "name": "Ann Doran",
+      "qid": "Q450047",
+      "description": "American actress (1911–2000)",
+      "credits": [
+        {
+          "film": "his-girl-friday-1940",
+          "role": "Cast"
+        },
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        }
+      ]
+    },
+    "stanley-donen": {
+      "slug": "stanley-donen",
+      "name": "Stanley Donen",
+      "qid": "Q48765",
+      "description": "American film director and choreographer (1924-2019)",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Directed by"
+        },
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        },
+        {
+          "film": "royal-wedding-1951",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "charles-lang": {
+      "slug": "charles-lang",
+      "name": "Charles Lang",
+      "qid": "Q486883",
+      "description": "American cinematographer (1902-1998)",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "james-coburn": {
+      "slug": "james-coburn",
+      "name": "James Coburn",
+      "qid": "Q4227",
+      "description": "American actor (1928–2002)",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "audrey-hepburn": {
+      "slug": "audrey-hepburn",
+      "name": "Audrey Hepburn",
+      "qid": "Q42786",
+      "description": "British actress (1929–1993)",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "walter-matthau": {
+      "slug": "walter-matthau",
+      "name": "Walter Matthau",
+      "qid": "Q202172",
+      "description": "American actor, comedian and director (1920–2000)",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "george-kennedy": {
+      "slug": "george-kennedy",
+      "name": "George Kennedy",
+      "qid": "Q298818",
+      "description": "American actor (1925–2016)",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "chantal-goya": {
+      "slug": "chantal-goya",
+      "name": "Chantal Goya",
+      "qid": "Q448508",
+      "description": "French actress and singer",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ned-glass": {
+      "slug": "ned-glass",
+      "name": "Ned Glass",
+      "qid": "Q453549",
+      "description": "American actor (1906-1984)",
+      "credits": [
+        {
+          "film": "charade-1963",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gregory-la-cava": {
+      "slug": "gregory-la-cava",
+      "name": "Gregory La Cava",
+      "qid": "Q269585",
+      "description": "American film director (1892-1952)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "ted-tetzlaff": {
+      "slug": "ted-tetzlaff",
+      "name": "Ted Tetzlaff",
+      "qid": "Q322960",
+      "description": "American cinematographer (1903-1995)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "jane-wyman": {
+      "slug": "jane-wyman",
+      "name": "Jane Wyman",
+      "qid": "Q95055",
+      "description": "American actress (1917–2007)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        }
+      ]
+    },
+    "william-powell": {
+      "slug": "william-powell",
+      "name": "William Powell",
+      "qid": "Q105960",
+      "description": "American actor (1892–1984)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        }
+      ]
+    },
+    "carole-lombard": {
+      "slug": "carole-lombard",
+      "name": "Carole Lombard",
+      "qid": "Q207739",
+      "description": "American actress (1908-1942)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        },
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        },
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "alice-brady": {
+      "slug": "alice-brady",
+      "name": "Alice Brady",
+      "qid": "Q233856",
+      "description": "American actress (1892–1939)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gail-patrick": {
+      "slug": "gail-patrick",
+      "name": "Gail Patrick",
+      "qid": "Q289991",
+      "description": "American actress and television producer",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        }
+      ]
+    },
+    "eugene-pallette": {
+      "slug": "eugene-pallette",
+      "name": "Eugene Pallette",
+      "qid": "Q911472",
+      "description": "American actor (1889–1954)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        }
+      ]
+    },
+    "james-flavin": {
+      "slug": "james-flavin",
+      "name": "James Flavin",
+      "qid": "Q1308174",
+      "description": "American actor (1906–1976)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        }
+      ]
+    },
+    "mischa-auer": {
+      "slug": "mischa-auer",
+      "name": "Mischa Auer",
+      "qid": "Q1375447",
+      "description": "Russian-born American actor (1905-1967)",
+      "credits": [
+        {
+          "film": "my-man-godfrey-1936",
+          "role": "Cast"
+        }
+      ]
+    },
+    "william-a-wellman": {
+      "slug": "william-a-wellman",
+      "name": "William A. Wellman",
+      "qid": "Q290962",
+      "description": "American director, actor (1896-1975)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "w-howard-greene": {
+      "slug": "w-howard-greene",
+      "name": "W. Howard Greene",
+      "qid": "Q504191",
+      "description": "American cinematographer (1895-1956)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "sig-ruman": {
+      "slug": "sig-ruman",
+      "name": "Sig Ruman",
+      "qid": "Q67543",
+      "description": "German-American actor (1884-1967)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        }
+      ]
+    },
+    "fredric-march": {
+      "slug": "fredric-march",
+      "name": "Fredric March",
+      "qid": "Q181819",
+      "description": "American actor (1897–1975)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        }
+      ]
+    },
+    "hattie-mcdaniel": {
+      "slug": "hattie-mcdaniel",
+      "name": "Hattie McDaniel",
+      "qid": "Q228904",
+      "description": "American actress (1893-1952)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        }
+      ]
+    },
+    "margaret-hamilton": {
+      "slug": "margaret-hamilton",
+      "name": "Margaret Hamilton",
+      "qid": "Q257756",
+      "description": "American film character actress (1902–1985)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        }
+      ]
+    },
+    "hedda-hopper": {
+      "slug": "hedda-hopper",
+      "name": "Hedda Hopper",
+      "qid": "Q271324",
+      "description": "American gossip columnist and actress (1885–1966)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        }
+      ]
+    },
+    "aileen-pringle": {
+      "slug": "aileen-pringle",
+      "name": "Aileen Pringle",
+      "qid": "Q405036",
+      "description": "American actress (1895–1989)",
+      "credits": [
+        {
+          "film": "nothing-sacred-1937",
+          "role": "Cast"
+        }
+      ]
+    },
+    "leo-mccarey": {
+      "slug": "leo-mccarey",
+      "name": "Leo McCarey",
+      "qid": "Q332530",
+      "description": "American film director, screenwriter and producer (1898-1969)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "charles-boyer": {
+      "slug": "charles-boyer",
+      "name": "Charles Boyer",
+      "qid": "Q105987",
+      "description": "French actor (1899–1978)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "irene-dunne": {
+      "slug": "irene-dunne",
+      "name": "Irene Dunne",
+      "qid": "Q230099",
+      "description": "American actress and singer (1898–1990)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "maria-ouspenskaya": {
+      "slug": "maria-ouspenskaya",
+      "name": "Maria Ouspenskaya",
+      "qid": "Q255808",
+      "description": "Russian actress (1876-1949)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "joan-leslie": {
+      "slug": "joan-leslie",
+      "name": "Joan Leslie",
+      "qid": "Q260318",
+      "description": "American actress (1925-2015)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "scotty-beckett": {
+      "slug": "scotty-beckett",
+      "name": "Scotty Beckett",
+      "qid": "Q329163",
+      "description": "actor (1929-1968)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "bess-flowers": {
+      "slug": "bess-flowers",
+      "name": "Bess Flowers",
+      "qid": "Q513849",
+      "description": "American actress (1898–1984)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        },
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    },
+    "lee-bowman": {
+      "slug": "lee-bowman",
+      "name": "Lee Bowman",
+      "qid": "Q958973",
+      "description": "American actor (1914–1979)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "gerald-mohr": {
+      "slug": "gerald-mohr",
+      "name": "Gerald Mohr",
+      "qid": "Q959120",
+      "description": "American radio, film and television character actor (1914-1968)",
+      "credits": [
+        {
+          "film": "love-affair-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "john-cromwell": {
+      "slug": "john-cromwell",
+      "name": "John Cromwell",
+      "qid": "Q1348309",
+      "description": "American actor, director and producer (1886/7–1979)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Directed by"
+        }
+      ]
+    },
+    "leon-shamroy": {
+      "slug": "leon-shamroy",
+      "name": "Leon Shamroy",
+      "qid": "Q1346696",
+      "description": "American cinematographer (1901–1974)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "james-stewart": {
+      "slug": "james-stewart",
+      "name": "James Stewart",
+      "qid": "Q102462",
+      "description": "American actor and military officer (1908–1997)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "lucile-watson": {
+      "slug": "lucile-watson",
+      "name": "Lucile Watson",
+      "qid": "Q267829",
+      "description": "Canadian actress (1879-1962)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "eddie-quillan": {
+      "slug": "eddie-quillan",
+      "name": "Eddie Quillan",
+      "qid": "Q330382",
+      "description": "American actor (1907–1990)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "charles-coburn": {
+      "slug": "charles-coburn",
+      "name": "Charles Coburn",
+      "qid": "Q350690",
+      "description": "American film, theater actor (1877–1961)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "harry-davenport": {
+      "slug": "harry-davenport",
+      "name": "Harry Davenport",
+      "qid": "Q744955",
+      "description": "American actor (1866–1949)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ward-bond": {
+      "slug": "ward-bond",
+      "name": "Ward Bond",
+      "qid": "Q1280760",
+      "description": "American actor (1903–1960)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "ivan-simpson": {
+      "slug": "ivan-simpson",
+      "name": "Ivan Simpson",
+      "qid": "Q1373430",
+      "description": "Scottish actor (1875-1951)",
+      "credits": [
+        {
+          "film": "made-for-each-other-1939",
+          "role": "Cast"
+        }
+      ]
+    },
+    "robert-h-planck": {
+      "slug": "robert-h-planck",
+      "name": "Robert H. Planck",
+      "qid": "Q583717",
+      "description": "American cinematographer (1902-1971)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Photographed by"
+        }
+      ]
+    },
+    "fred-astaire": {
+      "slug": "fred-astaire",
+      "name": "Fred Astaire",
+      "qid": "Q100937",
+      "description": "American dancer, actor, and singer (1899–1987)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    },
+    "jane-powell": {
+      "slug": "jane-powell",
+      "name": "Jane Powell",
+      "qid": "Q260099",
+      "description": "American actress, dancer, and singer (1929-2021)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    },
+    "peter-lawford": {
+      "slug": "peter-lawford",
+      "name": "Peter Lawford",
+      "qid": "Q345517",
+      "description": "British actor (1923–1984)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    },
+    "mae-clarke": {
+      "slug": "mae-clarke",
+      "name": "Mae Clarke",
+      "qid": "Q435532",
+      "description": "American actress (1910–1992)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    },
+    "snub-pollard": {
+      "slug": "snub-pollard",
+      "name": "Snub Pollard",
+      "qid": "Q474943",
+      "description": "Australian actor (1889-1962)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    },
+    "albert-sharpe": {
+      "slug": "albert-sharpe",
+      "name": "Albert Sharpe",
+      "qid": "Q731046",
+      "description": "Irish actor (1885-1970)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    },
+    "keenan-wynn": {
+      "slug": "keenan-wynn",
+      "name": "Keenan Wynn",
+      "qid": "Q946859",
+      "description": "American actor (1916–1986)",
+      "credits": [
+        {
+          "film": "royal-wedding-1951",
+          "role": "Cast"
+        }
+      ]
+    }
+  },
+  "threads": [
+    {
+      "films": [
+        "the-last-man-on-earth-1964",
+        "night-of-the-living-dead-1968"
+      ],
+      "note": "Romero named this adaptation of Matheson's I Am Legend as the blueprint he worked from. Watch the besiegers at Price's door, then watch the farmhouse: the same shuffle, four years and one revolution apart."
+    },
+    {
+      "films": [
+        "carnival-of-souls-1962",
+        "night-of-the-living-dead-1968"
+      ],
+      "note": "Two industrial-film crews from the middle of the country, borrowing the company gear to make a horror picture. The pallid dead of Saltair walk again outside a Pennsylvania farmhouse — regional filmmaking becoming modern horror."
+    },
+    {
+      "films": [
+        "white-zombie-1932",
+        "night-of-the-living-dead-1968"
+      ],
+      "note": "The word 'zombie' changes meaning between these two films: from the dead as owned labour to the dead as pure appetite. The whole politics of the genre is in that swap."
+    },
+    {
+      "films": [
+        "nosferatu-1922",
+        "white-zombie-1932"
+      ],
+      "note": "Two unauthorized routes out of Bram Stoker: Murnau rewrote Dracula and was sued into near-oblivion; a decade later Lugosi, fresh from playing the licensed Count, walked into the mill of the undead."
+    },
+    {
+      "films": [
+        "the-cabinet-of-dr-caligari-1920",
+        "carnival-of-souls-1962"
+      ],
+      "note": "A somnambulist in a painted world; an organist one layer out of register with hers. Expressionism's central idea — the world bent to the shape of a mind — crosses forty years and an ocean intact."
+    },
+    {
+      "films": [
+        "metropolis-1927",
+        "scarlet-street-1945"
+      ],
+      "note": "Fritz Lang, twice: the city as a machine that consumes its workers, then the city as a set of small rooms that do the same job more quietly. The architecture shrank; the trap didn't."
+    },
+    {
+      "films": [
+        "battleship-potemkin-1925",
+        "metropolis-1927"
+      ],
+      "note": "The crowd as protagonist, staged two ways in two years: Eisenstein cuts the masses into a weapon; Lang choreographs them into a machine. Every stadium crowd shot since is quoting one or the other."
+    },
+    {
+      "films": [
+        "detour-1945",
+        "doa-1950"
+      ],
+      "note": "Two men narrating their own autopsies. Noir's boldest structural idea — the voice that already knows how this ends — done first on poverty row, then with a studio's polish."
+    },
+    {
+      "films": [
+        "detour-1945",
+        "the-hitch-hiker-1953"
+      ],
+      "note": "The fatal ride, from both sides: Ulmer's drifter accepts one, Lupino's killer is one. Between the two films, the American road stops being freedom."
+    },
+    {
+      "films": [
+        "the-stranger-1946",
+        "suddenly-1954"
+      ],
+      "note": "A quiet American town hosts a monster wearing ordinary clothes — first the war criminal grading papers, then the assassin at the window. Postwar noir kept asking the same question: what if he lives here?"
+    },
+    {
+      "films": [
+        "the-lodger-1927",
+        "suddenly-1954"
+      ],
+      "note": "The threat is upstairs. Hitchcock built suspense out of a household's suspicion; Suddenly locks the household in with the answer. Same architecture, opposite disclosure."
+    },
+    {
+      "films": [
+        "his-girl-friday-1940",
+        "nothing-sacred-1937"
+      ],
+      "note": "Ben Hecht's newsroom, twice over: the press that will hang a man for a headline and the press that will canonize a healthy woman for circulation. Screwball is the sugar; the indictment is the pill."
+    },
+    {
+      "films": [
+        "nothing-sacred-1937",
+        "made-for-each-other-1939"
+      ],
+      "note": "Carole Lombard's two registers, two years apart — the great comedienne in Technicolor farce, then playing a marriage almost entirely straight. The timing is identical; only the stakes change."
+    },
+    {
+      "films": [
+        "my-man-godfrey-1936",
+        "his-girl-friday-1940"
+      ],
+      "note": "Class comedy at two speeds: Godfrey walks up from the dump into Fifth Avenue at a stroll; Hildy talks her way around the whole social order at 240 words a minute."
+    },
+    {
+      "films": [
+        "his-girl-friday-1940",
+        "charade-1963"
+      ],
+      "note": "The two poles of Cary Grant, twenty-three years apart: the fast-talking operator who won't let her leave, and the unknowable charmer she probably shouldn't trust. Both films run on the same current — charm as suspense."
+    },
+    {
+      "films": [
+        "sherlock-jr-1924",
+        "royal-wedding-1951"
+      ],
+      "note": "Keaton walks into the screen; Astaire walks up the wall. Two impossible spaces, both built with a camera trick played perfectly straight — the special effect hidden inside a straight face."
+    },
+    {
+      "films": [
+        "the-general-1926",
+        "metropolis-1927"
+      ],
+      "note": "The machine as co-star, 1926 and 1927: Keaton loves his locomotive like a person; Lang fears his Machine like a god. Between those two feelings sits the whole century's argument with technology."
+    },
+    {
+      "films": [
+        "dementia-13-1963",
+        "the-little-shop-of-horrors-1960"
+      ],
+      "note": "Two graduates of the Corman factory: a 24-year-old Coppola given a castle and a schedule, and a two-day comedy that hands Jack Nicholson his first unforgettable scene. The B-movie as film school, tuition paid in speed."
+    },
+    {
+      "films": [
+        "house-on-haunted-hill-1959",
+        "the-little-shop-of-horrors-1960"
+      ],
+      "note": "Horror as showmanship economics: Castle wired the seats, Corman beat the clock. Both films understand the audience is part of the machine — the scream is the product."
+    },
+    {
+      "films": [
+        "sunrise-1927",
+        "love-affair-1939"
+      ],
+      "note": "A love nearly destroyed by one decision, then rebuilt in public spaces — the tram and the city for Murnau, the liner and the Empire State for McCarey. The near-loss is what makes the tenderness legible."
+    }
+  ]
+}

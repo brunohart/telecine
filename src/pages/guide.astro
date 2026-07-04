@@ -8,19 +8,17 @@ import network from '../data/network.json';
   description="The next twenty-four hours across all Telecine channels, in your local time."
 >
   <section class="wrap">
-    <h1 class="page-title ghost" data-text="The Guide">The Guide</h1>
+    <h1 class="page-title">The Guide</h1>
     <p class="page-lede">
       The next twenty-four hours, in your local time. Times are the same for everyone;
       the clock is the schedule.
     </p>
 
-    <div class="wash wash-tube" style="width: 42vw; height: 30vh; right: -12vw; top: 8rem;" aria-hidden="true"></div>
-
     <div class="guide" id="guide">
       {network.channels.map((ch, i) => (
         <section class="g-channel" data-channel={ch.id} data-settle={i * 80} style={`--hue: var(--ch-${ch.number})`}>
           <header class="g-head">
-            <span class="g-num ghost" data-text={ch.number}>{ch.number}</span>
+            <span class="g-num">{ch.number}</span>
             <div>
               <h2 class="g-name"><a href={`/channels/${ch.id}`}>{ch.name}</a></h2>
               <p class="g-tag">{ch.tagline}</p>

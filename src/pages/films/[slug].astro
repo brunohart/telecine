@@ -12,12 +12,11 @@ const mins = Math.round(film.durationSec / 60);
 
 <Base title={`${film.title} (${film.year}) — Telecine`} description={film.logline}>
   <article class="wrap film">
-    <div class="wash wash-signal" style="width: 38vw; height: 30vh; right: -12vw; top: 4rem;" aria-hidden="true"></div>
     <p style="margin-top:1.4rem">
       <span class="stamp">Programme notes</span>
       <a class="mono-label ch-link" href={`/channels/${ch.id}`} style="margin-left:.7rem">CH {ch.number} — {ch.name}</a>
     </p>
-    <h1 class="page-title film-title ghost" data-text={film.title} data-settle="0">{film.title}</h1>
+    <h1 class="page-title film-title" data-settle="0">{film.title}</h1>
     <p class="film-meta" data-settle="60">
       {film.year} · Directed by {film.director} · {mins} minutes
     </p>
@@ -28,7 +27,7 @@ const mins = Math.round(film.durationSec / 60);
       <p>{film.note}</p>
     </div>
 
-    <aside class="airings offset-ink tilt-c" data-settle="240">
+    <aside class="airings" data-settle="240">
       <h2 class="mono-label">Next transmissions · your local time</h2>
       <ol id="airings" data-slug={film.slug} data-channel={ch.id}></ol>
       <p class="airing-note">

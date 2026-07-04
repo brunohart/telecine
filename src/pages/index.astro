@@ -31,7 +31,7 @@ import network from '../data/network.json';
                 <span class="stamp" id="card-name">The Silent Signal</span>
               </div>
               <p class="mono-label">Next transmission</p>
-              <h2 class="inter-title ghost" id="card-title" data-text="—">—</h2>
+              <h2 class="inter-title" id="card-title">—</h2>
               <p class="inter-meta" id="card-meta">—</p>
               <p class="inter-count"><span id="card-count">00:00</span></p>
             </div>
@@ -70,13 +70,13 @@ import network from '../data/network.json';
       <aside class="dial" aria-label="Channels">
         {network.channels.map((ch, i) => (
           <button
-            class={`dial-btn ${['tilt-a', 'tilt-b', 'tilt-c', 'tilt-a'][i]}`}
+            class="dial-btn"
             data-channel={ch.id}
             data-settle={i * 70}
             aria-pressed="false"
             style={`--hue: var(--ch-${ch.number})`}
           >
-            <span class="dial-num ghost" data-text={ch.number}>{ch.number}</span>
+            <span class="dial-num">{ch.number}</span>
             <span class="dial-text">
               <span class="dial-name">{ch.name}</span>
               <span class="dial-tag">{ch.tagline}</span>
@@ -157,9 +157,7 @@ import network from '../data/network.json';
   .inter-head { display: grid; gap: .5rem; margin-bottom: 1.4rem; justify-items: center; }
   .inter-num { font-family: var(--display); font-weight: 900; font-size: clamp(2.6rem, 7vw, 4.2rem); line-height: 1; }
   .inter-body .mono-label { color: #6f6555; }
-  .inter-body .stamp { rotate: -1.2deg; }
-  .inter-title { font-family: var(--display); font-weight: 600; font-style: italic; font-size: clamp(1.5rem, 4.2vw, 2.6rem); rotate: -0.4deg; }
-  .inter-title.ghost::before { opacity: 0.18; z-index: 0; }
+  .inter-title { font-family: var(--display); font-weight: 600; font-style: italic; font-size: clamp(1.5rem, 4.2vw, 2.6rem); }
   .inter-meta { font-size: .95rem; color: #6f6555; }
   .inter-count { font-family: var(--mono); font-size: clamp(1.2rem, 3vw, 1.7rem); letter-spacing: .1em; margin-top: 1.2rem; animation: count-breathe 2s ease-in-out infinite; }
   @keyframes count-breathe { 50% { opacity: 0.55; } }
@@ -224,17 +222,15 @@ import network from '../data/network.json';
     background: transparent;
     transition:
       border-color .25s ease, background .25s ease,
-      rotate .45s var(--spring), scale .3s var(--spring), translate .45s var(--spring);
+      scale .3s var(--spring), translate .45s var(--spring);
   }
-  .dial-btn:hover { border-color: var(--line-strong); rotate: 0deg; translate: 0 -2px; }
+  .dial-btn:hover { border-color: var(--line-strong); translate: 0 -2px; }
   .dial-btn:active { scale: 0.965; }
   .dial-btn[aria-pressed='true'] {
     background: var(--card); border-color: var(--line-strong);
     box-shadow: inset 3px 0 0 var(--hue, var(--signal));
-    rotate: 0deg;
   }
   .dial-num { font-family: var(--display); font-weight: 900; font-size: 1.6rem; line-height: 1.1; }
-  .dial-num.ghost::before { opacity: .4; }
   .dial-text { display: grid; gap: .15rem; }
   .dial-name { font-family: var(--display); font-weight: 600; font-size: 1.02rem; }
   .dial-tag { font-size: .82rem; color: var(--ink-soft); font-style: italic; }
