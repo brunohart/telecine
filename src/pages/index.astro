@@ -1,0 +1,198 @@
+---
+import Base from '../layouts/Base.astro';
+import network from '../data/network.json';
+---
+
+<Base
+  title="Telecine — a public broadcast network"
+  description="Four 24/7 channels of public-domain cinema, clock-synced for everyone on Earth. You don't press play. You tune in."
+  bodyClass="lights-down"
+>
+  <section class="set wrap">
+    <div class="stage">
+      <div class="cabinet" id="cabinet">
+        <div class="screen-frame" id="screen-frame">
+          <video id="screen" playsinline preload="auto"></video>
+
+          <div class="noise" id="noise" hidden>
+            <span class="mono-label" id="noise-label">TUNING</span>
+          </div>
+
+          <div class="inter-card" id="card" hidden>
+            <div class="bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="inter-body">
+              <div class="inter-head">
+                <span class="inter-num" id="card-num">01</span>
+                <span class="mono-label" id="card-name">The Silent Signal</span>
+              </div>
+              <p class="mono-label">Next transmission</p>
+              <h2 class="inter-title" id="card-title">—</h2>
+              <p class="inter-meta" id="card-meta">—</p>
+              <p class="inter-count"><span id="card-count">00:00</span></p>
+            </div>
+            <div class="bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          </div>
+
+          <button class="tune" id="tune">
+            <span class="tune-ring" aria-hidden="true"></span>
+            <span class="tune-word">Tune in</span>
+            <span class="tune-now mono-label" id="tune-now">…</span>
+          </button>
+        </div>
+
+        <div class="chyron">
+          <span class="mono-label" id="ch-label">CH — · —</span>
+          <span class="onair" id="onair">The set is off.</span>
+          <span class="live-tag mono-label"><span class="live-dot" aria-hidden="true"></span>Live</span>
+        </div>
+
+        <div class="strip">
+          <span class="mono-label t" id="elapsed">00:00</span>
+          <div class="prog"><div class="prog-fill" id="prog-fill"></div></div>
+          <span class="mono-label t" id="total">00:00</span>
+        </div>
+
+        <div class="deck">
+          <span class="mono-label" id="upnext"></span>
+          <span class="switches">
+            <button class="switch mono-label" id="mute">Sound on</button>
+            <button class="switch mono-label" id="full">Fullscreen</button>
+          </span>
+        </div>
+      </div>
+
+      <aside class="dial" aria-label="Channels">
+        {network.channels.map((ch) => (
+          <button class="dial-btn" data-channel={ch.id} aria-pressed="false" style={`--hue: var(--ch-${ch.number})`}>
+            <span class="dial-num">{ch.number}</span>
+            <span class="dial-text">
+              <span class="dial-name">{ch.name}</span>
+              <span class="dial-tag">{ch.tagline}</span>
+              <span class="dial-now mono-label">…</span>
+            </span>
+          </button>
+        ))}
+        <p class="dial-note">
+          There is no pause and no play-from-the-start. Whatever a channel is showing, that is what's
+          on — for everyone, everywhere, at this same minute. <a href="/about">Why we broadcast this way.</a>
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <script>
+    import { initPlayer } from '../lib/player.js';
+    initPlayer();
+  </script>
+</Base>
+
+<style>
+  .set { padding-block: 1.2rem 2rem; }
+  .stage { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; align-items: start; }
+
+  /* ── the cabinet ── */
+  .cabinet { display: grid; gap: 0.65rem; }
+  .screen-frame {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    max-height: 74vh;
+    width: 100%;
+    background: #000;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.35), 0 30px 80px -30px rgba(0, 0, 0, 0.8);
+  }
+  .screen-frame::after {
+    /* tube vignette */
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+  }
+  video { width: 100%; height: 100%; object-fit: contain; background: #000; }
+
+  .noise {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation: roll 0.4s steps(4) infinite;
+  }
+  .noise .mono-label { background: rgba(0,0,0,.72); color: #ede5d4; padding: .45rem .8rem; letter-spacing: .22em; }
+  @keyframes roll { to { background-position: 0 -160px; } }
+
+  /* ── the station break card ── */
+  .inter-card {
+    position: absolute; inset: 0;
+    background: #f1ebdf; color: #1d1812;
+    display: grid; grid-template-rows: auto 1fr auto;
+  }
+  .inter-card .bars { height: clamp(10px, 3.5%, 18px); }
+  .inter-body { display: grid; place-content: center; text-align: center; gap: .5rem; padding: 1rem; }
+  .inter-head { display: grid; gap: .1rem; margin-bottom: 1.4rem; }
+  .inter-num { font-family: var(--display); font-weight: 900; font-size: clamp(2.6rem, 7vw, 4.2rem); line-height: 1; }
+  .inter-body .mono-label { color: #6f6555; }
+  .inter-title { font-family: var(--display); font-weight: 600; font-style: italic; font-size: clamp(1.5rem, 4.2vw, 2.6rem); }
+  .inter-meta { font-size: .95rem; color: #6f6555; }
+  .inter-count { font-family: var(--mono); font-size: clamp(1.2rem, 3vw, 1.7rem); letter-spacing: .1em; margin-top: 1.2rem; }
+
+  /* ── tune-in ── */
+  .tune {
+    position: absolute; inset: 0;
+    display: grid; place-content: center; gap: .8rem;
+    background: radial-gradient(ellipse at center, rgba(27,45,79,.35), rgba(0,0,0,.88) 75%);
+    color: #ede5d4;
+  }
+  .tune-ring {
+    width: 84px; height: 84px; margin-inline: auto;
+    border: 2px solid #ede5d4; border-radius: 50%;
+    display: grid; place-items: center;
+    transition: transform .25s ease, border-color .25s ease;
+  }
+  .tune-ring::after { content: ''; width: 14px; height: 14px; border-radius: 50%; background: var(--signal); }
+  .tune:hover .tune-ring { transform: scale(1.06); border-color: var(--signal); }
+  .tune-word { font-family: var(--display); font-weight: 600; font-style: italic; font-size: 1.6rem; }
+  .tune-now { color: #a39883; }
+
+  /* ── chyron & strip ── */
+  .chyron { display: flex; align-items: baseline; gap: 1rem; }
+  .onair { flex: 1; text-align: center; font-size: .98rem; min-height: 1.5em; }
+  .onair em { font-family: var(--display); font-style: italic; }
+  .live-tag { display: inline-flex; align-items: center; gap: .45em; color: var(--ink-soft); }
+  .live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--live); animation: pulse 2.4s ease infinite; }
+  @keyframes pulse { 50% { opacity: .35; } }
+
+  .strip { display: flex; align-items: center; gap: .8rem; }
+  .strip .t { font-size: .68rem; }
+  .prog { flex: 1; height: 2px; background: var(--line); position: relative; }
+  .prog-fill { position: absolute; inset: 0 auto 0 0; width: 0%; background: var(--signal); transition: width .5s linear; }
+
+  .deck { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; min-height: 1.4em; }
+  .switches { display: inline-flex; gap: 1.1rem; }
+  .switch { padding-bottom: 2px; border-bottom: 1px solid var(--line-strong); }
+  .switch:hover { border-bottom-color: var(--signal); color: var(--ink); }
+
+  /* ── the dial ── */
+  .dial { display: grid; gap: 0.6rem; align-content: start; }
+  .dial-btn {
+    display: grid; grid-template-columns: auto 1fr; gap: .85rem; align-items: start;
+    text-align: left; padding: .8rem .9rem;
+    border: 1px solid var(--line); border-radius: 6px;
+    background: transparent;
+    transition: border-color .2s ease, background .2s ease;
+  }
+  .dial-btn:hover { border-color: var(--line-strong); }
+  .dial-btn[aria-pressed='true'] { background: var(--card); border-color: var(--line-strong); box-shadow: inset 3px 0 0 var(--hue, var(--signal)); }
+  .dial-num { font-family: var(--display); font-weight: 900; font-size: 1.6rem; line-height: 1.1; }
+  .dial-text { display: grid; gap: .15rem; }
+  .dial-name { font-family: var(--display); font-weight: 600; font-size: 1.02rem; }
+  .dial-tag { font-size: .82rem; color: var(--ink-soft); font-style: italic; }
+  .dial-now { margin-top: .3rem; font-size: .62rem; color: var(--ink-faint); }
+  .dial-note { font-size: .82rem; color: var(--ink-soft); margin-top: .8rem; line-height: 1.55; }
+
+  @media (max-width: 900px) {
+    .stage { grid-template-columns: 1fr; }
+    .screen-frame { max-height: none; }
+  }
+</style>
