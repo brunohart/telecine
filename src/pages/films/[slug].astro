@@ -12,21 +12,23 @@ const mins = Math.round(film.durationSec / 60);
 
 <Base title={`${film.title} (${film.year}) — Telecine`} description={film.logline}>
   <article class="wrap film">
-    <p class="mono-label" style="margin-top:1.2rem">
-      Programme notes · <a href={`/channels/${ch.id}`}>CH {ch.number} — {ch.name}</a>
+    <div class="wash wash-signal" style="width: 38vw; height: 30vh; right: -12vw; top: 4rem;" aria-hidden="true"></div>
+    <p style="margin-top:1.4rem">
+      <span class="stamp">Programme notes</span>
+      <a class="mono-label ch-link" href={`/channels/${ch.id}`} style="margin-left:.7rem">CH {ch.number} — {ch.name}</a>
     </p>
-    <h1 class="page-title film-title">{film.title}</h1>
-    <p class="film-meta">
+    <h1 class="page-title film-title ghost" data-text={film.title} data-settle="0">{film.title}</h1>
+    <p class="film-meta" data-settle="60">
       {film.year} · Directed by {film.director} · {mins} minutes
     </p>
 
-    <p class="logline">{film.logline}</p>
+    <p class="logline" data-settle="120">{film.logline}</p>
 
-    <div class="note prose">
+    <div class="note prose" data-settle="180">
       <p>{film.note}</p>
     </div>
 
-    <aside class="airings">
+    <aside class="airings offset-ink tilt-c" data-settle="240">
       <h2 class="mono-label">Next transmissions</h2>
       <ol id="airings" data-slug={film.slug} data-channel={ch.id}></ol>
       <p class="airing-note">
@@ -36,7 +38,7 @@ const mins = Math.round(film.durationSec / 60);
     </aside>
 
     <footer class="provenance">
-      <hr class="rule" />
+      <hr class="rule-broken" />
       <p>
         <span class="mono-label">The print</span><br />
         Transmitted from a public-domain print held by the Internet Archive
@@ -77,6 +79,9 @@ const mins = Math.round(film.durationSec / 60);
 </Base>
 
 <style>
+  .film { position: relative; }
+  .ch-link { text-decoration: none; }
+  .ch-link:hover { color: var(--ink); }
   .film-title { font-style: italic; }
   .film-meta { color: var(--ink-soft); }
   .logline { margin-top: 1.6rem; font-family: var(--display); font-size: 1.3rem; font-weight: 600; line-height: 1.35; max-width: 30ch; }

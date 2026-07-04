@@ -7,7 +7,8 @@ import Base from '../layouts/Base.astro';
   description="Telecine is free to watch and always will be. Patronage keeps the transmitter warm and the programming ambitious."
 >
   <article class="wrap">
-    <h1 class="page-title">Patrons</h1>
+    <div class="wash wash-signal" style="width: 40vw; height: 30vh; left: -14vw; top: 16rem;" aria-hidden="true"></div>
+    <h1 class="page-title ghost" data-text="Patrons">Patrons</h1>
     <p class="page-lede">
       The network is free to watch, and that is permanent. Patronage is how it grows.
     </p>
@@ -23,9 +24,9 @@ import Base from '../layouts/Base.astro';
     </div>
 
     <div class="tiers">
-      <section class="tier">
+      <section class="tier offset-ink tilt-a" data-settle="0">
         <h2 class="tier-name">The Viewer</h2>
-        <p class="tier-price mono-label">Free · forever</p>
+        <p class="tier-price"><span class="stamp">Free · forever</span></p>
         <ul>
           <li>Every channel, every film, always on</li>
           <li>The Guide, the programme notes, the whole set</li>
@@ -33,10 +34,10 @@ import Base from '../layouts/Base.astro';
         </ul>
       </section>
 
-      <section class="tier featured">
+      <section class="tier featured offset-ink tilt-b" data-settle="90">
         <div class="bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
         <h2 class="tier-name">Founding Patron</h2>
-        <p class="tier-price mono-label">Opens with Season Two</p>
+        <p class="tier-price"><span class="stamp">Opens with Season Two</span></p>
         <ul>
           <li>Your name in the network's end-of-night credit roll (or your anonymity, kept)</li>
           <li>The printed seasonal programme — the guide as a physical object worth keeping</li>
@@ -45,9 +46,9 @@ import Base from '../layouts/Base.astro';
         </ul>
       </section>
 
-      <section class="tier">
+      <section class="tier offset-ink tilt-c" data-settle="180">
         <h2 class="tier-name">The Affiliate</h2>
-        <p class="tier-price mono-label">For cinemas &amp; societies</p>
+        <p class="tier-price"><span class="stamp">For cinemas &amp; societies</span></p>
         <ul>
           <li>A Transmission of your own: a channel programmed for your venue, festival, or society</li>
           <li>Programme notes written to hang beside your screenings</li>
@@ -69,7 +70,8 @@ import Base from '../layouts/Base.astro';
 </Base>
 
 <style>
-  .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.4rem; margin: 2.4rem 0; }
+  article.wrap { position: relative; }
+  .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.6rem; margin: 2.4rem 0; }
   .tier { border: 1px solid var(--line); border-radius: 6px; background: var(--card); padding: 1.5rem 1.5rem 1.7rem; }
   .tier.featured { border-color: var(--line-strong); padding-top: 0; }
   .tier.featured .bars { margin: 0 -1.5rem 1.4rem; border-radius: 6px 6px 0 0; overflow: hidden; }

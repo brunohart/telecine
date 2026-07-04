@@ -12,8 +12,9 @@ const loopH = Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360)
 
 <Base title={`CH ${ch.number} · ${ch.name} — Telecine`} description={`${ch.tagline} ${ch.description}`}>
   <section class="wrap">
-    <p class="mono-label" style="margin-top:1.2rem">Channel {ch.number}</p>
-    <h1 class="page-title" style={`color: var(--ch-${ch.number})`}>{ch.name}</h1>
+    <div class="wash wash-tube" style="width: 36vw; height: 28vh; right: -10vw; top: 10rem;" aria-hidden="true"></div>
+    <p style="margin-top:1.4rem"><span class="stamp">Channel {ch.number}</span></p>
+    <h1 class="page-title ghost" data-text={ch.name} style={`color: var(--ch-${ch.number})`}>{ch.name}</h1>
     <p class="page-lede">{ch.tagline}</p>
     <p class="prose ch-desc">{ch.description}</p>
 
@@ -21,8 +22,8 @@ const loopH = Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360)
 
     <h2 class="rot-title">The rotation <span class="mono-label">{films.length} films · one loop ≈ {loopH}h</span></h2>
     <ol class="rotation">
-      {films.map((f) => (
-        <li class="rot-row">
+      {films.map((f, i) => (
+        <li class="rot-row" data-settle={i * 45}>
           <a class="rot-film" href={`/films/${f.slug}`}>{f.title}</a>
           <span class="rot-meta">{f.year} · {f.director}</span>
           <span class="rot-len mono-label">{Math.round(f.durationSec / 60)} min</span>
@@ -56,8 +57,9 @@ const loopH = Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360)
 </Base>
 
 <style>
+  section.wrap { position: relative; }
   .ch-desc { margin-top: 1.2rem; color: var(--ink-soft); }
-  .onair-line { margin: 1.6rem 0 0; padding: .7rem .9rem; background: var(--card); border: 1px solid var(--line); border-radius: 4px; color: var(--ink-soft); }
+  .onair-line { margin: 1.6rem 0 0; padding: .7rem .9rem; background: var(--card); border: 1px solid var(--line); border-radius: 4px; color: var(--ink-soft); rotate: -0.25deg; }
   .rot-title { margin: 2.6rem 0 .8rem; font-size: 1.4rem; display: flex; gap: 1rem; align-items: baseline; }
   .rotation { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); max-width: 760px; }
   .rot-row { display: grid; grid-template-columns: 1fr auto auto; gap: 1rem; align-items: baseline; padding: .7rem 0; border-bottom: 1px solid var(--line); }
