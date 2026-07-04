@@ -1,0 +1,85 @@
+---
+import Base from '../../layouts/Base.astro';
+import network from '../../data/network.json';
+import graph from '../../data/graph.json';
+
+export function getStaticPaths() {
+  return Object.values(graph.people).map((person) => ({ params: { slug: person.slug }, props: { person } }));
+}
+const { person } = Astro.props;
+
+const ROLE_ORDER = ['Directed by', 'Photographed by', 'Cast'];
+const ROLE_LABEL = { 'Directed by': 'Directed', 'Photographed by': 'Photographed', Cast: 'Appears in' };
+const credits = [...person.credits]
+  .map((c) => ({ ...c, film: network.films[c.film] }))
+  .filter((c) => c.film)
+  .sort((a, b) => ROLE_ORDER.indexOf(a.role) - ROLE_ORDER.indexOf(b.role) || a.film.year - b.film.year);
+const channelOf = (film) => network.channels.find((c) => c.id === film.channel);
+const filmCount = new Set(credits.map((c) => c.film.slug)).size;
+---
+
+<Base
+  title={`${person.name} — Telecine`}
+  description={`${person.name} in the Telecine network: ${filmCount} film${filmCount === 1 ? '' : 's'} on the air.`}
+>
+  <article class="wrap person">
+    <p class="crumbs"><span class="stamp">In the network</span></p>
+    <h1 class="page-title" data-settle="0">{person.name}</h1>
+    {person.description && <p class="person-desc" data-settle="50">{person.description}</p>}
+
+    <section class="filmography" data-settle="100">
+      <h2 class="mono-label">{filmCount} film{filmCount === 1 ? '' : 's'} on the air</h2>
+      <ol>
+        {credits.map((c) => {
+          const ch = channelOf(c.film);
+          return (
+            <li class="f-row">
+              <span class="f-role mono-label">{ROLE_LABEL[c.role] ?? c.role}</span>
+              <a class="f-title" href={`/films/${c.film.slug}`}>{c.film.title}</a>
+              <span class="f-meta">{c.film.year}</span>
+              <a class="f-ch mono-label" href={`/channels/${ch.id}`}>CH {ch.number}</a>
+            </li>
+          );
+        })}
+      </ol>
+      <p class="burrow-note">
+        Everything here is always on the air somewhere — open a film for its programme notes,
+        its threads to other films, and its next transmission times.
+      </p>
+    </section>
+
+    {person.qid && (
+      <footer class="provenance">
+        <hr class="rule-broken" />
+        <p>
+          <span class="mono-label">Beyond the network</span><br />
+          The wider record of {person.name}'s life and work:
+          <a href={`https://www.wikidata.org/wiki/${person.qid}`}> Wikidata</a>.
+        </p>
+      </footer>
+    )}
+  </article>
+</Base>
+
+<style>
+  .crumbs { margin-top: 1.4rem; }
+  .person-desc { font-size: 1.1rem; font-style: italic; color: var(--ink-soft); }
+
+  .filmography { margin-top: 2.2rem; max-width: 640px; }
+  .filmography ol { list-style: none; margin: 0.8rem 0 0; padding: 0; border-top: 2px solid var(--ink); }
+  .f-row {
+    display: grid; grid-template-columns: 7.5rem minmax(0, 1fr) auto auto; gap: 1rem; align-items: baseline;
+    padding: 0.65rem 0; border-bottom: 1px solid var(--line);
+  }
+  .f-role { font-size: 0.62rem; }
+  .f-title { font-family: var(--display); font-weight: 600; font-size: 1.05rem; text-decoration: none; }
+  .f-title:hover { text-decoration: underline; text-decoration-color: var(--signal); }
+  .f-meta { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-faint); }
+  .f-ch { font-size: 0.62rem; text-decoration: none; color: var(--ink-soft); }
+  .f-ch:hover { color: var(--ink); }
+  .burrow-note { margin-top: 0.9rem; font-size: 0.84rem; font-style: italic; color: var(--ink-faint); max-width: 52ch; }
+  @media (max-width: 560px) { .f-row { grid-template-columns: 1fr auto; } .f-role, .f-ch { display: none; } }
+
+  .provenance { margin-top: 3rem; max-width: 62ch; }
+  .provenance p { margin-top: 1rem; font-size: 0.88rem; color: var(--ink-soft); }
+</style>

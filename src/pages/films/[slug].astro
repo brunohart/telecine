@@ -1,51 +1,120 @@
 ---
 import Base from '../../layouts/Base.astro';
 import network from '../../data/network.json';
+import graph from '../../data/graph.json';
 
 export function getStaticPaths() {
   return Object.values(network.films).map((film) => ({ params: { slug: film.slug }, props: { film } }));
 }
 const { film } = Astro.props;
 const ch = network.channels.find((c) => c.id === film.channel);
+const g = graph.films[film.slug] ?? {};
 const mins = Math.round(film.durationSec / 60);
+const threads = (graph.threads ?? []).filter((t) => t.films.includes(film.slug));
+const otherFilm = (t) => network.films[t.films.find((f) => f !== film.slug)];
+const castShown = (g.cast ?? []).slice(0, 6);
 ---
 
 <Base title={`${film.title} (${film.year}) — Telecine`} description={film.logline}>
   <article class="wrap film">
-    <p style="margin-top:1.4rem">
+    <p class="crumbs">
       <span class="stamp">Programme notes</span>
-      <a class="mono-label ch-link" href={`/channels/${ch.id}`} style="margin-left:.7rem">CH {ch.number} — {ch.name}</a>
-    </p>
-    <h1 class="page-title film-title" data-settle="0">{film.title}</h1>
-    <p class="film-meta" data-settle="60">
-      {film.year} · Directed by {film.director} · {mins} minutes
+      <a class="mono-label ch-link" href={`/channels/${ch.id}`}>CH {ch.number} — {ch.name}</a>
     </p>
 
-    <p class="logline" data-settle="120">{film.logline}</p>
+    <div class="spread">
+      <div class="body">
+        <h1 class="page-title film-title" data-settle="0">{film.title}</h1>
+        <p class="film-meta" data-settle="50">
+          {film.year} · Directed by {film.director} · {mins} minutes
+        </p>
 
-    <div class="note prose" data-settle="180">
-      <p>{film.note}</p>
+        <p class="logline" data-settle="100">{film.logline}</p>
+
+        <div class="note prose" data-settle="150">
+          <p>{film.note}</p>
+        </div>
+
+        {(g.directors?.length || castShown.length || g.cinematography?.length) && (
+          <section class="credits" data-settle="200">
+            <h2 class="mono-label">Credits — follow anyone</h2>
+            <dl>
+              {g.directors?.length > 0 && (
+                <div class="credit-row">
+                  <dt class="mono-label">Directed by</dt>
+                  <dd>{g.directors.map((p, i) => (
+                    <>{i > 0 && ' · '}<a href={`/people/${p.slug}`}>{p.name}</a></>
+                  ))}</dd>
+                </div>
+              )}
+              {g.cinematography?.length > 0 && (
+                <div class="credit-row">
+                  <dt class="mono-label">Photographed by</dt>
+                  <dd>{g.cinematography.map((p, i) => (
+                    <>{i > 0 && ' · '}<a href={`/people/${p.slug}`}>{p.name}</a></>
+                  ))}</dd>
+                </div>
+              )}
+              {castShown.length > 0 && (
+                <div class="credit-row">
+                  <dt class="mono-label">With</dt>
+                  <dd>{castShown.map((p, i) => (
+                    <>{i > 0 && ' · '}<a href={`/people/${p.slug}`}>{p.name}</a></>
+                  ))}</dd>
+                </div>
+              )}
+            </dl>
+            <p class="credit-note">Every name is a door — each opens onto everything else that person made in the network.</p>
+          </section>
+        )}
+
+        {threads.length > 0 && (
+          <section class="threads" data-settle="250">
+            <h2 class="mono-label">The thread</h2>
+            {threads.map((t) => {
+              const other = otherFilm(t);
+              return (
+                <div class="thread">
+                  <a class="thread-film" href={`/films/${other.slug}`}>{other.title} <span class="thread-year">({other.year})</span></a>
+                  <p class="thread-note">{t.note}</p>
+                </div>
+              );
+            })}
+          </section>
+        )}
+
+        <aside class="airings" data-settle="300">
+          <h2 class="mono-label">Next transmissions · your local time</h2>
+          <ol id="airings" data-slug={film.slug} data-channel={ch.id}></ol>
+          <p class="airing-note">
+            There is no play button. <em>{film.title}</em> screens when the channel screens it —
+            tune in on <a href={`/#${ch.number}`}>CH {ch.number}</a> or catch it at the next time above.
+          </p>
+        </aside>
+
+        <footer class="provenance">
+          <hr class="rule-broken" />
+          <p>
+            <span class="mono-label">The print</span><br />
+            Transmitted from a public-domain print held by the Internet Archive
+            (<a href={film.itemUrl}>{film.identifier}</a>). Public-domain films belong to everyone;
+            if you love this one, the Archive accepts <a href="https://archive.org/donate">donations</a>
+            toward keeping the shelves open.
+          </p>
+        </footer>
+      </div>
+
+      {g.poster && (
+        <aside class="poster-rail" data-settle="120">
+          <figure class="one-sheet">
+            <img src={g.poster} alt={`Original release poster for ${film.title} (${film.year})`} loading="lazy" />
+            <figcaption class="mono-label">
+              Original release poster · <a href={g.posterSource}>Wikimedia Commons</a>
+            </figcaption>
+          </figure>
+        </aside>
+      )}
     </div>
-
-    <aside class="airings" data-settle="240">
-      <h2 class="mono-label">Next transmissions · your local time</h2>
-      <ol id="airings" data-slug={film.slug} data-channel={ch.id}></ol>
-      <p class="airing-note">
-        There is no play button. <em>{film.title}</em> screens when the channel screens it —
-        tune in on <a href={`/#${ch.number}`}>CH {ch.number}</a> or catch it at the next time above.
-      </p>
-    </aside>
-
-    <footer class="provenance">
-      <hr class="rule-broken" />
-      <p>
-        <span class="mono-label">The print</span><br />
-        Transmitted from a public-domain print held by the Internet Archive
-        (<a href={film.itemUrl}>{film.identifier}</a>). Public-domain films belong to everyone;
-        if you love this one, the Archive accepts <a href="https://archive.org/donate">donations</a>
-        toward keeping the shelves open.
-      </p>
-    </footer>
   </article>
 
   <script>
@@ -78,23 +147,78 @@ const mins = Math.round(film.durationSec / 60);
 </Base>
 
 <style>
-  .film { position: relative; }
+  .crumbs { margin-top: 1.4rem; display: flex; align-items: center; gap: 0.7rem; }
   .ch-link { text-decoration: none; }
   .ch-link:hover { color: var(--ink); }
+
+  .spread { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 3rem; align-items: start; }
+  @media (max-width: 860px) {
+    .spread { grid-template-columns: 1fr; }
+    .poster-rail { order: -1; max-width: 340px; }
+  }
+
   .film-title { font-style: italic; }
   .film-meta { color: var(--ink-soft); }
   .logline { margin-top: 1.6rem; font-family: var(--display); font-size: 1.3rem; font-weight: 600; line-height: 1.35; max-width: 30ch; }
   .note { margin-top: 1.4rem; font-size: 1.02rem; }
 
+  /* ── the one-sheet: a physical object, not a thumbnail ── */
+  .poster-rail { position: sticky; top: 1.5rem; }
+  .one-sheet {
+    margin: 0;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 14px 14px 10px;
+    box-shadow:
+      0 1px 2px rgba(29, 24, 18, 0.08),
+      0 12px 32px -18px rgba(29, 24, 18, 0.35);
+    transition: translate 0.45s var(--spring), box-shadow 0.45s var(--spring-soft);
+  }
+  .one-sheet:hover {
+    translate: 0 -4px;
+    box-shadow:
+      0 2px 3px rgba(29, 24, 18, 0.08),
+      0 24px 48px -20px rgba(29, 24, 18, 0.45);
+  }
+  .one-sheet img {
+    width: 100%;
+    border: 1px solid var(--line);
+    filter: contrast(1.04) saturate(0.9);
+    transition: filter 0.4s ease;
+  }
+  .one-sheet:hover img { filter: contrast(1) saturate(1); }
+  .one-sheet figcaption { margin-top: 0.6rem; font-size: 0.6rem; text-align: center; }
+  .one-sheet figcaption a { color: var(--ink-soft); }
+
+  /* ── credits: typeset like a programme, every name a door ── */
+  .credits { margin-top: 2.6rem; max-width: 60ch; }
+  .credits dl { margin: 0.8rem 0 0; border-top: 2px solid var(--ink); }
+  .credit-row { display: grid; grid-template-columns: 10rem 1fr; gap: 1rem; padding: 0.65rem 0; border-bottom: 1px solid var(--line); }
+  .credit-row dt { padding-top: 0.15rem; }
+  .credit-row dd { margin: 0; font-family: var(--display); font-weight: 600; font-size: 1.02rem; line-height: 1.7; }
+  .credit-row dd a { text-decoration: none; border-bottom: 1px solid var(--line-strong); transition: border-color 0.2s ease, color 0.2s ease; }
+  .credit-row dd a:hover { border-bottom-color: var(--signal); color: var(--signal-deep); }
+  .credit-note { margin-top: 0.7rem; font-size: 0.82rem; font-style: italic; color: var(--ink-faint); }
+  @media (max-width: 560px) { .credit-row { grid-template-columns: 1fr; gap: 0.2rem; } }
+
+  /* ── the thread: the editor's connective tissue ── */
+  .threads { margin-top: 2.6rem; max-width: 60ch; }
+  .thread { margin-top: 1rem; padding: 1rem 1.15rem; background: var(--card); border-left: 3px solid var(--signal); border-radius: 0 4px 4px 0; }
+  .thread-film { font-family: var(--display); font-weight: 600; font-size: 1.05rem; text-decoration: none; }
+  .thread-film:hover { text-decoration: underline; text-decoration-color: var(--signal); }
+  .thread-year { color: var(--ink-soft); font-weight: 400; }
+  .thread-note { margin-top: 0.4rem; font-size: 0.92rem; color: var(--ink-soft); line-height: 1.55; }
+
   .airings { margin-top: 2.6rem; padding: 1.2rem 1.3rem 1.3rem; background: var(--card); border: 1px solid var(--line); border-radius: 6px; max-width: 32rem; }
-  .airings ol { list-style: none; margin: .7rem 0 0; padding: 0; }
-  .airings li { display: flex; gap: .9rem; align-items: baseline; padding: .45rem 0; border-bottom: 1px solid var(--line); font-size: .92rem; }
+  .airings ol { list-style: none; margin: 0.7rem 0 0; padding: 0; }
+  .airings li { display: flex; gap: 0.9rem; align-items: baseline; padding: 0.45rem 0; border-bottom: 1px solid var(--line); font-size: 0.92rem; }
   .airings li:last-of-type { border-bottom: 0; }
-  :global(.a-time) { font-family: var(--mono); font-size: .74rem; letter-spacing: .06em; color: var(--ink); min-width: 8.5rem; }
-  :global(.a-note) { font-size: .8rem; font-style: italic; color: var(--ink-faint); }
+  :global(.a-time) { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.06em; color: var(--ink); min-width: 8.5rem; }
+  :global(.a-note) { font-size: 0.8rem; font-style: italic; color: var(--ink-faint); }
   .airings :global(li.on-air .a-time) { color: var(--live); }
-  .airing-note { margin-top: .8rem; font-size: .84rem; color: var(--ink-soft); }
+  .airing-note { margin-top: 0.8rem; font-size: 0.84rem; color: var(--ink-soft); }
 
   .provenance { margin-top: 2.8rem; max-width: 62ch; }
-  .provenance p { margin-top: 1rem; font-size: .88rem; color: var(--ink-soft); }
+  .provenance p { margin-top: 1rem; font-size: 0.88rem; color: var(--ink-soft); }
 </style>
