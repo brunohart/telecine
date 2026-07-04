@@ -43,6 +43,12 @@ import network from '../data/network.json';
             <span class="tune-word">Tune in</span>
             <span class="tune-now mono-label" id="tune-now">…</span>
           </button>
+
+          <button class="bezel-key" id="expand" aria-label="Fullscreen" title="Fullscreen">
+            <svg viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+              <path d="M3 7 V3 H7" /><path d="M13 3 H17 V7" /><path d="M17 13 V17 H13" /><path d="M7 17 H3 V13" />
+            </svg>
+          </button>
         </div>
 
         <div class="chyron" id="chyron">
@@ -187,6 +193,38 @@ import network from '../data/network.json';
   }
   .chyron .mono-label { color: #b98a54; }
   .onair { color: #e3b079; text-shadow: 0 0 10px rgba(224, 163, 92, 0.35); }
+
+  /* ── the bezel key: mounted on the glass, corner of the tube ── */
+  .bezel-key {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 5;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    color: #cbbb9d;
+    border-radius: 50%;
+    background: radial-gradient(circle at 36% 30%, #372c1f, #14100a 75%);
+    border: 1px solid #060402;
+    box-shadow:
+      0 2px 5px rgba(0, 0, 0, 0.65),
+      inset 0 1px 0 rgba(237, 229, 212, 0.14),
+      inset 0 -2px 4px rgba(0, 0, 0, 0.6);
+    opacity: 0.6;
+    transition: opacity 0.25s ease, translate 0.1s ease, box-shadow 0.1s ease, color 0.25s ease;
+  }
+  .bezel-key svg { width: 16px; height: 16px; filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.8)); }
+  .screen-frame:hover .bezel-key, .bezel-key:focus-visible { opacity: 1; }
+  .bezel-key:hover { color: #ede5d4; }
+  .bezel-key:active {
+    translate: 0 2px;
+    box-shadow:
+      0 0 1px rgba(0, 0, 0, 0.65),
+      inset 0 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  @media (pointer: coarse) { .bezel-key { opacity: 0.85; width: 42px; height: 42px; } }
 
   /* ── physical keys: everything you press has travel ── */
   .key {
@@ -435,5 +473,12 @@ import network from '../data/network.json';
   @media (max-width: 900px) {
     .stage { grid-template-columns: 1fr; }
     .screen-frame { max-height: none; }
+  }
+
+  @media (max-width: 640px) {
+    /* the display window recomposes: readout row, then the title line */
+    .chyron { flex-wrap: wrap; row-gap: 0.3rem; }
+    .live-tag { margin-left: auto; }
+    .onair { order: 3; flex-basis: 100%; text-align: left; font-size: 0.92rem; }
   }
 </style>

@@ -285,11 +285,19 @@ export function initPlayer() {
     els.screen.muted = !els.screen.muted;
     reflectSound();
   });
-  $('full').addEventListener('click', () => {
+  const toggleFullscreen = () => {
     const frame = $('screen-frame');
-    if (document.fullscreenElement) document.exitFullscreen();
-    else frame.requestFullscreen?.();
-  });
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else if (frame.requestFullscreen) {
+      frame.requestFullscreen();
+    } else if (els.screen.webkitEnterFullscreen) {
+      // iOS Safari: only the video element itself may go fullscreen
+      els.screen.webkitEnterFullscreen();
+    }
+  };
+  $('full').addEventListener('click', toggleFullscreen);
+  $('expand').addEventListener('click', toggleFullscreen);
   document.addEventListener('keydown', (e) => {
     if (e.target.closest('input, textarea')) return;
     const n = Number(e.key);
