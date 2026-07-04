@@ -25,6 +25,8 @@ const verified = await read('data/verified.json');
 const programme = await read('data/programme.json');
 let enriched = {};
 try { enriched = await read('data/enriched.json'); } catch {}
+let peopleImages = {};
+try { peopleImages = await read('data/people-images.json'); } catch {}
 
 const personSlug = (name) =>
   name
@@ -46,8 +48,18 @@ const people = {};
 function credit(person, filmSlug, role) {
   if (!person?.name) return null;
   const slug = personSlug(person.name);
-  people[slug] ??= { slug, name: person.name, qid: person.qid ?? null, description: person.description ?? '', credits: [] };
+  const img = person.qid ? peopleImages[person.qid] : null;
+  people[slug] ??= {
+    slug,
+    name: person.name,
+    qid: person.qid ?? null,
+    description: person.description ?? '',
+    image: img?.image ?? null,
+    imageSource: img?.source ?? null,
+    credits: [],
+  };
   if (!people[slug].description && person.description) people[slug].description = person.description;
+  if (!people[slug].image && img) { people[slug].image = img.image; people[slug].imageSource = img.source; }
   people[slug].credits.push({ film: filmSlug, role });
   return { slug, name: person.name };
 }

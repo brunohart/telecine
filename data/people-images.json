@@ -1,0 +1,931 @@
+{
+  "Q8003": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergei%20Eisenstein%2003.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Sergei%20Eisenstein%2003.jpg"
+  },
+  "Q19504": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fritz%20Lang%20(1969).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Fritz%20Lang%20(1969).jpg"
+  },
+  "Q55412": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich%20Wilhelm%20Murnau.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Friedrich%20Wilhelm%20Murnau.jpg"
+  },
+  "Q58801": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Conrad%20Veidt%201941.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Conrad%20Veidt%201941.jpg"
+  },
+  "Q60528": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20Pk%2089.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Fotothek%20df%20Pk%2089.jpg"
+  },
+  "Q62099": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl-Freund-1932.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Karl-Freund-1932.jpg"
+  },
+  "Q63051": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Werner%20Krau%C3%9F%20um%201920%20by%20Alexander%20Binder.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Werner%20Krau%C3%9F%20um%201920%20by%20Alexander%20Binder.jpg"
+  },
+  "Q63781": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred%20Abel%20by%20Alexander%20Binder.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Alfred%20Abel%20by%20Alexander%20Binder.jpg"
+  },
+  "Q63816": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-H09160%2C%20Heinrich%20George.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv%20Bild%20183-H09160%2C%20Heinrich%20George.jpg"
+  },
+  "Q65154": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudolf%20Klein-Rogge.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Rudolf%20Klein-Rogge.jpg"
+  },
+  "Q65496": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Fr%C3%B6hlich%20(1938).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Gustav%20Fr%C3%B6hlich%20(1938).jpg"
+  },
+  "Q66115": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lil%20Dagover%201919%20by%20Alexander%20Binder.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Lil%20Dagover%201919%20by%20Alexander%20Binder.jpg"
+  },
+  "Q76552": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Wiene%20old.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert%20Wiene%20old.jpg"
+  },
+  "Q76708": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Herman%20Bing%20in%20The%20Great%20Ziegfeld%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Herman%20Bing%20in%20The%20Great%20Ziegfeld%20trailer.jpg"
+  },
+  "Q76813": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Horst%20von%20Harbou%20-%20Metropolis%20set%20photograph%2010.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Horst%20von%20Harbou%20-%20Metropolis%20set%20photograph%2010.jpg"
+  },
+  "Q87651": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fritz%20Feher%2C%20silent%20film%20actor%20(SAYRE%209826)%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Fritz%20Feher%2C%20silent%20film%20actor%20(SAYRE%209826)%20(cropped).jpg"
+  },
+  "Q90008": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grete%20Berger%20by%20Becker%20%26%20Maass.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Grete%20Berger%20by%20Becker%20%26%20Maass.jpg"
+  },
+  "Q100338": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudolf%20Lettinger.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Rudolf%20Lettinger.jpg"
+  },
+  "Q103949": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Busterkeaton%20edit.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Busterkeaton%20edit.jpg"
+  },
+  "Q110721": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elsa%20Wagner%20(Witzel).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Elsa%20Wagner%20(Witzel).jpg"
+  },
+  "Q153239": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Al%20St.%20John.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Al%20St.%20John.jpg"
+  },
+  "Q182462": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Janet%20Gaynor%20(1934)%20(cropped).JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Janet%20Gaynor%20(1934)%20(cropped).JPG"
+  },
+  "Q203219": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boris%20Karloff.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Boris%20Karloff.jpg"
+  },
+  "Q203639": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kino0.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Kino0.jpg"
+  },
+  "Q292865": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Livingston.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Margaret%20Livingston.jpg"
+  },
+  "Q315202": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roscoe%20Arbuckle.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Roscoe%20Arbuckle.jpg"
+  },
+  "Q450065": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kathryn%20McGuire%20CM929.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Kathryn%20McGuire%20CM929.jpg"
+  },
+  "Q456757": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Janewinton.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Janewinton.jpg"
+  },
+  "Q531591": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elinor%20Lynn%2C%20silent%20film%20actress%20(SAYRE%205117).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Elinor%20Lynn%2C%20silent%20film%20actress%20(SAYRE%205117).jpg"
+  },
+  "Q561459": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grigori%20Aleksandrov%20in%20his%2030s.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Grigori%20Aleksandrov%20in%20his%2030s.jpg"
+  },
+  "Q726107": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clyde%20Bruckman%20in%201935.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Clyde%20Bruckman%20in%201935.png"
+  },
+  "Q731233": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Film%20actor%20Gibson%20Gowland%20(SAYRE%202349).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Film%20actor%20Gibson%20Gowland%20(SAYRE%202349).jpg"
+  },
+  "Q774270": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Rosher%201921.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles%20Rosher%201921.jpg"
+  },
+  "Q1009495": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20O'Brien%2C%20silent%20film%20actor%20(SAYRE%207091).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:George%20O'Brien%2C%20silent%20film%20actor%20(SAYRE%207091).jpg"
+  },
+  "Q1343261": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%90.%20%D0%A1.%20%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%20(%D0%B8%D0%B7%20%D1%80a%D0%B7%D1%8B%D1%81%D0%BA%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%86%D0%B8%D1%80%D0%BA%D1%83%D0%BB%D1%8F%D1%80%D0%B0).png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%90.%20%D0%A1.%20%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%20(%D0%B8%D0%B7%20%D1%80a%D0%B7%D1%8B%D1%81%D0%BA%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%86%D0%B8%D1%80%D0%BA%D1%83%D0%BB%D1%8F%D1%80%D0%B0).png"
+  },
+  "Q1557810": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Keaton%20early%201900s%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe%20Keaton%20early%201900s%20(cropped).jpg"
+  },
+  "Q2382918": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fajt.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Fajt.JPG"
+  },
+  "Q2832615": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aleksanteri%20Ahola-Valo.jpeg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Aleksanteri%20Ahola-Valo.jpeg"
+  },
+  "Q2865156": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur%20Housman%20-%201925.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Arthur%20Housman%20-%201925.jpg"
+  },
+  "Q3050858": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%AD%D0%BB%D0%B4%D0%B6%D0%B8%D0%BD%20%D0%9B%D0%B5%D1%81%D0%BB%D0%B8.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%AD%D0%BB%D0%B4%D0%B6%D0%B8%D0%BD%20%D0%9B%D0%B5%D1%81%D0%BB%D0%B8.jpg"
+  },
+  "Q3108668": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Glen%20Cavender%2001.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Glen%20Cavender%2001.JPG"
+  },
+  "Q3195849": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Merely%20Mary%20Ann%20(1920)%20-%205.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Merely%20Mary%20Ann%20(1920)%20-%205.jpg"
+  },
+  "Q5343388": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Truthful%20Liar%20(1922)%20-%201.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:The%20Truthful%20Liar%20(1922)%20-%201.jpg"
+  },
+  "Q7968994": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Frisky%20Mrs.%20Johnson%20(1920)%201.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:The%20Frisky%20Mrs.%20Johnson%20(1920)%201.jpg"
+  },
+  "Q13461808": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Devereaux%20Jennings%20(1914).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Devereaux%20Jennings%20(1914).jpg"
+  },
+  "Q88143": null,
+  "Q99376": null,
+  "Q1064818": null,
+  "Q77489": null,
+  "Q1386549": null,
+  "Q7374": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitchcock%2C%20Alfred%2002.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Hitchcock%2C%20Alfred%2002.jpg"
+  },
+  "Q83812": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward%20g%20robinson.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Edward%20g%20robinson.jpg"
+  },
+  "Q119935": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/EdmondOBrien.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:EdmondOBrien.jpg"
+  },
+  "Q128944": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joan%20Bennett%20Portrait%20Still.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Joan%20Bennett%20Portrait%20Still.jpg"
+  },
+  "Q148669": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IdaLupino.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:IdaLupino.jpg"
+  },
+  "Q203165": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alma%20Reville.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Alma%20Reville.jpg"
+  },
+  "Q264011": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lizabeth%20Scott-publicity.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Lizabeth%20Scott-publicity.JPG"
+  },
+  "Q272061": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Lindsay%201935%20crop.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Margaret%20Lindsay%201935%20crop.jpg"
+  },
+  "Q291825": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ann%20Savage%20in%20Detour.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Ann%20Savage%20in%20Detour.jpg"
+  },
+  "Q351838": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brandon%20deWilde%20Arthur%20Kennedy%20Stage%2067%201966.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandon%20deWilde%20Arthur%20Kennedy%20Stage%2067%201966.JPG"
+  },
+  "Q436693": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Novello%20LCCN2014715473.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Novello%20LCCN2014715473.jpg"
+  },
+  "Q508986": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beverly%20Garland%201969.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Beverly%20Garland%201969.JPG"
+  },
+  "Q516630": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawrence%20Dobkin-RaidersofOldCalifornia.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Lawrence%20Dobkin-RaidersofOldCalifornia.jpg"
+  },
+  "Q543004": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas%20Musuraca%201926.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicholas%20Musuraca%201926.jpg"
+  },
+  "Q629955": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maurice%20Evans%20%26%20Malcolm%20Keen%20Macbeth%20TV%20Movie%20Still.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Maurice%20Evans%20%26%20Malcolm%20Keen%20Macbeth%20TV%20Movie%20Still.jpg"
+  },
+  "Q763065": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Cady%201968.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank%20Cady%201968.JPG"
+  },
+  "Q962037": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fritz-Leiber-1930.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Fritz-Leiber-1930.jpg"
+  },
+  "Q987708": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eduard%20Tisse%201940s.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Eduard%20Tisse%201940s.jpg"
+  },
+  "Q1159055": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Duryea%20in%20Along%20Came%20Jones%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Dan%20Duryea%20in%20Along%20Came%20Jones%20trailer.jpg"
+  },
+  "Q1283902": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar%20Georg%20Ulmer%20plaque%20detail.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Edgar%20Georg%20Ulmer%20plaque%20detail.jpg"
+  },
+  "Q1395893": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind%20Ivan%20in%20Scarlet%20Street.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosalind%20Ivan%20in%20Scarlet%20Street.jpg"
+  },
+  "Q1396531": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Egg%20and%20I%20(1947)%201%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:The%20Egg%20and%20I%20(1947)%201%20(cropped).jpg"
+  },
+  "Q1425739": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luther%20Adler%20in%20DOA.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Luther%20Adler%20in%20DOA.jpg"
+  },
+  "Q1855635": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir%20Sokoloff.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Vladimir%20Sokoloff.jpg"
+  },
+  "Q1982288": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Neville%20Brand%201966.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Neville%20Brand%201966.JPG"
+  },
+  "Q2448340": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Reginald%20Gardiner%20in%20Sweethearts%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Reginald%20Gardiner%20in%20Sweethearts%20trailer.jpg"
+  },
+  "Q2557512": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/In%20a%20Lonely%20Place%20-%20trailer%20-%2010%20-%20Frank%20Lovejoy.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:In%20a%20Lonely%20Place%20-%20trailer%20-%2010%20-%20Frank%20Lovejoy.png"
+  },
+  "Q2750248": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20S%20Hinds%20in%20Grand%20Central%20Murder%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel%20S%20Hinds%20in%20Grand%20Central%20Murder%20trailer.jpg"
+  },
+  "Q3035739": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Donbrodie.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Donbrodie.jpg"
+  },
+  "Q3361772": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pamela%20Britton%20in%20DOA%201.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Pamela%20Britton%20in%20DOA%201.jpg"
+  },
+  "Q3530819": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Neal%2C%201951.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Tom%20Neal%2C%201951.jpg"
+  },
+  "Q3568989": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hitchhiker1953.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Hitchhiker1953.JPG"
+  },
+  "Q3811251": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/June%20Tripp%201923.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:June%20Tripp%201923.jpg"
+  },
+  "Q3847861": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Lodger%20A%20Story%20of%20the%20London%20Fog%20Still.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:The%20Lodger%20A%20Story%20of%20the%20London%20Fog%20Still.jpg"
+  },
+  "Q4877204": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitoldi.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Vitoldi.jpg"
+  },
+  "Q5044383": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carol%20Hughes%201940.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Carol%20Hughes%201940.jpg"
+  },
+  "Q5401196": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Esther%20Howard%20in%20The%20Sweetheart%20Shop.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Esther%20Howard%20in%20The%20Sweetheart%20Shop.jpg"
+  },
+  "Q8803797": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barskiy-v01.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Barskiy-v01.jpg"
+  },
+  "Q15441006": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Natividad%20Vac%C3%ADo%20in%20The%20Hitch-Hiker.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Natividad%20Vac%C3%ADo%20in%20The%20Hitch-Hiker.jpg"
+  },
+  "Q15512268": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Del%20Val%20in%20Flying%20Deuces.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Jean%20Del%20Val%20in%20Flying%20Deuces.jpg"
+  },
+  "Q22959191": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Borderline%20(1950)%203.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Borderline%20(1950)%203.jpg"
+  },
+  "Q44485984": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wade%20Crosby%20in%20Invasion%20USA.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Wade%20Crosby%20in%20Invasion%20USA.jpg"
+  },
+  "Q4798246": null,
+  "Q982621": null,
+  "Q7804213": null,
+  "Q19864996": null,
+  "Q4888745": null,
+  "Q1668173": null,
+  "Q1356226": null,
+  "Q3186574": null,
+  "Q24829": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Orson%20Welles%201937%20cr3-4.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Orson%20Welles%201937%20cr3-4.jpg"
+  },
+  "Q40912": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Sinatra%20(1957%20studio%20portrait%20close-up).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank%20Sinatra%20(1957%20studio%20portrait%20close-up).jpg"
+  },
+  "Q51511": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Romero%2C%2066%C3%A8me%20Festival%20de%20Venise%20(Mostra).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:George%20Romero%2C%2066%C3%A8me%20Festival%20de%20Venise%20(Mostra).jpg"
+  },
+  "Q118184": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario%20Siletti%20in%20Kansas%20City%20Confidential.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Mario%20Siletti%20in%20Kansas%20City%20Confidential.jpg"
+  },
+  "Q193278": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lee%20Van%20Cleef%20-%20Death%20Rides%20A%20Horse%20(1).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Lee%20Van%20Cleef%20-%20Death%20Rides%20A%20Horse%20(1).jpg"
+  },
+  "Q219640": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20Price%201945.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent%20Price%201945.jpg"
+  },
+  "Q253384": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LORETTAYoung.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:LORETTAYoung.jpg"
+  },
+  "Q271297": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Judith%20O'Dea%20clutching%20grave%20in%20Night%20of%20the%20Living%20Dead%20bw.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Judith%20O'Dea%20clutching%20grave%20in%20Night%20of%20the%20Living%20Dead%20bw.jpg"
+  },
+  "Q323166": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hayden-Asphalt.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Hayden-Asphalt.jpg"
+  },
+  "Q339593": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanny%20and%20the%20Professor%20Richard%20Long%201970.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Nanny%20and%20the%20Professor%20Richard%20Long%201970.jpg"
+  },
+  "Q429823": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Philip%20Merivale%20The%20Stranger.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Philip%20Merivale%20The%20Stranger.jpg"
+  },
+  "Q437576": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DebbieRochon.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:DebbieRochon.jpg"
+  },
+  "Q463610": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyra-Schon%20WOH-10.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyra-Schon%20WOH-10.jpg"
+  },
+  "Q463814": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CooperFamily.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:CooperFamily.jpg"
+  },
+  "Q500155": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack%20Elam%20in%20Kansas%20City%20Confidential.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack%20Elam%20in%20Kansas%20City%20Confidential.jpg"
+  },
+  "Q723415": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Payne%20in%20uniform%201943.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:John%20Payne%20in%20uniform%201943.jpg"
+  },
+  "Q726398": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Gleason%20in%20Meet%20John%20Doe%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:James%20Gleason%20in%20Meet%20John%20Doe%20trailer.jpg"
+  },
+  "Q920065": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Davis-Kristine%20Miller%20in%20Stories%20of%20the%20Century.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Jim%20Davis-Kristine%20Miller%20in%20Stories%20of%20the%20Century.jpg"
+  },
+  "Q941415": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Duane%20Jones%20as%20Ben%20in%20Night%20of%20the%20Living%20Dead%20bw.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Duane%20Jones%20as%20Ben%20in%20Night%20of%20the%20Living%20Dead%20bw.jpg"
+  },
+  "Q981418": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Preston%20Foster%20in%20Twice%20Blessed%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Preston%20Foster%20in%20Twice%20Blessed%20trailer.jpg"
+  },
+  "Q1018614": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Byron%20Haskin%20-%20Jun%201922%20EH.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Byron%20Haskin%20-%20Jun%201922%20EH.jpg"
+  },
+  "Q1064479": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20G%20Clarke%20-%20Jan%201926%20EH.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles%20G%20Clarke%20-%20Jan%201926%20EH.jpg"
+  },
+  "Q1112554": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coleen%20gray.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Coleen%20gray.jpg"
+  },
+  "Q1117034": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/House%20Peters%20Jr.%20in%20Under%20California%20Stars%201948.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:House%20Peters%20Jr.%20in%20Under%20California%20Stars%201948.jpg"
+  },
+  "Q1239082": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Don%20DeFore%20%22Hazel%22%20(1960s%20NBC%20press%20photo).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Don%20DeFore%20%22Hazel%22%20(1960s%20NBC%20press%20photo).jpg"
+  },
+  "Q1312577": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Russell%20Metty%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Russell%20Metty%20(cropped).jpg"
+  },
+  "Q1330714": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elisha%20Cook%2C%20Jr.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Elisha%20Cook%2C%20Jr.jpg"
+  },
+  "Q1372866": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CooperFamily.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:CooperFamily.jpg"
+  },
+  "Q1399390": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Russell%20Streiner%202017.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Russell%20Streiner%202017.jpg"
+  },
+  "Q1699321": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beradino%20St%20Louis%20Browns.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Beradino%20St%20Louis%20Browns.jpg"
+  },
+  "Q2025814": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nancy%20Gates%20in%20Suddenly.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Nancy%20Gates%20in%20Suddenly.jpg"
+  },
+  "Q2069183": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Martha%20Wentworth%20The%20Stranger.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Martha%20Wentworth%20The%20Stranger.jpg"
+  },
+  "Q2328155": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Candacehilligoss4.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Candacehilligoss4.jpg"
+  },
+  "Q2581539": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Willis%20Bouchey%20in%20Suddenly.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Willis%20Bouchey%20in%20Suddenly.jpg"
+  },
+  "Q2830551": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Marshal%201938.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Alan%20Marshal%201938.JPG"
+  },
+  "Q2929184": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Stranger%201946%20(2).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:The%20Stranger%201946%20(2).jpg"
+  },
+  "Q3013243": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Captured%202006-3-6%2000000.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Captured%202006-3-6%2000000.png"
+  },
+  "Q3057498": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Citizen%20Kane-Erskine%20Sanford.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Citizen%20Kane-Erskine%20Sanford.JPG"
+  },
+  "Q3090544": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Frees%20in%20Suddenly%20(1954).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul%20Frees%20in%20Suddenly%20(1954).jpg"
+  },
+  "Q3134025": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Herk%20Harvey%20in%20Carnival%20of%20Souls.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Herk%20Harvey%20in%20Carnival%20of%20Souls.png"
+  },
+  "Q3189245": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Julie%20Mitchum%20(House%20on%20Haunted%20Hill).JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Julie%20Mitchum%20(House%20on%20Haunted%20Hill).JPG"
+  },
+  "Q4864376": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barry%20Kelley%20in%20The%20Asphalt%20Jungle.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Barry%20Kelley%20in%20The%20Asphalt%20Jungle.JPG"
+  },
+  "Q5542107": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Mann%20in%20Profile.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:George%20Mann%20in%20Profile.jpg"
+  },
+  "Q362210": null,
+  "Q1239381": null,
+  "Q1888272": null,
+  "Q3101544": null,
+  "Q709398": null,
+  "Q4796806": null,
+  "Q3852438": null,
+  "Q39792": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack%20Nicholson%202001.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack%20Nicholson%202001.jpg"
+  },
+  "Q51581": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Howard%20Hawks%20head%20shot.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Howard%20Hawks%20head%20shot.jpg"
+  },
+  "Q56094": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Ford%20Coppola%20on%20December%208%2C%202024%20in%20the%20White%20House%20Oval%20Office%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Francis%20Ford%20Coppola%20on%20December%208%2C%202024%20in%20the%20White%20House%20Oval%20Office%20(cropped).jpg"
+  },
+  "Q67543": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rumann-Alden-Grand-Hotel-1930.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Rumann-Alden-Grand-Hotel-1930.jpg"
+  },
+  "Q83410": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grant%2C%20Cary%20(Suspicion)%2001%20Crisco%20edit.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Grant%2C%20Cary%20(Suspicion)%2001%20Crisco%20edit.jpg"
+  },
+  "Q95055": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiganotomo-janewyman-dec1953.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Eiganotomo-janewyman-dec1953.jpg"
+  },
+  "Q105960": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Powell%20by%20Hurrell.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:William%20Powell%20by%20Hurrell.jpg"
+  },
+  "Q129386": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Abner%20Biberman%201943.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Abner%20Biberman%201943.jpg"
+  },
+  "Q179393": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CockpitDramaHighandMightyTrailerScreenshot1954.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:CockpitDramaHighandMightyTrailerScreenshot1954.jpg"
+  },
+  "Q180010": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giacomo%20Rossi%20Stuart.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Giacomo%20Rossi%20Stuart.png"
+  },
+  "Q186798": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Billy%20Gilbert%201954.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Billy%20Gilbert%201954.JPG"
+  },
+  "Q207739": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carole%20Lombard%20still.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Carole%20Lombard%20still.jpg"
+  },
+  "Q233854": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind%20Russell%20-%201950.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosalind%20Russell%20-%201950.jpg"
+  },
+  "Q233856": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alice%20Brady%20-%20El%20Gr%C3%A1fico%2099.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Alice%20Brady%20-%20El%20Gr%C3%A1fico%2099.jpg"
+  },
+  "Q259365": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gene%20Morgan%2C%20entertainer%20(SAYRE%206097).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Gene%20Morgan%2C%20entertainer%20(SAYRE%206097).jpg"
+  },
+  "Q269585": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory%20La%20Cava%201926.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Gregory%20La%20Cava%201926.jpg"
+  },
+  "Q289991": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gail-Patrick-1942.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Gail-Patrick-1942.jpg"
+  },
+  "Q318292": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/RogerCormanHWOFOct2012.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:RogerCormanHWOFOct2012.jpg"
+  },
+  "Q359446": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Regis%20Toomey%20in%20Cry%20Danger%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Regis%20Toomey%20in%20Cry%20Danger%20trailer.jpg"
+  },
+  "Q364135": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ralph%20Bellamy%20still.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Ralph%20Bellamy%20still.jpg"
+  },
+  "Q450047": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ann%20Doran%20in%20The%20Strange%20Love%20of%20Martha%20Ivers.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Ann%20Doran%20in%20The%20Strange%20Love%20of%20Martha%20Ivers.jpg"
+  },
+  "Q472842": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Haze%20as%20Seymour%20Krelboyne.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Jonathan%20Haze%20as%20Seymour%20Krelboyne.png"
+  },
+  "Q516106": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Franca%20Bettoia%20(Last%20Man%20on%20Earth).JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Franca%20Bettoia%20(Last%20Man%20on%20Earth).JPG"
+  },
+  "Q526365": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jackie%20Joseph%20as%20Audrey%20Fulquard.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie%20Joseph%20as%20Audrey%20Fulquard.png"
+  },
+  "Q911472": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20Pallette%202.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Eugene%20Pallette%202.jpg"
+  },
+  "Q925310": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick%20Magee%2C%20Dementia%2013%2C%201963.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick%20Magee%2C%20Dementia%2013%2C%201963.jpg"
+  },
+  "Q934087": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/William-Castle-1946.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:William-Castle-1946.jpg"
+  },
+  "Q1117124": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20il%20poliziotto%20scena%20finale.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark%20il%20poliziotto%20scena%20finale.png"
+  },
+  "Q1209753": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dick%20Miller%202015.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Dick%20Miller%202015.jpg"
+  },
+  "Q1308174": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Flavin%20in%20The%20Fabulous%20Dorseys.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:James%20Flavin%20in%20The%20Fabulous%20Dorseys.jpg"
+  },
+  "Q1375447": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mischa%20Auer%20in%20Sweethearts%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Mischa%20Auer%20in%20Sweethearts%20trailer.jpg"
+  },
+  "Q1394131": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raho%20Quando%20l'amore%20%C3%A8%20sensualit%C3%A0%20(cropped).png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Raho%20Quando%20l'amore%20%C3%A8%20sensualit%C3%A0%20(cropped).png"
+  },
+  "Q2343863": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karyn%20Kupcinet%201962.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Karyn%20Kupcinet%201962.JPG"
+  },
+  "Q2832333": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aldo%20Silvani%201942.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Aldo%20Silvani%201942.png"
+  },
+  "Q2938894": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20Price%20in%20House%20on%20Haunted%20Hill.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent%20Price%20in%20House%20on%20Haunted%20Hill.jpg"
+  },
+  "Q2958461": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20B.%20Griffith%20(cropped).png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles%20B.%20Griffith%20(cropped).png"
+  },
+  "Q3724636": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Danieli.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Emma%20Danieli.jpg"
+  },
+  "Q4251151": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carolyn%20Craig%20(House%20on%20Haunted%20Hill).JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Carolyn%20Craig%20(House%20on%20Haunted%20Hill).JPG"
+  },
+  "Q5044492": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carol%20Ohmart%20%22Northwest%20Passage%22%20(1958%20NBC%20press%20photo).JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Carol%20Ohmart%20%22Northwest%20Passage%22%20(1958%20NBC%20press%20photo).JPG"
+  },
+  "Q6694988": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luana%20Anders%20in%20Dementia%2013.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Luana%20Anders%20in%20Dementia%2013.jpg"
+  },
+  "Q6810902": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mel%20Welles%20as%20Gravis%20Mushnick.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Mel%20Welles%20as%20Gravis%20Mushnick.png"
+  },
+  "Q19559954": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashes%20lobby%20card%202.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Ashes%20lobby%20card%202.jpg"
+  },
+  "Q5045344": null,
+  "Q3751268": null,
+  "Q4865099": null,
+  "Q5078748": null,
+  "Q5488455": null,
+  "Q633967": null,
+  "Q960230": null,
+  "Q322960": null,
+  "Q4227": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Coburn%20The%20Californians%201959.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:James%20Coburn%20The%20Californians%201959.JPG"
+  },
+  "Q42786": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audrey%20Hepburn%20in%201966.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Audrey%20Hepburn%20in%201966.jpg"
+  },
+  "Q48765": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stanley%20Donen.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Stanley%20Donen.jpg"
+  },
+  "Q58822": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Schreck%201922.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Max%20Schreck%201922.jpg"
+  },
+  "Q66097": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20von%20Wangenheim%201922.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Gustav%20von%20Wangenheim%201922.jpg"
+  },
+  "Q76656": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GretaSchroeder1919.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:GretaSchroeder1919.jpg"
+  },
+  "Q78817": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Granach%20by%20Eberth.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander%20Granach%20by%20Eberth.jpg"
+  },
+  "Q86293": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Etlinger%20um%201920.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Karl%20Etlinger%20um%201920.png"
+  },
+  "Q87468": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Gottowt.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:John%20Gottowt.jpg"
+  },
+  "Q89376": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-67734-0002%2C%20Wolfgang%20Heinz.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv%20Bild%20183-67734-0002%2C%20Wolfgang%20Heinz.jpg"
+  },
+  "Q100937": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Astaire%20singing%20in%20Second%20Chorus.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Astaire%20singing%20in%20Second%20Chorus.jpg"
+  },
+  "Q102462": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Annex%20-%20Stewart%2C%20James%20(Call%20Northside%20777)%2001.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Annex%20-%20Stewart%2C%20James%20(Call%20Northside%20777)%2001.jpg"
+  },
+  "Q105987": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Boyer%201940s.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles%20Boyer%201940s.jpg"
+  },
+  "Q181819": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fredric%20March-1.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Fredric%20March-1.jpg"
+  },
+  "Q202172": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Walter%20Matthau%20in%20Charade%202.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Walter%20Matthau%20in%20Charade%202.jpg"
+  },
+  "Q228904": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Studio%20publicity%20Hattie%20McDaniel.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Studio%20publicity%20Hattie%20McDaniel.jpg"
+  },
+  "Q230099": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Irene%20Dunne%20upshot.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Irene%20Dunne%20upshot.jpg"
+  },
+  "Q255808": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MaraiaOuspenskayainLoveAffair.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:MaraiaOuspenskayainLoveAffair.jpg"
+  },
+  "Q257756": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Hamilton%201966.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Margaret%20Hamilton%201966.jpg"
+  },
+  "Q260099": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jane%20Powell%201952.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Jane%20Powell%201952.jpg"
+  },
+  "Q260318": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joan%20Leslie%20by%20Elmer%20Fryer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Joan%20Leslie%20by%20Elmer%20Fryer.jpg"
+  },
+  "Q267829": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lucile%20Watson%201953.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Lucile%20Watson%201953.JPG"
+  },
+  "Q271324": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedda%20Hopper%20Stars%20of%20the%20Photoplay.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Hedda%20Hopper%20Stars%20of%20the%20Photoplay.jpg"
+  },
+  "Q290962": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/First%20Lieutenant%20William%20Augustus%20Wellman.png?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:First%20Lieutenant%20William%20Augustus%20Wellman.png"
+  },
+  "Q298818": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Kennedy%201975.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:George%20Kennedy%201975.JPG"
+  },
+  "Q329163": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scotty%20Beckett%20Portrait%201948%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Scotty%20Beckett%20Portrait%201948%20(cropped).jpg"
+  },
+  "Q330382": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eddie%20Quillan%20in%20Broadway%20to%20Hollywood%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Eddie%20Quillan%20in%20Broadway%20to%20Hollywood%20trailer.jpg"
+  },
+  "Q332530": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leo%20McCarey%201930s%20portrait%20photo.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Leo%20McCarey%201930s%20portrait%20photo.jpg"
+  },
+  "Q345517": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Lawford%201955.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Peter%20Lawford%201955.jpg"
+  },
+  "Q350690": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Coburn%20in%20Rhapsody%20in%20Blue%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles%20Coburn%20in%20Rhapsody%20in%20Blue%20trailer.jpg"
+  },
+  "Q405036": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aileen%20Pringle%20in%20The%20Mystic.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Aileen%20Pringle%20in%20The%20Mystic.jpg"
+  },
+  "Q435532": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mae%20Clarke%20in%20Fast%20Workers.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Mae%20Clarke%20in%20Fast%20Workers.jpg"
+  },
+  "Q448508": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chantal%20Goya%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Chantal%20Goya%20(cropped).jpg"
+  },
+  "Q453549": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ned%20Glass%20in%20Charade.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Ned%20Glass%20in%20Charade.jpg"
+  },
+  "Q474943": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Snub%20Pollard%20-%201920%20Ad.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Snub%20Pollard%20-%201920%20Ad.jpg"
+  },
+  "Q486883": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Lang%20(1936).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles%20Lang%20(1936).jpg"
+  },
+  "Q504191": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/W-Howard-Greene-1941.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:W-Howard-Greene-1941.jpg"
+  },
+  "Q513849": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bess%20Flowers%20in%20Song%20of%20the%20Thin%20Man%201947.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Bess%20Flowers%20in%20Song%20of%20the%20Thin%20Man%201947.jpg"
+  },
+  "Q583717": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Wedding%20(1951)%201.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal%20Wedding%20(1951)%201.jpg"
+  },
+  "Q731046": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Sharpe%20in%20Royal%20Wedding.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert%20Sharpe%20in%20Royal%20Wedding.jpg"
+  },
+  "Q744955": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Davenport.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Harry%20Davenport.jpg"
+  },
+  "Q946859": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Keenan%20Wynn%20-%20publicity.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Keenan%20Wynn%20-%20publicity.JPG"
+  },
+  "Q958973": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lee%20Bowman%201962.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Lee%20Bowman%201962.JPG"
+  },
+  "Q959120": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerald%20Mohr%201951.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Gerald%20Mohr%201951.JPG"
+  },
+  "Q1280760": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ward%20Bond%20in%20A%20Guy%20Named%20Joe%20trailer.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Ward%20Bond%20in%20A%20Guy%20Named%20Joe%20trailer.jpg"
+  },
+  "Q1373430": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan%20Simpson%20in%20Little%20Lord%20Fauntleroy%20(1936).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Ivan%20Simpson%20in%20Little%20Lord%20Fauntleroy%20(1936).jpg"
+  },
+  "Q1348309": null,
+  "Q1346696": null,
+  "Q89069": null,
+  "Q77757": null,
+  "Q34529": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lugosi%20B%C3%A9la%20fortepan%2014652%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Lugosi%20B%C3%A9la%20fortepan%2014652%20(cropped).jpg"
+  },
+  "Q391314": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Madgebellamy.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Madgebellamy.jpg"
+  },
+  "Q948929": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Frazer%20-%20Motion%20Picture%20Classic%20(1923)%20-%20Colorized.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert%20Frazer%20-%20Motion%20Picture%20Classic%20(1923)%20-%20Colorized.jpg"
+  },
+  "Q1937093": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor%20Halperin%20in%20Film%20Daily%20Yearbook%201929%20(page%20178)%20(cropped).jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Victor%20Halperin%20in%20Film%20Daily%20Yearbook%201929%20(page%20178)%20(cropped).jpg"
+  },
+  "Q2003971": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Murder%20in%20the%20Museum%20(1934)%20-%20John%20Harron.jpg?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:The%20Murder%20in%20the%20Museum%20(1934)%20-%20John%20Harron.jpg"
+  },
+  "Q3184724": {
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Cawthorn01.JPG?width=480",
+    "source": "https://commons.wikimedia.org/wiki/File:Joseph%20Cawthorn01.JPG"
+  },
+  "Q21664092": null
+}
