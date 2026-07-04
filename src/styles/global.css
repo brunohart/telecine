@@ -269,20 +269,6 @@ main { flex: 1; }
 }
 [data-settle].settled { opacity: 1; translate: 0 0; }
 
-/* ── cursor as presence ── */
-.cursor-dot {
-  position: fixed;
-  top: 0; left: 0;
-  width: 12px; height: 12px;
-  border-radius: 50%;
-  background: #fff;
-  mix-blend-mode: difference;
-  pointer-events: none;
-  z-index: 1000;
-  transition: width 0.28s var(--spring), height 0.28s var(--spring), background 0.2s ease, opacity 0.2s ease;
-}
-.cursor-dot.hot { width: 38px; height: 38px; background: var(--signal); mix-blend-mode: normal; opacity: 0.55; }
-
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
   [data-settle] { opacity: 1; translate: 0 0; }
