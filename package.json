@@ -1,0 +1,20 @@
+{
+  "name": "telecine",
+  "version": "0.1.0",
+  "description": "A public broadcast network for public-domain cinema — clock-synced 24/7 channels, no server, no algorithm.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "bake": "node scripts/build-channels.mjs",
+    "test": "node --test test/broadcast.test.mjs",
+    "dev": "astro dev",
+    "build": "npm run test && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.0.0",
+    "@fontsource/ibm-plex-mono": "^5.0.0",
+    "astro": "^5.0.0"
+  }
+}
