@@ -181,7 +181,8 @@ function showBreak(r) {
   els.cardTitle.textContent = film.title;
   els.cardTitle.dataset.text = film.title;
   els.cardMeta.textContent = `${film.year} · ${film.director}`;
-  els.card.hidden = false;
+  // while the set is off, the screen stays dark behind the lens
+  els.card.hidden = !state.powered;
   els.onair.textContent = 'Station break';
   els.upnext.textContent = '';
   els.total.textContent = fmt(r.block.durationSec);

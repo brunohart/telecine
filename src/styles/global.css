@@ -56,6 +56,9 @@
 
 * { box-sizing: border-box; margin: 0; }
 
+/* the hidden attribute must always win — overlays live and die by it */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
 
 body {
@@ -167,7 +170,7 @@ main { flex: 1; }
 /* ── page furniture ── */
 
 .page-title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 900; margin: 1.2rem 0 0.4rem; }
-.page-lede { font-size: 1.12rem; color: var(--ink-soft); max-width: var(--measure); font-style: italic; }
+.page-lede { font-size: 1.12rem; color: var(--ink-soft); max-width: var(--measure); font-style: italic; margin-bottom: 1.2rem; }
 
 /* ────────────────────────────────────────────────────────────────
    The signatures — misregistration, stamps, rotation, offset ink,
@@ -234,8 +237,8 @@ main { flex: 1; }
   position: absolute;
   pointer-events: none;
   mix-blend-mode: multiply;
-  opacity: 0.05;
-  z-index: 0;
+  opacity: 0.038;
+  z-index: -1;
   rotate: -4deg;
 }
 .wash-signal { background: var(--signal); }

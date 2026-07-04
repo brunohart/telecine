@@ -97,15 +97,16 @@ import network from '../data/network.json';
   .g-tag { font-style: italic; color: var(--ink-soft); font-size: .88rem; }
 
   .g-rows { list-style: none; padding: 0; margin: 0; }
-  .g-row {
-    display: grid; grid-template-columns: 5.2rem 1fr auto; gap: .8rem; align-items: baseline;
+  /* rows are created client-side — these rules must be global, not scoped */
+  :global(.g-row) {
+    display: grid; grid-template-columns: 5.4rem minmax(0, 1fr) auto; gap: .8rem; align-items: baseline;
     padding: .55rem 0; border-bottom: 1px solid var(--line);
   }
-  .g-time { font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; color: var(--ink-soft); }
-  .g-title { text-decoration: none; font-family: var(--display); font-weight: 600; }
-  .g-title:hover { text-decoration: underline; text-decoration-color: var(--signal); }
-  .g-meta { font-family: var(--mono); font-size: .68rem; color: var(--ink-faint); }
+  :global(.g-time) { font-family: var(--mono); font-size: .7rem; letter-spacing: .06em; color: var(--ink-soft); }
+  :global(.g-title) { text-decoration: none; font-family: var(--display); font-weight: 600; font-size: 1.02rem; line-height: 1.25; }
+  :global(.g-title:hover) { text-decoration: underline; text-decoration-color: var(--signal); }
+  :global(.g-meta) { font-family: var(--mono); font-size: .66rem; color: var(--ink-faint); white-space: nowrap; }
 
-  .g-row.on-air .g-time { color: var(--live); font-weight: 500; }
-  .g-row.on-air { background: linear-gradient(90deg, color-mix(in srgb, var(--signal) 7%, transparent), transparent); }
+  :global(.g-row.on-air .g-time) { color: var(--live); font-weight: 500; }
+  :global(.g-row.on-air) { background: linear-gradient(90deg, color-mix(in srgb, var(--signal) 7%, transparent), transparent); }
 </style>

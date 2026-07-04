@@ -41,7 +41,9 @@ const filmCount = (ch) => ch.blocks.filter((b) => b.type === 'film').length;
 
 <style>
   section.wrap { position: relative; }
-  .ch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.6rem; margin-top: 2.4rem; }
+  /* four cards on a table — 2×2, slightly uneven, never a strip */
+  .ch-grid { display: grid; grid-template-columns: 1.06fr 0.94fr; gap: 1.8rem 1.6rem; margin-top: 2.4rem; }
+  @media (max-width: 700px) { .ch-grid { grid-template-columns: 1fr; } }
   .ch-card {
     display: grid; gap: .5rem; align-content: start;
     padding: 1.4rem 1.4rem 1.6rem;
