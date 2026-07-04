@@ -44,8 +44,10 @@ async function sparql(query, attempt = 0) {
 }
 
 const qid = (uri) => uri.split('/').pop();
+// P18/P3383 values arrive percent-encoded — decode before re-encoding once
+const commonsFile = (uri) => decodeURIComponent(uri.split('/').pop());
 const commonsUrl = (file, width = 700) =>
-  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file.split('/').pop())}?width=${width}`;
+  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(commonsFile(file))}?width=${width}`;
 
 /**
  * Search-then-verify: entity search for candidates, then confirm each is a
@@ -134,7 +136,7 @@ async function enrichFilm(film) {
   return {
     qid: id,
     poster: posterFile ? commonsUrl(posterFile) : null,
-    posterSource: posterFile ? `https://commons.wikimedia.org/wiki/File:${decodeURIComponent(posterFile.split('/').pop())}` : null,
+    posterSource: posterFile ? `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(commonsFile(posterFile))}` : null,
     cast: cast.slice(0, 8),
     directors,
     cinematographer: dopRow
