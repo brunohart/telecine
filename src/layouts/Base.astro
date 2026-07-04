@@ -1,0 +1,72 @@
+---
+import '@fontsource/fraunces/400.css';
+import '@fontsource/fraunces/600.css';
+import '@fontsource/fraunces/900.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  bodyClass?: string;
+}
+const { title, description, bodyClass = '' } = Astro.props;
+const path = Astro.url.pathname;
+const current = (p: string) =>
+  (p === '/' ? path === '/' || path === '/index' : path.startsWith(p)) ? 'page' : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body class={bodyClass}>
+    <header class="masthead wrap">
+      <div class="masthead-row">
+        <a class="wordmark" href="/">TELECINE<span class="tv">.</span></a>
+        <span class="mast-tag">A public broadcast network · est. in the public domain</span>
+      </div>
+      <nav class="mast-nav" aria-label="Primary">
+        <a href="/" aria-current={current('/')}>The Set</a>
+        <a href="/guide" aria-current={current('/guide')}>The Guide</a>
+        <a href="/channels" aria-current={current('/channels')}>Channels</a>
+        <a href="/about" aria-current={current('/about')}>About</a>
+        <a href="/patrons" aria-current={current('/patrons')}>Patrons</a>
+      </nav>
+      <div class="bars" style="margin-top:.9rem" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="colophon">
+      <div class="wrap">
+        <hr class="rule" />
+        <div class="colophon-inner">
+          <p>
+            Every film transmitted here is in the public domain, served from prints held by the
+            <a href="https://archive.org">Internet Archive</a>. The schedule is the broadcast:
+            no server, no algorithm, no account — see
+            <a href="https://github.com/brunohart/telecine/blob/main/SPEC.md">the Transmission format</a>.
+          </p>
+          <p class="sig">
+            Telecine is made by <a href="https://designedbybruno.net">designedbybruno</a> ·
+            <a href="https://github.com/brunohart/telecine">source</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

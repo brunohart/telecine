@@ -1,0 +1,170 @@
+/* ────────────────────────────────────────────────────────────────
+   TELECINE — design tokens & base
+   A printed broadcast programme from a station that never existed:
+   letterpress warmth on paper, test-card geometry, mono numerals.
+   ──────────────────────────────────────────────────────────────── */
+
+:root {
+  /* paper & ink */
+  --paper: #f1ebdf;
+  --paper-deep: #e6ddc9;
+  --card: #faf6ec;
+  --ink: #1d1812;
+  --ink-soft: #6f6555;
+  --ink-faint: #9c917e;
+  --line: #d5cbb6;
+  --line-strong: #b3a68a;
+
+  /* the signal */
+  --signal: #c24a1f;
+  --signal-deep: #9e3413;
+  --tube: #1b2d4f;
+  --live: #b23315;
+  --bottle: #2f4a3a;
+  --brass: #a3762a;
+
+  /* channel hues */
+  --ch-01: var(--tube);
+  --ch-02: #26211a;
+  --ch-03: var(--bottle);
+  --ch-04: var(--signal);
+
+  /* type */
+  --display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --body: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+
+  --measure: 62ch;
+}
+
+/* the dark room — the set page drops the lights */
+.lights-down {
+  --paper: #12100d;
+  --paper-deep: #0b0a08;
+  --card: #1b1814;
+  --ink: #ede5d4;
+  --ink-soft: #a39883;
+  --ink-faint: #6f6555;
+  --line: #322c23;
+  --line-strong: #453d2f;
+}
+
+* { box-sizing: border-box; margin: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* film grain, over everything, touching nothing */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0.16;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+.lights-down::after { mix-blend-mode: overlay; opacity: 0.10; }
+
+::selection { background: var(--signal); color: var(--card); }
+
+a { color: inherit; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--signal); }
+
+h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.12; letter-spacing: -0.015em; }
+
+img, video { max-width: 100%; display: block; }
+
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+
+/* ── shared primitives ── */
+
+.wrap { width: min(1080px, calc(100% - 3rem)); margin-inline: auto; }
+
+.mono-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.rule { border: 0; border-top: 1px solid var(--line); }
+.rule-strong { border: 0; border-top: 2px solid var(--ink); }
+
+/* the test-card bar strip — the network's signature ornament */
+.bars { display: flex; height: 8px; }
+.bars span { flex: 1; }
+.bars span:nth-child(1) { background: var(--tube); }
+.bars span:nth-child(2) { background: var(--signal); }
+.bars span:nth-child(3) { background: var(--bottle); }
+.bars span:nth-child(4) { background: var(--brass); }
+.bars span:nth-child(5) { background: var(--signal-deep); }
+.bars span:nth-child(6) { background: var(--ink); }
+
+/* ── header / footer ── */
+
+.masthead { padding: 1.4rem 0 1.1rem; }
+.masthead-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.wordmark {
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: clamp(1.6rem, 3.4vw, 2.1rem);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.wordmark .tv { color: var(--signal); }
+.mast-tag { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-soft); }
+
+.mast-nav { display: flex; gap: 1.35rem; flex-wrap: wrap; padding-top: 0.55rem; }
+.mast-nav a {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-soft);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.mast-nav a:hover { color: var(--ink); }
+.mast-nav a[aria-current='page'] { color: var(--ink); border-bottom-color: var(--signal); }
+
+main { flex: 1; }
+
+.colophon { margin-top: 4.5rem; }
+.colophon-inner { padding: 1.6rem 0 2.2rem; display: grid; gap: 0.5rem; }
+.colophon p { font-size: 0.82rem; color: var(--ink-soft); max-width: 70ch; }
+.colophon a { color: var(--ink-soft); }
+.colophon .sig { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; }
+
+/* ── prose ── */
+
+.prose { max-width: var(--measure); }
+.prose p + p { margin-top: 1em; }
+.prose h2 { margin: 2.2em 0 0.6em; font-size: 1.5rem; }
+.prose h3 { margin: 1.8em 0 0.5em; font-size: 1.1rem; }
+.prose em { font-style: italic; }
+
+/* ── page furniture ── */
+
+.page-title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 900; margin: 1.2rem 0 0.4rem; }
+.page-lede { font-size: 1.12rem; color: var(--ink-soft); max-width: var(--measure); font-style: italic; }
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .wrap { width: calc(100% - 2rem); }
+}
