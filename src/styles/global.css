@@ -44,6 +44,8 @@
 
 /* the dark room — the set page drops the lights */
 .lights-down {
+  /* noir's hue is ink on paper; on the dark set it goes to white light */
+  --ch-02: #ece3d0;
   --paper: #12100d;
   --paper-deep: #0b0a08;
   --card: #1b1814;
