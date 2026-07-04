@@ -1,0 +1,772 @@
+{
+  "generatedAt": "2026-07-04T00:48:58.863Z",
+  "interstitialSec": 90,
+  "channels": [
+    {
+      "transmission": "0.1",
+      "id": "silent-signal",
+      "number": "01",
+      "name": "The Silent Signal",
+      "tagline": "Cinema before it spoke.",
+      "description": "The first grammar of the medium, transmitted whole. These films had no dialogue to lean on, so they solved everything — dread, longing, comedy, revolution — with light, faces, and cutting. A century later the solutions still work on you. That is not nostalgia; that is engineering.",
+      "epoch": "2026-07-01T00:00:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "sherlock-jr-1924",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "sherlock-jr-1924",
+          "durationSec": 2649,
+          "src": "https://archive.org/download/sherlock-jr/Sherlock%20Jr.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "nosferatu-1922",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "nosferatu-1922",
+          "durationSec": 5514,
+          "src": "https://archive.org/download/Nosferatu1922/Nosferatu.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-general-1926",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-general-1926",
+          "durationSec": 4724,
+          "src": "https://archive.org/download/The_General_Buster_Keaton/The_General.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-cabinet-of-dr-caligari-1920",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "durationSec": 4463,
+          "src": "https://archive.org/download/TheCabinetOfDr.Caligari1920FULLMOVIE/The%20Cabinet%20of%20Dr.%20Caligari%20(1920)%20FULL%20MOVIE.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "sunrise-1927",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "sunrise-1927",
+          "durationSec": 5697,
+          "src": "https://archive.org/download/sunrise-1927_202301/Sunrise.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "battleship-potemkin-1925",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "battleship-potemkin-1925",
+          "durationSec": 4381,
+          "src": "https://archive.org/download/BattleshipPotemkin/Battleship_Potemkin_512kb.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-lodger-1927",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-lodger-1927",
+          "durationSec": 5444,
+          "src": "https://archive.org/download/the-lodger-a-story-of-the-london-fog-1927/The%20Lodger%3A%20A%20Story%20of%20the%20London%20Fog%20(1927).mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "metropolis-1927",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "metropolis-1927",
+          "durationSec": 7118,
+          "src": "https://archive.org/download/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4"
+        }
+      ]
+    },
+    {
+      "transmission": "0.1",
+      "id": "noir-after-dark",
+      "number": "02",
+      "name": "Noir After Dark",
+      "tagline": "The night shift of the American picture.",
+      "description": "Cheap films that turned their poverty into a style and their style into a worldview. Shot fast, lit hard, cut to the bone — the B-picture underworld where the American dream files its incident reports. Nobody here is innocent, and the cinematography agrees.",
+      "epoch": "2026-07-01T00:47:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "detour-1945",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "detour-1945",
+          "durationSec": 4076,
+          "src": "https://archive.org/download/Detour_movie/Detour.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-hitch-hiker-1953",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-hitch-hiker-1953",
+          "durationSec": 4248,
+          "src": "https://archive.org/download/IdaLupinostheHitch-hiker1953/Hitch-hikervo.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "scarlet-street-1945",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "scarlet-street-1945",
+          "durationSec": 6086,
+          "src": "https://archive.org/download/ScarletStreet/Scarlet_Street.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "doa-1950",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "doa-1950",
+          "durationSec": 4990,
+          "src": "https://archive.org/download/doa_ipod/doa.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "too-late-for-tears-1949",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "too-late-for-tears-1949",
+          "durationSec": 5608,
+          "src": "https://archive.org/download/TooLateForTears1949/Too%20Late%20for%20Tears%20(1949).mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-stranger-1946",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-stranger-1946",
+          "durationSec": 5473,
+          "src": "https://archive.org/download/TheStranger_0/The_Stranger.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "kansas-city-confidential-1952",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "kansas-city-confidential-1952",
+          "durationSec": 5950,
+          "src": "https://archive.org/download/1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson/1952%20-%20Kansas%20City%20Confidential%20-%20El%20cuarto%20hombre%20-%20Phil%20Karlson.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "suddenly-1954",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "suddenly-1954",
+          "durationSec": 4534,
+          "src": "https://archive.org/download/suddenly/suddenly.mp4"
+        }
+      ]
+    },
+    {
+      "transmission": "0.1",
+      "id": "haunted-screen",
+      "number": "03",
+      "name": "The Haunted Screen",
+      "tagline": "What the dark does with an audience.",
+      "description": "Named for Lotte Eisner's study of German expressionism, programmed for the hours when the house is quiet. Horror is the genre most honest about why we watch together: it is easier to look when someone is beside you. These prints have frightened three generations and are not finished.",
+      "epoch": "2026-07-01T01:23:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "carnival-of-souls-1962",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "carnival-of-souls-1962",
+          "durationSec": 4979,
+          "src": "https://archive.org/download/carnival_of_souls/carnival_of_souls.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "night-of-the-living-dead-1968",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "night-of-the-living-dead-1968",
+          "durationSec": 5732,
+          "src": "https://archive.org/download/night_of_the_living_dead_dvd/Night.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "house-on-haunted-hill-1959",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "house-on-haunted-hill-1959",
+          "durationSec": 4483,
+          "src": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-last-man-on-earth-1964",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-last-man-on-earth-1964",
+          "durationSec": 5190,
+          "src": "https://archive.org/download/TheLastManOnEarth_72/the_last_man_on_earth.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "white-zombie-1932",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "white-zombie-1932",
+          "durationSec": 3922,
+          "src": "https://archive.org/download/WhiteZombie1932/WhiteZombie.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "dementia-13-1963",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "dementia-13-1963",
+          "durationSec": 3933,
+          "src": "https://archive.org/download/dementia-13-1963-horror-full-movie-francis-ford-coppola/Dementia%2013%20(1963)%20%20%20Horror%20%20%20Full%20Movie%20%20%20Francis%20Ford%20Coppola.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-little-shop-of-horrors-1960",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-little-shop-of-horrors-1960",
+          "durationSec": 4385,
+          "src": "https://archive.org/download/TheLittleShopOfHorrorscolor1960/LittleShopofHorrors1960Color.mp4"
+        }
+      ]
+    },
+    {
+      "transmission": "0.1",
+      "id": "the-matinee",
+      "number": "04",
+      "name": "The Matinee",
+      "tagline": "Fast talk, slow afternoons.",
+      "description": "The daylight programme: screwball, romance, and one perfect thriller in evening wear. Dialogue as choreography, charm as craft. These are the films that made talking itself cinematic — proof that wit, timed to the frame, is a special effect.",
+      "epoch": "2026-07-01T02:11:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "his-girl-friday-1940",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "his-girl-friday-1940",
+          "durationSec": 5505,
+          "src": "https://archive.org/download/his_girl_friday/his_girl_friday.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "charade-1963",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "charade-1963",
+          "durationSec": 6879,
+          "src": "https://archive.org/download/ecatma-Old_Time_Movie_Show_-_Charade_1963/Old_Time_Movie_Show_-_Charade_1963.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "my-man-godfrey-1936",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "my-man-godfrey-1936",
+          "durationSec": 5687,
+          "src": "https://archive.org/download/MyManGodfrey1936/MyManGodfrey1936.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "nothing-sacred-1937",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "nothing-sacred-1937",
+          "durationSec": 4450,
+          "src": "https://archive.org/download/NothingSacred/NothingSacred.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "love-affair-1939",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "love-affair-1939",
+          "durationSec": 5210,
+          "src": "https://archive.org/download/LoveAffair/LoveAffair.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "made-for-each-other-1939",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "made-for-each-other-1939",
+          "durationSec": 5457,
+          "src": "https://archive.org/download/made-for-each-other/MadeForEachOther.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "royal-wedding-1951",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "royal-wedding-1951",
+          "durationSec": 5497,
+          "src": "https://archive.org/download/royal_wedding/royal_wedding.mp4"
+        }
+      ]
+    }
+  ],
+  "films": {
+    "sherlock-jr-1924": {
+      "slug": "sherlock-jr-1924",
+      "title": "Sherlock Jr.",
+      "year": 1924,
+      "director": "Buster Keaton",
+      "durationSec": 2649,
+      "src": "https://archive.org/download/sherlock-jr/Sherlock%20Jr.ia.mp4",
+      "identifier": "sherlock-jr",
+      "itemUrl": "https://archive.org/details/sherlock-jr",
+      "logline": "A projectionist falls asleep at the machine and walks into the screen.",
+      "note": "The medium's first great essay about itself, disguised as 45 minutes of stunts. Keaton plays a projectionist who dreams his way into the film he is showing, and the cutting inside that dream — the landscape changing under his feet mid-stride — is still taught as a masterclass in match cuts. He performed everything himself; the water-tower shot broke his neck and he didn't notice for years. Watching it inside a broadcast, on a screen, about a man inside a screen, is the correct way to watch it.",
+      "channel": "silent-signal"
+    },
+    "nosferatu-1922": {
+      "slug": "nosferatu-1922",
+      "title": "Nosferatu",
+      "year": 1922,
+      "director": "F. W. Murnau",
+      "durationSec": 5514,
+      "src": "https://archive.org/download/Nosferatu1922/Nosferatu.mp4",
+      "identifier": "Nosferatu1922",
+      "itemUrl": "https://archive.org/details/Nosferatu1922",
+      "logline": "An unauthorized Dracula the courts ordered destroyed. Prints survived.",
+      "note": "Stoker's widow sued, and every copy was ordered burned — the film exists because prints disobeyed. Murnau shoots vampirism as contagion: Orlok travels with rats and ledgers, and death arrives in the shipping records before it arrives at the door. The famous shadow on the stairs is one of the medium's first images to become permanent. A film about a thing that should be dead and isn't, which is also the story of the film itself.",
+      "channel": "silent-signal"
+    },
+    "the-general-1926": {
+      "slug": "the-general-1926",
+      "title": "The General",
+      "year": 1926,
+      "director": "Buster Keaton & Clyde Bruckman",
+      "durationSec": 4724,
+      "src": "https://archive.org/download/The_General_Buster_Keaton/The_General.mp4",
+      "identifier": "The_General_Buster_Keaton",
+      "itemUrl": "https://archive.org/details/The_General_Buster_Keaton",
+      "logline": "A locomotive chase across the Civil War, played entirely straight.",
+      "note": "Keaton's masterpiece was a commercial failure that ended his independence — audiences in 1926 wanted a comedy, and he had built something stranger: an epic in which every gag is also a feat of engineering. The train wreck at the Rock River was the most expensive single shot of the silent era, done once, real, and left in the river for scrap hunters. The precision is the point: comedy at the exact tolerance where it becomes grace.",
+      "channel": "silent-signal"
+    },
+    "the-cabinet-of-dr-caligari-1920": {
+      "slug": "the-cabinet-of-dr-caligari-1920",
+      "title": "The Cabinet of Dr. Caligari",
+      "year": 1920,
+      "director": "Robert Wiene",
+      "durationSec": 4463,
+      "src": "https://archive.org/download/TheCabinetOfDr.Caligari1920FULLMOVIE/The%20Cabinet%20of%20Dr.%20Caligari%20(1920)%20FULL%20MOVIE.mp4",
+      "identifier": "TheCabinetOfDr.Caligari1920FULLMOVIE",
+      "itemUrl": "https://archive.org/details/TheCabinetOfDr.Caligari1920FULLMOVIE",
+      "logline": "A hypnotist, a sleepwalker, and a town painted out of true.",
+      "note": "The sets lean because the world does: painted shadows, corridors at impossible angles, a story told from inside a distorted mind before the film admits it. Expressionism arrives in cinema fully formed, and with it the idea that a film's design can be its narrator. Every unreliable narrator since, every production designer who bent a wall to bend a mood, is downstream of this.",
+      "channel": "silent-signal"
+    },
+    "sunrise-1927": {
+      "slug": "sunrise-1927",
+      "title": "Sunrise: A Song of Two Humans",
+      "year": 1927,
+      "director": "F. W. Murnau",
+      "durationSec": 5697,
+      "src": "https://archive.org/download/sunrise-1927_202301/Sunrise.ia.mp4",
+      "identifier": "sunrise-1927_202301",
+      "itemUrl": "https://archive.org/details/sunrise-1927_202301",
+      "logline": "A man is talked into drowning his wife. The film is what happens instead.",
+      "note": "Murnau, arrived in Hollywood with a blank cheque, made the most fluent silent film ever shot — the camera moves through swamps and tram rides like a thought. It won the only Academy Award ever given for 'Unique and Artistic Picture,' a category invented for it and retired after it. The middle hour, where an almost-murder becomes an accidental second courtship in the big city, is cinema discovering it could hold two tones at once and let them tremble.",
+      "channel": "silent-signal"
+    },
+    "battleship-potemkin-1925": {
+      "slug": "battleship-potemkin-1925",
+      "title": "Battleship Potemkin",
+      "year": 1925,
+      "director": "Sergei Eisenstein",
+      "durationSec": 4381,
+      "src": "https://archive.org/download/BattleshipPotemkin/Battleship_Potemkin_512kb.mp4",
+      "identifier": "BattleshipPotemkin",
+      "itemUrl": "https://archive.org/details/BattleshipPotemkin",
+      "logline": "A mutiny over rotten meat becomes a grammar of revolution.",
+      "note": "The Odessa Steps sequence is the most quoted passage in film history — quoted so often it is easy to forget it was an invention, not a convention. Eisenstein cut for collision: image against image, so the meaning lives between the frames. Governments banned it for decades on the theory that editing alone could radicalize a room. Watch what your pulse does during the pram. That is montage, working on you exactly as designed, a century out.",
+      "channel": "silent-signal"
+    },
+    "the-lodger-1927": {
+      "slug": "the-lodger-1927",
+      "title": "The Lodger: A Story of the London Fog",
+      "year": 1927,
+      "director": "Alfred Hitchcock",
+      "durationSec": 5444,
+      "src": "https://archive.org/download/the-lodger-a-story-of-the-london-fog-1927/The%20Lodger%3A%20A%20Story%20of%20the%20London%20Fog%20(1927).mp4",
+      "identifier": "the-lodger-a-story-of-the-london-fog-1927",
+      "itemUrl": "https://archive.org/details/the-lodger-a-story-of-the-london-fog-1927",
+      "logline": "A stranger takes rooms upstairs while London hunts a killer of blondes.",
+      "note": "The first true Hitchcock: the wrong man, the guilty staircase, the audience made complicit in suspicion. He shot a ceiling of glass so a family could watch their lodger pace overhead — dread rendered as architecture. The star system forced an ending on him and he resented it publicly for fifty years. Everything the thriller became is being drafted here, scene by scene, by a 27-year-old inventing his own genre.",
+      "channel": "silent-signal"
+    },
+    "metropolis-1927": {
+      "slug": "metropolis-1927",
+      "title": "Metropolis",
+      "year": 1927,
+      "director": "Fritz Lang",
+      "durationSec": 7118,
+      "src": "https://archive.org/download/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4",
+      "identifier": "Metropolis1927EnglishVersion",
+      "itemUrl": "https://archive.org/details/Metropolis1927EnglishVersion",
+      "logline": "A city of towers above, a city of shifts below, and a machine wearing a woman's face.",
+      "note": "The most expensive film of the silent era, cut apart by its distributors within months of release and passed down the century in fragments — the version transmitted here is one of those inheritances, and its incompleteness is part of its biography. Lang's city became the default image of the future; every skyline in science fiction pays it rent. The robot Maria's transformation still looks like a transmission from somewhere else.",
+      "channel": "silent-signal"
+    },
+    "detour-1945": {
+      "slug": "detour-1945",
+      "title": "Detour",
+      "year": 1945,
+      "director": "Edgar G. Ulmer",
+      "durationSec": 4076,
+      "src": "https://archive.org/download/Detour_movie/Detour.mp4",
+      "identifier": "Detour_movie",
+      "itemUrl": "https://archive.org/details/Detour_movie",
+      "logline": "A hitchhiker, a dead man's wallet, and the worst phone call in noir.",
+      "note": "Shot in six days for nothing, and the nothing shows — as style. Rear-projection deserts, one motel room, a narration that keeps explaining and keeps incriminating. Ann Savage's Vera is the genre's most feral performance, no glamour anywhere near it. Detour is the proof text of the B-picture thesis: constraint, fully accepted, becomes a worldview. Fate, in this film, is just the road with the lights off.",
+      "channel": "noir-after-dark"
+    },
+    "the-hitch-hiker-1953": {
+      "slug": "the-hitch-hiker-1953",
+      "title": "The Hitch-Hiker",
+      "year": 1953,
+      "director": "Ida Lupino",
+      "durationSec": 4248,
+      "src": "https://archive.org/download/IdaLupinostheHitch-hiker1953/Hitch-hikervo.mp4",
+      "identifier": "IdaLupinostheHitch-hiker1953",
+      "itemUrl": "https://archive.org/details/IdaLupinostheHitch-hiker1953",
+      "logline": "Two fishermen, one killer in the back seat, and the desert as witness.",
+      "note": "The only classic-era American noir directed by a woman, and it is leaner than anything the men were making. Ida Lupino strips the genre of the femme fatale, the city, the voiceover — leaves two ordinary friendships under a gun and a landscape that doesn't care. Based closely on a real spree, close enough that the survivors advised. Seventy-one minutes with no fat on them at all.",
+      "channel": "noir-after-dark"
+    },
+    "scarlet-street-1945": {
+      "slug": "scarlet-street-1945",
+      "title": "Scarlet Street",
+      "year": 1945,
+      "director": "Fritz Lang",
+      "durationSec": 6086,
+      "src": "https://archive.org/download/ScarletStreet/Scarlet_Street.mp4",
+      "identifier": "ScarletStreet",
+      "itemUrl": "https://archive.org/details/ScarletStreet",
+      "logline": "A meek cashier paints on Sundays. A couple decides to collect him.",
+      "note": "Fritz Lang's cruelest American film: Edward G. Robinson as a man whose one private beauty — his painting — is taken from him along with everything else. The scam is small; the annihilation is total. Censor boards banned it for letting a crime go formally unpunished, missing that the last reel is nothing but punishment, walking. Lang shoots New York interiors like Weimar stage sets: every room a trap that thinks it's a home.",
+      "channel": "noir-after-dark"
+    },
+    "doa-1950": {
+      "slug": "doa-1950",
+      "title": "D.O.A.",
+      "year": 1950,
+      "director": "Rudolph Maté",
+      "durationSec": 4990,
+      "src": "https://archive.org/download/doa_ipod/doa.mp4",
+      "identifier": "doa_ipod",
+      "itemUrl": "https://archive.org/details/doa_ipod",
+      "logline": "A man walks into homicide to report a murder: his own.",
+      "note": "The great high-concept of the cycle — poisoned, terminal, and given one reel of life to find out why — opened with a tracking shot down a police corridor that carries the whole premise before a word lands. Edmond O'Brien runs through it sweating like the deadline is real. The film is in the public domain because someone forgot to renew a form, which for a story about small clerical events with fatal consequences is almost too fitting.",
+      "channel": "noir-after-dark"
+    },
+    "too-late-for-tears-1949": {
+      "slug": "too-late-for-tears-1949",
+      "title": "Too Late for Tears",
+      "year": 1949,
+      "director": "Byron Haskin",
+      "durationSec": 5608,
+      "src": "https://archive.org/download/TooLateForTears1949/Too%20Late%20for%20Tears%20(1949).mp4",
+      "identifier": "TooLateForTears1949",
+      "itemUrl": "https://archive.org/details/TooLateForTears1949",
+      "logline": "A bag of money lands in a convertible. The wife keeps it.",
+      "note": "Lizabeth Scott plays one of noir's most complete self-portraits of want: not a schemer corrupted by a man, but the gravity the men fall into. The film watches a marriage discover what it was actually made of, one decision at a time, in living rooms lit like interrogations. Restored from near-oblivion by archivists after decades of murky dupes — a film about unearned money, saved by unpaid care.",
+      "channel": "noir-after-dark"
+    },
+    "the-stranger-1946": {
+      "slug": "the-stranger-1946",
+      "title": "The Stranger",
+      "year": 1946,
+      "director": "Orson Welles",
+      "durationSec": 5473,
+      "src": "https://archive.org/download/TheStranger_0/The_Stranger.mp4",
+      "identifier": "TheStranger_0",
+      "itemUrl": "https://archive.org/details/TheStranger_0",
+      "logline": "A war criminal grades papers in a Connecticut town. A watcher arrives.",
+      "note": "Welles, on probation with the studios, delivering their tempo without surrendering his shadows. He plays the fugitive himself; Edward G. Robinson is the patient federal man circling in. It was among the first fiction films to place actual concentration-camp footage before a mass audience — a director insisting, in 1946, that the genre look at what it had been circling. The clock-tower ending is pulp; the dinner-table scenes are not.",
+      "channel": "noir-after-dark"
+    },
+    "kansas-city-confidential-1952": {
+      "slug": "kansas-city-confidential-1952",
+      "title": "Kansas City Confidential",
+      "year": 1952,
+      "director": "Phil Karlson",
+      "durationSec": 5950,
+      "src": "https://archive.org/download/1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson/1952%20-%20Kansas%20City%20Confidential%20-%20El%20cuarto%20hombre%20-%20Phil%20Karlson.mp4",
+      "identifier": "1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson",
+      "itemUrl": "https://archive.org/details/1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson",
+      "logline": "Four masked men, mutual strangers by design, and a fall guy who won't fall.",
+      "note": "The heist film's load-bearing wall: the masked-crew structure that Kubrick studied and Tarantino lifted outright arrives here first, in a lean Phil Karlson picture with a genuinely mean streak. An ex-con is framed by geometry rather than malice and goes to Mexico to dismantle the plan man by man. Karlson shoots faces like evidence. The B-picture as precision instrument.",
+      "channel": "noir-after-dark"
+    },
+    "suddenly-1954": {
+      "slug": "suddenly-1954",
+      "title": "Suddenly",
+      "year": 1954,
+      "director": "Lewis Allen",
+      "durationSec": 4534,
+      "src": "https://archive.org/download/suddenly/suddenly.mp4",
+      "identifier": "suddenly",
+      "itemUrl": "https://archive.org/details/suddenly",
+      "logline": "A quiet town, a house on a hill, and a rifle waiting for a train.",
+      "note": "Sinatra took the role no star wanted — a chattering, wounded assassin holding a family at gunpoint until the President's train arrives — and gave the most unnerving performance of his career. The film sat effectively out of circulation for years after history rhymed with it too closely. Small, airless, nearly real-time: the thriller reduced to one room, one window, one American afternoon going wrong.",
+      "channel": "noir-after-dark"
+    },
+    "carnival-of-souls-1962": {
+      "slug": "carnival-of-souls-1962",
+      "title": "Carnival of Souls",
+      "year": 1962,
+      "director": "Herk Harvey",
+      "durationSec": 4979,
+      "src": "https://archive.org/download/carnival_of_souls/carnival_of_souls.mp4",
+      "identifier": "carnival_of_souls",
+      "itemUrl": "https://archive.org/details/carnival_of_souls",
+      "logline": "A church organist survives a crash, moves west, and stops casting a shadow on the world.",
+      "note": "Made for pocket change by a Kansas industrial-film director who never made another feature, and quietly one of the most influential horror films in the canon — Romero borrowed its dead, Lynch its atmosphere of a world one layer out of register. The abandoned Saltair pavilion is the great found location of the genre. Its dread is administrative: a woman who can no longer get the world to acknowledge receipt of her.",
+      "channel": "haunted-screen"
+    },
+    "night-of-the-living-dead-1968": {
+      "slug": "night-of-the-living-dead-1968",
+      "title": "Night of the Living Dead",
+      "year": 1968,
+      "director": "George A. Romero",
+      "durationSec": 5732,
+      "src": "https://archive.org/download/night_of_the_living_dead_dvd/Night.mp4",
+      "identifier": "night_of_the_living_dead_dvd",
+      "itemUrl": "https://archive.org/details/night_of_the_living_dead_dvd",
+      "logline": "The dead get up. A farmhouse full of strangers does not agree on anything.",
+      "note": "The distributor forgot the copyright notice on the release prints, and so the most important American horror film belongs to everyone — its ubiquity is a filing error that became a commons. Romero shot it on weekends outside Pittsburgh with newsreel plainness, cast a Black lead without comment, and let 1968 walk in through the farmhouse door. The ending has not softened one degree since.",
+      "channel": "haunted-screen"
+    },
+    "house-on-haunted-hill-1959": {
+      "slug": "house-on-haunted-hill-1959",
+      "title": "House on Haunted Hill",
+      "year": 1959,
+      "director": "William Castle",
+      "durationSec": 4483,
+      "src": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4",
+      "identifier": "house_on_haunted_hill_ipod",
+      "itemUrl": "https://archive.org/details/house_on_haunted_hill_ipod",
+      "logline": "Five guests, ten thousand dollars each, one night in a locked house.",
+      "note": "William Castle was cinema's great carnival barker — he wired theatre seats and flew skeletons over audiences — and this is his best machine, with Vincent Price at his silkiest as a host whose party favors are handguns in tiny coffins. It is a haunted-house film that keeps confessing it might be a murder plot instead, and the hesitation is the pleasure. Communal viewing was the design spec: it was built to make a room scream on schedule.",
+      "channel": "haunted-screen"
+    },
+    "the-last-man-on-earth-1964": {
+      "slug": "the-last-man-on-earth-1964",
+      "title": "The Last Man on Earth",
+      "year": 1964,
+      "director": "Ubaldo Ragona & Sidney Salkow",
+      "durationSec": 5190,
+      "src": "https://archive.org/download/TheLastManOnEarth_72/the_last_man_on_earth.mp4",
+      "identifier": "TheLastManOnEarth_72",
+      "itemUrl": "https://archive.org/details/TheLastManOnEarth_72",
+      "logline": "The last man alive commutes: days for stakes and garlic, nights behind boarded windows.",
+      "note": "The first adaptation of Matheson's I Am Legend, and the one that keeps the novel's terrible inversion: the monster of this story, by any census, is him. Vincent Price plays exhaustion instead of heroism — a man whose apocalypse has become a routine of errands. Romero acknowledged the debt openly; the shuffling dead outside the house four years later are this film's children.",
+      "channel": "haunted-screen"
+    },
+    "white-zombie-1932": {
+      "slug": "white-zombie-1932",
+      "title": "White Zombie",
+      "year": 1932,
+      "director": "Victor Halperin",
+      "durationSec": 3922,
+      "src": "https://archive.org/download/WhiteZombie1932/WhiteZombie.mp4",
+      "identifier": "WhiteZombie1932",
+      "itemUrl": "https://archive.org/details/WhiteZombie1932",
+      "logline": "A sugar mill runs on the dead. A wedding guest asks the miller for a favor.",
+      "note": "The first zombie feature, made before the genre had rules, when the word still carried Haiti in it: the horror here is not appetite but ownership — the dead as labor, will as a commodity. Lugosi's mill, grinding on with a workforce past caring, is among the bleakest images of pre-Code horror. Creaky in its joints and genuinely uncanny in its silences; a film that remembers what the zombie was a metaphor for.",
+      "channel": "haunted-screen"
+    },
+    "dementia-13-1963": {
+      "slug": "dementia-13-1963",
+      "title": "Dementia 13",
+      "year": 1963,
+      "director": "Francis Ford Coppola",
+      "durationSec": 3933,
+      "src": "https://archive.org/download/dementia-13-1963-horror-full-movie-francis-ford-coppola/Dementia%2013%20(1963)%20%20%20Horror%20%20%20Full%20Movie%20%20%20Francis%20Ford%20Coppola.ia.mp4",
+      "identifier": "dementia-13-1963-horror-full-movie-francis-ford-coppola",
+      "itemUrl": "https://archive.org/details/dementia-13-1963-horror-full-movie-francis-ford-coppola",
+      "logline": "A widow forges her way into an Irish family's castle. Something in the pond forges back.",
+      "note": "Coppola, twenty-four, shooting on Roger Corman's leftover schedule and budget in Ireland, delivers a gothic axe picture that is better constructed than it has any right to be — the underwater reveal is real filmmaking, not apprentice work. Corman's factory was the last great studio apprenticeship, and this is one of its cleanest artifacts: a future master learning, in public, at seventy cents on the dollar.",
+      "channel": "haunted-screen"
+    },
+    "the-little-shop-of-horrors-1960": {
+      "slug": "the-little-shop-of-horrors-1960",
+      "title": "The Little Shop of Horrors",
+      "year": 1960,
+      "director": "Roger Corman",
+      "durationSec": 4385,
+      "src": "https://archive.org/download/TheLittleShopOfHorrorscolor1960/LittleShopofHorrors1960Color.mp4",
+      "identifier": "TheLittleShopOfHorrorscolor1960",
+      "itemUrl": "https://archive.org/details/TheLittleShopOfHorrorscolor1960",
+      "logline": "A florist's assistant breeds a plant with a diet problem.",
+      "note": "Shot in two days and a night on a bet and a leftover set, and the speed is legible on screen as a kind of jazz. Corman's black comedy about retail, appetite, and giving the public what it wants — the plant is a hit; the shop thrives; the arithmetic is the joke. A young Jack Nicholson appears for one scene as a dental masochist and walks off with the picture's id.",
+      "channel": "haunted-screen"
+    },
+    "his-girl-friday-1940": {
+      "slug": "his-girl-friday-1940",
+      "title": "His Girl Friday",
+      "year": 1940,
+      "director": "Howard Hawks",
+      "durationSec": 5505,
+      "src": "https://archive.org/download/his_girl_friday/his_girl_friday.mp4",
+      "identifier": "his_girl_friday",
+      "itemUrl": "https://archive.org/details/his_girl_friday",
+      "logline": "An editor has one afternoon to un-divorce his best reporter.",
+      "note": "Hawks took The Front Page, made the reporter a woman and the ex-wife of her editor, and turned American speech into a percussion instrument — dialogue overlapped and compressed until 92 minutes contain roughly 190 minutes of talk. It is the fastest film ever made about the fact that some people are only alive at full speed, and that the story — there is a hanging at dawn — will happily eat every scruple in the room. The remarriage comedy at terminal velocity.",
+      "channel": "the-matinee"
+    },
+    "charade-1963": {
+      "slug": "charade-1963",
+      "title": "Charade",
+      "year": 1963,
+      "director": "Stanley Donen",
+      "durationSec": 6879,
+      "src": "https://archive.org/download/ecatma-Old_Time_Movie_Show_-_Charade_1963/Old_Time_Movie_Show_-_Charade_1963.mp4",
+      "identifier": "ecatma-Old_Time_Movie_Show_-_Charade_1963",
+      "itemUrl": "https://archive.org/details/ecatma-Old_Time_Movie_Show_-_Charade_1963",
+      "logline": "A widow discovers her husband was four other men. Cary Grant keeps changing names too.",
+      "note": "The best Hitchcock film Hitchcock never made, and the most elegant accident in the public domain — the release prints carried a defective copyright notice, and so this Givenchy-dressed, Mancini-scored studio thriller belongs to everyone. Donen plays murder as courtship and Paris as a chessboard; Hepburn and Grant negotiate the century's most charming age-gap clause in real time. Wit as suspense, suspense as wit.",
+      "channel": "the-matinee"
+    },
+    "my-man-godfrey-1936": {
+      "slug": "my-man-godfrey-1936",
+      "title": "My Man Godfrey",
+      "year": 1936,
+      "director": "Gregory La Cava",
+      "durationSec": 5687,
+      "src": "https://archive.org/download/MyManGodfrey1936/MyManGodfrey1936.mp4",
+      "identifier": "MyManGodfrey1936",
+      "itemUrl": "https://archive.org/details/MyManGodfrey1936",
+      "logline": "A scavenger hunt for a 'forgotten man' brings one home from the city dump.",
+      "note": "Depression America's sharpest comedy of class, made inside the walls it was aimed at: a deranged Fifth Avenue family acquires a butler from the riverbank shantytown, and the butler turns out to be the only adult in the house. Powell and Lombard — divorced from each other, perfect together — play it at the exact line where farce becomes indictment. The party that opens the film is Fellini, two decades early.",
+      "channel": "the-matinee"
+    },
+    "nothing-sacred-1937": {
+      "slug": "nothing-sacred-1937",
+      "title": "Nothing Sacred",
+      "year": 1937,
+      "director": "William A. Wellman",
+      "durationSec": 4450,
+      "src": "https://archive.org/download/NothingSacred/NothingSacred.mp4",
+      "identifier": "NothingSacred",
+      "itemUrl": "https://archive.org/details/NothingSacred",
+      "logline": "A dying girl becomes New York's favorite story. She is not dying.",
+      "note": "Ben Hecht's poison-pen valentine to his own profession: a newspaper builds a saint out of a radium-poisoning case, and the case, being healthy, has to keep performing her own decline. Carole Lombard in Technicolor, a fistfight staged as a chivalric duel, and a portrait of media sentimentality so accurate it has not aged a day — the feed was already the feed in 1937; it just arrived as newsprint.",
+      "channel": "the-matinee"
+    },
+    "love-affair-1939": {
+      "slug": "love-affair-1939",
+      "title": "Love Affair",
+      "year": 1939,
+      "director": "Leo McCarey",
+      "durationSec": 5210,
+      "src": "https://archive.org/download/LoveAffair/LoveAffair.mp4",
+      "identifier": "LoveAffair",
+      "itemUrl": "https://archive.org/details/LoveAffair",
+      "logline": "Two engaged strangers meet on a liner and appoint the Empire State Building as their alibi.",
+      "note": "McCarey shot the second half against the first: a shipboard comedy that quietly becomes a film about disability, dignity, and whether a promise survives the accident on the way to keeping it. He remade it himself as An Affair to Remember, but the 1939 original is leaner and stranger — the chapel scene with the grandmother is the kind of interlude studio pictures stopped having room for. The template for sixty years of meetings on rooftops.",
+      "channel": "the-matinee"
+    },
+    "made-for-each-other-1939": {
+      "slug": "made-for-each-other-1939",
+      "title": "Made for Each Other",
+      "year": 1939,
+      "director": "John Cromwell",
+      "durationSec": 5457,
+      "src": "https://archive.org/download/made-for-each-other/MadeForEachOther.ia.mp4",
+      "identifier": "made-for-each-other",
+      "itemUrl": "https://archive.org/details/made-for-each-other",
+      "logline": "A one-week courtship, a Manhattan marriage, and the year that audits both.",
+      "note": "Selznick's small film from his miracle year: Stewart and Lombard as newlyweds discovering that love is a fixed income against variable costs — the mother-in-law in the spare room, the promotion that goes elsewhere, the winter their child gets sick. Then the famous serum flight, melodrama arriving like weather. Lombard, the era's great comedienne, playing it almost entirely straight, is the reason to watch: the proof that screwball's timing was always dramatic instinct wearing a party dress.",
+      "channel": "the-matinee"
+    },
+    "royal-wedding-1951": {
+      "slug": "royal-wedding-1951",
+      "title": "Royal Wedding",
+      "year": 1951,
+      "director": "Stanley Donen",
+      "durationSec": 5497,
+      "src": "https://archive.org/download/royal_wedding/royal_wedding.mp4",
+      "identifier": "royal_wedding",
+      "itemUrl": "https://archive.org/details/royal_wedding",
+      "logline": "A brother-sister act plays London the week of the royal wedding.",
+      "note": "The one where Astaire dances on the ceiling — a rotating room and a bolted-down camera, a trick explained a thousand times and still not diminished, because the trick was never the room; it was that Astaire treats impossibility as a mild change in the floor plan. Donen's first solo feature. The hat-rack duet in the gymnasium is the quieter miracle: a man making a partner out of furniture and the furniture holding up its end.",
+      "channel": "the-matinee"
+    }
+  }
+}
