@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="About — Telecine"
+  description="Why Telecine broadcasts instead of streams: shared time, hand programming, and a television station that is just a file."
+>
+  <article class="wrap prose">
+    <h1 class="page-title">About the network</h1>
+    <p class="page-lede">Telecine is a television network for films that belong to everyone.</p>
+
+    <h2>The idea</h2>
+    <p>
+      Streaming solved access and, in the same motion, dissolved occasion. When everything is
+      available always, nothing is <em>on</em> — and "what's on" was never a limitation. It was a
+      shared clock. It meant that when you watched, you watched <em>with</em> people, even strangers,
+      even alone in a dark room. The film started when it started. You arrived in the middle of
+      things, or you planned your evening around it, and either way the watching was an event
+      rather than a task from a queue.
+    </p>
+    <p>
+      Telecine brings that back, without asking anyone's permission, using the one catalogue that
+      needs none: the public domain. Four channels run twenty-four hours a day. Every film is
+      chosen by hand and played on a fixed rotation. There is no pause, no scrubbing, no autoplay
+      of something an algorithm thinks resembles what you just saw. Whatever a channel is showing
+      is what's on — for everyone on Earth, at the same frame, at the same moment.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      There is no broadcast server. Each channel is a <em>Transmission</em>: a small, open file
+      that declares a starting instant and a loop of films and station breaks. Your browser reads
+      the file, reads the clock, computes what is on and how far in, and seeks to that exact
+      second of a public-domain print held by the
+      <a href="https://archive.org">Internet Archive</a>. Two sets in two hemispheres perform the
+      same arithmetic and land on the same frame. Synchrony without infrastructure — the schedule
+      <em>is</em> the broadcast.
+    </p>
+    <p>
+      The format is documented and open:
+      <a href="https://github.com/brunohart/telecine/blob/main/SPEC.md">the Transmission format,
+      v0.1</a>. Publish a Transmission file and a player and you are a broadcaster. We would
+      genuinely like there to be more stations than ours.
+    </p>
+
+    <h2>The programming</h2>
+    <p>
+      The public domain is often treated as a bargain bin. It is closer to a national gallery with
+      the lights off: <em>Sunrise</em> is in there. <em>His Girl Friday</em> is in there.
+      <em>Night of the Living Dead</em> is in there because of a clerical error, and
+      <em>Charade</em> because of a defective copyright notice. What the catalogue lacks is not
+      quality but <em>curation</em> — someone to turn the lights on, hang the pictures in an order
+      that means something, and write the cards on the wall. That is the work here: four channels,
+      each with a point of view, each film carrying programme notes on why it earned its slot.
+    </p>
+    <p>
+      No ratings, no thumbnails engineered for clicks, no infinite shelf. A rotation, not a
+      library; an editor, not an engine.
+    </p>
+
+    <h2>The name</h2>
+    <p>
+      A telecine is the machine that transfers motion-picture film to television — the bridge
+      between the cinema and the living room. That is literally what this is: cinema's first
+      century, carried across to the set in yours.
+    </p>
+
+    <h2>Colophon</h2>
+    <p>
+      Set in <a href="https://github.com/undercasetype/Fraunces">Fraunces</a> and
+      <a href="https://www.ibm.com/plex/">IBM Plex Mono</a>. Built as a static site — the player,
+      the guide, and the schedule resolver are
+      <a href="https://github.com/brunohart/telecine">open source</a>. No accounts, no tracking,
+      no analytics, no cookies. The films are served by the Internet Archive from public-domain
+      prints; if this network gives you something, consider
+      <a href="https://archive.org/donate">giving something to the Archive</a>, which does the
+      heavy lifting for the entire remembering-things industry.
+    </p>
+    <p>
+      Telecine is a <a href="https://designedbybruno.net">designedbybruno</a> production.
+    </p>
+  </article>
+</Base>

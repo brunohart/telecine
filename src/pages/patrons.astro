@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Patrons — Telecine"
+  description="Telecine is free to watch and always will be. Patronage keeps the transmitter warm and the programming ambitious."
+>
+  <article class="wrap">
+    <h1 class="page-title">Patrons</h1>
+    <p class="page-lede">
+      The network is free to watch, and that is permanent. Patronage is how it grows.
+    </p>
+
+    <div class="prose">
+      <p>
+        Telecine costs almost nothing to run — that is the elegance of the design — but programming
+        is labour: finding the best surviving print of each film, verifying it, writing the notes,
+        composing seasons that mean something. Patronage funds that labour, the way membership funds
+        a film society. Not a paywall in front of the films (they belong to you already), but a way
+        to stand behind the projector.
+      </p>
+    </div>
+
+    <div class="tiers">
+      <section class="tier">
+        <h2 class="tier-name">The Viewer</h2>
+        <p class="tier-price mono-label">Free · forever</p>
+        <ul>
+          <li>Every channel, every film, always on</li>
+          <li>The Guide, the programme notes, the whole set</li>
+          <li>No account. No tracking. Just tune in.</li>
+        </ul>
+      </section>
+
+      <section class="tier featured">
+        <div class="bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <h2 class="tier-name">Founding Patron</h2>
+        <p class="tier-price mono-label">Opens with Season Two</p>
+        <ul>
+          <li>Your name in the network's end-of-night credit roll (or your anonymity, kept)</li>
+          <li>The printed seasonal programme — the guide as a physical object worth keeping</li>
+          <li>A programming vote each season: one film on one channel is the patrons' pick</li>
+          <li>First tune-in when new channels test their signal</li>
+        </ul>
+      </section>
+
+      <section class="tier">
+        <h2 class="tier-name">The Affiliate</h2>
+        <p class="tier-price mono-label">For cinemas &amp; societies</p>
+        <ul>
+          <li>A Transmission of your own: a channel programmed for your venue, festival, or society</li>
+          <li>Programme notes written to hang beside your screenings</li>
+          <li>The broadcast engine, pointed at your audience</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="prose">
+      <p>
+        Founding memberships open with Season Two, once the network has earned the ask. Until then
+        the best ways to back the transmitter: <a href="https://github.com/brunohart/telecine">star
+        or contribute to the source</a>, tell exactly one person who would love CH 02, and
+        <a href="https://archive.org/donate">give to the Internet Archive</a>, whose shelves this
+        network is built on.
+      </p>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.4rem; margin: 2.4rem 0; }
+  .tier { border: 1px solid var(--line); border-radius: 6px; background: var(--card); padding: 1.5rem 1.5rem 1.7rem; }
+  .tier.featured { border-color: var(--line-strong); padding-top: 0; }
+  .tier.featured .bars { margin: 0 -1.5rem 1.4rem; border-radius: 6px 6px 0 0; overflow: hidden; }
+  .tier-name { font-size: 1.35rem; }
+  .tier-price { margin: 0.3rem 0 1rem; color: var(--signal-deep); }
+  .tier ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.5rem; font-size: 0.92rem; color: var(--ink-soft); }
+  .prose { max-width: 66ch; }
+</style>
