@@ -18,15 +18,20 @@ import network from '../data/network.json';
             <span class="mono-label" id="noise-label">TUNING</span>
           </div>
 
+          <div class="burst" id="burst" hidden aria-hidden="true"></div>
+
           <div class="inter-card" id="card" hidden>
-            <div class="bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="bars-stack" aria-hidden="true">
+              <div class="bars"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="bars bars-misreg"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
             <div class="inter-body">
               <div class="inter-head">
                 <span class="inter-num" id="card-num">01</span>
-                <span class="mono-label" id="card-name">The Silent Signal</span>
+                <span class="stamp" id="card-name">The Silent Signal</span>
               </div>
               <p class="mono-label">Next transmission</p>
-              <h2 class="inter-title" id="card-title">—</h2>
+              <h2 class="inter-title ghost" id="card-title" data-text="—">—</h2>
               <p class="inter-meta" id="card-meta">—</p>
               <p class="inter-count"><span id="card-count">00:00</span></p>
             </div>
@@ -40,7 +45,8 @@ import network from '../data/network.json';
           </button>
         </div>
 
-        <div class="chyron">
+        <div class="chyron" id="chyron">
+          <span class="chyron-bar" aria-hidden="true"></span>
           <span class="mono-label" id="ch-label">CH — · —</span>
           <span class="onair" id="onair">The set is off.</span>
           <span class="live-tag mono-label"><span class="live-dot" aria-hidden="true"></span>Live</span>
@@ -62,9 +68,15 @@ import network from '../data/network.json';
       </div>
 
       <aside class="dial" aria-label="Channels">
-        {network.channels.map((ch) => (
-          <button class="dial-btn" data-channel={ch.id} aria-pressed="false" style={`--hue: var(--ch-${ch.number})`}>
-            <span class="dial-num">{ch.number}</span>
+        {network.channels.map((ch, i) => (
+          <button
+            class={`dial-btn ${['tilt-a', 'tilt-b', 'tilt-c', 'tilt-a'][i]}`}
+            data-channel={ch.id}
+            data-settle={i * 70}
+            aria-pressed="false"
+            style={`--hue: var(--ch-${ch.number})`}
+          >
+            <span class="dial-num ghost" data-text={ch.number}>{ch.number}</span>
             <span class="dial-text">
               <span class="dial-name">{ch.name}</span>
               <span class="dial-tag">{ch.tagline}</span>
@@ -116,11 +128,21 @@ import network from '../data/network.json';
 
   .noise {
     position: absolute; inset: 0; display: grid; place-items: center;
+    pointer-events: none;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     animation: roll 0.4s steps(4) infinite;
   }
   .noise .mono-label { background: rgba(0,0,0,.72); color: #ede5d4; padding: .45rem .8rem; letter-spacing: .22em; }
   @keyframes roll { to { background-position: 0 -160px; } }
+
+  /* channel-change static — a real broadcast never cuts clean */
+  .burst {
+    position: absolute; inset: 0; pointer-events: none; z-index: 3;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23b)'/%3E%3C/svg%3E");
+    animation: burst-roll 0.09s steps(3) infinite, burst-fade 0.34s ease-out forwards;
+  }
+  @keyframes burst-roll { to { background-position: -120px 60px; } }
+  @keyframes burst-fade { 0% { opacity: 1; } 100% { opacity: 0; } }
 
   /* ── the station break card ── */
   .inter-card {
@@ -129,13 +151,18 @@ import network from '../data/network.json';
     display: grid; grid-template-rows: auto 1fr auto;
   }
   .inter-card .bars { height: clamp(10px, 3.5%, 18px); }
+  .bars-stack { position: relative; }
+  .bars-misreg { position: absolute; inset: 0; translate: 4px 3px; opacity: .3; mix-blend-mode: multiply; }
   .inter-body { display: grid; place-content: center; text-align: center; gap: .5rem; padding: 1rem; }
-  .inter-head { display: grid; gap: .1rem; margin-bottom: 1.4rem; }
+  .inter-head { display: grid; gap: .5rem; margin-bottom: 1.4rem; justify-items: center; }
   .inter-num { font-family: var(--display); font-weight: 900; font-size: clamp(2.6rem, 7vw, 4.2rem); line-height: 1; }
   .inter-body .mono-label { color: #6f6555; }
-  .inter-title { font-family: var(--display); font-weight: 600; font-style: italic; font-size: clamp(1.5rem, 4.2vw, 2.6rem); }
+  .inter-body .stamp { rotate: -1.2deg; }
+  .inter-title { font-family: var(--display); font-weight: 600; font-style: italic; font-size: clamp(1.5rem, 4.2vw, 2.6rem); rotate: -0.4deg; }
+  .inter-title.ghost::before { opacity: 0.18; z-index: 0; }
   .inter-meta { font-size: .95rem; color: #6f6555; }
-  .inter-count { font-family: var(--mono); font-size: clamp(1.2rem, 3vw, 1.7rem); letter-spacing: .1em; margin-top: 1.2rem; }
+  .inter-count { font-family: var(--mono); font-size: clamp(1.2rem, 3vw, 1.7rem); letter-spacing: .1em; margin-top: 1.2rem; animation: count-breathe 2s ease-in-out infinite; }
+  @keyframes count-breathe { 50% { opacity: 0.55; } }
 
   /* ── tune-in ── */
   .tune {
@@ -148,15 +175,30 @@ import network from '../data/network.json';
     width: 84px; height: 84px; margin-inline: auto;
     border: 2px solid #ede5d4; border-radius: 50%;
     display: grid; place-items: center;
-    transition: transform .25s ease, border-color .25s ease;
+    transition: scale .4s var(--spring), border-color .25s ease;
   }
-  .tune-ring::after { content: ''; width: 14px; height: 14px; border-radius: 50%; background: var(--signal); }
-  .tune:hover .tune-ring { transform: scale(1.06); border-color: var(--signal); }
+  .tune-ring::after {
+    content: ''; width: 14px; height: 14px; border-radius: 50%; background: var(--signal);
+    transition: scale .4s var(--spring);
+  }
+  .tune:hover .tune-ring { scale: 1.08; border-color: var(--signal); }
+  .tune:hover .tune-ring::after { scale: 1.5; }
+  .tune:active .tune-ring { scale: 0.94; }
   .tune-word { font-family: var(--display); font-weight: 600; font-style: italic; font-size: 1.6rem; }
   .tune-now { color: #a39883; }
 
   /* ── chyron & strip ── */
-  .chyron { display: flex; align-items: baseline; gap: 1rem; }
+  .chyron { position: relative; display: flex; align-items: baseline; gap: 1rem; padding-top: .55rem; }
+  .chyron-bar {
+    position: absolute; top: 0; left: 0; height: 2px; width: 100%;
+    background: var(--hue, var(--signal));
+    transform-origin: left center;
+    scale: 0 1;
+  }
+  .chyron.swap .chyron-bar { animation: bar-sweep 0.7s var(--spring-soft) forwards; }
+  @keyframes bar-sweep { from { scale: 0 1; } to { scale: 1 1; } }
+  .chyron.swap .onair { animation: rise-in 0.55s var(--spring) 0.12s backwards; }
+  @keyframes rise-in { from { opacity: 0; translate: 0 8px; } to { opacity: 1; translate: 0 0; } }
   .onair { flex: 1; text-align: center; font-size: .98rem; min-height: 1.5em; }
   .onair em { font-family: var(--display); font-style: italic; }
   .live-tag { display: inline-flex; align-items: center; gap: .45em; color: var(--ink-soft); }
@@ -173,18 +215,26 @@ import network from '../data/network.json';
   .switch { padding-bottom: 2px; border-bottom: 1px solid var(--line-strong); }
   .switch:hover { border-bottom-color: var(--signal); color: var(--ink); }
 
-  /* ── the dial ── */
-  .dial { display: grid; gap: 0.6rem; align-content: start; }
+  /* ── the dial — a fidget object; press it just to feel the spring ── */
+  .dial { display: grid; gap: 0.7rem; align-content: start; }
   .dial-btn {
     display: grid; grid-template-columns: auto 1fr; gap: .85rem; align-items: start;
     text-align: left; padding: .8rem .9rem;
     border: 1px solid var(--line); border-radius: 6px;
     background: transparent;
-    transition: border-color .2s ease, background .2s ease;
+    transition:
+      border-color .25s ease, background .25s ease,
+      rotate .45s var(--spring), scale .3s var(--spring), translate .45s var(--spring);
   }
-  .dial-btn:hover { border-color: var(--line-strong); }
-  .dial-btn[aria-pressed='true'] { background: var(--card); border-color: var(--line-strong); box-shadow: inset 3px 0 0 var(--hue, var(--signal)); }
+  .dial-btn:hover { border-color: var(--line-strong); rotate: 0deg; translate: 0 -2px; }
+  .dial-btn:active { scale: 0.965; }
+  .dial-btn[aria-pressed='true'] {
+    background: var(--card); border-color: var(--line-strong);
+    box-shadow: inset 3px 0 0 var(--hue, var(--signal));
+    rotate: 0deg;
+  }
   .dial-num { font-family: var(--display); font-weight: 900; font-size: 1.6rem; line-height: 1.1; }
+  .dial-num.ghost::before { opacity: .4; }
   .dial-text { display: grid; gap: .15rem; }
   .dial-name { font-family: var(--display); font-weight: 600; font-size: 1.02rem; }
   .dial-tag { font-size: .82rem; color: var(--ink-soft); font-style: italic; }

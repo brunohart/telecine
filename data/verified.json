@@ -54,21 +54,6 @@
       "The_General_Buster_Keaton"
     ]
   },
-  "metropolis-1927": {
-    "identifier": "Metropolis1927EnglishVersion",
-    "file": "Metropolis_1927_English_Version.mp4",
-    "url": "https://archive.org/download/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4",
-    "durationSec": 7118,
-    "sizeBytes": 737006464,
-    "itemTitle": "Metropolis 1927 English Version",
-    "tried": [
-      "Metropolis1927_201409",
-      "metropolis1927",
-      "ScarletStreet",
-      "BerlinSymphonyofaGreatCity",
-      "Metropolis1927EnglishVersion"
-    ]
-  },
   "sunrise-1927": {
     "identifier": "sunrise-1927_202301",
     "file": "Sunrise.ia.mp4",
@@ -126,10 +111,10 @@
   },
   "doa-1950": {
     "identifier": "doa_ipod",
-    "file": "doa.mp4",
-    "url": "https://archive.org/download/doa_ipod/doa.mp4",
+    "file": "doa_512kb.mp4",
+    "url": "https://archive.org/download/doa_ipod/doa_512kb.mp4",
     "durationSec": 4990,
-    "sizeBytes": 420238760,
+    "sizeBytes": 352876949,
     "itemTitle": "D.O.A.",
     "tried": [
       "DOA_1949",
@@ -150,48 +135,47 @@
     ]
   },
   "the-hitch-hiker-1953": {
-    "identifier": "IdaLupinostheHitch-hiker1953",
-    "file": "Hitch-hikervo.mp4",
-    "url": "https://archive.org/download/IdaLupinostheHitch-hiker1953/Hitch-hikervo.mp4",
+    "identifier": "Hitch_Hiker",
+    "file": "Hitch-Hiker.mp4",
+    "url": "https://archive.org/download/Hitch_Hiker/Hitch-Hiker.mp4",
     "durationSec": 4248,
-    "sizeBytes": 442519826,
-    "itemTitle": "Ida Lupino's \"THE HITCH-HIKER\" (1953)",
+    "sizeBytes": 442543106,
+    "itemTitle": "The Hitch-Hiker",
     "tried": [
       "TheHitchHiker",
       "the_hitchhiker",
-      "Hitch_Hiker",
-      "IdaLupinostheHitch-hiker1953"
+      "Hitch_Hiker"
     ]
   },
   "too-late-for-tears-1949": {
-    "identifier": "TooLateForTears1949",
-    "file": "Too Late for Tears (1949).mp4",
-    "url": "https://archive.org/download/TooLateForTears1949/Too%20Late%20for%20Tears%20(1949).mp4",
-    "durationSec": 5608,
-    "sizeBytes": 843677240,
-    "itemTitle": "Too Late For Tears ( 1949)",
+    "identifier": "Lbines-TooLateForTears1949AKAKillerBait1955923",
+    "file": "Lbines-TooLateForTears1949AKAKillerBait1955923_512kb.mp4",
+    "url": "https://archive.org/download/Lbines-TooLateForTears1949AKAKillerBait1955923/Lbines-TooLateForTears1949AKAKillerBait1955923_512kb.mp4",
+    "durationSec": 5628,
+    "sizeBytes": 428679887,
+    "itemTitle": "Too Late for Tears 1949 AKA Killer Bait 1955",
     "tried": [
       "too_late_for_tears",
       "TooLateForTears",
       "nazi_concentration_camps",
       "george-orwell-1984-full-movie",
       "Great_Flamarion_1945",
-      "TooLateForTears1949"
+      "TooLateForTears1949",
+      "AdmiralBroadwayRevue",
+      "Lbines-TooLateForTears1949AKAKillerBait1955923"
     ]
   },
   "kansas-city-confidential-1952": {
-    "identifier": "1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson",
-    "file": "1952 - Kansas City Confidential - El cuarto hombre - Phil Karlson.mp4",
-    "url": "https://archive.org/download/1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson/1952%20-%20Kansas%20City%20Confidential%20-%20El%20cuarto%20hombre%20-%20Phil%20Karlson.mp4",
-    "durationSec": 5950,
-    "sizeBytes": 1845277544,
-    "itemTitle": "1952 - Kansas City Confidential - El cuarto hombre - Phil Karlson",
+    "identifier": "Kansas_City_Confidential_1952",
+    "file": "Kansas_City_Confidential.mp4",
+    "url": "https://archive.org/download/Kansas_City_Confidential_1952/Kansas_City_Confidential.mp4",
+    "durationSec": 5956,
+    "sizeBytes": 618699283,
+    "itemTitle": "Kansas City Confidential",
     "tried": [
       "KansasCityConfidential",
       "kansas_city_confidential",
-      "Kansas_City_Confidential_1952",
-      "KansasCityConfidential720p",
-      "1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson"
+      "Kansas_City_Confidential_1952"
     ]
   },
   "the-stranger-1946": {
@@ -220,10 +204,10 @@
   },
   "carnival-of-souls-1962": {
     "identifier": "carnival_of_souls",
-    "file": "carnival_of_souls.mp4",
-    "url": "https://archive.org/download/carnival_of_souls/carnival_of_souls.mp4",
+    "file": "carnival_of_souls_512kb.mp4",
+    "url": "https://archive.org/download/carnival_of_souls/carnival_of_souls_512kb.mp4",
     "durationSec": 4979,
-    "sizeBytes": 424348509,
+    "sizeBytes": 361353832,
     "itemTitle": "Carnival of Souls ( iPod Video Version )",
     "tried": [
       "CarnivalOfSouls",
@@ -244,10 +228,10 @@
   },
   "house-on-haunted-hill-1959": {
     "identifier": "house_on_haunted_hill_ipod",
-    "file": "house_on_haunted_hill.mp4",
-    "url": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4",
+    "file": "house_on_haunted_hill_512kb.mp4",
+    "url": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4",
     "durationSec": 4483,
-    "sizeBytes": 843645455,
+    "sizeBytes": 317341899,
     "itemTitle": "House on Haunted Hill",
     "tried": [
       "house_on_haunted_hill_ipod"
@@ -268,10 +252,10 @@
   },
   "white-zombie-1932": {
     "identifier": "WhiteZombie1932",
-    "file": "WhiteZombie.mp4",
-    "url": "https://archive.org/download/WhiteZombie1932/WhiteZombie.mp4",
+    "file": "WhiteZombie_512kb.mp4",
+    "url": "https://archive.org/download/WhiteZombie1932/WhiteZombie_512kb.mp4",
     "durationSec": 3922,
-    "sizeBytes": 637130116,
+    "sizeBytes": 315144702,
     "itemTitle": "White Zombie (1932)",
     "tried": [
       "WhiteZombie1932"
@@ -394,6 +378,17 @@
     "itemTitle": "Royal Wedding",
     "tried": [
       "royal_wedding"
+    ]
+  },
+  "metropolis-1927": {
+    "identifier": "Metropolis1927EnglishVersion",
+    "file": "Metropolis_1927_English_Version.mp4",
+    "url": "https://archive.org/download/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4",
+    "durationSec": 7118,
+    "sizeBytes": 737006464,
+    "itemTitle": "Metropolis 1927 English Version",
+    "tried": [
+      "Metropolis1927EnglishVersion"
     ]
   }
 }

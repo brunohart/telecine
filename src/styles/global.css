@@ -35,6 +35,11 @@
   --mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
 
   --measure: 62ch;
+
+  /* physics — elements have mass; springs overshoot and settle */
+  --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --spring-soft: cubic-bezier(0.22, 1.2, 0.36, 1);
+  --settle-dur: 620ms;
 }
 
 /* the dark room — the set page drops the lights */
@@ -163,6 +168,122 @@ main { flex: 1; }
 
 .page-title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 900; margin: 1.2rem 0 0.4rem; }
 .page-lede { font-size: 1.12rem; color: var(--ink-soft); max-width: var(--measure); font-style: italic; }
+
+/* ────────────────────────────────────────────────────────────────
+   The signatures — misregistration, stamps, rotation, offset ink,
+   wash bleeds, broken rules. Structure beneath scatter: every tilt
+   is authored, every spring is tuned. (digital-design-taste.md,
+   evolved for the broadcast format.)
+   ──────────────────────────────────────────────────────────────── */
+
+/* 1 · misregistration ghost — the plate that didn't align */
+.ghost { position: relative; }
+.ghost::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0.045em;
+  top: 0.06em;
+  color: var(--signal);
+  opacity: 0.16;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+.lights-down .ghost::before { opacity: 0.34; }
+
+/* 2 · rubber-stamp labels — pressed by hand, never quite level */
+.stamp {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border: 1px solid var(--line-strong);
+  padding: 0.3em 0.7em 0.26em;
+  rotate: -0.8deg;
+  border-radius: 2px;
+}
+
+/* 3 · rotation as character — resting tilts that snap to attention */
+.tilt-a { rotate: -0.55deg; }
+.tilt-b { rotate: 0.7deg; }
+.tilt-c { rotate: -0.35deg; }
+.tilt-a, .tilt-b, .tilt-c { transition: rotate 0.45s var(--spring), translate 0.45s var(--spring), box-shadow 0.45s var(--spring-soft); }
+.tilt-a:hover, .tilt-b:hover, .tilt-c:hover { rotate: 0deg; }
+
+/* 4 · offset ink blocks — the second print pass, misaligned */
+.offset-ink { position: relative; }
+.offset-ink::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  translate: 6px 8px;
+  background: var(--tube);
+  opacity: 0.07;
+  z-index: -1;
+  border-radius: inherit;
+  transition: translate 0.45s var(--spring), opacity 0.3s ease;
+  pointer-events: none;
+}
+.offset-ink:hover::after { translate: 3px 4px; opacity: 0.11; }
+
+/* 5 · colour wash bleeds — ink that doesn't respect the margin */
+.wash {
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: 0.05;
+  z-index: 0;
+  rotate: -4deg;
+}
+.wash-signal { background: var(--signal); }
+.wash-tube { background: var(--tube); }
+.lights-down .wash { mix-blend-mode: screen; opacity: 0.05; }
+
+/* 6 · broken rules — the stroke that ran out of ink */
+.rule-broken {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--ink) 0 31%, transparent 31% 36%,
+    var(--ink) 36% 63%, transparent 63% 65.5%,
+    var(--ink) 65.5% 86%, transparent 86% 88%,
+    var(--ink) 88% 100%
+  );
+  opacity: 0.85;
+}
+
+/* ── settle choreography — objects placed on the table one by one ── */
+[data-settle] {
+  opacity: 0;
+  translate: 0 18px;
+  transition:
+    opacity var(--settle-dur) var(--spring-soft),
+    translate var(--settle-dur) var(--spring);
+}
+[data-settle].settled { opacity: 1; translate: 0 0; }
+
+/* ── cursor as presence ── */
+.cursor-dot {
+  position: fixed;
+  top: 0; left: 0;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 1000;
+  transition: width 0.28s var(--spring), height 0.28s var(--spring), background 0.2s ease, opacity 0.2s ease;
+}
+.cursor-dot.hot { width: 38px; height: 38px; background: var(--signal); mix-blend-mode: normal; opacity: 0.55; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+  [data-settle] { opacity: 1; translate: 0 0; }
+}
 
 @media (max-width: 640px) {
   body { font-size: 16px; }

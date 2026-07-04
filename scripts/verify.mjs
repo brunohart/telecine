@@ -47,7 +47,12 @@ function titleMatches(itemTitle, film) {
   return stripped.length > 4 && t.includes(stripped);
 }
 
-/** Pick the best playable MP4 from an item's file list. */
+/**
+ * Pick the best playable MP4 from an item's file list.
+ * Streaming beats resolution: the Archive's own derivatives (`h.264 IA`,
+ * `h.264`, `512Kb MPEG4`) are consistently faststart and browser-safe, so a
+ * set tunes in within seconds instead of buffering an uploaded master.
+ */
 function pickFile(files) {
   const mp4s = files.filter(
     (f) =>
@@ -57,10 +62,21 @@ function pickFile(files) {
       !/trailer|sample|preview|ia_thumb/i.test(f.name)
   );
   if (!mp4s.length) return null;
-  // Prefer a sane streaming derivative (100MB–2.5GB), largest first; else the largest overall.
-  const bySize = [...mp4s].sort((a, b) => Number(b.size || 0) - Number(a.size || 0));
-  const sane = bySize.filter((f) => Number(f.size || 0) > 1e8 && Number(f.size || 0) < 2.5e9);
-  return sane[0] || bySize[0];
+  const rank = (f) => {
+    const fmt = (f.format || '').toLowerCase();
+    if (fmt === 'h.264 ia') return 0;
+    if (fmt === 'h.264') return 1;
+    if (fmt === '512kb mpeg4') return 2;
+    return 3;
+  };
+  return [...mp4s].sort((a, b) => {
+    const r = rank(a) - rank(b);
+    if (r) return r;
+    // within a tier, prefer a sane streaming size (100MB–1.5GB), then larger
+    const sane = (f) => Number(f.size || 0) > 1e8 && Number(f.size || 0) < 1.5e9;
+    if (sane(a) !== sane(b)) return sane(a) ? -1 : 1;
+    return Number(b.size || 0) - Number(a.size || 0);
+  })[0];
 }
 
 async function checkRange(url) {

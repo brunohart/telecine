@@ -5,6 +5,13 @@
  *   · you join what is on, at the moment it is at — never from the top
  *   · there is no pause and no scrubbing; the LIVE point is the only point
  *   · drift is corrected quietly; two sets in two houses show the same frame
+ *
+ * Playback discipline:
+ *   · the set warms up before you switch it on — the live source is loaded
+ *     and seeked while the TUNE IN lens is still showing, so power-on is fast
+ *   · play() is first called inside the user's click (Safari's rule); if
+ *     sound is refused we fall back to muted and say so honestly
+ *   · during a station break the next film pre-buffers behind the test card
  */
 
 import network from '../data/network.json';
@@ -16,7 +23,6 @@ const state = {
   channel: null,
   powered: false,
   transitionTimer: null,
-  tickTimer: null,
   retryTimer: null,
   srcKey: null,
   driftAt: 0,
@@ -58,14 +64,24 @@ function paintDial() {
 }
 
 function setChannel(id, save = true) {
+  const prev = state.channel?.id;
   state.channel = network.channels.find((c) => c.id === id) ?? network.channels[0];
   state.srcKey = null;
   els.chLabel.textContent = `CH ${state.channel.number} · ${state.channel.name}`;
+  els.cabinet.style.setProperty('--hue', `var(--ch-${state.channel.number})`);
   history.replaceState(null, '', `#${state.channel.number}`);
   if (save) try { localStorage.setItem('telecine:channel', state.channel.id); } catch {}
   paintDial();
-  if (state.powered) sync();
-  else els.tuneNow.textContent = nowOnLine(state.channel);
+  if (prev && prev !== state.channel.id && state.powered) burst();
+  sync();
+  if (!state.powered) els.tuneNow.textContent = nowOnLine(state.channel);
+}
+
+/* channel-change static — a real broadcast never cuts clean */
+function burst() {
+  els.burst.hidden = false;
+  clearTimeout(state.burstTimer);
+  state.burstTimer = setTimeout(() => (els.burst.hidden = true), 340);
 }
 
 /* ── noise / signal states ── */
@@ -79,6 +95,44 @@ function noise(msg) {
   }
 }
 
+/* ── loading & playing ── */
+
+function loadSource(key, src, seekOnMeta) {
+  if (state.srcKey === key) return;
+  state.srcKey = key;
+  if (state.powered) noise('TUNING');
+  els.screen.src = src;
+  els.screen.addEventListener(
+    'loadedmetadata',
+    () => {
+      if (seekOnMeta) seekLive();
+      if (state.powered) attemptPlay();
+    },
+    { once: true }
+  );
+  els.screen.load();
+}
+
+function seekLive() {
+  const r = resolve(state.channel, Date.now());
+  if (r.block.type === 'film') els.screen.currentTime = r.offsetSec;
+}
+
+function reflectSound() {
+  els.mute.textContent = els.screen.muted ? 'Sound off' : 'Sound on';
+}
+
+function attemptPlay() {
+  const p = els.screen.play();
+  if (!p) return;
+  p.catch(() => {
+    // sound refused outside a gesture — broadcast honestly, muted
+    els.screen.muted = true;
+    reflectSound();
+    els.screen.play().catch(() => noise('TAP THE SCREEN'));
+  });
+}
+
 /* ── the broadcast loop ── */
 
 function sync() {
@@ -87,14 +141,9 @@ function sync() {
   const r = resolve(state.channel, now);
   if (r.block.type === 'film') showFilm(r);
   else showBreak(r);
-  document.title = `CH ${state.channel.number} · ${filmOf(r.block).title} — Telecine`;
+  if (state.powered) document.title = `CH ${state.channel.number} · ${filmOf(r.block).title} — Telecine`;
   state.transitionTimer = setTimeout(sync, r.blockEnd.getTime() - now + 300);
   paintDial();
-}
-
-function seekLive() {
-  const r = resolve(state.channel, Date.now());
-  if (r.block.type === 'film') els.screen.currentTime = r.offsetSec;
 }
 
 function showFilm(r) {
@@ -108,41 +157,39 @@ function showFilm(r) {
   const nx = upNext(state.channel, Date.now());
   els.upnext.textContent = nx ? `Up next: ${network.films[nx.film].title} (${network.films[nx.film].year})` : '';
   els.total.textContent = fmt(r.block.durationSec);
+  // chyron re-entry — the accent bar sweeps like a brush stroke
+  els.chyron.classList.remove('swap');
+  void els.chyron.offsetWidth;
+  els.chyron.classList.add('swap');
 
   const key = `${state.channel.id}:${r.index}`;
-  if (state.srcKey !== key) {
-    state.srcKey = key;
-    noise('TUNING');
-    els.screen.src = r.block.src;
-    els.screen.addEventListener(
-      'loadedmetadata',
-      () => {
-        seekLive();
-        els.screen.play().catch(() => noise('TAP THE SCREEN TO RESUME'));
-      },
-      { once: true }
-    );
-    els.screen.load();
+  if (state.srcKey === key) {
+    // pre-buffered during the break or the off state — just go
+    if (els.screen.readyState >= 1) seekLive();
+    if (state.powered) attemptPlay();
   } else {
-    seekLive();
-    els.screen.play().catch(() => {});
+    loadSource(key, r.block.src, true);
   }
 }
 
 function showBreak(r) {
-  const film = filmOf(r.block);
   els.screen.pause();
-  els.screen.removeAttribute('src');
-  state.srcKey = null;
+  const film = filmOf(r.block);
   noise(null);
   els.cardNum.textContent = state.channel.number;
   els.cardName.textContent = state.channel.name;
   els.cardTitle.textContent = film.title;
+  els.cardTitle.dataset.text = film.title;
   els.cardMeta.textContent = `${film.year} · ${film.director}`;
   els.card.hidden = false;
   els.onair.textContent = 'Station break';
   els.upnext.textContent = '';
   els.total.textContent = fmt(r.block.durationSec);
+
+  // warm up the next reel behind the test card
+  const nextIndex = (r.index + 1) % state.channel.blocks.length;
+  const next = state.channel.blocks[nextIndex];
+  if (next.type === 'film') loadSource(`${state.channel.id}:${nextIndex}`, next.src, false);
 }
 
 function tick() {
@@ -170,6 +217,10 @@ function powerOn() {
   state.powered = true;
   els.tune.hidden = true;
   els.cabinet.dataset.on = 'true';
+  // first play() must live inside the click — Safari's law
+  els.screen.muted = false;
+  attemptPlay();
+  reflectSound();
   sync();
 }
 
@@ -179,6 +230,7 @@ export function initPlayer() {
     screen: $('screen'),
     noise: $('noise'),
     noiseLabel: $('noise-label'),
+    burst: $('burst'),
     card: $('card'),
     cardNum: $('card-num'),
     cardName: $('card-name'),
@@ -187,12 +239,14 @@ export function initPlayer() {
     cardCount: $('card-count'),
     tune: $('tune'),
     tuneNow: $('tune-now'),
+    chyron: $('chyron'),
     chLabel: $('ch-label'),
     onair: $('onair'),
     upnext: $('upnext'),
     elapsed: $('elapsed'),
     total: $('total'),
     progFill: $('prog-fill'),
+    mute: $('mute'),
     dialButtons: [...document.querySelectorAll('[data-channel]')],
   });
 
@@ -210,12 +264,13 @@ export function initPlayer() {
     const r = resolve(state.channel, Date.now());
     if (r.block.type === 'film' && Math.abs(els.screen.currentTime - r.offsetSec) > 4) seekLive();
   });
-  els.screen.addEventListener('waiting', () => noise('TUNING'));
+  els.screen.addEventListener('waiting', () => state.powered && noise('TUNING'));
   els.screen.addEventListener('playing', () => noise(null));
+  els.screen.addEventListener('volumechange', reflectSound);
   els.screen.addEventListener('ended', sync);
-  els.screen.addEventListener('click', () => els.screen.play().catch(() => {}));
+  els.screen.addEventListener('click', () => state.powered && attemptPlay());
   els.screen.addEventListener('error', () => {
-    if (!state.powered) return;
+    if (!state.powered || !els.screen.getAttribute('src')) return;
     noise('SIGNAL LOST · RETRYING');
     clearTimeout(state.retryTimer);
     state.retryTimer = setTimeout(() => { state.srcKey = null; sync(); }, 8000);
@@ -226,9 +281,9 @@ export function initPlayer() {
   });
 
   // set-side switches
-  $('mute').addEventListener('click', (e) => {
+  els.mute.addEventListener('click', () => {
     els.screen.muted = !els.screen.muted;
-    e.currentTarget.textContent = els.screen.muted ? 'SOUND OFF' : 'SOUND ON';
+    reflectSound();
   });
   $('full').addEventListener('click', () => {
     const frame = $('screen-frame');
@@ -239,10 +294,10 @@ export function initPlayer() {
     if (e.target.closest('input, textarea')) return;
     const n = Number(e.key);
     if (n >= 1 && n <= network.channels.length) setChannel(network.channels[n - 1].id);
-    if (e.key === 'm') $('mute').click();
+    if (e.key === 'm') els.mute.click();
     if (e.key === 'f') $('full').click();
   });
 
-  state.tickTimer = setInterval(tick, 500);
+  setInterval(tick, 500);
   tick();
 }

@@ -11,17 +11,24 @@ const filmCount = (ch) => ch.blocks.filter((b) => b.type === 'film').length;
   description="Four channels, programmed by hand, always on: The Silent Signal, Noir After Dark, The Haunted Screen, The Matinee."
 >
   <section class="wrap">
-    <h1 class="page-title">Channels</h1>
+    <h1 class="page-title ghost" data-text="Channels">Channels</h1>
     <p class="page-lede">
       Four rooms in the same house. Each is programmed by hand — a rotation, not a library;
       a point of view, not an algorithm.
     </p>
 
+    <div class="wash wash-signal" style="width: 40vw; height: 36vh; left: -14vw; bottom: -6rem;" aria-hidden="true"></div>
+
     <div class="ch-grid">
-      {network.channels.map((ch) => (
-        <a class="ch-card" href={`/channels/${ch.id}`} style={`--hue: var(--ch-${ch.number})`}>
+      {network.channels.map((ch, i) => (
+        <a
+          class={`ch-card offset-ink ${['tilt-a', 'tilt-b', 'tilt-c', 'tilt-b'][i]}`}
+          data-settle={i * 80}
+          href={`/channels/${ch.id}`}
+          style={`--hue: var(--ch-${ch.number})`}
+        >
           <div class="ch-swatch" aria-hidden="true"></div>
-          <span class="ch-num">{ch.number}</span>
+          <span class="ch-num ghost" data-text={ch.number}>{ch.number}</span>
           <h2 class="ch-name">{ch.name}</h2>
           <p class="ch-tagline">{ch.tagline}</p>
           <p class="ch-desc">{ch.description}</p>
@@ -33,16 +40,16 @@ const filmCount = (ch) => ch.blocks.filter((b) => b.type === 'film').length;
 </Base>
 
 <style>
-  .ch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.4rem; margin-top: 2.4rem; }
+  section.wrap { position: relative; }
+  .ch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.6rem; margin-top: 2.4rem; }
   .ch-card {
     display: grid; gap: .5rem; align-content: start;
     padding: 1.4rem 1.4rem 1.6rem;
     border: 1px solid var(--line); border-radius: 6px;
     background: var(--card);
     text-decoration: none;
-    transition: border-color .2s ease, transform .2s ease;
   }
-  .ch-card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+  .ch-card:hover { border-color: var(--line-strong); translate: 0 -3px; }
   .ch-swatch { height: 6px; background: var(--hue); margin: -1.4rem -1.4rem 0.8rem; border-radius: 6px 6px 0 0; }
   .ch-num { font-family: var(--display); font-weight: 900; font-size: 2.2rem; line-height: 1; color: var(--hue); }
   .ch-name { font-size: 1.45rem; }

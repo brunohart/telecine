@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T00:48:58.863Z",
+  "generatedAt": "2026-07-04T09:20:53.844Z",
   "interstitialSec": 90,
   "channels": [
     {
@@ -130,7 +130,7 @@
           "type": "film",
           "film": "the-hitch-hiker-1953",
           "durationSec": 4248,
-          "src": "https://archive.org/download/IdaLupinostheHitch-hiker1953/Hitch-hikervo.mp4"
+          "src": "https://archive.org/download/Hitch_Hiker/Hitch-Hiker.mp4"
         },
         {
           "type": "interstitial",
@@ -152,7 +152,7 @@
           "type": "film",
           "film": "doa-1950",
           "durationSec": 4990,
-          "src": "https://archive.org/download/doa_ipod/doa.mp4"
+          "src": "https://archive.org/download/doa_ipod/doa_512kb.mp4"
         },
         {
           "type": "interstitial",
@@ -162,8 +162,8 @@
         {
           "type": "film",
           "film": "too-late-for-tears-1949",
-          "durationSec": 5608,
-          "src": "https://archive.org/download/TooLateForTears1949/Too%20Late%20for%20Tears%20(1949).mp4"
+          "durationSec": 5628,
+          "src": "https://archive.org/download/Lbines-TooLateForTears1949AKAKillerBait1955923/Lbines-TooLateForTears1949AKAKillerBait1955923_512kb.mp4"
         },
         {
           "type": "interstitial",
@@ -184,8 +184,8 @@
         {
           "type": "film",
           "film": "kansas-city-confidential-1952",
-          "durationSec": 5950,
-          "src": "https://archive.org/download/1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson/1952%20-%20Kansas%20City%20Confidential%20-%20El%20cuarto%20hombre%20-%20Phil%20Karlson.mp4"
+          "durationSec": 5956,
+          "src": "https://archive.org/download/Kansas_City_Confidential_1952/Kansas_City_Confidential.mp4"
         },
         {
           "type": "interstitial",
@@ -218,7 +218,7 @@
           "type": "film",
           "film": "carnival-of-souls-1962",
           "durationSec": 4979,
-          "src": "https://archive.org/download/carnival_of_souls/carnival_of_souls.mp4"
+          "src": "https://archive.org/download/carnival_of_souls/carnival_of_souls_512kb.mp4"
         },
         {
           "type": "interstitial",
@@ -240,7 +240,7 @@
           "type": "film",
           "film": "house-on-haunted-hill-1959",
           "durationSec": 4483,
-          "src": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4"
+          "src": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4"
         },
         {
           "type": "interstitial",
@@ -262,7 +262,7 @@
           "type": "film",
           "film": "white-zombie-1932",
           "durationSec": 3922,
-          "src": "https://archive.org/download/WhiteZombie1932/WhiteZombie.mp4"
+          "src": "https://archive.org/download/WhiteZombie1932/WhiteZombie_512kb.mp4"
         },
         {
           "type": "interstitial",
@@ -501,9 +501,9 @@
       "year": 1953,
       "director": "Ida Lupino",
       "durationSec": 4248,
-      "src": "https://archive.org/download/IdaLupinostheHitch-hiker1953/Hitch-hikervo.mp4",
-      "identifier": "IdaLupinostheHitch-hiker1953",
-      "itemUrl": "https://archive.org/details/IdaLupinostheHitch-hiker1953",
+      "src": "https://archive.org/download/Hitch_Hiker/Hitch-Hiker.mp4",
+      "identifier": "Hitch_Hiker",
+      "itemUrl": "https://archive.org/details/Hitch_Hiker",
       "logline": "Two fishermen, one killer in the back seat, and the desert as witness.",
       "note": "The only classic-era American noir directed by a woman, and it is leaner than anything the men were making. Ida Lupino strips the genre of the femme fatale, the city, the voiceover — leaves two ordinary friendships under a gun and a landscape that doesn't care. Based closely on a real spree, close enough that the survivors advised. Seventy-one minutes with no fat on them at all.",
       "channel": "noir-after-dark"
@@ -527,7 +527,7 @@
       "year": 1950,
       "director": "Rudolph Maté",
       "durationSec": 4990,
-      "src": "https://archive.org/download/doa_ipod/doa.mp4",
+      "src": "https://archive.org/download/doa_ipod/doa_512kb.mp4",
       "identifier": "doa_ipod",
       "itemUrl": "https://archive.org/details/doa_ipod",
       "logline": "A man walks into homicide to report a murder: his own.",
@@ -539,10 +539,10 @@
       "title": "Too Late for Tears",
       "year": 1949,
       "director": "Byron Haskin",
-      "durationSec": 5608,
-      "src": "https://archive.org/download/TooLateForTears1949/Too%20Late%20for%20Tears%20(1949).mp4",
-      "identifier": "TooLateForTears1949",
-      "itemUrl": "https://archive.org/details/TooLateForTears1949",
+      "durationSec": 5628,
+      "src": "https://archive.org/download/Lbines-TooLateForTears1949AKAKillerBait1955923/Lbines-TooLateForTears1949AKAKillerBait1955923_512kb.mp4",
+      "identifier": "Lbines-TooLateForTears1949AKAKillerBait1955923",
+      "itemUrl": "https://archive.org/details/Lbines-TooLateForTears1949AKAKillerBait1955923",
       "logline": "A bag of money lands in a convertible. The wife keeps it.",
       "note": "Lizabeth Scott plays one of noir's most complete self-portraits of want: not a schemer corrupted by a man, but the gravity the men fall into. The film watches a marriage discover what it was actually made of, one decision at a time, in living rooms lit like interrogations. Restored from near-oblivion by archivists after decades of murky dupes — a film about unearned money, saved by unpaid care.",
       "channel": "noir-after-dark"
@@ -565,10 +565,10 @@
       "title": "Kansas City Confidential",
       "year": 1952,
       "director": "Phil Karlson",
-      "durationSec": 5950,
-      "src": "https://archive.org/download/1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson/1952%20-%20Kansas%20City%20Confidential%20-%20El%20cuarto%20hombre%20-%20Phil%20Karlson.mp4",
-      "identifier": "1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson",
-      "itemUrl": "https://archive.org/details/1952-kansas-city-confidential-el-cuarto-hombre-phil-karlson",
+      "durationSec": 5956,
+      "src": "https://archive.org/download/Kansas_City_Confidential_1952/Kansas_City_Confidential.mp4",
+      "identifier": "Kansas_City_Confidential_1952",
+      "itemUrl": "https://archive.org/details/Kansas_City_Confidential_1952",
       "logline": "Four masked men, mutual strangers by design, and a fall guy who won't fall.",
       "note": "The heist film's load-bearing wall: the masked-crew structure that Kubrick studied and Tarantino lifted outright arrives here first, in a lean Phil Karlson picture with a genuinely mean streak. An ex-con is framed by geometry rather than malice and goes to Mexico to dismantle the plan man by man. Karlson shoots faces like evidence. The B-picture as precision instrument.",
       "channel": "noir-after-dark"
@@ -592,7 +592,7 @@
       "year": 1962,
       "director": "Herk Harvey",
       "durationSec": 4979,
-      "src": "https://archive.org/download/carnival_of_souls/carnival_of_souls.mp4",
+      "src": "https://archive.org/download/carnival_of_souls/carnival_of_souls_512kb.mp4",
       "identifier": "carnival_of_souls",
       "itemUrl": "https://archive.org/details/carnival_of_souls",
       "logline": "A church organist survives a crash, moves west, and stops casting a shadow on the world.",
@@ -618,7 +618,7 @@
       "year": 1959,
       "director": "William Castle",
       "durationSec": 4483,
-      "src": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4",
+      "src": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4",
       "identifier": "house_on_haunted_hill_ipod",
       "itemUrl": "https://archive.org/details/house_on_haunted_hill_ipod",
       "logline": "Five guests, ten thousand dollars each, one night in a locked house.",
@@ -644,7 +644,7 @@
       "year": 1932,
       "director": "Victor Halperin",
       "durationSec": 3922,
-      "src": "https://archive.org/download/WhiteZombie1932/WhiteZombie.mp4",
+      "src": "https://archive.org/download/WhiteZombie1932/WhiteZombie_512kb.mp4",
       "identifier": "WhiteZombie1932",
       "itemUrl": "https://archive.org/details/WhiteZombie1932",
       "logline": "A sugar mill runs on the dead. A wedding guest asks the miller for a favor.",

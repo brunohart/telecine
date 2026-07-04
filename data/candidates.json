@@ -72,13 +72,12 @@
       "year": 1927,
       "director": "Fritz Lang",
       "runtimeWindowMin": [
-        80,
-        160
+        100,
+        130
       ],
       "channel": "silent-signal",
       "identifiers": [
-        "Metropolis1927_201409",
-        "metropolis1927"
+        "Metropolis1927EnglishVersion"
       ],
       "query": "Metropolis 1927 Fritz Lang"
     },

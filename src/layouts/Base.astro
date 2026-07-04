@@ -32,7 +32,7 @@ const current = (p: string) =>
   <body class={bodyClass}>
     <header class="masthead wrap">
       <div class="masthead-row">
-        <a class="wordmark" href="/">TELECINE<span class="tv">.</span></a>
+        <a class="wordmark ghost" data-text="TELECINE." href="/">TELECINE<span class="tv">.</span></a>
         <span class="mast-tag">A public broadcast network · est. in the public domain</span>
       </div>
       <nav class="mast-nav" aria-label="Primary">
@@ -53,7 +53,7 @@ const current = (p: string) =>
 
     <footer class="colophon">
       <div class="wrap">
-        <hr class="rule" />
+        <hr class="rule-broken" />
         <div class="colophon-inner">
           <p>
             Every film transmitted here is in the public domain, served from prints held by the
@@ -68,5 +68,12 @@ const current = (p: string) =>
         </div>
       </div>
     </footer>
+
+    <script>
+      import { initCursor } from '../lib/cursor.js';
+      import { initReveal } from '../lib/reveal.js';
+      initCursor();
+      initReveal();
+    </script>
   </body>
 </html>

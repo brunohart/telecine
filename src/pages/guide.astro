@@ -8,17 +8,19 @@ import network from '../data/network.json';
   description="The next twenty-four hours across all Telecine channels, in your local time."
 >
   <section class="wrap">
-    <h1 class="page-title">The Guide</h1>
+    <h1 class="page-title ghost" data-text="The Guide">The Guide</h1>
     <p class="page-lede">
       The next twenty-four hours, in your local time. Times are the same for everyone;
       the clock is the schedule.
     </p>
 
+    <div class="wash wash-tube" style="width: 42vw; height: 30vh; right: -12vw; top: 8rem;" aria-hidden="true"></div>
+
     <div class="guide" id="guide">
-      {network.channels.map((ch) => (
-        <section class="g-channel" data-channel={ch.id} style={`--hue: var(--ch-${ch.number})`}>
+      {network.channels.map((ch, i) => (
+        <section class="g-channel" data-channel={ch.id} data-settle={i * 80} style={`--hue: var(--ch-${ch.number})`}>
           <header class="g-head">
-            <span class="g-num">{ch.number}</span>
+            <span class="g-num ghost" data-text={ch.number}>{ch.number}</span>
             <div>
               <h2 class="g-name"><a href={`/channels/${ch.id}`}>{ch.name}</a></h2>
               <p class="g-tag">{ch.tagline}</p>
@@ -54,9 +56,11 @@ import network from '../data/network.json';
         rows.push({ start: a.start, film: network.films[a.block.film], onAir: false });
       }
 
+      let i = 0;
       for (const row of rows) {
         const li = document.createElement('li');
         li.className = 'g-row' + (row.onAir ? ' on-air' : '');
+        li.style.animationDelay = `${i++ * 45}ms`;
         const t = document.createElement('span');
         t.className = 'g-time';
         t.textContent = row.onAir
@@ -77,7 +81,13 @@ import network from '../data/network.json';
 </Base>
 
 <style>
+  section.wrap { position: relative; }
   .guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.4rem 2.8rem; margin-top: 2.4rem; }
+
+  /* rows are placed like listings typeset one by one */
+  :global(.g-row) { animation: row-settle 0.5s var(--spring) backwards; }
+  @keyframes row-settle { from { opacity: 0; translate: 0 10px; } }
+  @media (prefers-reduced-motion: reduce) { :global(.g-row) { animation: none; } }
 
   .g-head { display: flex; gap: .9rem; align-items: baseline; padding-bottom: .7rem; border-bottom: 2px solid var(--ink); }
   .g-num { font-family: var(--display); font-weight: 900; font-size: 2rem; color: var(--hue, var(--ink)); }
