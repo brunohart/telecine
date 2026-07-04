@@ -1,0 +1,491 @@
+{
+  "films": [
+    {
+      "slug": "nosferatu-1922",
+      "title": "Nosferatu",
+      "year": 1922,
+      "director": "F. W. Murnau",
+      "runtimeWindowMin": [
+        55,
+        100
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "Nosferatu_201404",
+        "nosferatu",
+        "Nosferatu1922Original"
+      ],
+      "query": "Nosferatu 1922 Murnau"
+    },
+    {
+      "slug": "the-cabinet-of-dr-caligari-1920",
+      "title": "The Cabinet of Dr. Caligari",
+      "year": 1920,
+      "director": "Robert Wiene",
+      "runtimeWindowMin": [
+        55,
+        85
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "TheCabinetOfDrCaligari",
+        "the_cabinet_of_dr_caligari_1920"
+      ],
+      "query": "Cabinet of Dr Caligari 1920"
+    },
+    {
+      "slug": "sherlock-jr-1924",
+      "title": "Sherlock Jr.",
+      "year": 1924,
+      "director": "Buster Keaton",
+      "runtimeWindowMin": [
+        38,
+        52
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "SherlockJr1924",
+        "sherlock-jr"
+      ],
+      "query": "Sherlock Jr Buster Keaton 1924"
+    },
+    {
+      "slug": "the-general-1926",
+      "title": "The General",
+      "year": 1926,
+      "director": "Buster Keaton & Clyde Bruckman",
+      "runtimeWindowMin": [
+        58,
+        90
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "TheGeneral_798",
+        "the_general_1926",
+        "TheGeneralBusterKeaton"
+      ],
+      "query": "The General Buster Keaton 1926"
+    },
+    {
+      "slug": "metropolis-1927",
+      "title": "Metropolis",
+      "year": 1927,
+      "director": "Fritz Lang",
+      "runtimeWindowMin": [
+        80,
+        160
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "Metropolis1927_201409",
+        "metropolis1927"
+      ],
+      "query": "Metropolis 1927 Fritz Lang"
+    },
+    {
+      "slug": "sunrise-1927",
+      "title": "Sunrise: A Song of Two Humans",
+      "year": 1927,
+      "director": "F. W. Murnau",
+      "runtimeWindowMin": [
+        85,
+        100
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "sunrise_a_song_of_two_humans",
+        "Sunrise1927"
+      ],
+      "query": "Sunrise A Song of Two Humans 1927"
+    },
+    {
+      "slug": "battleship-potemkin-1925",
+      "title": "Battleship Potemkin",
+      "year": 1925,
+      "director": "Sergei Eisenstein",
+      "runtimeWindowMin": [
+        58,
+        82
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "BattleshipPotemkin",
+        "battleship_potemkin"
+      ],
+      "query": "Battleship Potemkin 1925 Eisenstein"
+    },
+    {
+      "slug": "the-lodger-1927",
+      "title": "The Lodger: A Story of the London Fog",
+      "year": 1927,
+      "director": "Alfred Hitchcock",
+      "runtimeWindowMin": [
+        58,
+        100
+      ],
+      "channel": "silent-signal",
+      "identifiers": [
+        "TheLodger1927",
+        "the_lodger"
+      ],
+      "query": "The Lodger Hitchcock 1927"
+    },
+    {
+      "slug": "detour-1945",
+      "title": "Detour",
+      "year": 1945,
+      "director": "Edgar G. Ulmer",
+      "runtimeWindowMin": [
+        60,
+        72
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "Detour_movie"
+      ],
+      "query": "Detour 1945 Ulmer"
+    },
+    {
+      "slug": "doa-1950",
+      "title": "D.O.A.",
+      "year": 1950,
+      "director": "Rudolph Maté",
+      "runtimeWindowMin": [
+        78,
+        88
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "DOA_1949",
+        "D.O.A._1950",
+        "doa_1950"
+      ],
+      "query": "D.O.A. 1950 film noir"
+    },
+    {
+      "slug": "scarlet-street-1945",
+      "title": "Scarlet Street",
+      "year": 1945,
+      "director": "Fritz Lang",
+      "runtimeWindowMin": [
+        95,
+        108
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "ScarletStreet",
+        "scarlet_street"
+      ],
+      "query": "Scarlet Street 1945 Fritz Lang"
+    },
+    {
+      "slug": "the-hitch-hiker-1953",
+      "title": "The Hitch-Hiker",
+      "year": 1953,
+      "director": "Ida Lupino",
+      "runtimeWindowMin": [
+        65,
+        75
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "TheHitchHiker",
+        "the_hitchhiker",
+        "Hitch_Hiker"
+      ],
+      "query": "The Hitch-Hiker 1953 Ida Lupino"
+    },
+    {
+      "slug": "too-late-for-tears-1949",
+      "title": "Too Late for Tears",
+      "year": 1949,
+      "director": "Byron Haskin",
+      "runtimeWindowMin": [
+        92,
+        105
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "too_late_for_tears",
+        "TooLateForTears"
+      ],
+      "query": "Too Late for Tears 1949"
+    },
+    {
+      "slug": "kansas-city-confidential-1952",
+      "title": "Kansas City Confidential",
+      "year": 1952,
+      "director": "Phil Karlson",
+      "runtimeWindowMin": [
+        92,
+        102
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "KansasCityConfidential",
+        "kansas_city_confidential"
+      ],
+      "query": "Kansas City Confidential 1952"
+    },
+    {
+      "slug": "the-stranger-1946",
+      "title": "The Stranger",
+      "year": 1946,
+      "director": "Orson Welles",
+      "runtimeWindowMin": [
+        88,
+        100
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "TheStranger_0",
+        "TheStrangerOrsonWelles1946",
+        "the_stranger_1946"
+      ],
+      "query": "The Stranger 1946 Orson Welles"
+    },
+    {
+      "slug": "suddenly-1954",
+      "title": "Suddenly",
+      "year": 1954,
+      "director": "Lewis Allen",
+      "runtimeWindowMin": [
+        72,
+        82
+      ],
+      "channel": "noir-after-dark",
+      "identifiers": [
+        "Suddenly",
+        "suddenly_1954"
+      ],
+      "query": "Suddenly 1954 Frank Sinatra"
+    },
+    {
+      "slug": "carnival-of-souls-1962",
+      "title": "Carnival of Souls",
+      "year": 1962,
+      "director": "Herk Harvey",
+      "runtimeWindowMin": [
+        74,
+        88
+      ],
+      "channel": "haunted-screen",
+      "identifiers": [
+        "CarnivalOfSouls",
+        "carnival_of_souls"
+      ],
+      "query": "Carnival of Souls 1962"
+    },
+    {
+      "slug": "night-of-the-living-dead-1968",
+      "title": "Night of the Living Dead",
+      "year": 1968,
+      "director": "George A. Romero",
+      "runtimeWindowMin": [
+        88,
+        100
+      ],
+      "channel": "haunted-screen",
+      "identifiers": [
+        "Night_of_the_Living_Dead_1968",
+        "night_of_the_living_dead_dvd",
+        "NightOfTheLivingDead_201410"
+      ],
+      "query": "Night of the Living Dead 1968 Romero"
+    },
+    {
+      "slug": "house-on-haunted-hill-1959",
+      "title": "House on Haunted Hill",
+      "year": 1959,
+      "director": "William Castle",
+      "runtimeWindowMin": [
+        70,
+        80
+      ],
+      "channel": "haunted-screen",
+      "identifiers": [
+        "house_on_haunted_hill_ipod",
+        "HouseOnHauntedHill",
+        "house_on_haunted_hill"
+      ],
+      "query": "House on Haunted Hill 1959 Vincent Price"
+    },
+    {
+      "slug": "the-last-man-on-earth-1964",
+      "title": "The Last Man on Earth",
+      "year": 1964,
+      "director": "Ubaldo Ragona & Sidney Salkow",
+      "runtimeWindowMin": [
+        82,
+        92
+      ],
+      "channel": "haunted-screen",
+      "identifiers": [
+        "TheLastManOnEarth1964",
+        "last_man_on_earth_1964"
+      ],
+      "query": "The Last Man on Earth 1964 Vincent Price"
+    },
+    {
+      "slug": "white-zombie-1932",
+      "title": "White Zombie",
+      "year": 1932,
+      "director": "Victor Halperin",
+      "runtimeWindowMin": [
+        60,
+        74
+      ],
+      "channel": "haunted-screen",
+      "identifiers": [
+        "WhiteZombie1932",
+        "white_zombie"
+      ],
+      "query": "White Zombie 1932 Bela Lugosi"
+    },
+    {
+      "slug": "dementia-13-1963",
+      "title": "Dementia 13",
+      "year": 1963,
+      "director": "Francis Ford Coppola",
+      "runtimeWindowMin": [
+        60,
+        80
+      ],
+      "channel": "haunted-screen",
+      "identifiers": [
+        "dementia-13-1963-horror-full-movie-francis-ford-coppola",
+        "Dementia13",
+        "dementia_13"
+      ],
+      "query": "Dementia 13 1963 Coppola"
+    },
+    {
+      "slug": "the-little-shop-of-horrors-1960",
+      "title": "The Little Shop of Horrors",
+      "year": 1960,
+      "director": "Roger Corman",
+      "runtimeWindowMin": [
+        68,
+        76
+      ],
+      "channel": "haunted-screen",
+      "identifiers": [
+        "the_little_shop_of_horrors",
+        "littleshopofhorrors"
+      ],
+      "query": "Little Shop of Horrors 1960 Corman"
+    },
+    {
+      "slug": "his-girl-friday-1940",
+      "title": "His Girl Friday",
+      "year": 1940,
+      "director": "Howard Hawks",
+      "runtimeWindowMin": [
+        88,
+        96
+      ],
+      "channel": "the-matinee",
+      "identifiers": [
+        "his_girl_friday"
+      ],
+      "query": "His Girl Friday 1940 Hawks"
+    },
+    {
+      "slug": "my-man-godfrey-1936",
+      "title": "My Man Godfrey",
+      "year": 1936,
+      "director": "Gregory La Cava",
+      "runtimeWindowMin": [
+        90,
+        98
+      ],
+      "channel": "the-matinee",
+      "identifiers": [
+        "my_man_godfrey",
+        "MyManGodfrey"
+      ],
+      "query": "My Man Godfrey 1936"
+    },
+    {
+      "slug": "nothing-sacred-1937",
+      "title": "Nothing Sacred",
+      "year": 1937,
+      "director": "William A. Wellman",
+      "runtimeWindowMin": [
+        72,
+        80
+      ],
+      "channel": "the-matinee",
+      "identifiers": [
+        "nothing_sacred",
+        "NothingSacred"
+      ],
+      "query": "Nothing Sacred 1937 Carole Lombard"
+    },
+    {
+      "slug": "charade-1963",
+      "title": "Charade",
+      "year": 1963,
+      "director": "Stanley Donen",
+      "runtimeWindowMin": [
+        108,
+        118
+      ],
+      "channel": "the-matinee",
+      "identifiers": [
+        "Charade19631280x696",
+        "charade_1963",
+        "Charade_"
+      ],
+      "query": "Charade 1963 Cary Grant Audrey Hepburn"
+    },
+    {
+      "slug": "love-affair-1939",
+      "title": "Love Affair",
+      "year": 1939,
+      "director": "Leo McCarey",
+      "runtimeWindowMin": [
+        84,
+        92
+      ],
+      "channel": "the-matinee",
+      "identifiers": [
+        "love_affair_1939",
+        "LoveAffair"
+      ],
+      "query": "Love Affair 1939 Irene Dunne"
+    },
+    {
+      "slug": "made-for-each-other-1939",
+      "title": "Made for Each Other",
+      "year": 1939,
+      "director": "John Cromwell",
+      "runtimeWindowMin": [
+        82,
+        95
+      ],
+      "channel": "the-matinee",
+      "identifiers": [
+        "made_for_each_other",
+        "MadeForEachOther"
+      ],
+      "query": "Made for Each Other 1939 James Stewart"
+    },
+    {
+      "slug": "royal-wedding-1951",
+      "title": "Royal Wedding",
+      "year": 1951,
+      "director": "Stanley Donen",
+      "runtimeWindowMin": [
+        88,
+        96
+      ],
+      "channel": "the-matinee",
+      "identifiers": [
+        "royal_wedding",
+        "RoyalWedding"
+      ],
+      "query": "Royal Wedding 1951 Fred Astaire"
+    }
+  ]
+}
