@@ -65,6 +65,15 @@ import network from '../data/network.json';
             <button class="key" id="full">Fullscreen</button>
           </span>
         </div>
+
+        <div class="plate-row">
+          <span class="maker-plate">
+            <span class="plate-mark ghost" data-text="TELECINE.">TELECINE.</span>
+            <span class="plate-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="plate-model">Model 001 · Public broadcast receiver</span>
+          </span>
+          <span class="grille" aria-hidden="true"></span>
+        </div>
       </div>
 
       <aside class="dial" aria-label="Channels">
@@ -106,24 +115,33 @@ import network from '../data/network.json';
   .cabinet {
     display: grid;
     gap: 0.7rem;
-    padding: 1.1rem 1.1rem 0.9rem;
-    background: linear-gradient(180deg, #262019 0%, #1b1611 60%, #16110d 100%);
-    border: 1px solid #382f24;
+    padding: 1.1rem 1.1rem 0.8rem;
+    background:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='80'%3E%3Cfilter id='w'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.012 0.14' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='0.09'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23w)'/%3E%3C/svg%3E"),
+      linear-gradient(180deg, #2a221a 0%, #1c1712 55%, #171209 100%);
+    border: 1px solid #3d3325;
     border-radius: 16px;
     box-shadow:
-      inset 0 1px 0 rgba(237, 229, 212, 0.07),
-      inset 0 -2px 6px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(237, 229, 212, 0.08),
+      inset 0 -3px 8px rgba(0, 0, 0, 0.55),
+      inset 2px 0 4px rgba(0, 0, 0, 0.25),
+      inset -2px 0 4px rgba(0, 0, 0, 0.25),
       0 24px 70px -24px rgba(0, 0, 0, 0.9);
     transition: box-shadow 0.8s ease;
   }
   .cabinet[data-on='true'] {
     /* the room lights up a little when the set is on */
     box-shadow:
-      inset 0 1px 0 rgba(237, 229, 212, 0.07),
-      inset 0 -2px 6px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(237, 229, 212, 0.08),
+      inset 0 -3px 8px rgba(0, 0, 0, 0.55),
+      inset 2px 0 4px rgba(0, 0, 0, 0.25),
+      inset -2px 0 4px rgba(0, 0, 0, 0.25),
       0 24px 70px -24px rgba(0, 0, 0, 0.9),
       0 0 110px -20px rgba(237, 229, 212, 0.12);
   }
+
+  /* engraved lettering everywhere on the fascia */
+  .cabinet .mono-label { text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7); }
   .screen-frame {
     position: relative;
     aspect-ratio: 4 / 3;
@@ -159,17 +177,18 @@ import network from '../data/network.json';
   }
   video { width: 100%; height: 100%; object-fit: contain; background: #000; }
 
-  /* the control fascia groove between screen and readouts */
-  .chyron::before {
-    content: '';
-    position: absolute;
-    top: -0.4rem;
-    left: -1.1rem;
-    right: -1.1rem;
-    height: 1px;
-    background: rgba(0, 0, 0, 0.6);
-    box-shadow: 0 1px 0 rgba(237, 229, 212, 0.05);
+  /* the display window: readouts backlit behind dark glass */
+  .chyron {
+    background: linear-gradient(180deg, #0c0906, #131009);
+    border: 1px solid #060402;
+    border-radius: 7px;
+    padding: 0.65rem 0.9rem 0.55rem !important;
+    box-shadow:
+      inset 0 2px 6px rgba(0, 0, 0, 0.8),
+      0 1px 0 rgba(237, 229, 212, 0.06);
   }
+  .chyron .mono-label { color: #b98a54; }
+  .onair { color: #e3b079; text-shadow: 0 0 10px rgba(224, 163, 92, 0.35); }
 
   /* ── physical keys: everything you press has travel ── */
   .key {
@@ -240,18 +259,37 @@ import network from '../data/network.json';
     color: #ede5d4;
   }
   .tune-ring {
-    width: 84px; height: 84px; margin-inline: auto;
-    border: 2px solid #ede5d4; border-radius: 50%;
+    /* the power knob: ridged bakelite, indicator at twelve */
+    position: relative;
+    width: 92px; height: 92px; margin-inline: auto;
+    border-radius: 50%;
+    background: repeating-conic-gradient(from 0deg, #2e261d 0deg 4deg, #171209 6deg 10deg);
+    border: 3px solid #0d0a06;
+    box-shadow:
+      0 4px 10px rgba(0, 0, 0, 0.7),
+      inset 0 2px 3px rgba(237, 229, 212, 0.12),
+      inset 0 -3px 6px rgba(0, 0, 0, 0.6);
     display: grid; place-items: center;
-    transition: scale .4s var(--spring), border-color .25s ease;
+    transition: rotate .5s var(--spring), scale .3s var(--spring);
+  }
+  .tune-ring::before {
+    /* the knob face */
+    content: '';
+    position: absolute; inset: 16px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 38% 30%, #35291c, #1a1410 70%);
+    box-shadow: inset 0 1px 0 rgba(237, 229, 212, 0.1), 0 2px 5px rgba(0, 0, 0, 0.6);
   }
   .tune-ring::after {
-    content: ''; width: 14px; height: 14px; border-radius: 50%; background: var(--signal);
-    transition: scale .4s var(--spring);
+    /* the pointer */
+    content: '';
+    position: absolute; top: 20px; left: calc(50% - 2px);
+    width: 4px; height: 16px; border-radius: 2px;
+    background: var(--signal);
+    box-shadow: 0 0 6px rgba(194, 74, 31, 0.7);
   }
-  .tune:hover .tune-ring { scale: 1.08; border-color: var(--signal); }
-  .tune:hover .tune-ring::after { scale: 1.5; }
-  .tune:active .tune-ring { scale: 0.94; }
+  .tune:hover .tune-ring { rotate: 14deg; }
+  .tune:active .tune-ring { rotate: 38deg; scale: 0.96; }
   .tune-word { font-family: var(--display); font-weight: 600; font-style: italic; font-size: 1.6rem; }
   .tune-now { color: #a39883; }
 
@@ -269,12 +307,20 @@ import network from '../data/network.json';
   @keyframes rise-in { from { opacity: 0; translate: 0 8px; } to { opacity: 1; translate: 0 0; } }
   .onair { flex: 1; text-align: center; font-size: .98rem; min-height: 1.5em; }
   .onair em { font-family: var(--display); font-style: italic; }
-  .live-tag { display: inline-flex; align-items: center; gap: .45em; color: var(--ink-soft); }
-  .live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--live); animation: pulse 2.4s ease infinite; }
-  @keyframes pulse { 50% { opacity: .35; } }
+  .live-tag { display: inline-flex; align-items: center; gap: .5em; color: #b98a54; }
+  .live-dot {
+    /* a jewel lamp: glass over a filament */
+    width: 10px; height: 10px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #ff8f6a 0%, var(--live) 45%, #6d1c0a 100%);
+    box-shadow:
+      0 0 8px 1px rgba(178, 51, 21, 0.6),
+      inset 0 -1px 2px rgba(0, 0, 0, 0.6);
+    animation: pulse 2.4s ease infinite;
+  }
+  @keyframes pulse { 50% { opacity: .45; } }
 
   .strip { display: flex; align-items: center; gap: .8rem; }
-  .strip .t { font-size: .68rem; }
+  .strip .t { font-size: .68rem; color: #b98a54; }
   /* the tuning slit: a groove in the fascia with a lit filament */
   .prog {
     flex: 1; height: 5px; position: relative; border-radius: 3px;
@@ -289,8 +335,50 @@ import network from '../data/network.json';
     transition: width .5s linear;
   }
 
-  .deck { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 2em; padding-bottom: 0.2rem; }
+  .deck { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 2em; }
   .switches { display: inline-flex; gap: 0.6rem; }
+
+  /* ── the maker's plate: the one place the ghost belongs on the product ── */
+  .plate-row {
+    display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+    padding-top: 0.55rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.55);
+    box-shadow: 0 -1px 0 rgba(237, 229, 212, 0.05) inset;
+  }
+  .maker-plate { display: inline-flex; align-items: center; gap: 0.7rem; }
+  .plate-mark {
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    color: #8d7d63;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  }
+  .plate-mark.ghost::before { opacity: 0.5; }
+  .plate-bars { display: inline-flex; height: 7px; width: 42px; border-radius: 1px; overflow: hidden; box-shadow: 0 1px 0 rgba(0,0,0,.6), inset 0 1px 1px rgba(0,0,0,.5); }
+  .plate-bars i { flex: 1; }
+  .plate-bars i:nth-child(1) { background: var(--tube); }
+  .plate-bars i:nth-child(2) { background: var(--signal); }
+  .plate-bars i:nth-child(3) { background: var(--bottle); }
+  .plate-bars i:nth-child(4) { background: var(--brass); }
+  .plate-bars i:nth-child(5) { background: var(--signal-deep); }
+  .plate-bars i:nth-child(6) { background: #ede5d4; }
+  .plate-model {
+    font-family: var(--mono);
+    font-size: 0.56rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #6f6046;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+  }
+  .grille {
+    width: 130px; height: 22px; border-radius: 3px;
+    background:
+      radial-gradient(circle at 2px 2px, rgba(0, 0, 0, 0.85) 1.2px, transparent 1.3px) 0 0 / 5px 5px,
+      linear-gradient(180deg, #221c14, #171209);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(237, 229, 212, 0.05);
+  }
+  @media (max-width: 640px) { .grille { width: 80px; } .plate-model { display: none; } }
 
   /* ── the dial — preset keys on the set; press one to feel the travel ── */
   .dial { display: grid; gap: 0.75rem; align-content: start; }
