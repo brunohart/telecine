@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import network from '../../data/network.json';
+
+const hours = (ch) => Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360) / 10;
+---
+
+<Base
+  title="Channels — Telecine"
+  description="Four channels, programmed by hand, always on: The Silent Signal, Noir After Dark, The Haunted Screen, The Matinee."
+>
+  <section class="wrap">
+    <h1 class="page-title">Channels</h1>
+    <p class="page-lede">
+      Four rooms in the same house. Each is programmed by hand — a rotation, not a library;
+      a point of view, not an algorithm.
+    </p>
+
+    <div class="ch-grid">
+      {network.channels.map((ch) => (
+        <a class="ch-card" href={`/channels/${ch.id}`} style={`--hue: var(--ch-${ch.number})`}>
+          <div class="ch-swatch" aria-hidden="true"></div>
+          <span class="ch-num">{ch.number}</span>
+          <h2 class="ch-name">{ch.name}</h2>
+          <p class="ch-tagline">{ch.tagline}</p>
+          <p class="ch-desc">{ch.description}</p>
+          <p class="mono-label">{ch.films.length} films · {hours(ch)}h rotation</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .ch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.4rem; margin-top: 2.4rem; }
+  .ch-card {
+    display: grid; gap: .5rem; align-content: start;
+    padding: 1.4rem 1.4rem 1.6rem;
+    border: 1px solid var(--line); border-radius: 6px;
+    background: var(--card);
+    text-decoration: none;
+    transition: border-color .2s ease, transform .2s ease;
+  }
+  .ch-card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+  .ch-swatch { height: 6px; background: var(--hue); margin: -1.4rem -1.4rem 0.8rem; border-radius: 6px 6px 0 0; }
+  .ch-num { font-family: var(--display); font-weight: 900; font-size: 2.2rem; line-height: 1; color: var(--hue); }
+  .ch-name { font-size: 1.45rem; }
+  .ch-tagline { font-style: italic; color: var(--ink-soft); }
+  .ch-desc { font-size: .92rem; color: var(--ink-soft); line-height: 1.55; margin-top: .3rem; }
+  .ch-card .mono-label { margin-top: .7rem; }
+</style>

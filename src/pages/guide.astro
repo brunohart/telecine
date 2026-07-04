@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+import network from '../data/network.json';
+---
+
+<Base
+  title="The Guide — Telecine"
+  description="The next twenty-four hours across all Telecine channels, in your local time."
+>
+  <section class="wrap">
+    <h1 class="page-title">The Guide</h1>
+    <p class="page-lede">
+      The next twenty-four hours, in your local time. Times are the same for everyone;
+      the clock is the schedule.
+    </p>
+
+    <div class="guide" id="guide">
+      {network.channels.map((ch) => (
+        <section class="g-channel" data-channel={ch.id} style={`--hue: var(--ch-${ch.number})`}>
+          <header class="g-head">
+            <span class="g-num">{ch.number}</span>
+            <div>
+              <h2 class="g-name"><a href={`/channels/${ch.id}`}>{ch.name}</a></h2>
+              <p class="g-tag">{ch.tagline}</p>
+            </div>
+          </header>
+          <ol class="g-rows" data-rows></ol>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <script>
+    import network from '../data/network.json';
+    import { resolve, airingsBetween } from '../lib/broadcast.js';
+
+    const fmtTime = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' });
+    const fmtDay = new Intl.DateTimeFormat(undefined, { weekday: 'short' });
+
+    const now = Date.now();
+    const horizon = now + 24 * 3600 * 1000;
+    const today = new Date(now).getDate();
+
+    for (const section of document.querySelectorAll('[data-channel]')) {
+      const ch = network.channels.find((c) => c.id === section.dataset.channel);
+      const list = section.querySelector('[data-rows]');
+      const current = resolve(ch, now);
+      const rows = [];
+
+      if (current.block.type === 'film') {
+        rows.push({ start: current.blockStart, film: network.films[current.block.film], onAir: true });
+      }
+      for (const a of airingsBetween(ch, now, horizon)) {
+        rows.push({ start: a.start, film: network.films[a.block.film], onAir: false });
+      }
+
+      for (const row of rows) {
+        const li = document.createElement('li');
+        li.className = 'g-row' + (row.onAir ? ' on-air' : '');
+        const t = document.createElement('span');
+        t.className = 'g-time';
+        t.textContent = row.onAir
+          ? 'ON AIR'
+          : (row.start.getDate() !== today ? fmtDay.format(row.start) + ' ' : '') + fmtTime.format(row.start);
+        const a = document.createElement('a');
+        a.className = 'g-title';
+        a.href = `/films/${row.film.slug}`;
+        a.textContent = row.film.title;
+        const meta = document.createElement('span');
+        meta.className = 'g-meta';
+        meta.textContent = `${row.film.year} · ${Math.round(row.film.durationSec / 60)} min`;
+        li.append(t, a, meta);
+        list.append(li);
+      }
+    }
+  </script>
+</Base>
+
+<style>
+  .guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.4rem 2.8rem; margin-top: 2.4rem; }
+
+  .g-head { display: flex; gap: .9rem; align-items: baseline; padding-bottom: .7rem; border-bottom: 2px solid var(--ink); }
+  .g-num { font-family: var(--display); font-weight: 900; font-size: 2rem; color: var(--hue, var(--ink)); }
+  .g-name { font-size: 1.25rem; }
+  .g-name a { text-decoration: none; }
+  .g-name a:hover { text-decoration: underline; text-decoration-color: var(--signal); }
+  .g-tag { font-style: italic; color: var(--ink-soft); font-size: .88rem; }
+
+  .g-rows { list-style: none; padding: 0; margin: 0; }
+  .g-row {
+    display: grid; grid-template-columns: 5.2rem 1fr auto; gap: .8rem; align-items: baseline;
+    padding: .55rem 0; border-bottom: 1px solid var(--line);
+  }
+  .g-time { font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; color: var(--ink-soft); }
+  .g-title { text-decoration: none; font-family: var(--display); font-weight: 600; }
+  .g-title:hover { text-decoration: underline; text-decoration-color: var(--signal); }
+  .g-meta { font-family: var(--mono); font-size: .68rem; color: var(--ink-faint); }
+
+  .g-row.on-air .g-time { color: var(--live); font-weight: 500; }
+  .g-row.on-air { background: linear-gradient(90deg, color-mix(in srgb, var(--signal) 7%, transparent), transparent); }
+</style>

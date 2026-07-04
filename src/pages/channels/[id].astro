@@ -1,0 +1,70 @@
+---
+import Base from '../../layouts/Base.astro';
+import network from '../../data/network.json';
+
+export function getStaticPaths() {
+  return network.channels.map((ch) => ({ params: { id: ch.id }, props: { ch } }));
+}
+const { ch } = Astro.props;
+const films = ch.blocks.filter((b) => b.type === 'film').map((b) => network.films[b.film]);
+const loopH = Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360) / 10;
+---
+
+<Base title={`CH ${ch.number} · ${ch.name} — Telecine`} description={`${ch.tagline} ${ch.description}`}>
+  <section class="wrap">
+    <p class="mono-label" style="margin-top:1.2rem">Channel {ch.number}</p>
+    <h1 class="page-title" style={`color: var(--ch-${ch.number})`}>{ch.name}</h1>
+    <p class="page-lede">{ch.tagline}</p>
+    <p class="prose ch-desc">{ch.description}</p>
+
+    <div class="onair-line mono-label" id="onair-line" data-channel={ch.id}>…</div>
+
+    <h2 class="rot-title">The rotation <span class="mono-label">{films.length} films · one loop ≈ {loopH}h</span></h2>
+    <ol class="rotation">
+      {films.map((f) => (
+        <li class="rot-row">
+          <a class="rot-film" href={`/films/${f.slug}`}>{f.title}</a>
+          <span class="rot-meta">{f.year} · {f.director}</span>
+          <span class="rot-len mono-label">{Math.round(f.durationSec / 60)} min</span>
+        </li>
+      ))}
+    </ol>
+    <p class="rot-note">
+      Between films the channel takes a station break — ninety seconds of test card and countdown.
+      The loop never stops; it has been running, notionally, since the epoch, and will be at the
+      same frame for everyone who tunes in. <a href="/guide">See what's coming in the Guide.</a>
+    </p>
+  </section>
+
+  <script>
+    import network from '../../data/network.json';
+    import { resolve } from '../../lib/broadcast.js';
+    const line = document.getElementById('onair-line');
+    const ch = network.channels.find((c) => c.id === line.dataset.channel);
+    const paint = () => {
+      const r = resolve(ch, Date.now());
+      const film = network.films[r.block.type === 'film' ? r.block.film : r.block.next];
+      line.textContent =
+        r.block.type === 'film'
+          ? `ON AIR NOW — ${film.title} (${film.year}), ${Math.floor(r.offsetSec / 60)} minutes in`
+          : `STATION BREAK — ${film.title} begins shortly`;
+    };
+    paint();
+    setInterval(paint, 30000);
+    line.insertAdjacentHTML('beforeend', ' · <a href="/">tune in</a>');
+  </script>
+</Base>
+
+<style>
+  .ch-desc { margin-top: 1.2rem; color: var(--ink-soft); }
+  .onair-line { margin: 1.6rem 0 0; padding: .7rem .9rem; background: var(--card); border: 1px solid var(--line); border-radius: 4px; color: var(--ink-soft); }
+  .rot-title { margin: 2.6rem 0 .8rem; font-size: 1.4rem; display: flex; gap: 1rem; align-items: baseline; }
+  .rotation { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); max-width: 760px; }
+  .rot-row { display: grid; grid-template-columns: 1fr auto auto; gap: 1rem; align-items: baseline; padding: .7rem 0; border-bottom: 1px solid var(--line); }
+  .rot-film { font-family: var(--display); font-weight: 600; font-size: 1.08rem; text-decoration: none; }
+  .rot-film:hover { text-decoration: underline; text-decoration-color: var(--signal); }
+  .rot-meta { font-size: .85rem; color: var(--ink-soft); }
+  .rot-len { font-size: .68rem; }
+  .rot-note { margin-top: 1.4rem; font-size: .9rem; color: var(--ink-soft); max-width: 62ch; }
+  @media (max-width: 620px) { .rot-row { grid-template-columns: 1fr auto; } .rot-meta { display: none; } }
+</style>
