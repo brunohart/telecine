@@ -61,8 +61,8 @@ import network from '../data/network.json';
         <div class="deck">
           <span class="mono-label" id="upnext"></span>
           <span class="switches">
-            <button class="switch mono-label" id="mute">Sound on</button>
-            <button class="switch mono-label" id="full">Fullscreen</button>
+            <button class="key" id="mute">Sound on</button>
+            <button class="key" id="full">Fullscreen</button>
           </span>
         </div>
       </div>
@@ -102,29 +102,99 @@ import network from '../data/network.json';
   .set { padding-block: 1.2rem 2rem; }
   .stage { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2rem; align-items: start; }
 
-  /* ── the cabinet ── */
-  .cabinet { display: grid; gap: 0.65rem; }
+  /* ── the cabinet: a television, not a web player ── */
+  .cabinet {
+    display: grid;
+    gap: 0.7rem;
+    padding: 1.1rem 1.1rem 0.9rem;
+    background: linear-gradient(180deg, #262019 0%, #1b1611 60%, #16110d 100%);
+    border: 1px solid #382f24;
+    border-radius: 16px;
+    box-shadow:
+      inset 0 1px 0 rgba(237, 229, 212, 0.07),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.5),
+      0 24px 70px -24px rgba(0, 0, 0, 0.9);
+    transition: box-shadow 0.8s ease;
+  }
+  .cabinet[data-on='true'] {
+    /* the room lights up a little when the set is on */
+    box-shadow:
+      inset 0 1px 0 rgba(237, 229, 212, 0.07),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.5),
+      0 24px 70px -24px rgba(0, 0, 0, 0.9),
+      0 0 110px -20px rgba(237, 229, 212, 0.12);
+  }
   .screen-frame {
     position: relative;
     aspect-ratio: 4 / 3;
-    max-height: 74vh;
+    max-height: 68vh;
     width: 100%;
     background: #000;
-    border: 1px solid var(--line-strong);
-    border-radius: 6px;
+    border: 7px solid #0b0906;
+    border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.35), 0 30px 80px -30px rgba(0, 0, 0, 0.8);
+    box-shadow:
+      inset 0 0 0 1px rgba(237, 229, 212, 0.05),
+      0 2px 0 rgba(237, 229, 212, 0.04);
   }
-  .screen-frame::after {
-    /* tube vignette */
+  .screen-frame::before {
+    /* glass: one quiet reflection across the tube */
     content: '';
     position: absolute;
     inset: 0;
     pointer-events: none;
-    box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.55);
-    border-radius: 6px;
+    z-index: 4;
+    background: linear-gradient(112deg, rgba(237, 229, 212, 0.05) 0%, rgba(237, 229, 212, 0.015) 22%, transparent 38%);
+    border-radius: 8px;
+  }
+  .screen-frame::after {
+    /* tube vignette + corner rounding of the picture itself */
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 4;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
   }
   video { width: 100%; height: 100%; object-fit: contain; background: #000; }
+
+  /* the control fascia groove between screen and readouts */
+  .chyron::before {
+    content: '';
+    position: absolute;
+    top: -0.4rem;
+    left: -1.1rem;
+    right: -1.1rem;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 1px 0 rgba(237, 229, 212, 0.05);
+  }
+
+  /* ── physical keys: everything you press has travel ── */
+  .key {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    background: linear-gradient(180deg, #2c251c, #1e1913);
+    border: 1px solid #3c3327;
+    border-radius: 7px;
+    padding: 0.5em 0.95em 0.44em;
+    box-shadow:
+      0 2px 0 rgba(0, 0, 0, 0.55),
+      inset 0 1px 0 rgba(237, 229, 212, 0.08);
+    transition: translate 0.1s ease, box-shadow 0.1s ease, color 0.2s ease;
+  }
+  .key:hover { color: var(--ink); }
+  .key:active {
+    translate: 0 2px;
+    box-shadow:
+      0 0 0 rgba(0, 0, 0, 0.55),
+      inset 0 2px 5px rgba(0, 0, 0, 0.55);
+  }
 
   .noise {
     position: absolute; inset: 0; display: grid; place-items: center;
@@ -205,32 +275,71 @@ import network from '../data/network.json';
 
   .strip { display: flex; align-items: center; gap: .8rem; }
   .strip .t { font-size: .68rem; }
-  .prog { flex: 1; height: 2px; background: var(--line); position: relative; }
-  .prog-fill { position: absolute; inset: 0 auto 0 0; width: 0%; background: var(--signal); transition: width .5s linear; }
+  /* the tuning slit: a groove in the fascia with a lit filament */
+  .prog {
+    flex: 1; height: 5px; position: relative; border-radius: 3px;
+    background: #120e09;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(237, 229, 212, 0.05);
+  }
+  .prog-fill {
+    position: absolute; inset: 1px auto 1px 1px; width: 0%;
+    background: linear-gradient(180deg, #e06a35, var(--signal));
+    border-radius: 2px;
+    box-shadow: 0 0 6px color-mix(in srgb, var(--signal) 55%, transparent);
+    transition: width .5s linear;
+  }
 
-  .deck { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; min-height: 1.4em; }
-  .switches { display: inline-flex; gap: 1.1rem; }
-  .switch { padding-bottom: 2px; border-bottom: 1px solid var(--line-strong); }
-  .switch:hover { border-bottom-color: var(--signal); color: var(--ink); }
+  .deck { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 2em; padding-bottom: 0.2rem; }
+  .switches { display: inline-flex; gap: 0.6rem; }
 
-  /* ── the dial — a fidget object; press it just to feel the spring ── */
-  .dial { display: grid; gap: 0.7rem; align-content: start; }
+  /* ── the dial — preset keys on the set; press one to feel the travel ── */
+  .dial { display: grid; gap: 0.75rem; align-content: start; }
   .dial-btn {
+    position: relative;
     display: grid; grid-template-columns: auto 1fr; gap: .85rem; align-items: start;
-    text-align: left; padding: .8rem .9rem;
-    border: 1px solid var(--line); border-radius: 6px;
-    background: transparent;
-    transition:
-      border-color .25s ease, background .25s ease,
-      scale .3s var(--spring), translate .45s var(--spring);
+    text-align: left; padding: .85rem .95rem .8rem;
+    background: linear-gradient(180deg, #26201850, #17120d70), linear-gradient(180deg, #241e16, #1a1510);
+    border: 1px solid #362d22;
+    border-radius: 9px;
+    box-shadow:
+      0 3px 0 rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(237, 229, 212, 0.06);
+    transition: translate 0.12s ease, box-shadow 0.12s ease, border-color 0.25s ease;
   }
-  .dial-btn:hover { border-color: var(--line-strong); translate: 0 -2px; }
-  .dial-btn:active { scale: 0.965; }
+  .dial-btn:hover { border-color: #4a3e2f; }
+  .dial-btn:active {
+    translate: 0 3px;
+    box-shadow:
+      0 0 0 rgba(0, 0, 0, 0.5),
+      inset 0 2px 6px rgba(0, 0, 0, 0.55);
+  }
   .dial-btn[aria-pressed='true'] {
-    background: var(--card); border-color: var(--line-strong);
-    box-shadow: inset 3px 0 0 var(--hue, var(--signal));
+    /* the pressed preset stays down, its lamp lit */
+    translate: 0 2px;
+    background: linear-gradient(180deg, #161209, #1d1710);
+    box-shadow:
+      0 1px 0 rgba(0, 0, 0, 0.5),
+      inset 0 2px 6px rgba(0, 0, 0, 0.55),
+      inset 3px 0 0 var(--hue, var(--signal));
   }
-  .dial-num { font-family: var(--display); font-weight: 900; font-size: 1.6rem; line-height: 1.1; }
+  .dial-btn::after {
+    /* the channel lamp */
+    content: '';
+    position: absolute;
+    top: 0.85rem;
+    right: 0.85rem;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #2c251c;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.7);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  .dial-btn[aria-pressed='true']::after {
+    background: var(--hue, var(--signal));
+    box-shadow: 0 0 8px 1px color-mix(in srgb, var(--hue, var(--signal)) 65%, transparent);
+  }
+  .dial-num { font-family: var(--display); font-weight: 900; font-size: 1.6rem; line-height: 1.1; color: var(--ink); }
   .dial-text { display: grid; gap: .15rem; }
   .dial-name { font-family: var(--display); font-weight: 600; font-size: 1.02rem; }
   .dial-tag { font-size: .82rem; color: var(--ink-soft); font-style: italic; }
