@@ -163,7 +163,10 @@ const castShown = (g.cast ?? []).slice(0, 6);
   .note { margin-top: 1.4rem; font-size: 1.02rem; }
 
   /* ── the one-sheet: a physical object, not a thumbnail ── */
-  .poster-rail { position: sticky; top: 1.5rem; }
+  /* pinned only where a rail exists to pin it to — on one column it rides the flow */
+  @media (min-width: 861px) {
+    .poster-rail { position: sticky; top: 1.5rem; }
+  }
   .one-sheet {
     margin: 0;
     background: var(--card);

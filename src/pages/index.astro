@@ -408,9 +408,10 @@ import network from '../data/network.json';
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
   }
   .grille {
-    width: 130px; height: 22px; border-radius: 3px;
+    /* dimensions are whole multiples of the 5px punch tile — no half-drilled holes at the edges */
+    width: 130px; height: 20px; border-radius: 3px;
     background:
-      radial-gradient(circle at 2px 2px, rgba(0, 0, 0, 0.85) 1.2px, transparent 1.3px) 0 0 / 5px 5px,
+      radial-gradient(circle at 2.5px 2.5px, rgba(0, 0, 0, 0.85) 1.2px, transparent 1.3px) 0 0 / 5px 5px,
       linear-gradient(180deg, #221c14, #171209);
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(237, 229, 212, 0.05);
   }

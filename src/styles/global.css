@@ -242,4 +242,19 @@ main { flex: 1; }
 @media (max-width: 640px) {
   body { font-size: 16px; }
   .wrap { width: calc(100% - 2rem); }
+
+  /* the mobile masthead: the mark carries it alone — the tagline yields,
+     and the whole dial of sections fits on a single line */
+  .mast-tag { display: none; }
+  .wordmark { font-size: 1.9rem; }
+  .mast-nav {
+    gap: 0.85rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 2px; /* room for the active underline inside the scroll box */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .mast-nav::-webkit-scrollbar { display: none; }
+  .mast-nav a { font-size: 0.67rem; letter-spacing: 0.09em; white-space: nowrap; }
 }
