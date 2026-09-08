@@ -1,0 +1,77 @@
+{
+  "identifier" : "0E5F1B2A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "49.99",
+      "familyShareable" : true,
+      "internalID" : "F0UND1NG",
+      "localizations" : [
+        {
+          "description" : "Your name in the end-of-night credit roll, the printed seasonal programme, a programming vote each season, first tune-in to new channels.",
+          "displayName" : "Founding Patron",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.designedbybruno.telecine.licence.founding",
+      "referenceName" : "Founding Patron",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "L1CENCE1",
+      "localizations" : [
+
+      ],
+      "name" : "The Receiving Licence",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "14.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "ANNUAL01",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "A year of standing behind the projector. The broadcast stays free; this keeps the programming ambitious.",
+              "displayName" : "Annual Receiving Licence",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.designedbybruno.telecine.licence.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Annual Receiving Licence",
+          "subscriptionGroupID" : "L1CENCE1",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
