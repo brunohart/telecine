@@ -1,0 +1,129 @@
+name: Telecine
+options:
+  bundleIdPrefix: com.designedbybruno
+  deploymentTarget:
+    iOS: "26.0"
+    tvOS: "26.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: ""
+targets:
+  Telecine:
+    type: application
+    platform: iOS
+    sources:
+      - path: Telecine
+      - path: TelecineKit
+    dependencies:
+      - target: TelecineWidgets
+        embed: true
+    info:
+      path: Telecine/Info-iOS.plist
+      properties:
+        CFBundleDisplayName: Telecine
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen:
+          UIColorName: LaunchPaper
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UIBackgroundModes: [audio]
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleURLTypes:
+          - CFBundleURLName: net.telecine
+            CFBundleURLSchemes: [telecine]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.designedbybruno.telecine
+        PRODUCT_NAME: Telecine
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+  TelecineTV:
+    type: application
+    platform: tvOS
+    sources:
+      - path: Telecine
+        excludes: ["Info-iOS.plist"]
+      - path: TelecineKit
+    info:
+      path: Telecine/Info-tvOS.plist
+      properties:
+        CFBundleDisplayName: Telecine
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UIUserInterfaceStyle: Dark
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleURLTypes:
+          - CFBundleURLName: net.telecine
+            CFBundleURLSchemes: [telecine]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.designedbybruno.telecine
+        PRODUCT_NAME: Telecine
+        TARGETED_DEVICE_FAMILY: "3"
+        GENERATE_INFOPLIST_FILE: NO
+  TelecineWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: TelecineWidgets
+      - path: TelecineKit
+    info:
+      path: TelecineWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: Telecine
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.designedbybruno.telecine.widgets
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+  TelecineTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: TelecineTests
+    dependencies:
+      - target: Telecine
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.designedbybruno.telecine.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Telecine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telecine"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  Telecine:
+    build:
+      targets:
+        Telecine: all
+        TelecineTests: [test]
+    run:
+      config: Debug
+      storeKitConfiguration: Telecine.storekit
+    test:
+      config: Debug
+      targets: [TelecineTests]
+  TelecineTV:
+    build:
+      targets:
+        TelecineTV: all
+    run:
+      config: Debug
+      storeKitConfiguration: Telecine.storekit

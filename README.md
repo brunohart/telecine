@@ -45,6 +45,15 @@ pure functions, zero dependencies, identical in Node and the browser — with
 tests in [`test/`](./test). The format is documented in [`SPEC.md`](./SPEC.md);
 publish a Transmission file and a player, and you are a broadcaster too.
 
+## The receiver for Apple platforms
+
+The same network, native on iPhone, iPad and Apple TV — a television in a walnut cabinet on the
+phone; the picture *is* the room on the TV. It ships with the schedule inside it, re-reads
+[`/network.json`](https://telecine.vercel.app/network.json) (the head-end) at launch, and can tune
+any other station published in the Transmission format. The Swift engine is proven identical to the
+JavaScript reference by a frozen parity fixture. See [`apple/`](./apple/README.md), its
+[design](./apple/DESIGN.md) and [decisions](./apple/DECISIONS.md).
+
 ## Architecture
 
 ```
@@ -57,6 +66,8 @@ src/lib/broadcast.js    the Transmission resolver (the whole protocol)
 src/lib/player.js       the reference player: joins live, corrects drift,
                         renders station breaks, forbids scrubbing
 src/pages/              Astro static site: the Set, the Guide, channels, films
+public/network.json     the head-end: the baked network, published for every receiver
+apple/                  the native receiver (SwiftUI, iOS + tvOS) and its parity tests
 ```
 
 ```bash
@@ -64,6 +75,7 @@ npm install
 npm run verify   # re-verify the catalogue against archive.org
 npm run bake     # regenerate network.json
 npm test         # broadcast engine tests
+node scripts/parity-fixture.mjs   # freeze the reference's answers for the Swift engine
 npm run dev      # local station
 npm run build    # tests + static build → dist/
 ```

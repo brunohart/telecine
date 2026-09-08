@@ -141,10 +141,13 @@ if (errors.length) {
 const network = { generatedAt: new Date().toISOString(), interstitialSec: INTERSTITIAL_SEC, channels, films };
 const out = path.join(root, 'src', 'data', 'network.json');
 await writeFile(out, JSON.stringify(network, null, 2));
+// the same file is published at /network.json — the head-end every receiver
+// (the web set, the Apple app, anyone's player) tunes from
+await writeFile(path.join(root, 'public', 'network.json'), JSON.stringify(network, null, 2));
 await writeFile(path.join(root, 'src', 'data', 'graph.json'), JSON.stringify({ films: filmGraph, people, threads }, null, 2));
 
 const totalHours = channels.reduce((s, c) => s + c.blocks.reduce((x, b) => x + b.durationSec, 0), 0) / 3600;
 const posters = Object.values(filmGraph).filter((f) => f.poster).length;
 console.log(
-  `✓ ${channels.length} channels, ${Object.keys(films).length} films (${posters} posters), ${threads.length} threads, ${Object.keys(people).length} people, ${totalHours.toFixed(1)}h of programming → src/data/network.json`
+  `✓ ${channels.length} channels, ${Object.keys(films).length} films (${posters} posters), ${threads.length} threads, ${Object.keys(people).length} people, ${totalHours.toFixed(1)}h of programming → src/data/network.json + public/network.json`
 );

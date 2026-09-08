@@ -1,0 +1,5214 @@
+{
+ "generatedAt": "2026-09-08T03:00:17.715Z",
+ "networkGeneratedAt": "2026-07-04T10:51:04.510Z",
+ "cases": [
+  {
+   "channel": "silent-signal",
+   "atMs": 1782864000000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782864000000,
+   "blockEndMs": 1782864090000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782863999999,
+   "index": 15,
+   "offsetSec": 7117.999000000003,
+   "blockStartMs": 1782856882000,
+   "blockEndMs": 1782864000000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782864000001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782864000000,
+   "blockEndMs": 1782864090000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782863990000,
+   "index": 15,
+   "offsetSec": 7108,
+   "blockStartMs": 1782856882000,
+   "blockEndMs": 1782864000000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782904710000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782904710000,
+   "blockEndMs": 1782904800000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782904709999,
+   "index": 15,
+   "offsetSec": 7117.999000000011,
+   "blockStartMs": 1782897592000,
+   "blockEndMs": 1782904710000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782986142345,
+   "index": 0,
+   "offsetSec": 12.345000000001164,
+   "blockStartMs": 1782986130000,
+   "blockEndMs": 1782986220000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782986220000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782863999999,
+   "index": 15,
+   "offsetSec": 7117.999000000003,
+   "blockStartMs": 1782856882000,
+   "blockEndMs": 1782864000000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782864000000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782864000000,
+   "blockEndMs": 1782864090000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782864000001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782864000000,
+   "blockEndMs": 1782864090000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782864089999,
+   "index": 0,
+   "offsetSec": 89.99900000000343,
+   "blockStartMs": 1782864000000,
+   "blockEndMs": 1782864090000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782864090000,
+   "index": 1,
+   "offsetSec": 0,
+   "blockStartMs": 1782864090000,
+   "blockEndMs": 1782866739000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782864090001,
+   "index": 1,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782864090000,
+   "blockEndMs": 1782866739000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782866738999,
+   "index": 1,
+   "offsetSec": 2648.998999999996,
+   "blockStartMs": 1782864090000,
+   "blockEndMs": 1782866739000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782866739000,
+   "index": 2,
+   "offsetSec": 0,
+   "blockStartMs": 1782866739000,
+   "blockEndMs": 1782866829000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782866739001,
+   "index": 2,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782866739000,
+   "blockEndMs": 1782866829000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782866828999,
+   "index": 2,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782866739000,
+   "blockEndMs": 1782866829000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782866829000,
+   "index": 3,
+   "offsetSec": 0,
+   "blockStartMs": 1782866829000,
+   "blockEndMs": 1782872343000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782866829001,
+   "index": 3,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782866829000,
+   "blockEndMs": 1782872343000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782872342999,
+   "index": 3,
+   "offsetSec": 5513.998999999996,
+   "blockStartMs": 1782866829000,
+   "blockEndMs": 1782872343000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782872343000,
+   "index": 4,
+   "offsetSec": 0,
+   "blockStartMs": 1782872343000,
+   "blockEndMs": 1782872433000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782872343001,
+   "index": 4,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782872343000,
+   "blockEndMs": 1782872433000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782872432999,
+   "index": 4,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782872343000,
+   "blockEndMs": 1782872433000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782872433000,
+   "index": 5,
+   "offsetSec": 0,
+   "blockStartMs": 1782872433000,
+   "blockEndMs": 1782877157000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782872433001,
+   "index": 5,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782872433000,
+   "blockEndMs": 1782877157000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782877156999,
+   "index": 5,
+   "offsetSec": 4723.998999999996,
+   "blockStartMs": 1782872433000,
+   "blockEndMs": 1782877157000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782877157000,
+   "index": 6,
+   "offsetSec": 0,
+   "blockStartMs": 1782877157000,
+   "blockEndMs": 1782877247000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782877157001,
+   "index": 6,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782877157000,
+   "blockEndMs": 1782877247000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782877246999,
+   "index": 6,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782877157000,
+   "blockEndMs": 1782877247000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782877247000,
+   "index": 7,
+   "offsetSec": 0,
+   "blockStartMs": 1782877247000,
+   "blockEndMs": 1782881710000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782877247001,
+   "index": 7,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782877247000,
+   "blockEndMs": 1782881710000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782881709999,
+   "index": 7,
+   "offsetSec": 4462.998999999996,
+   "blockStartMs": 1782877247000,
+   "blockEndMs": 1782881710000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782881710000,
+   "index": 8,
+   "offsetSec": 0,
+   "blockStartMs": 1782881710000,
+   "blockEndMs": 1782881800000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782881710001,
+   "index": 8,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782881710000,
+   "blockEndMs": 1782881800000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782881799999,
+   "index": 8,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782881710000,
+   "blockEndMs": 1782881800000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782881800000,
+   "index": 9,
+   "offsetSec": 0,
+   "blockStartMs": 1782881800000,
+   "blockEndMs": 1782887497000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782881800001,
+   "index": 9,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782881800000,
+   "blockEndMs": 1782887497000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782887496999,
+   "index": 9,
+   "offsetSec": 5696.998999999996,
+   "blockStartMs": 1782881800000,
+   "blockEndMs": 1782887497000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782887497000,
+   "index": 10,
+   "offsetSec": 0,
+   "blockStartMs": 1782887497000,
+   "blockEndMs": 1782887587000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782887497001,
+   "index": 10,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782887497000,
+   "blockEndMs": 1782887587000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782887586999,
+   "index": 10,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782887497000,
+   "blockEndMs": 1782887587000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782887587000,
+   "index": 11,
+   "offsetSec": 0,
+   "blockStartMs": 1782887587000,
+   "blockEndMs": 1782891968000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782887587001,
+   "index": 11,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782887587000,
+   "blockEndMs": 1782891968000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782891967999,
+   "index": 11,
+   "offsetSec": 4380.998999999996,
+   "blockStartMs": 1782887587000,
+   "blockEndMs": 1782891968000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782891968000,
+   "index": 12,
+   "offsetSec": 0,
+   "blockStartMs": 1782891968000,
+   "blockEndMs": 1782892058000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782891968001,
+   "index": 12,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782891968000,
+   "blockEndMs": 1782892058000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782892057999,
+   "index": 12,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782891968000,
+   "blockEndMs": 1782892058000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782892058000,
+   "index": 13,
+   "offsetSec": 0,
+   "blockStartMs": 1782892058000,
+   "blockEndMs": 1782897502000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782892058001,
+   "index": 13,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782892058000,
+   "blockEndMs": 1782897502000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782897501999,
+   "index": 13,
+   "offsetSec": 5443.999000000011,
+   "blockStartMs": 1782892058000,
+   "blockEndMs": 1782897502000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782897502000,
+   "index": 14,
+   "offsetSec": 0,
+   "blockStartMs": 1782897502000,
+   "blockEndMs": 1782897592000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782897502001,
+   "index": 14,
+   "offsetSec": 0.0009999999892897904,
+   "blockStartMs": 1782897502000,
+   "blockEndMs": 1782897592000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782897591999,
+   "index": 14,
+   "offsetSec": 89.99900000001071,
+   "blockStartMs": 1782897502000,
+   "blockEndMs": 1782897592000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782897592000,
+   "index": 15,
+   "offsetSec": 0,
+   "blockStartMs": 1782897592000,
+   "blockEndMs": 1782904710000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782897592001,
+   "index": 15,
+   "offsetSec": 0.0009999999892897904,
+   "blockStartMs": 1782897592000,
+   "blockEndMs": 1782904710000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782901432642,
+   "index": 15,
+   "offsetSec": 3840.6419999999925,
+   "blockStartMs": 1782897592000,
+   "blockEndMs": 1782904710000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782858490964,
+   "index": 15,
+   "offsetSec": 1608.964,
+   "blockStartMs": 1782856882000,
+   "blockEndMs": 1782864000000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782920416700,
+   "index": 7,
+   "offsetSec": 2459.699999999997,
+   "blockStartMs": 1782917957000,
+   "blockEndMs": 1782922420000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782945510000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782869620007,
+   "index": 3,
+   "offsetSec": 2791.006999999998,
+   "blockStartMs": 1782866829000,
+   "blockEndMs": 1782872343000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783057608305,
+   "index": 13,
+   "offsetSec": 2710.304999999993,
+   "blockStartMs": 1783054898000,
+   "blockEndMs": 1783060342000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1783067640000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783051501213,
+   "index": 11,
+   "offsetSec": 1074.2129999999888,
+   "blockStartMs": 1783050427000,
+   "blockEndMs": 1783054808000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1783067640000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783012504298,
+   "index": 11,
+   "offsetSec": 2787.29800000001,
+   "blockStartMs": 1783009717000,
+   "blockEndMs": 1783014098000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1783026930000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783035558141,
+   "index": 5,
+   "offsetSec": 285.14100000000326,
+   "blockStartMs": 1783035273000,
+   "blockEndMs": 1783039997000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1783067640000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782999178052,
+   "index": 5,
+   "offsetSec": 4615.051999999996,
+   "blockStartMs": 1782994563000,
+   "blockEndMs": 1782999287000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1783026930000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782904508019,
+   "index": 15,
+   "offsetSec": 6916.019,
+   "blockStartMs": 1782897592000,
+   "blockEndMs": 1782904710000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782943925937,
+   "index": 15,
+   "offsetSec": 5623.937000000005,
+   "blockStartMs": 1782938302000,
+   "blockEndMs": 1782945420000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782945510000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782908812856,
+   "index": 3,
+   "offsetSec": 1273.8559999999998,
+   "blockStartMs": 1782907539000,
+   "blockEndMs": 1782913053000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782945510000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782840632993,
+   "index": 7,
+   "offsetSec": 4095.9929999999986,
+   "blockStartMs": 1782836537000,
+   "blockEndMs": 1782841000000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782858458121,
+   "index": 15,
+   "offsetSec": 1576.1209999999992,
+   "blockStartMs": 1782856882000,
+   "blockEndMs": 1782864000000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782967210505,
+   "index": 9,
+   "offsetSec": 3990.5050000000047,
+   "blockStartMs": 1782963220000,
+   "blockEndMs": 1782968917000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782986220000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782943202935,
+   "index": 15,
+   "offsetSec": 4900.934999999998,
+   "blockStartMs": 1782938302000,
+   "blockEndMs": 1782945420000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782945510000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782923360556,
+   "index": 9,
+   "offsetSec": 850.5559999999969,
+   "blockStartMs": 1782922510000,
+   "blockEndMs": 1782928207000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782945510000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782891466441,
+   "index": 11,
+   "offsetSec": 3879.4409999999916,
+   "blockStartMs": 1782887587000,
+   "blockEndMs": 1782891968000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783029082025,
+   "index": 1,
+   "offsetSec": 2152.024999999994,
+   "blockStartMs": 1783026930000,
+   "blockEndMs": 1783029579000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1783067640000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783024797151,
+   "index": 15,
+   "offsetSec": 5075.151000000013,
+   "blockStartMs": 1783019722000,
+   "blockEndMs": 1783026840000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1783026930000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782892230170,
+   "index": 13,
+   "offsetSec": 172.16999999999825,
+   "blockStartMs": 1782892058000,
+   "blockEndMs": 1782897502000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782902991866,
+   "index": 15,
+   "offsetSec": 5399.866000000009,
+   "blockStartMs": 1782897592000,
+   "blockEndMs": 1782904710000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782963509139,
+   "index": 9,
+   "offsetSec": 289.1389999999956,
+   "blockStartMs": 1782963220000,
+   "blockEndMs": 1782968917000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782986220000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782897714428,
+   "index": 15,
+   "offsetSec": 122.42799999999988,
+   "blockStartMs": 1782897592000,
+   "blockEndMs": 1782904710000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782857214755,
+   "index": 15,
+   "offsetSec": 332.7549999999974,
+   "blockStartMs": 1782856882000,
+   "blockEndMs": 1782864000000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782968488437,
+   "index": 9,
+   "offsetSec": 5268.437000000005,
+   "blockStartMs": 1782963220000,
+   "blockEndMs": 1782968917000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782986220000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782832884922,
+   "index": 5,
+   "offsetSec": 1161.9219999999987,
+   "blockStartMs": 1782831723000,
+   "blockEndMs": 1782836447000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782927928318,
+   "index": 9,
+   "offsetSec": 5418.317999999999,
+   "blockStartMs": 1782922510000,
+   "blockEndMs": 1782928207000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782945510000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782964698315,
+   "index": 9,
+   "offsetSec": 1478.3150000000023,
+   "blockStartMs": 1782963220000,
+   "blockEndMs": 1782968917000,
+   "loopSec": 40710,
+   "upNext": "battleship-potemkin-1925",
+   "nextAiringOfFirstFilm": 1782986220000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782827166004,
+   "index": 3,
+   "offsetSec": 1047.0040000000008,
+   "blockStartMs": 1782826119000,
+   "blockEndMs": 1782831633000,
+   "loopSec": 40710,
+   "upNext": "the-general-1926",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782947899841,
+   "index": 1,
+   "offsetSec": 2389.8410000000003,
+   "blockStartMs": 1782945510000,
+   "blockEndMs": 1782948159000,
+   "loopSec": 40710,
+   "upNext": "nosferatu-1922",
+   "nextAiringOfFirstFilm": 1782986220000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783010552363,
+   "index": 11,
+   "offsetSec": 835.3630000000121,
+   "blockStartMs": 1783009717000,
+   "blockEndMs": 1783014098000,
+   "loopSec": 40710,
+   "upNext": "the-lodger-1927",
+   "nextAiringOfFirstFilm": 1783026930000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782893644968,
+   "index": 13,
+   "offsetSec": 1586.9679999999935,
+   "blockStartMs": 1782892058000,
+   "blockEndMs": 1782897502000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782904800000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782957679428,
+   "index": 5,
+   "offsetSec": 3826.428,
+   "blockStartMs": 1782953853000,
+   "blockEndMs": 1782958577000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782986220000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782913475677,
+   "index": 5,
+   "offsetSec": 332.6770000000033,
+   "blockStartMs": 1782913143000,
+   "blockEndMs": 1782917867000,
+   "loopSec": 40710,
+   "upNext": "the-cabinet-of-dr-caligari-1920",
+   "nextAiringOfFirstFilm": 1782945510000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782860867892,
+   "index": 15,
+   "offsetSec": 3985.892,
+   "blockStartMs": 1782856882000,
+   "blockEndMs": 1782864000000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782852869705,
+   "index": 13,
+   "offsetSec": 1521.7050000000017,
+   "blockStartMs": 1782851348000,
+   "blockEndMs": 1782856792000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783062610366,
+   "index": 15,
+   "offsetSec": 2178.366000000009,
+   "blockStartMs": 1783060432000,
+   "blockEndMs": 1783067550000,
+   "loopSec": 40710,
+   "upNext": "sherlock-jr-1924",
+   "nextAiringOfFirstFilm": 1783067640000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1783017353207,
+   "index": 13,
+   "offsetSec": 3165.206999999995,
+   "blockStartMs": 1783014188000,
+   "blockEndMs": 1783019632000,
+   "loopSec": 40710,
+   "upNext": "metropolis-1927",
+   "nextAiringOfFirstFilm": 1783026930000
+  },
+  {
+   "channel": "silent-signal",
+   "atMs": 1782838000820,
+   "index": 7,
+   "offsetSec": 1463.8199999999997,
+   "blockStartMs": 1782836537000,
+   "blockEndMs": 1782841000000,
+   "loopSec": 40710,
+   "upNext": "sunrise-1927",
+   "nextAiringOfFirstFilm": 1782864090000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866820000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782866820000,
+   "blockEndMs": 1782866910000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866819999,
+   "index": 15,
+   "offsetSec": 4533.999000000003,
+   "blockStartMs": 1782862286000,
+   "blockEndMs": 1782866820000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866820001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782866820000,
+   "blockEndMs": 1782866910000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866810000,
+   "index": 15,
+   "offsetSec": 4524,
+   "blockStartMs": 1782862286000,
+   "blockEndMs": 1782866820000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782908531000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782908531000,
+   "blockEndMs": 1782908621000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782908530999,
+   "index": 15,
+   "offsetSec": 4533.999000000011,
+   "blockStartMs": 1782903997000,
+   "blockEndMs": 1782908531000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782991965345,
+   "index": 0,
+   "offsetSec": 12.345000000001164,
+   "blockStartMs": 1782991953000,
+   "blockEndMs": 1782992043000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866819999,
+   "index": 15,
+   "offsetSec": 4533.999000000003,
+   "blockStartMs": 1782862286000,
+   "blockEndMs": 1782866820000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866820000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782866820000,
+   "blockEndMs": 1782866910000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866820001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782866820000,
+   "blockEndMs": 1782866910000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866909999,
+   "index": 0,
+   "offsetSec": 89.99900000000343,
+   "blockStartMs": 1782866820000,
+   "blockEndMs": 1782866910000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866910000,
+   "index": 1,
+   "offsetSec": 0,
+   "blockStartMs": 1782866910000,
+   "blockEndMs": 1782870986000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866910001,
+   "index": 1,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782866910000,
+   "blockEndMs": 1782870986000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782870985999,
+   "index": 1,
+   "offsetSec": 4075.998999999996,
+   "blockStartMs": 1782866910000,
+   "blockEndMs": 1782870986000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782870986000,
+   "index": 2,
+   "offsetSec": 0,
+   "blockStartMs": 1782870986000,
+   "blockEndMs": 1782871076000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782870986001,
+   "index": 2,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782870986000,
+   "blockEndMs": 1782871076000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782871075999,
+   "index": 2,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782870986000,
+   "blockEndMs": 1782871076000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782871076000,
+   "index": 3,
+   "offsetSec": 0,
+   "blockStartMs": 1782871076000,
+   "blockEndMs": 1782875324000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782871076001,
+   "index": 3,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782871076000,
+   "blockEndMs": 1782875324000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782875323999,
+   "index": 3,
+   "offsetSec": 4247.998999999996,
+   "blockStartMs": 1782871076000,
+   "blockEndMs": 1782875324000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782875324000,
+   "index": 4,
+   "offsetSec": 0,
+   "blockStartMs": 1782875324000,
+   "blockEndMs": 1782875414000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782875324001,
+   "index": 4,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782875324000,
+   "blockEndMs": 1782875414000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782875413999,
+   "index": 4,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782875324000,
+   "blockEndMs": 1782875414000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782875414000,
+   "index": 5,
+   "offsetSec": 0,
+   "blockStartMs": 1782875414000,
+   "blockEndMs": 1782881500000,
+   "loopSec": 41711,
+   "upNext": "doa-1950",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782875414001,
+   "index": 5,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782875414000,
+   "blockEndMs": 1782881500000,
+   "loopSec": 41711,
+   "upNext": "doa-1950",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782881499999,
+   "index": 5,
+   "offsetSec": 6085.998999999996,
+   "blockStartMs": 1782875414000,
+   "blockEndMs": 1782881500000,
+   "loopSec": 41711,
+   "upNext": "doa-1950",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782881500000,
+   "index": 6,
+   "offsetSec": 0,
+   "blockStartMs": 1782881500000,
+   "blockEndMs": 1782881590000,
+   "loopSec": 41711,
+   "upNext": "doa-1950",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782881500001,
+   "index": 6,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782881500000,
+   "blockEndMs": 1782881590000,
+   "loopSec": 41711,
+   "upNext": "doa-1950",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782881589999,
+   "index": 6,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782881500000,
+   "blockEndMs": 1782881590000,
+   "loopSec": 41711,
+   "upNext": "doa-1950",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782881590000,
+   "index": 7,
+   "offsetSec": 0,
+   "blockStartMs": 1782881590000,
+   "blockEndMs": 1782886580000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782881590001,
+   "index": 7,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782881590000,
+   "blockEndMs": 1782886580000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782886579999,
+   "index": 7,
+   "offsetSec": 4989.998999999996,
+   "blockStartMs": 1782881590000,
+   "blockEndMs": 1782886580000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782886580000,
+   "index": 8,
+   "offsetSec": 0,
+   "blockStartMs": 1782886580000,
+   "blockEndMs": 1782886670000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782886580001,
+   "index": 8,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782886580000,
+   "blockEndMs": 1782886670000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782886669999,
+   "index": 8,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782886580000,
+   "blockEndMs": 1782886670000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782886670000,
+   "index": 9,
+   "offsetSec": 0,
+   "blockStartMs": 1782886670000,
+   "blockEndMs": 1782892298000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782886670001,
+   "index": 9,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782886670000,
+   "blockEndMs": 1782892298000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782892297999,
+   "index": 9,
+   "offsetSec": 5627.998999999996,
+   "blockStartMs": 1782886670000,
+   "blockEndMs": 1782892298000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782892298000,
+   "index": 10,
+   "offsetSec": 0,
+   "blockStartMs": 1782892298000,
+   "blockEndMs": 1782892388000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782892298001,
+   "index": 10,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782892298000,
+   "blockEndMs": 1782892388000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782892387999,
+   "index": 10,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782892298000,
+   "blockEndMs": 1782892388000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782892388000,
+   "index": 11,
+   "offsetSec": 0,
+   "blockStartMs": 1782892388000,
+   "blockEndMs": 1782897861000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782892388001,
+   "index": 11,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782892388000,
+   "blockEndMs": 1782897861000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782897860999,
+   "index": 11,
+   "offsetSec": 5472.998999999996,
+   "blockStartMs": 1782892388000,
+   "blockEndMs": 1782897861000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782897861000,
+   "index": 12,
+   "offsetSec": 0,
+   "blockStartMs": 1782897861000,
+   "blockEndMs": 1782897951000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782897861001,
+   "index": 12,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782897861000,
+   "blockEndMs": 1782897951000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782897950999,
+   "index": 12,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782897861000,
+   "blockEndMs": 1782897951000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782897951000,
+   "index": 13,
+   "offsetSec": 0,
+   "blockStartMs": 1782897951000,
+   "blockEndMs": 1782903907000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782897951001,
+   "index": 13,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782897951000,
+   "blockEndMs": 1782903907000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782903906999,
+   "index": 13,
+   "offsetSec": 5955.999000000011,
+   "blockStartMs": 1782897951000,
+   "blockEndMs": 1782903907000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782903907000,
+   "index": 14,
+   "offsetSec": 0,
+   "blockStartMs": 1782903907000,
+   "blockEndMs": 1782903997000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782903907001,
+   "index": 14,
+   "offsetSec": 0.0009999999892897904,
+   "blockStartMs": 1782903907000,
+   "blockEndMs": 1782903997000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782903996999,
+   "index": 14,
+   "offsetSec": 89.99900000001071,
+   "blockStartMs": 1782903907000,
+   "blockEndMs": 1782903997000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782903997000,
+   "index": 15,
+   "offsetSec": 0,
+   "blockStartMs": 1782903997000,
+   "blockEndMs": 1782908531000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782903997001,
+   "index": 15,
+   "offsetSec": 0.0009999999892897904,
+   "blockStartMs": 1782903997000,
+   "blockEndMs": 1782908531000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782833537478,
+   "index": 3,
+   "offsetSec": 4172.478000000003,
+   "blockStartMs": 1782829365000,
+   "blockEndMs": 1782833613000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782884535889,
+   "index": 7,
+   "offsetSec": 2945.8889999999956,
+   "blockStartMs": 1782881590000,
+   "blockEndMs": 1782886580000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783041155254,
+   "index": 3,
+   "offsetSec": 3235.2539999999863,
+   "blockStartMs": 1783037920000,
+   "blockEndMs": 1783042168000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1783075465000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783052945757,
+   "index": 7,
+   "offsetSec": 4511.757000000012,
+   "blockStartMs": 1783048434000,
+   "blockEndMs": 1783053424000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1783075465000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783029127142,
+   "index": 14,
+   "offsetSec": 87.14199999999255,
+   "blockStartMs": 1783029040000,
+   "blockEndMs": 1783029130000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1783033754000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782989547142,
+   "index": 15,
+   "offsetSec": 2128.142000000007,
+   "blockStartMs": 1782987419000,
+   "blockEndMs": 1782991953000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782863399368,
+   "index": 15,
+   "offsetSec": 1113.3680000000022,
+   "blockStartMs": 1782862286000,
+   "blockEndMs": 1782866820000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782916089224,
+   "index": 3,
+   "offsetSec": 3302.224000000002,
+   "blockStartMs": 1782912787000,
+   "blockEndMs": 1782917035000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782950332000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783032102945,
+   "index": 15,
+   "offsetSec": 2972.945000000007,
+   "blockStartMs": 1783029130000,
+   "blockEndMs": 1783033664000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1783033754000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783022176860,
+   "index": 11,
+   "offsetSec": 4655.859999999986,
+   "blockStartMs": 1783017521000,
+   "blockEndMs": 1783022994000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1783033754000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782867006400,
+   "index": 1,
+   "offsetSec": 96.40000000000146,
+   "blockStartMs": 1782866910000,
+   "blockEndMs": 1782870986000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783030690893,
+   "index": 15,
+   "offsetSec": 1560.893000000011,
+   "blockStartMs": 1783029130000,
+   "blockEndMs": 1783033664000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1783033754000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782874874489,
+   "index": 3,
+   "offsetSec": 3798.4890000000014,
+   "blockStartMs": 1782871076000,
+   "blockEndMs": 1782875324000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782990438285,
+   "index": 15,
+   "offsetSec": 3019.2850000000035,
+   "blockStartMs": 1782987419000,
+   "blockEndMs": 1782991953000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782866625686,
+   "index": 15,
+   "offsetSec": 4339.6860000000015,
+   "blockStartMs": 1782862286000,
+   "blockEndMs": 1782866820000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782995155156,
+   "index": 1,
+   "offsetSec": 3112.1560000000027,
+   "blockStartMs": 1782992043000,
+   "blockEndMs": 1782996119000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1783033754000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782871481777,
+   "index": 3,
+   "offsetSec": 405.77700000000186,
+   "blockStartMs": 1782871076000,
+   "blockEndMs": 1782875324000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782988939728,
+   "index": 15,
+   "offsetSec": 1520.7280000000028,
+   "blockStartMs": 1782987419000,
+   "blockEndMs": 1782991953000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782881252970,
+   "index": 5,
+   "offsetSec": 5838.970000000001,
+   "blockStartMs": 1782875414000,
+   "blockEndMs": 1782881500000,
+   "loopSec": 41711,
+   "upNext": "doa-1950",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782846700625,
+   "index": 9,
+   "offsetSec": 1741.625,
+   "blockStartMs": 1782844959000,
+   "blockEndMs": 1782850587000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782866910000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782984796774,
+   "index": 13,
+   "offsetSec": 3423.774000000005,
+   "blockStartMs": 1782981373000,
+   "blockEndMs": 1782987329000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782910629580,
+   "index": 1,
+   "offsetSec": 2008.5800000000017,
+   "blockStartMs": 1782908621000,
+   "blockEndMs": 1782912697000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1782950332000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782976668534,
+   "index": 11,
+   "offsetSec": 858.5339999999997,
+   "blockStartMs": 1782975810000,
+   "blockEndMs": 1782981283000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782882229918,
+   "index": 7,
+   "offsetSec": 639.9179999999978,
+   "blockStartMs": 1782881590000,
+   "blockEndMs": 1782886580000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783023953097,
+   "index": 13,
+   "offsetSec": 869.0970000000088,
+   "blockStartMs": 1783023084000,
+   "blockEndMs": 1783029040000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1783033754000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783065999981,
+   "index": 13,
+   "offsetSec": 1204.9809999999998,
+   "blockStartMs": 1783064795000,
+   "blockEndMs": 1783070751000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1783075465000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783017202774,
+   "index": 9,
+   "offsetSec": 5399.774000000005,
+   "blockStartMs": 1783011803000,
+   "blockEndMs": 1783017431000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1783033754000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782926121366,
+   "index": 7,
+   "offsetSec": 2820.366000000002,
+   "blockStartMs": 1782923301000,
+   "blockEndMs": 1782928291000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782950332000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783034607616,
+   "index": 1,
+   "offsetSec": 853.6160000000091,
+   "blockStartMs": 1783033754000,
+   "blockEndMs": 1783037830000,
+   "loopSec": 41711,
+   "upNext": "the-hitch-hiker-1953",
+   "nextAiringOfFirstFilm": 1783075465000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782929450290,
+   "index": 9,
+   "offsetSec": 1069.2900000000009,
+   "blockStartMs": 1782928381000,
+   "blockEndMs": 1782934009000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782950332000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782972046264,
+   "index": 9,
+   "offsetSec": 1954.2639999999956,
+   "blockStartMs": 1782970092000,
+   "blockEndMs": 1782975720000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782925848038,
+   "index": 7,
+   "offsetSec": 2547.0380000000005,
+   "blockStartMs": 1782923301000,
+   "blockEndMs": 1782928291000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1782950332000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783056938239,
+   "index": 9,
+   "offsetSec": 3424.2390000000014,
+   "blockStartMs": 1783053514000,
+   "blockEndMs": 1783059142000,
+   "loopSec": 41711,
+   "upNext": "the-stranger-1946",
+   "nextAiringOfFirstFilm": 1783075465000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783053324016,
+   "index": 7,
+   "offsetSec": 4890.016000000003,
+   "blockStartMs": 1783048434000,
+   "blockEndMs": 1783053424000,
+   "loopSec": 41711,
+   "upNext": "too-late-for-tears-1949",
+   "nextAiringOfFirstFilm": 1783075465000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782982291838,
+   "index": 13,
+   "offsetSec": 918.8380000000034,
+   "blockStartMs": 1782981373000,
+   "blockEndMs": 1782987329000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1783064905998,
+   "index": 13,
+   "offsetSec": 110.99799999999232,
+   "blockStartMs": 1783064795000,
+   "blockEndMs": 1783070751000,
+   "loopSec": 41711,
+   "upNext": "suddenly-1954",
+   "nextAiringOfFirstFilm": 1783075465000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782990444674,
+   "index": 15,
+   "offsetSec": 3025.673999999999,
+   "blockStartMs": 1782987419000,
+   "blockEndMs": 1782991953000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782989665376,
+   "index": 15,
+   "offsetSec": 2246.376000000004,
+   "blockStartMs": 1782987419000,
+   "blockEndMs": 1782991953000,
+   "loopSec": 41711,
+   "upNext": "detour-1945",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782957994724,
+   "index": 3,
+   "offsetSec": 3496.724000000002,
+   "blockStartMs": 1782954498000,
+   "blockEndMs": 1782958746000,
+   "loopSec": 41711,
+   "upNext": "scarlet-street-1945",
+   "nextAiringOfFirstFilm": 1782992043000
+  },
+  {
+   "channel": "noir-after-dark",
+   "atMs": 1782896430195,
+   "index": 11,
+   "offsetSec": 4042.195000000007,
+   "blockStartMs": 1782892388000,
+   "blockEndMs": 1782897861000,
+   "loopSec": 41711,
+   "upNext": "kansas-city-confidential-1952",
+   "nextAiringOfFirstFilm": 1782908621000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868980000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782868980000,
+   "blockEndMs": 1782869070000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868979999,
+   "index": 13,
+   "offsetSec": 4384.999000000003,
+   "blockStartMs": 1782864595000,
+   "blockEndMs": 1782868980000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868980001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782868980000,
+   "blockEndMs": 1782869070000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868970000,
+   "index": 13,
+   "offsetSec": 4375,
+   "blockStartMs": 1782864595000,
+   "blockEndMs": 1782868980000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782902234000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782902234000,
+   "blockEndMs": 1782902324000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782902233999,
+   "index": 13,
+   "offsetSec": 4384.999000000011,
+   "blockStartMs": 1782897849000,
+   "blockEndMs": 1782902234000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782968754345,
+   "index": 0,
+   "offsetSec": 12.345000000001164,
+   "blockStartMs": 1782968742000,
+   "blockEndMs": 1782968832000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782968832000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868979999,
+   "index": 13,
+   "offsetSec": 4384.999000000003,
+   "blockStartMs": 1782864595000,
+   "blockEndMs": 1782868980000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868980000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782868980000,
+   "blockEndMs": 1782869070000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868980001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782868980000,
+   "blockEndMs": 1782869070000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782869069999,
+   "index": 0,
+   "offsetSec": 89.99900000000343,
+   "blockStartMs": 1782868980000,
+   "blockEndMs": 1782869070000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782869070000,
+   "index": 1,
+   "offsetSec": 0,
+   "blockStartMs": 1782869070000,
+   "blockEndMs": 1782874049000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782869070001,
+   "index": 1,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782869070000,
+   "blockEndMs": 1782874049000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782874048999,
+   "index": 1,
+   "offsetSec": 4978.998999999996,
+   "blockStartMs": 1782869070000,
+   "blockEndMs": 1782874049000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782874049000,
+   "index": 2,
+   "offsetSec": 0,
+   "blockStartMs": 1782874049000,
+   "blockEndMs": 1782874139000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782874049001,
+   "index": 2,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782874049000,
+   "blockEndMs": 1782874139000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782874138999,
+   "index": 2,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782874049000,
+   "blockEndMs": 1782874139000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782874139000,
+   "index": 3,
+   "offsetSec": 0,
+   "blockStartMs": 1782874139000,
+   "blockEndMs": 1782879871000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782874139001,
+   "index": 3,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782874139000,
+   "blockEndMs": 1782879871000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782879870999,
+   "index": 3,
+   "offsetSec": 5731.998999999996,
+   "blockStartMs": 1782874139000,
+   "blockEndMs": 1782879871000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782879871000,
+   "index": 4,
+   "offsetSec": 0,
+   "blockStartMs": 1782879871000,
+   "blockEndMs": 1782879961000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782879871001,
+   "index": 4,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782879871000,
+   "blockEndMs": 1782879961000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782879960999,
+   "index": 4,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782879871000,
+   "blockEndMs": 1782879961000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782879961000,
+   "index": 5,
+   "offsetSec": 0,
+   "blockStartMs": 1782879961000,
+   "blockEndMs": 1782884444000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782879961001,
+   "index": 5,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782879961000,
+   "blockEndMs": 1782884444000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782884443999,
+   "index": 5,
+   "offsetSec": 4482.998999999996,
+   "blockStartMs": 1782879961000,
+   "blockEndMs": 1782884444000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782884444000,
+   "index": 6,
+   "offsetSec": 0,
+   "blockStartMs": 1782884444000,
+   "blockEndMs": 1782884534000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782884444001,
+   "index": 6,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782884444000,
+   "blockEndMs": 1782884534000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782884533999,
+   "index": 6,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782884444000,
+   "blockEndMs": 1782884534000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782884534000,
+   "index": 7,
+   "offsetSec": 0,
+   "blockStartMs": 1782884534000,
+   "blockEndMs": 1782889724000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782884534001,
+   "index": 7,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782884534000,
+   "blockEndMs": 1782889724000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889723999,
+   "index": 7,
+   "offsetSec": 5189.998999999996,
+   "blockStartMs": 1782884534000,
+   "blockEndMs": 1782889724000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889724000,
+   "index": 8,
+   "offsetSec": 0,
+   "blockStartMs": 1782889724000,
+   "blockEndMs": 1782889814000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889724001,
+   "index": 8,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782889724000,
+   "blockEndMs": 1782889814000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889813999,
+   "index": 8,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782889724000,
+   "blockEndMs": 1782889814000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889814000,
+   "index": 9,
+   "offsetSec": 0,
+   "blockStartMs": 1782889814000,
+   "blockEndMs": 1782893736000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889814001,
+   "index": 9,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782889814000,
+   "blockEndMs": 1782893736000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782893735999,
+   "index": 9,
+   "offsetSec": 3921.998999999996,
+   "blockStartMs": 1782889814000,
+   "blockEndMs": 1782893736000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782893736000,
+   "index": 10,
+   "offsetSec": 0,
+   "blockStartMs": 1782893736000,
+   "blockEndMs": 1782893826000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782893736001,
+   "index": 10,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782893736000,
+   "blockEndMs": 1782893826000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782893825999,
+   "index": 10,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782893736000,
+   "blockEndMs": 1782893826000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782893826000,
+   "index": 11,
+   "offsetSec": 0,
+   "blockStartMs": 1782893826000,
+   "blockEndMs": 1782897759000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782893826001,
+   "index": 11,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782893826000,
+   "blockEndMs": 1782897759000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782897758999,
+   "index": 11,
+   "offsetSec": 3932.998999999996,
+   "blockStartMs": 1782893826000,
+   "blockEndMs": 1782897759000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782897759000,
+   "index": 12,
+   "offsetSec": 0,
+   "blockStartMs": 1782897759000,
+   "blockEndMs": 1782897849000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782897759001,
+   "index": 12,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782897759000,
+   "blockEndMs": 1782897849000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782897848999,
+   "index": 12,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782897759000,
+   "blockEndMs": 1782897849000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782897849000,
+   "index": 13,
+   "offsetSec": 0,
+   "blockStartMs": 1782897849000,
+   "blockEndMs": 1782902234000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782897849001,
+   "index": 13,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782897849000,
+   "blockEndMs": 1782902234000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868847208,
+   "index": 13,
+   "offsetSec": 4252.207999999999,
+   "blockStartMs": 1782864595000,
+   "blockEndMs": 1782868980000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782885867398,
+   "index": 7,
+   "offsetSec": 1333.398000000001,
+   "blockStartMs": 1782884534000,
+   "blockEndMs": 1782889724000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783006010342,
+   "index": 1,
+   "offsetSec": 3924.342000000004,
+   "blockStartMs": 1783002086000,
+   "blockEndMs": 1783007065000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783029130241,
+   "index": 11,
+   "offsetSec": 2288.241000000009,
+   "blockStartMs": 1783026842000,
+   "blockEndMs": 1783030775000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889318505,
+   "index": 7,
+   "offsetSec": 4784.505000000005,
+   "blockStartMs": 1782884534000,
+   "blockEndMs": 1782889724000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782963727948,
+   "index": 11,
+   "offsetSec": 3393.948000000004,
+   "blockStartMs": 1782960334000,
+   "blockEndMs": 1782964267000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782968832000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783022983683,
+   "index": 9,
+   "offsetSec": 153.68299999999,
+   "blockStartMs": 1783022830000,
+   "blockEndMs": 1783026752000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782981047559,
+   "index": 5,
+   "offsetSec": 1324.5589999999938,
+   "blockStartMs": 1782979723000,
+   "blockEndMs": 1782984206000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1783002086000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782926238841,
+   "index": 9,
+   "offsetSec": 3170.8410000000003,
+   "blockStartMs": 1782923068000,
+   "blockEndMs": 1782926990000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1782935578000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782997446182,
+   "index": 11,
+   "offsetSec": 3858.1820000000007,
+   "blockStartMs": 1782993588000,
+   "blockEndMs": 1782997521000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1783002086000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782963338359,
+   "index": 11,
+   "offsetSec": 3004.3589999999967,
+   "blockStartMs": 1782960334000,
+   "blockEndMs": 1782964267000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782968832000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782995856838,
+   "index": 11,
+   "offsetSec": 2268.8380000000034,
+   "blockStartMs": 1782993588000,
+   "blockEndMs": 1782997521000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1783002086000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782948138654,
+   "index": 5,
+   "offsetSec": 1669.653999999995,
+   "blockStartMs": 1782946469000,
+   "blockEndMs": 1782950952000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782968832000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782949078232,
+   "index": 5,
+   "offsetSec": 2609.2320000000036,
+   "blockStartMs": 1782946469000,
+   "blockEndMs": 1782950952000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782968832000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783031236896,
+   "index": 13,
+   "offsetSec": 371.8960000000079,
+   "blockStartMs": 1783030865000,
+   "blockEndMs": 1783035250000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783034851941,
+   "index": 13,
+   "offsetSec": 3986.9409999999916,
+   "blockStartMs": 1783030865000,
+   "blockEndMs": 1783035250000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782923052892,
+   "index": 8,
+   "offsetSec": 74.89199999999983,
+   "blockStartMs": 1782922978000,
+   "blockEndMs": 1782923068000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782935578000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782854905769,
+   "index": 7,
+   "offsetSec": 3625.7690000000002,
+   "blockStartMs": 1782851280000,
+   "blockEndMs": 1782856470000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782850631928,
+   "index": 5,
+   "offsetSec": 3924.928,
+   "blockStartMs": 1782846707000,
+   "blockEndMs": 1782851190000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782964065259,
+   "index": 11,
+   "offsetSec": 3731.2590000000055,
+   "blockStartMs": 1782960334000,
+   "blockEndMs": 1782964267000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782968832000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783025217839,
+   "index": 9,
+   "offsetSec": 2387.839000000007,
+   "blockStartMs": 1783022830000,
+   "blockEndMs": 1783026752000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782862566658,
+   "index": 11,
+   "offsetSec": 1994.6579999999994,
+   "blockStartMs": 1782860572000,
+   "blockEndMs": 1782864505000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783014171105,
+   "index": 5,
+   "offsetSec": 1194.1050000000105,
+   "blockStartMs": 1783012977000,
+   "blockEndMs": 1783017460000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783030682402,
+   "index": 11,
+   "offsetSec": 3840.402000000002,
+   "blockStartMs": 1783026842000,
+   "blockEndMs": 1783030775000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782863827561,
+   "index": 11,
+   "offsetSec": 3255.5610000000015,
+   "blockStartMs": 1782860572000,
+   "blockEndMs": 1782864505000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783025210595,
+   "index": 9,
+   "offsetSec": 2380.595000000001,
+   "blockStartMs": 1783022830000,
+   "blockEndMs": 1783026752000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782974616652,
+   "index": 3,
+   "offsetSec": 715.6520000000019,
+   "blockStartMs": 1782973901000,
+   "blockEndMs": 1782979633000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1783002086000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782981953280,
+   "index": 5,
+   "offsetSec": 2230.279999999999,
+   "blockStartMs": 1782979723000,
+   "blockEndMs": 1782984206000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1783002086000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782916881272,
+   "index": 5,
+   "offsetSec": 3666.271999999997,
+   "blockStartMs": 1782913215000,
+   "blockEndMs": 1782917698000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1782935578000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782930618761,
+   "index": 11,
+   "offsetSec": 3538.7609999999986,
+   "blockStartMs": 1782927080000,
+   "blockEndMs": 1782931013000,
+   "loopSec": 33254,
+   "upNext": "the-little-shop-of-horrors-1960",
+   "nextAiringOfFirstFilm": 1782935578000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782876279372,
+   "index": 3,
+   "offsetSec": 2140.372000000003,
+   "blockStartMs": 1782874139000,
+   "blockEndMs": 1782879871000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783022101117,
+   "index": 7,
+   "offsetSec": 4551.116999999998,
+   "blockStartMs": 1783017550000,
+   "blockEndMs": 1783022740000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783023025941,
+   "index": 9,
+   "offsetSec": 195.94099999999162,
+   "blockStartMs": 1783022830000,
+   "blockEndMs": 1783026752000,
+   "loopSec": 33254,
+   "upNext": "dementia-13-1963",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782889299592,
+   "index": 7,
+   "offsetSec": 4765.592000000004,
+   "blockStartMs": 1782884534000,
+   "blockEndMs": 1782889724000,
+   "loopSec": 33254,
+   "upNext": "white-zombie-1932",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783007167935,
+   "index": 3,
+   "offsetSec": 12.934999999997672,
+   "blockStartMs": 1783007155000,
+   "blockEndMs": 1783012887000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782869271976,
+   "index": 1,
+   "offsetSec": 201.9760000000024,
+   "blockStartMs": 1782869070000,
+   "blockEndMs": 1782874049000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1782902324000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783009903452,
+   "index": 3,
+   "offsetSec": 2748.45199999999,
+   "blockStartMs": 1783007155000,
+   "blockEndMs": 1783012887000,
+   "loopSec": 33254,
+   "upNext": "house-on-haunted-hill-1959",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782868781698,
+   "index": 13,
+   "offsetSec": 4186.697999999997,
+   "blockStartMs": 1782864595000,
+   "blockEndMs": 1782868980000,
+   "loopSec": 33254,
+   "upNext": "carnival-of-souls-1962",
+   "nextAiringOfFirstFilm": 1782869070000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1782982443235,
+   "index": 5,
+   "offsetSec": 2720.2350000000006,
+   "blockStartMs": 1782979723000,
+   "blockEndMs": 1782984206000,
+   "loopSec": 33254,
+   "upNext": "the-last-man-on-earth-1964",
+   "nextAiringOfFirstFilm": 1783002086000
+  },
+  {
+   "channel": "haunted-screen",
+   "atMs": 1783005884346,
+   "index": 1,
+   "offsetSec": 3798.3459999999905,
+   "blockStartMs": 1783002086000,
+   "blockEndMs": 1783007065000,
+   "loopSec": 33254,
+   "upNext": "night-of-the-living-dead-1968",
+   "nextAiringOfFirstFilm": 1783035340000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871860000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782871860000,
+   "blockEndMs": 1782871950000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871859999,
+   "index": 13,
+   "offsetSec": 5496.999000000003,
+   "blockStartMs": 1782866363000,
+   "blockEndMs": 1782871860000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871860001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782871860000,
+   "blockEndMs": 1782871950000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871850000,
+   "index": 13,
+   "offsetSec": 5487,
+   "blockStartMs": 1782866363000,
+   "blockEndMs": 1782871860000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782911175000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782911175000,
+   "blockEndMs": 1782911265000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782911174999,
+   "index": 13,
+   "offsetSec": 5496.999000000011,
+   "blockStartMs": 1782905678000,
+   "blockEndMs": 1782911175000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782989817345,
+   "index": 0,
+   "offsetSec": 12.345000000001164,
+   "blockStartMs": 1782989805000,
+   "blockEndMs": 1782989895000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871859999,
+   "index": 13,
+   "offsetSec": 5496.999000000003,
+   "blockStartMs": 1782866363000,
+   "blockEndMs": 1782871860000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871860000,
+   "index": 0,
+   "offsetSec": 0,
+   "blockStartMs": 1782871860000,
+   "blockEndMs": 1782871950000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871860001,
+   "index": 0,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782871860000,
+   "blockEndMs": 1782871950000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871949999,
+   "index": 0,
+   "offsetSec": 89.99900000000343,
+   "blockStartMs": 1782871860000,
+   "blockEndMs": 1782871950000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871950000,
+   "index": 1,
+   "offsetSec": 0,
+   "blockStartMs": 1782871950000,
+   "blockEndMs": 1782877455000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782871950001,
+   "index": 1,
+   "offsetSec": 0.000999999996565748,
+   "blockStartMs": 1782871950000,
+   "blockEndMs": 1782877455000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782877454999,
+   "index": 1,
+   "offsetSec": 5504.998999999996,
+   "blockStartMs": 1782871950000,
+   "blockEndMs": 1782877455000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782877455000,
+   "index": 2,
+   "offsetSec": 0,
+   "blockStartMs": 1782877455000,
+   "blockEndMs": 1782877545000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782877455001,
+   "index": 2,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782877455000,
+   "blockEndMs": 1782877545000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782877544999,
+   "index": 2,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782877455000,
+   "blockEndMs": 1782877545000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782877545000,
+   "index": 3,
+   "offsetSec": 0,
+   "blockStartMs": 1782877545000,
+   "blockEndMs": 1782884424000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782877545001,
+   "index": 3,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782877545000,
+   "blockEndMs": 1782884424000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782884423999,
+   "index": 3,
+   "offsetSec": 6878.998999999996,
+   "blockStartMs": 1782877545000,
+   "blockEndMs": 1782884424000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782884424000,
+   "index": 4,
+   "offsetSec": 0,
+   "blockStartMs": 1782884424000,
+   "blockEndMs": 1782884514000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782884424001,
+   "index": 4,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782884424000,
+   "blockEndMs": 1782884514000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782884513999,
+   "index": 4,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782884424000,
+   "blockEndMs": 1782884514000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782884514000,
+   "index": 5,
+   "offsetSec": 0,
+   "blockStartMs": 1782884514000,
+   "blockEndMs": 1782890201000,
+   "loopSec": 39315,
+   "upNext": "nothing-sacred-1937",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782884514001,
+   "index": 5,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782884514000,
+   "blockEndMs": 1782890201000,
+   "loopSec": 39315,
+   "upNext": "nothing-sacred-1937",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782890200999,
+   "index": 5,
+   "offsetSec": 5686.998999999996,
+   "blockStartMs": 1782884514000,
+   "blockEndMs": 1782890201000,
+   "loopSec": 39315,
+   "upNext": "nothing-sacred-1937",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782890201000,
+   "index": 6,
+   "offsetSec": 0,
+   "blockStartMs": 1782890201000,
+   "blockEndMs": 1782890291000,
+   "loopSec": 39315,
+   "upNext": "nothing-sacred-1937",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782890201001,
+   "index": 6,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782890201000,
+   "blockEndMs": 1782890291000,
+   "loopSec": 39315,
+   "upNext": "nothing-sacred-1937",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782890290999,
+   "index": 6,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782890201000,
+   "blockEndMs": 1782890291000,
+   "loopSec": 39315,
+   "upNext": "nothing-sacred-1937",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782890291000,
+   "index": 7,
+   "offsetSec": 0,
+   "blockStartMs": 1782890291000,
+   "blockEndMs": 1782894741000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782890291001,
+   "index": 7,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782890291000,
+   "blockEndMs": 1782894741000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782894740999,
+   "index": 7,
+   "offsetSec": 4449.998999999996,
+   "blockStartMs": 1782890291000,
+   "blockEndMs": 1782894741000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782894741000,
+   "index": 8,
+   "offsetSec": 0,
+   "blockStartMs": 1782894741000,
+   "blockEndMs": 1782894831000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782894741001,
+   "index": 8,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782894741000,
+   "blockEndMs": 1782894831000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782894830999,
+   "index": 8,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782894741000,
+   "blockEndMs": 1782894831000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782894831000,
+   "index": 9,
+   "offsetSec": 0,
+   "blockStartMs": 1782894831000,
+   "blockEndMs": 1782900041000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782894831001,
+   "index": 9,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782894831000,
+   "blockEndMs": 1782900041000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782900040999,
+   "index": 9,
+   "offsetSec": 5209.998999999996,
+   "blockStartMs": 1782894831000,
+   "blockEndMs": 1782900041000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782900041000,
+   "index": 10,
+   "offsetSec": 0,
+   "blockStartMs": 1782900041000,
+   "blockEndMs": 1782900131000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782900041001,
+   "index": 10,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782900041000,
+   "blockEndMs": 1782900131000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782900130999,
+   "index": 10,
+   "offsetSec": 89.99899999999616,
+   "blockStartMs": 1782900041000,
+   "blockEndMs": 1782900131000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782900131000,
+   "index": 11,
+   "offsetSec": 0,
+   "blockStartMs": 1782900131000,
+   "blockEndMs": 1782905588000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782900131001,
+   "index": 11,
+   "offsetSec": 0.0010000000038417056,
+   "blockStartMs": 1782900131000,
+   "blockEndMs": 1782905588000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782905587999,
+   "index": 11,
+   "offsetSec": 5456.999000000011,
+   "blockStartMs": 1782900131000,
+   "blockEndMs": 1782905588000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782905588000,
+   "index": 12,
+   "offsetSec": 0,
+   "blockStartMs": 1782905588000,
+   "blockEndMs": 1782905678000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782905588001,
+   "index": 12,
+   "offsetSec": 0.0009999999892897904,
+   "blockStartMs": 1782905588000,
+   "blockEndMs": 1782905678000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782905677999,
+   "index": 12,
+   "offsetSec": 89.99900000001071,
+   "blockStartMs": 1782905588000,
+   "blockEndMs": 1782905678000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782905678000,
+   "index": 13,
+   "offsetSec": 0,
+   "blockStartMs": 1782905678000,
+   "blockEndMs": 1782911175000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782905678001,
+   "index": 13,
+   "offsetSec": 0.0009999999892897904,
+   "blockStartMs": 1782905678000,
+   "blockEndMs": 1782911175000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783033239742,
+   "index": 1,
+   "offsetSec": 4029.7419999999984,
+   "blockStartMs": 1783029210000,
+   "blockEndMs": 1783034715000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783018623870,
+   "index": 11,
+   "offsetSec": 547.8699999999953,
+   "blockStartMs": 1783018076000,
+   "blockEndMs": 1783023533000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1783029210000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783049427331,
+   "index": 7,
+   "offsetSec": 1876.3310000000056,
+   "blockStartMs": 1783047551000,
+   "blockEndMs": 1783052001000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782894336440,
+   "index": 7,
+   "offsetSec": 4045.4400000000023,
+   "blockStartMs": 1782890291000,
+   "blockEndMs": 1782894741000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783055088892,
+   "index": 9,
+   "offsetSec": 2997.8919999999925,
+   "blockStartMs": 1783052091000,
+   "blockEndMs": 1783057301000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782899317126,
+   "index": 9,
+   "offsetSec": 4486.126000000004,
+   "blockStartMs": 1782894831000,
+   "blockEndMs": 1782900041000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782942162137,
+   "index": 11,
+   "offsetSec": 2716.1370000000024,
+   "blockStartMs": 1782939446000,
+   "blockEndMs": 1782944903000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782950580000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782909230406,
+   "index": 13,
+   "offsetSec": 3552.4060000000027,
+   "blockStartMs": 1782905678000,
+   "blockEndMs": 1782911175000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782866480154,
+   "index": 13,
+   "offsetSec": 117.15400000000227,
+   "blockStartMs": 1782866363000,
+   "blockEndMs": 1782871860000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783052287015,
+   "index": 9,
+   "offsetSec": 196.01500000001397,
+   "blockStartMs": 1783052091000,
+   "blockEndMs": 1783057301000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782885820227,
+   "index": 5,
+   "offsetSec": 1306.226999999999,
+   "blockStartMs": 1782884514000,
+   "blockEndMs": 1782890201000,
+   "loopSec": 39315,
+   "upNext": "nothing-sacred-1937",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782942826864,
+   "index": 11,
+   "offsetSec": 3380.8640000000014,
+   "blockStartMs": 1782939446000,
+   "blockEndMs": 1782944903000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782950580000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783040005233,
+   "index": 3,
+   "offsetSec": 5200.233000000007,
+   "blockStartMs": 1783034805000,
+   "blockEndMs": 1783041684000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782959218355,
+   "index": 3,
+   "offsetSec": 3043.354999999996,
+   "blockStartMs": 1782956175000,
+   "blockEndMs": 1782963054000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782870553935,
+   "index": 13,
+   "offsetSec": 4190.934999999998,
+   "blockStartMs": 1782866363000,
+   "blockEndMs": 1782871860000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782833905335,
+   "index": 1,
+   "offsetSec": 1270.3349999999991,
+   "blockStartMs": 1782832635000,
+   "blockEndMs": 1782838140000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782891077787,
+   "index": 7,
+   "offsetSec": 786.7869999999966,
+   "blockStartMs": 1782890291000,
+   "blockEndMs": 1782894741000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783000105261,
+   "index": 3,
+   "offsetSec": 4615.260999999999,
+   "blockStartMs": 1782995490000,
+   "blockEndMs": 1783002369000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1783029210000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783051537994,
+   "index": 7,
+   "offsetSec": 3986.994000000006,
+   "blockStartMs": 1783047551000,
+   "blockEndMs": 1783052001000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783036476558,
+   "index": 3,
+   "offsetSec": 1671.55799999999,
+   "blockStartMs": 1783034805000,
+   "blockEndMs": 1783041684000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783052178068,
+   "index": 9,
+   "offsetSec": 87.0679999999993,
+   "blockStartMs": 1783052091000,
+   "blockEndMs": 1783057301000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782940367519,
+   "index": 11,
+   "offsetSec": 921.5190000000002,
+   "blockStartMs": 1782939446000,
+   "blockEndMs": 1782944903000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782950580000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783033769596,
+   "index": 1,
+   "offsetSec": 4559.59599999999,
+   "blockStartMs": 1783029210000,
+   "blockEndMs": 1783034715000,
+   "loopSec": 39315,
+   "upNext": "charade-1963",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782981236762,
+   "index": 11,
+   "offsetSec": 2475.7620000000024,
+   "blockStartMs": 1782978761000,
+   "blockEndMs": 1782984218000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783065073135,
+   "index": 13,
+   "offsetSec": 2135.1350000000093,
+   "blockStartMs": 1783062938000,
+   "blockEndMs": 1783068435000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782998244198,
+   "index": 3,
+   "offsetSec": 2754.198000000004,
+   "blockStartMs": 1782995490000,
+   "blockEndMs": 1783002369000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1783029210000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782973267530,
+   "index": 7,
+   "offsetSec": 4346.529999999999,
+   "blockStartMs": 1782968921000,
+   "blockEndMs": 1782973371000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782881614873,
+   "index": 3,
+   "offsetSec": 4069.8729999999996,
+   "blockStartMs": 1782877545000,
+   "blockEndMs": 1782884424000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782911265000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1783061720265,
+   "index": 11,
+   "offsetSec": 4329.265000000014,
+   "blockStartMs": 1783057391000,
+   "blockEndMs": 1783062848000,
+   "loopSec": 39315,
+   "upNext": "royal-wedding-1951",
+   "nextAiringOfFirstFilm": 1783068525000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782984754030,
+   "index": 13,
+   "offsetSec": 446.02999999999884,
+   "blockStartMs": 1782984308000,
+   "blockEndMs": 1782989805000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782856804297,
+   "index": 9,
+   "offsetSec": 1288.2969999999987,
+   "blockStartMs": 1782855516000,
+   "blockEndMs": 1782860726000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782972903447,
+   "index": 7,
+   "offsetSec": 3982.447,
+   "blockStartMs": 1782968921000,
+   "blockEndMs": 1782973371000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782858903749,
+   "index": 9,
+   "offsetSec": 3387.749,
+   "blockStartMs": 1782855516000,
+   "blockEndMs": 1782860726000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782851854587,
+   "index": 7,
+   "offsetSec": 878.5869999999995,
+   "blockStartMs": 1782850976000,
+   "blockEndMs": 1782855426000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782986197612,
+   "index": 13,
+   "offsetSec": 1889.6119999999937,
+   "blockStartMs": 1782984308000,
+   "blockEndMs": 1782989805000,
+   "loopSec": 39315,
+   "upNext": "his-girl-friday-1940",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782959866605,
+   "index": 3,
+   "offsetSec": 3691.604999999996,
+   "blockStartMs": 1782956175000,
+   "blockEndMs": 1782963054000,
+   "loopSec": 39315,
+   "upNext": "my-man-godfrey-1936",
+   "nextAiringOfFirstFilm": 1782989895000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782937457695,
+   "index": 9,
+   "offsetSec": 3311.695000000007,
+   "blockStartMs": 1782934146000,
+   "blockEndMs": 1782939356000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782950580000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782853824787,
+   "index": 7,
+   "offsetSec": 2848.7870000000003,
+   "blockStartMs": 1782850976000,
+   "blockEndMs": 1782855426000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782854910191,
+   "index": 7,
+   "offsetSec": 3934.190999999999,
+   "blockStartMs": 1782850976000,
+   "blockEndMs": 1782855426000,
+   "loopSec": 39315,
+   "upNext": "love-affair-1939",
+   "nextAiringOfFirstFilm": 1782871950000
+  },
+  {
+   "channel": "the-matinee",
+   "atMs": 1782855960742,
+   "index": 9,
+   "offsetSec": 444.74199999999837,
+   "blockStartMs": 1782855516000,
+   "blockEndMs": 1782860726000,
+   "loopSec": 39315,
+   "upNext": "made-for-each-other-1939",
+   "nextAiringOfFirstFilm": 1782871950000
+  }
+ ],
+ "windows": [
+  {
+   "channel": "silent-signal",
+   "fromMs": 1782864000000,
+   "toMs": 1782950400000,
+   "airings": [
+    {
+     "film": "sherlock-jr-1924",
+     "index": 1,
+     "startMs": 1782864090000,
+     "endMs": 1782866739000
+    },
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1782866829000,
+     "endMs": 1782872343000
+    },
+    {
+     "film": "the-general-1926",
+     "index": 5,
+     "startMs": 1782872433000,
+     "endMs": 1782877157000
+    },
+    {
+     "film": "the-cabinet-of-dr-caligari-1920",
+     "index": 7,
+     "startMs": 1782877247000,
+     "endMs": 1782881710000
+    },
+    {
+     "film": "sunrise-1927",
+     "index": 9,
+     "startMs": 1782881800000,
+     "endMs": 1782887497000
+    },
+    {
+     "film": "battleship-potemkin-1925",
+     "index": 11,
+     "startMs": 1782887587000,
+     "endMs": 1782891968000
+    },
+    {
+     "film": "the-lodger-1927",
+     "index": 13,
+     "startMs": 1782892058000,
+     "endMs": 1782897502000
+    },
+    {
+     "film": "metropolis-1927",
+     "index": 15,
+     "startMs": 1782897592000,
+     "endMs": 1782904710000
+    },
+    {
+     "film": "sherlock-jr-1924",
+     "index": 1,
+     "startMs": 1782904800000,
+     "endMs": 1782907449000
+    },
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1782907539000,
+     "endMs": 1782913053000
+    },
+    {
+     "film": "the-general-1926",
+     "index": 5,
+     "startMs": 1782913143000,
+     "endMs": 1782917867000
+    },
+    {
+     "film": "the-cabinet-of-dr-caligari-1920",
+     "index": 7,
+     "startMs": 1782917957000,
+     "endMs": 1782922420000
+    },
+    {
+     "film": "sunrise-1927",
+     "index": 9,
+     "startMs": 1782922510000,
+     "endMs": 1782928207000
+    },
+    {
+     "film": "battleship-potemkin-1925",
+     "index": 11,
+     "startMs": 1782928297000,
+     "endMs": 1782932678000
+    },
+    {
+     "film": "the-lodger-1927",
+     "index": 13,
+     "startMs": 1782932768000,
+     "endMs": 1782938212000
+    },
+    {
+     "film": "metropolis-1927",
+     "index": 15,
+     "startMs": 1782938302000,
+     "endMs": 1782945420000
+    },
+    {
+     "film": "sherlock-jr-1924",
+     "index": 1,
+     "startMs": 1782945510000,
+     "endMs": 1782948159000
+    },
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1782948249000,
+     "endMs": 1782953763000
+    }
+   ]
+  },
+  {
+   "channel": "silent-signal",
+   "fromMs": 1782860400000,
+   "toMs": 1782867600000,
+   "airings": [
+    {
+     "film": "sherlock-jr-1924",
+     "index": 1,
+     "startMs": 1782864090000,
+     "endMs": 1782866739000
+    },
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1782866829000,
+     "endMs": 1782872343000
+    }
+   ]
+  },
+  {
+   "channel": "silent-signal",
+   "fromMs": 1782904705000,
+   "toMs": 1782904715000,
+   "airings": []
+  },
+  {
+   "channel": "silent-signal",
+   "fromMs": 1782987456789,
+   "toMs": 1783117056789,
+   "airings": [
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1782988959000,
+     "endMs": 1782994473000
+    },
+    {
+     "film": "the-general-1926",
+     "index": 5,
+     "startMs": 1782994563000,
+     "endMs": 1782999287000
+    },
+    {
+     "film": "the-cabinet-of-dr-caligari-1920",
+     "index": 7,
+     "startMs": 1782999377000,
+     "endMs": 1783003840000
+    },
+    {
+     "film": "sunrise-1927",
+     "index": 9,
+     "startMs": 1783003930000,
+     "endMs": 1783009627000
+    },
+    {
+     "film": "battleship-potemkin-1925",
+     "index": 11,
+     "startMs": 1783009717000,
+     "endMs": 1783014098000
+    },
+    {
+     "film": "the-lodger-1927",
+     "index": 13,
+     "startMs": 1783014188000,
+     "endMs": 1783019632000
+    },
+    {
+     "film": "metropolis-1927",
+     "index": 15,
+     "startMs": 1783019722000,
+     "endMs": 1783026840000
+    },
+    {
+     "film": "sherlock-jr-1924",
+     "index": 1,
+     "startMs": 1783026930000,
+     "endMs": 1783029579000
+    },
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1783029669000,
+     "endMs": 1783035183000
+    },
+    {
+     "film": "the-general-1926",
+     "index": 5,
+     "startMs": 1783035273000,
+     "endMs": 1783039997000
+    },
+    {
+     "film": "the-cabinet-of-dr-caligari-1920",
+     "index": 7,
+     "startMs": 1783040087000,
+     "endMs": 1783044550000
+    },
+    {
+     "film": "sunrise-1927",
+     "index": 9,
+     "startMs": 1783044640000,
+     "endMs": 1783050337000
+    },
+    {
+     "film": "battleship-potemkin-1925",
+     "index": 11,
+     "startMs": 1783050427000,
+     "endMs": 1783054808000
+    },
+    {
+     "film": "the-lodger-1927",
+     "index": 13,
+     "startMs": 1783054898000,
+     "endMs": 1783060342000
+    },
+    {
+     "film": "metropolis-1927",
+     "index": 15,
+     "startMs": 1783060432000,
+     "endMs": 1783067550000
+    },
+    {
+     "film": "sherlock-jr-1924",
+     "index": 1,
+     "startMs": 1783067640000,
+     "endMs": 1783070289000
+    },
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1783070379000,
+     "endMs": 1783075893000
+    },
+    {
+     "film": "the-general-1926",
+     "index": 5,
+     "startMs": 1783075983000,
+     "endMs": 1783080707000
+    },
+    {
+     "film": "the-cabinet-of-dr-caligari-1920",
+     "index": 7,
+     "startMs": 1783080797000,
+     "endMs": 1783085260000
+    },
+    {
+     "film": "sunrise-1927",
+     "index": 9,
+     "startMs": 1783085350000,
+     "endMs": 1783091047000
+    },
+    {
+     "film": "battleship-potemkin-1925",
+     "index": 11,
+     "startMs": 1783091137000,
+     "endMs": 1783095518000
+    },
+    {
+     "film": "the-lodger-1927",
+     "index": 13,
+     "startMs": 1783095608000,
+     "endMs": 1783101052000
+    },
+    {
+     "film": "metropolis-1927",
+     "index": 15,
+     "startMs": 1783101142000,
+     "endMs": 1783108260000
+    },
+    {
+     "film": "sherlock-jr-1924",
+     "index": 1,
+     "startMs": 1783108350000,
+     "endMs": 1783110999000
+    },
+    {
+     "film": "nosferatu-1922",
+     "index": 3,
+     "startMs": 1783111089000,
+     "endMs": 1783116603000
+    },
+    {
+     "film": "the-general-1926",
+     "index": 5,
+     "startMs": 1783116693000,
+     "endMs": 1783121417000
+    }
+   ]
+  },
+  {
+   "channel": "noir-after-dark",
+   "fromMs": 1782866820000,
+   "toMs": 1782953220000,
+   "airings": [
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1782866910000,
+     "endMs": 1782870986000
+    },
+    {
+     "film": "the-hitch-hiker-1953",
+     "index": 3,
+     "startMs": 1782871076000,
+     "endMs": 1782875324000
+    },
+    {
+     "film": "scarlet-street-1945",
+     "index": 5,
+     "startMs": 1782875414000,
+     "endMs": 1782881500000
+    },
+    {
+     "film": "doa-1950",
+     "index": 7,
+     "startMs": 1782881590000,
+     "endMs": 1782886580000
+    },
+    {
+     "film": "too-late-for-tears-1949",
+     "index": 9,
+     "startMs": 1782886670000,
+     "endMs": 1782892298000
+    },
+    {
+     "film": "the-stranger-1946",
+     "index": 11,
+     "startMs": 1782892388000,
+     "endMs": 1782897861000
+    },
+    {
+     "film": "kansas-city-confidential-1952",
+     "index": 13,
+     "startMs": 1782897951000,
+     "endMs": 1782903907000
+    },
+    {
+     "film": "suddenly-1954",
+     "index": 15,
+     "startMs": 1782903997000,
+     "endMs": 1782908531000
+    },
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1782908621000,
+     "endMs": 1782912697000
+    },
+    {
+     "film": "the-hitch-hiker-1953",
+     "index": 3,
+     "startMs": 1782912787000,
+     "endMs": 1782917035000
+    },
+    {
+     "film": "scarlet-street-1945",
+     "index": 5,
+     "startMs": 1782917125000,
+     "endMs": 1782923211000
+    },
+    {
+     "film": "doa-1950",
+     "index": 7,
+     "startMs": 1782923301000,
+     "endMs": 1782928291000
+    },
+    {
+     "film": "too-late-for-tears-1949",
+     "index": 9,
+     "startMs": 1782928381000,
+     "endMs": 1782934009000
+    },
+    {
+     "film": "the-stranger-1946",
+     "index": 11,
+     "startMs": 1782934099000,
+     "endMs": 1782939572000
+    },
+    {
+     "film": "kansas-city-confidential-1952",
+     "index": 13,
+     "startMs": 1782939662000,
+     "endMs": 1782945618000
+    },
+    {
+     "film": "suddenly-1954",
+     "index": 15,
+     "startMs": 1782945708000,
+     "endMs": 1782950242000
+    },
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1782950332000,
+     "endMs": 1782954408000
+    }
+   ]
+  },
+  {
+   "channel": "noir-after-dark",
+   "fromMs": 1782863220000,
+   "toMs": 1782870420000,
+   "airings": [
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1782866910000,
+     "endMs": 1782870986000
+    }
+   ]
+  },
+  {
+   "channel": "noir-after-dark",
+   "fromMs": 1782908526000,
+   "toMs": 1782908536000,
+   "airings": []
+  },
+  {
+   "channel": "noir-after-dark",
+   "fromMs": 1782990276789,
+   "toMs": 1783119876789,
+   "airings": [
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1782992043000,
+     "endMs": 1782996119000
+    },
+    {
+     "film": "the-hitch-hiker-1953",
+     "index": 3,
+     "startMs": 1782996209000,
+     "endMs": 1783000457000
+    },
+    {
+     "film": "scarlet-street-1945",
+     "index": 5,
+     "startMs": 1783000547000,
+     "endMs": 1783006633000
+    },
+    {
+     "film": "doa-1950",
+     "index": 7,
+     "startMs": 1783006723000,
+     "endMs": 1783011713000
+    },
+    {
+     "film": "too-late-for-tears-1949",
+     "index": 9,
+     "startMs": 1783011803000,
+     "endMs": 1783017431000
+    },
+    {
+     "film": "the-stranger-1946",
+     "index": 11,
+     "startMs": 1783017521000,
+     "endMs": 1783022994000
+    },
+    {
+     "film": "kansas-city-confidential-1952",
+     "index": 13,
+     "startMs": 1783023084000,
+     "endMs": 1783029040000
+    },
+    {
+     "film": "suddenly-1954",
+     "index": 15,
+     "startMs": 1783029130000,
+     "endMs": 1783033664000
+    },
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1783033754000,
+     "endMs": 1783037830000
+    },
+    {
+     "film": "the-hitch-hiker-1953",
+     "index": 3,
+     "startMs": 1783037920000,
+     "endMs": 1783042168000
+    },
+    {
+     "film": "scarlet-street-1945",
+     "index": 5,
+     "startMs": 1783042258000,
+     "endMs": 1783048344000
+    },
+    {
+     "film": "doa-1950",
+     "index": 7,
+     "startMs": 1783048434000,
+     "endMs": 1783053424000
+    },
+    {
+     "film": "too-late-for-tears-1949",
+     "index": 9,
+     "startMs": 1783053514000,
+     "endMs": 1783059142000
+    },
+    {
+     "film": "the-stranger-1946",
+     "index": 11,
+     "startMs": 1783059232000,
+     "endMs": 1783064705000
+    },
+    {
+     "film": "kansas-city-confidential-1952",
+     "index": 13,
+     "startMs": 1783064795000,
+     "endMs": 1783070751000
+    },
+    {
+     "film": "suddenly-1954",
+     "index": 15,
+     "startMs": 1783070841000,
+     "endMs": 1783075375000
+    },
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1783075465000,
+     "endMs": 1783079541000
+    },
+    {
+     "film": "the-hitch-hiker-1953",
+     "index": 3,
+     "startMs": 1783079631000,
+     "endMs": 1783083879000
+    },
+    {
+     "film": "scarlet-street-1945",
+     "index": 5,
+     "startMs": 1783083969000,
+     "endMs": 1783090055000
+    },
+    {
+     "film": "doa-1950",
+     "index": 7,
+     "startMs": 1783090145000,
+     "endMs": 1783095135000
+    },
+    {
+     "film": "too-late-for-tears-1949",
+     "index": 9,
+     "startMs": 1783095225000,
+     "endMs": 1783100853000
+    },
+    {
+     "film": "the-stranger-1946",
+     "index": 11,
+     "startMs": 1783100943000,
+     "endMs": 1783106416000
+    },
+    {
+     "film": "kansas-city-confidential-1952",
+     "index": 13,
+     "startMs": 1783106506000,
+     "endMs": 1783112462000
+    },
+    {
+     "film": "suddenly-1954",
+     "index": 15,
+     "startMs": 1783112552000,
+     "endMs": 1783117086000
+    },
+    {
+     "film": "detour-1945",
+     "index": 1,
+     "startMs": 1783117176000,
+     "endMs": 1783121252000
+    }
+   ]
+  },
+  {
+   "channel": "haunted-screen",
+   "fromMs": 1782868980000,
+   "toMs": 1782955380000,
+   "airings": [
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1782869070000,
+     "endMs": 1782874049000
+    },
+    {
+     "film": "night-of-the-living-dead-1968",
+     "index": 3,
+     "startMs": 1782874139000,
+     "endMs": 1782879871000
+    },
+    {
+     "film": "house-on-haunted-hill-1959",
+     "index": 5,
+     "startMs": 1782879961000,
+     "endMs": 1782884444000
+    },
+    {
+     "film": "the-last-man-on-earth-1964",
+     "index": 7,
+     "startMs": 1782884534000,
+     "endMs": 1782889724000
+    },
+    {
+     "film": "white-zombie-1932",
+     "index": 9,
+     "startMs": 1782889814000,
+     "endMs": 1782893736000
+    },
+    {
+     "film": "dementia-13-1963",
+     "index": 11,
+     "startMs": 1782893826000,
+     "endMs": 1782897759000
+    },
+    {
+     "film": "the-little-shop-of-horrors-1960",
+     "index": 13,
+     "startMs": 1782897849000,
+     "endMs": 1782902234000
+    },
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1782902324000,
+     "endMs": 1782907303000
+    },
+    {
+     "film": "night-of-the-living-dead-1968",
+     "index": 3,
+     "startMs": 1782907393000,
+     "endMs": 1782913125000
+    },
+    {
+     "film": "house-on-haunted-hill-1959",
+     "index": 5,
+     "startMs": 1782913215000,
+     "endMs": 1782917698000
+    },
+    {
+     "film": "the-last-man-on-earth-1964",
+     "index": 7,
+     "startMs": 1782917788000,
+     "endMs": 1782922978000
+    },
+    {
+     "film": "white-zombie-1932",
+     "index": 9,
+     "startMs": 1782923068000,
+     "endMs": 1782926990000
+    },
+    {
+     "film": "dementia-13-1963",
+     "index": 11,
+     "startMs": 1782927080000,
+     "endMs": 1782931013000
+    },
+    {
+     "film": "the-little-shop-of-horrors-1960",
+     "index": 13,
+     "startMs": 1782931103000,
+     "endMs": 1782935488000
+    },
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1782935578000,
+     "endMs": 1782940557000
+    },
+    {
+     "film": "night-of-the-living-dead-1968",
+     "index": 3,
+     "startMs": 1782940647000,
+     "endMs": 1782946379000
+    },
+    {
+     "film": "house-on-haunted-hill-1959",
+     "index": 5,
+     "startMs": 1782946469000,
+     "endMs": 1782950952000
+    },
+    {
+     "film": "the-last-man-on-earth-1964",
+     "index": 7,
+     "startMs": 1782951042000,
+     "endMs": 1782956232000
+    }
+   ]
+  },
+  {
+   "channel": "haunted-screen",
+   "fromMs": 1782865380000,
+   "toMs": 1782872580000,
+   "airings": [
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1782869070000,
+     "endMs": 1782874049000
+    }
+   ]
+  },
+  {
+   "channel": "haunted-screen",
+   "fromMs": 1782902229000,
+   "toMs": 1782902239000,
+   "airings": []
+  },
+  {
+   "channel": "haunted-screen",
+   "fromMs": 1782992436789,
+   "toMs": 1783122036789,
+   "airings": [
+    {
+     "film": "dementia-13-1963",
+     "index": 11,
+     "startMs": 1782993588000,
+     "endMs": 1782997521000
+    },
+    {
+     "film": "the-little-shop-of-horrors-1960",
+     "index": 13,
+     "startMs": 1782997611000,
+     "endMs": 1783001996000
+    },
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1783002086000,
+     "endMs": 1783007065000
+    },
+    {
+     "film": "night-of-the-living-dead-1968",
+     "index": 3,
+     "startMs": 1783007155000,
+     "endMs": 1783012887000
+    },
+    {
+     "film": "house-on-haunted-hill-1959",
+     "index": 5,
+     "startMs": 1783012977000,
+     "endMs": 1783017460000
+    },
+    {
+     "film": "the-last-man-on-earth-1964",
+     "index": 7,
+     "startMs": 1783017550000,
+     "endMs": 1783022740000
+    },
+    {
+     "film": "white-zombie-1932",
+     "index": 9,
+     "startMs": 1783022830000,
+     "endMs": 1783026752000
+    },
+    {
+     "film": "dementia-13-1963",
+     "index": 11,
+     "startMs": 1783026842000,
+     "endMs": 1783030775000
+    },
+    {
+     "film": "the-little-shop-of-horrors-1960",
+     "index": 13,
+     "startMs": 1783030865000,
+     "endMs": 1783035250000
+    },
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1783035340000,
+     "endMs": 1783040319000
+    },
+    {
+     "film": "night-of-the-living-dead-1968",
+     "index": 3,
+     "startMs": 1783040409000,
+     "endMs": 1783046141000
+    },
+    {
+     "film": "house-on-haunted-hill-1959",
+     "index": 5,
+     "startMs": 1783046231000,
+     "endMs": 1783050714000
+    },
+    {
+     "film": "the-last-man-on-earth-1964",
+     "index": 7,
+     "startMs": 1783050804000,
+     "endMs": 1783055994000
+    },
+    {
+     "film": "white-zombie-1932",
+     "index": 9,
+     "startMs": 1783056084000,
+     "endMs": 1783060006000
+    },
+    {
+     "film": "dementia-13-1963",
+     "index": 11,
+     "startMs": 1783060096000,
+     "endMs": 1783064029000
+    },
+    {
+     "film": "the-little-shop-of-horrors-1960",
+     "index": 13,
+     "startMs": 1783064119000,
+     "endMs": 1783068504000
+    },
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1783068594000,
+     "endMs": 1783073573000
+    },
+    {
+     "film": "night-of-the-living-dead-1968",
+     "index": 3,
+     "startMs": 1783073663000,
+     "endMs": 1783079395000
+    },
+    {
+     "film": "house-on-haunted-hill-1959",
+     "index": 5,
+     "startMs": 1783079485000,
+     "endMs": 1783083968000
+    },
+    {
+     "film": "the-last-man-on-earth-1964",
+     "index": 7,
+     "startMs": 1783084058000,
+     "endMs": 1783089248000
+    },
+    {
+     "film": "white-zombie-1932",
+     "index": 9,
+     "startMs": 1783089338000,
+     "endMs": 1783093260000
+    },
+    {
+     "film": "dementia-13-1963",
+     "index": 11,
+     "startMs": 1783093350000,
+     "endMs": 1783097283000
+    },
+    {
+     "film": "the-little-shop-of-horrors-1960",
+     "index": 13,
+     "startMs": 1783097373000,
+     "endMs": 1783101758000
+    },
+    {
+     "film": "carnival-of-souls-1962",
+     "index": 1,
+     "startMs": 1783101848000,
+     "endMs": 1783106827000
+    },
+    {
+     "film": "night-of-the-living-dead-1968",
+     "index": 3,
+     "startMs": 1783106917000,
+     "endMs": 1783112649000
+    },
+    {
+     "film": "house-on-haunted-hill-1959",
+     "index": 5,
+     "startMs": 1783112739000,
+     "endMs": 1783117222000
+    },
+    {
+     "film": "the-last-man-on-earth-1964",
+     "index": 7,
+     "startMs": 1783117312000,
+     "endMs": 1783122502000
+    }
+   ]
+  },
+  {
+   "channel": "the-matinee",
+   "fromMs": 1782871860000,
+   "toMs": 1782958260000,
+   "airings": [
+    {
+     "film": "his-girl-friday-1940",
+     "index": 1,
+     "startMs": 1782871950000,
+     "endMs": 1782877455000
+    },
+    {
+     "film": "charade-1963",
+     "index": 3,
+     "startMs": 1782877545000,
+     "endMs": 1782884424000
+    },
+    {
+     "film": "my-man-godfrey-1936",
+     "index": 5,
+     "startMs": 1782884514000,
+     "endMs": 1782890201000
+    },
+    {
+     "film": "nothing-sacred-1937",
+     "index": 7,
+     "startMs": 1782890291000,
+     "endMs": 1782894741000
+    },
+    {
+     "film": "love-affair-1939",
+     "index": 9,
+     "startMs": 1782894831000,
+     "endMs": 1782900041000
+    },
+    {
+     "film": "made-for-each-other-1939",
+     "index": 11,
+     "startMs": 1782900131000,
+     "endMs": 1782905588000
+    },
+    {
+     "film": "royal-wedding-1951",
+     "index": 13,
+     "startMs": 1782905678000,
+     "endMs": 1782911175000
+    },
+    {
+     "film": "his-girl-friday-1940",
+     "index": 1,
+     "startMs": 1782911265000,
+     "endMs": 1782916770000
+    },
+    {
+     "film": "charade-1963",
+     "index": 3,
+     "startMs": 1782916860000,
+     "endMs": 1782923739000
+    },
+    {
+     "film": "my-man-godfrey-1936",
+     "index": 5,
+     "startMs": 1782923829000,
+     "endMs": 1782929516000
+    },
+    {
+     "film": "nothing-sacred-1937",
+     "index": 7,
+     "startMs": 1782929606000,
+     "endMs": 1782934056000
+    },
+    {
+     "film": "love-affair-1939",
+     "index": 9,
+     "startMs": 1782934146000,
+     "endMs": 1782939356000
+    },
+    {
+     "film": "made-for-each-other-1939",
+     "index": 11,
+     "startMs": 1782939446000,
+     "endMs": 1782944903000
+    },
+    {
+     "film": "royal-wedding-1951",
+     "index": 13,
+     "startMs": 1782944993000,
+     "endMs": 1782950490000
+    },
+    {
+     "film": "his-girl-friday-1940",
+     "index": 1,
+     "startMs": 1782950580000,
+     "endMs": 1782956085000
+    },
+    {
+     "film": "charade-1963",
+     "index": 3,
+     "startMs": 1782956175000,
+     "endMs": 1782963054000
+    }
+   ]
+  },
+  {
+   "channel": "the-matinee",
+   "fromMs": 1782868260000,
+   "toMs": 1782875460000,
+   "airings": [
+    {
+     "film": "his-girl-friday-1940",
+     "index": 1,
+     "startMs": 1782871950000,
+     "endMs": 1782877455000
+    }
+   ]
+  },
+  {
+   "channel": "the-matinee",
+   "fromMs": 1782911170000,
+   "toMs": 1782911180000,
+   "airings": []
+  },
+  {
+   "channel": "the-matinee",
+   "fromMs": 1782995316789,
+   "toMs": 1783124916789,
+   "airings": [
+    {
+     "film": "charade-1963",
+     "index": 3,
+     "startMs": 1782995490000,
+     "endMs": 1783002369000
+    },
+    {
+     "film": "my-man-godfrey-1936",
+     "index": 5,
+     "startMs": 1783002459000,
+     "endMs": 1783008146000
+    },
+    {
+     "film": "nothing-sacred-1937",
+     "index": 7,
+     "startMs": 1783008236000,
+     "endMs": 1783012686000
+    },
+    {
+     "film": "love-affair-1939",
+     "index": 9,
+     "startMs": 1783012776000,
+     "endMs": 1783017986000
+    },
+    {
+     "film": "made-for-each-other-1939",
+     "index": 11,
+     "startMs": 1783018076000,
+     "endMs": 1783023533000
+    },
+    {
+     "film": "royal-wedding-1951",
+     "index": 13,
+     "startMs": 1783023623000,
+     "endMs": 1783029120000
+    },
+    {
+     "film": "his-girl-friday-1940",
+     "index": 1,
+     "startMs": 1783029210000,
+     "endMs": 1783034715000
+    },
+    {
+     "film": "charade-1963",
+     "index": 3,
+     "startMs": 1783034805000,
+     "endMs": 1783041684000
+    },
+    {
+     "film": "my-man-godfrey-1936",
+     "index": 5,
+     "startMs": 1783041774000,
+     "endMs": 1783047461000
+    },
+    {
+     "film": "nothing-sacred-1937",
+     "index": 7,
+     "startMs": 1783047551000,
+     "endMs": 1783052001000
+    },
+    {
+     "film": "love-affair-1939",
+     "index": 9,
+     "startMs": 1783052091000,
+     "endMs": 1783057301000
+    },
+    {
+     "film": "made-for-each-other-1939",
+     "index": 11,
+     "startMs": 1783057391000,
+     "endMs": 1783062848000
+    },
+    {
+     "film": "royal-wedding-1951",
+     "index": 13,
+     "startMs": 1783062938000,
+     "endMs": 1783068435000
+    },
+    {
+     "film": "his-girl-friday-1940",
+     "index": 1,
+     "startMs": 1783068525000,
+     "endMs": 1783074030000
+    },
+    {
+     "film": "charade-1963",
+     "index": 3,
+     "startMs": 1783074120000,
+     "endMs": 1783080999000
+    },
+    {
+     "film": "my-man-godfrey-1936",
+     "index": 5,
+     "startMs": 1783081089000,
+     "endMs": 1783086776000
+    },
+    {
+     "film": "nothing-sacred-1937",
+     "index": 7,
+     "startMs": 1783086866000,
+     "endMs": 1783091316000
+    },
+    {
+     "film": "love-affair-1939",
+     "index": 9,
+     "startMs": 1783091406000,
+     "endMs": 1783096616000
+    },
+    {
+     "film": "made-for-each-other-1939",
+     "index": 11,
+     "startMs": 1783096706000,
+     "endMs": 1783102163000
+    },
+    {
+     "film": "royal-wedding-1951",
+     "index": 13,
+     "startMs": 1783102253000,
+     "endMs": 1783107750000
+    },
+    {
+     "film": "his-girl-friday-1940",
+     "index": 1,
+     "startMs": 1783107840000,
+     "endMs": 1783113345000
+    },
+    {
+     "film": "charade-1963",
+     "index": 3,
+     "startMs": 1783113435000,
+     "endMs": 1783120314000
+    },
+    {
+     "film": "my-man-godfrey-1936",
+     "index": 5,
+     "startMs": 1783120404000,
+     "endMs": 1783126091000
+    }
+   ]
+  }
+ ]
+}
