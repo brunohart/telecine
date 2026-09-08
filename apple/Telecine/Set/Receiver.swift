@@ -13,10 +13,12 @@
 //      that too, and retries — it never pretends
 
 import AVFoundation
-import Combine
 import Foundation
 import MediaPlayer
 import Observation
+import os
+
+private let log = Logger(subsystem: "net.telecine", category: "receiver")
 
 @MainActor @Observable
 final class Receiver {
@@ -42,8 +44,8 @@ final class Receiver {
     private var tickTask: Task<Void, Never>?
     private var retryTask: Task<Void, Never>?
     private var noticeTask: Task<Void, Never>?
-    private var itemStatusTask: Task<Void, Never>?
-    private var timeControlTask: Task<Void, Never>?
+    private var itemObservation: NSKeyValueObservation?
+    private var timeControlObservation: NSKeyValueObservation?
     private var endObserver: NSObjectProtocol?
     private var driftAt: Date = .distantPast
     private var remoteTargets: [Any] = []
@@ -207,20 +209,14 @@ final class Receiver {
         guard srcKey != key else { return }
         srcKey = key
         let item = AVPlayerItem(url: src)
+        log.info("load \(key, privacy: .public) ← \(src.absoluteString, privacy: .public) seekOnReady=\(seekOnReady)")
         player.replaceCurrentItem(with: item)
-        itemStatusTask?.cancel()
-        itemStatusTask = Task { [weak self] in
-            for await s in item.publisher(for: \.status).values {
-                guard let self, !Task.isCancelled else { return }
-                switch s {
-                case .readyToPlay:
-                    if seekOnReady { seekLive() }
-                    if powered, resolution?.block.isFilm == true { attemptPlay() }
-                case .failed:
-                    signalLost()
-                default: break
-                }
-            }
+        itemObservation?.invalidate()
+        itemObservation = item.observe(\.status, options: [.initial, .new]) { [weak self] item, _ in
+            // KVO arrives off the main actor; carry only Sendable facts across
+            let status = item.status
+            let error = item.error?.localizedDescription
+            Task { @MainActor in self?.itemStatusChanged(status, error: error, key: key) }
         }
         if let o = endObserver { NotificationCenter.default.removeObserver(o) }
         endObserver = NotificationCenter.default.addObserver(forName: AVPlayerItem.didPlayToEndTimeNotification, object: item, queue: .main) { [weak self] _ in
@@ -228,10 +224,58 @@ final class Receiver {
         }
     }
 
+    private func itemStatusChanged(_ s: AVPlayerItem.Status, error: String?, key: String) {
+        guard srcKey == key else { return }
+        switch s {
+        case .readyToPlay:
+            log.info("item ready \(key, privacy: .public)")
+            // if this reel is the one on air right now, join it live — whether it was loaded for
+            // this block or pre-buffered for it during the break and only became ready after the
+            // block began. A reel warming up for the *next* block stays at the top.
+            if let r = resolution, r.block.isFilm, "\(channel.id):\(r.index)" == key {
+                seekLive()
+                if powered { attemptPlay() }
+            }
+        case .failed:
+            log.error("item failed \(key, privacy: .public): \(error ?? "?", privacy: .public)")
+            signalLost()
+        default: break
+        }
+    }
+
+    private func timeControlChanged(_ s: AVPlayer.TimeControlStatus) {
+        log.info("timeControl=\(s.rawValue) reason=\(self.player.reasonForWaitingToPlay?.rawValue ?? "-", privacy: .public)")
+        reflectPlayerState()
+    }
+
+    /// The truth about the picture, read from the player itself: on air when it is moving,
+    /// tuning when it is waiting, and never anything else while the signal is lost or a break is on.
+    private func reflectPlayerState() {
+        guard powered, resolution?.block.isFilm == true, status != .signalLost else { return }
+        switch player.timeControlStatus {
+        case .playing: status = .onAir
+        case .waitingToPlayAtSpecifiedRate: status = .tuning
+        case .paused: if status == .onAir { status = .tuning }
+        @unknown default: break
+        }
+    }
+
+    private var seeking = false
+
+    /// Join the live point. A one-second tolerance lets the decoder land on a nearby keyframe
+    /// instead of grinding forward from the last one; the drift check keeps us within ±2.5 s anyway.
     private func seekLive() {
-        guard let r = try? Broadcast.resolve(channel, at: .now), r.block.isFilm else { return }
+        guard let r = try? Broadcast.resolve(channel, at: .now), r.block.isFilm, !seeking else { return }
+        seeking = true
         let t = CMTime(seconds: r.offsetSec, preferredTimescale: 600)
-        player.seek(to: t, toleranceBefore: .zero, toleranceAfter: .zero)
+        let tol = CMTime(seconds: 1, preferredTimescale: 600)
+        log.info("seek → \(r.offsetSec)")
+        player.seek(to: t, toleranceBefore: tol, toleranceAfter: tol) { [weak self] done in
+            Task { @MainActor in
+                self?.seeking = false
+                log.info("seek done=\(done) at \(self?.player.currentTime().seconds ?? -1)")
+            }
+        }
     }
 
     private func attemptPlay() {
@@ -256,8 +300,14 @@ final class Receiver {
         guard let r = try? Broadcast.resolve(channel, at: now) else { return }
         resolution = r
         guard powered, r.block.isFilm, let item = player.currentItem, item.status == .readyToPlay else { return }
-        // quiet drift correction, at most every 15s
-        if now.timeIntervalSince(driftAt) > 15 {
+        reflectPlayerState()
+        if Int(now.timeIntervalSince1970) % 5 == 0, status != .onAir {
+            let ranges = item.loadedTimeRanges.map { $0.timeRangeValue }.map { "\(Int($0.start.seconds))-\(Int($0.end.seconds))" }.joined(separator: ",")
+            log.info("tuning: t=\(self.player.currentTime().seconds) live=\(r.offsetSec) keepUp=\(item.isPlaybackLikelyToKeepUp) full=\(item.isPlaybackBufferFull) empty=\(item.isPlaybackBufferEmpty) ranges=\(ranges, privacy: .public) err=\(item.error?.localizedDescription ?? "-", privacy: .public) stalls=\(item.accessLog()?.events.last?.numberOfStalls ?? -1) bitrate=\(item.accessLog()?.events.last?.observedBitrate ?? -1)")
+        }
+        // quiet drift correction, at most every 15s — and only while the picture is actually
+        // moving; re-seeking a stalled player only stalls it again
+        if now.timeIntervalSince(driftAt) > 15, player.timeControlStatus == .playing {
             driftAt = now
             let actual = player.currentTime().seconds
             if actual.isFinite, abs(actual - r.offsetSec) > 2.5 { seekLive() }
@@ -267,16 +317,9 @@ final class Receiver {
     // MARK: the machine underneath
 
     private func observePlayer() {
-        let player = self.player
-        timeControlTask = Task { [weak self] in
-            for await s in player.publisher(for: \.timeControlStatus).values {
-                guard let self, !Task.isCancelled, self.powered, self.resolution?.block.isFilm == true else { continue }
-                switch s {
-                case .playing: if status != .signalLost { status = .onAir }
-                case .waitingToPlayAtSpecifiedRate: if status == .onAir { status = .tuning }
-                default: break
-                }
-            }
+        timeControlObservation = player.observe(\.timeControlStatus, options: [.new]) { [weak self] player, _ in
+            let s = player.timeControlStatus
+            Task { @MainActor in self?.timeControlChanged(s) }
         }
     }
 
