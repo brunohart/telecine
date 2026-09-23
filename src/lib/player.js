@@ -14,7 +14,7 @@
  *   · during a station break the next film pre-buffers behind the test card
  */
 
-import network from '../data/network.json';
+import network from '../data/network.client.json';
 import { resolve, upNext } from './broadcast.js';
 
 const $ = (id) => document.getElementById(id);
