@@ -8,7 +8,8 @@
  *   data/programme.json   — channel identities + programme notes (the editorial layer)
  *
  * Output:
- *   src/data/network.json — Transmission per channel (SPEC.md) + film directory
+ *   src/data/network.json        — Transmission per channel (SPEC.md) + film directory
+ *   src/data/network.client.json — the player's slice of it, all the browser downloads
  *
  * Fails loudly if any scheduled film is unverified: nothing ships unverified.
  */
@@ -16,6 +17,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { playerSlice } from '../src/lib/slice.js';
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const read = async (p) => JSON.parse(await readFile(path.join(root, p), 'utf8'));
@@ -137,7 +139,8 @@ if (errors.length) {
   process.exit(1);
 }
 
-// network.json ships to the player; graph.json is server-side only (pages)
+// network.json feeds the pages and the head-end; the browser gets network.client.json, the
+// player's slice; graph.json is server-side only (pages)
 const network = { generatedAt: new Date().toISOString(), interstitialSec: INTERSTITIAL_SEC, channels, films };
 const out = path.join(root, 'src', 'data', 'network.json');
 await writeFile(out, JSON.stringify(network, null, 2));
@@ -145,9 +148,10 @@ await writeFile(out, JSON.stringify(network, null, 2));
 // (the web set, the Apple app, anyone's player) tunes from
 await writeFile(path.join(root, 'public', 'network.json'), JSON.stringify(network, null, 2));
 await writeFile(path.join(root, 'src', 'data', 'graph.json'), JSON.stringify({ films: filmGraph, people, threads }, null, 2));
+await writeFile(path.join(root, 'src', 'data', 'network.client.json'), JSON.stringify(playerSlice(network), null, 2));
 
 const totalHours = channels.reduce((s, c) => s + c.blocks.reduce((x, b) => x + b.durationSec, 0), 0) / 3600;
 const posters = Object.values(filmGraph).filter((f) => f.poster).length;
 console.log(
-  `✓ ${channels.length} channels, ${Object.keys(films).length} films (${posters} posters), ${threads.length} threads, ${Object.keys(people).length} people, ${totalHours.toFixed(1)}h of programming → src/data/network.json + public/network.json`
+  `✓ ${channels.length} channels, ${Object.keys(films).length} films (${posters} posters), ${threads.length} threads, ${Object.keys(people).length} people, ${totalHours.toFixed(1)}h of programming → src/data/network.json + public/network.json + src/data/network.client.json`
 );

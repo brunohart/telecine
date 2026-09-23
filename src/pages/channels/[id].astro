@@ -37,7 +37,7 @@ const loopH = Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360)
   </section>
 
   <script>
-    import network from '../../data/network.json';
+    import network from '../../data/network.client.json';
     import { resolve } from '../../lib/broadcast.js';
     const line = document.getElementById('onair-line');
     const ch = network.channels.find((c) => c.id === line.dataset.channel);

@@ -1,0 +1,582 @@
+{
+  "channels": [
+    {
+      "transmission": "0.1",
+      "id": "silent-signal",
+      "number": "01",
+      "name": "The Silent Signal",
+      "epoch": "2026-07-01T00:00:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "sherlock-jr-1924",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "sherlock-jr-1924",
+          "durationSec": 2649,
+          "src": "https://archive.org/download/sherlock-jr/Sherlock%20Jr.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "nosferatu-1922",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "nosferatu-1922",
+          "durationSec": 5514,
+          "src": "https://archive.org/download/Nosferatu1922/Nosferatu.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-general-1926",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-general-1926",
+          "durationSec": 4724,
+          "src": "https://archive.org/download/The_General_Buster_Keaton/The_General.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-cabinet-of-dr-caligari-1920",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-cabinet-of-dr-caligari-1920",
+          "durationSec": 4463,
+          "src": "https://archive.org/download/TheCabinetOfDr.Caligari1920FULLMOVIE/The%20Cabinet%20of%20Dr.%20Caligari%20(1920)%20FULL%20MOVIE.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "sunrise-1927",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "sunrise-1927",
+          "durationSec": 5697,
+          "src": "https://archive.org/download/sunrise-1927_202301/Sunrise.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "battleship-potemkin-1925",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "battleship-potemkin-1925",
+          "durationSec": 4381,
+          "src": "https://archive.org/download/BattleshipPotemkin/Battleship_Potemkin_512kb.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-lodger-1927",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-lodger-1927",
+          "durationSec": 5444,
+          "src": "https://archive.org/download/the-lodger-a-story-of-the-london-fog-1927/The%20Lodger%3A%20A%20Story%20of%20the%20London%20Fog%20(1927).mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "metropolis-1927",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "metropolis-1927",
+          "durationSec": 7118,
+          "src": "https://archive.org/download/Metropolis1927EnglishVersion/Metropolis_1927_English_Version.mp4"
+        }
+      ]
+    },
+    {
+      "transmission": "0.1",
+      "id": "noir-after-dark",
+      "number": "02",
+      "name": "Noir After Dark",
+      "epoch": "2026-07-01T00:47:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "detour-1945",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "detour-1945",
+          "durationSec": 4076,
+          "src": "https://archive.org/download/Detour_movie/Detour.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-hitch-hiker-1953",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-hitch-hiker-1953",
+          "durationSec": 4248,
+          "src": "https://archive.org/download/Hitch_Hiker/Hitch-Hiker.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "scarlet-street-1945",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "scarlet-street-1945",
+          "durationSec": 6086,
+          "src": "https://archive.org/download/ScarletStreet/Scarlet_Street.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "doa-1950",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "doa-1950",
+          "durationSec": 4990,
+          "src": "https://archive.org/download/doa_ipod/doa_512kb.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "too-late-for-tears-1949",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "too-late-for-tears-1949",
+          "durationSec": 5628,
+          "src": "https://archive.org/download/Lbines-TooLateForTears1949AKAKillerBait1955923/Lbines-TooLateForTears1949AKAKillerBait1955923_512kb.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-stranger-1946",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-stranger-1946",
+          "durationSec": 5473,
+          "src": "https://archive.org/download/TheStranger_0/The_Stranger.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "kansas-city-confidential-1952",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "kansas-city-confidential-1952",
+          "durationSec": 5956,
+          "src": "https://archive.org/download/Kansas_City_Confidential_1952/Kansas_City_Confidential.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "suddenly-1954",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "suddenly-1954",
+          "durationSec": 4534,
+          "src": "https://archive.org/download/suddenly/suddenly.mp4"
+        }
+      ]
+    },
+    {
+      "transmission": "0.1",
+      "id": "haunted-screen",
+      "number": "03",
+      "name": "The Haunted Screen",
+      "epoch": "2026-07-01T01:23:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "carnival-of-souls-1962",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "carnival-of-souls-1962",
+          "durationSec": 4979,
+          "src": "https://archive.org/download/carnival_of_souls/carnival_of_souls_512kb.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "night-of-the-living-dead-1968",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "night-of-the-living-dead-1968",
+          "durationSec": 5732,
+          "src": "https://archive.org/download/night_of_the_living_dead_dvd/Night.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "house-on-haunted-hill-1959",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "house-on-haunted-hill-1959",
+          "durationSec": 4483,
+          "src": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-last-man-on-earth-1964",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-last-man-on-earth-1964",
+          "durationSec": 5190,
+          "src": "https://archive.org/download/TheLastManOnEarth_72/the_last_man_on_earth.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "white-zombie-1932",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "white-zombie-1932",
+          "durationSec": 3922,
+          "src": "https://archive.org/download/WhiteZombie1932/WhiteZombie_512kb.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "dementia-13-1963",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "dementia-13-1963",
+          "durationSec": 3933,
+          "src": "https://archive.org/download/dementia-13-1963-horror-full-movie-francis-ford-coppola/Dementia%2013%20(1963)%20%20%20Horror%20%20%20Full%20Movie%20%20%20Francis%20Ford%20Coppola.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "the-little-shop-of-horrors-1960",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "the-little-shop-of-horrors-1960",
+          "durationSec": 4385,
+          "src": "https://archive.org/download/TheLittleShopOfHorrorscolor1960/LittleShopofHorrors1960Color.mp4"
+        }
+      ]
+    },
+    {
+      "transmission": "0.1",
+      "id": "the-matinee",
+      "number": "04",
+      "name": "The Matinee",
+      "epoch": "2026-07-01T02:11:00Z",
+      "blocks": [
+        {
+          "type": "interstitial",
+          "next": "his-girl-friday-1940",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "his-girl-friday-1940",
+          "durationSec": 5505,
+          "src": "https://archive.org/download/his_girl_friday/his_girl_friday.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "charade-1963",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "charade-1963",
+          "durationSec": 6879,
+          "src": "https://archive.org/download/ecatma-Old_Time_Movie_Show_-_Charade_1963/Old_Time_Movie_Show_-_Charade_1963.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "my-man-godfrey-1936",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "my-man-godfrey-1936",
+          "durationSec": 5687,
+          "src": "https://archive.org/download/MyManGodfrey1936/MyManGodfrey1936.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "nothing-sacred-1937",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "nothing-sacred-1937",
+          "durationSec": 4450,
+          "src": "https://archive.org/download/NothingSacred/NothingSacred.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "love-affair-1939",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "love-affair-1939",
+          "durationSec": 5210,
+          "src": "https://archive.org/download/LoveAffair/LoveAffair.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "made-for-each-other-1939",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "made-for-each-other-1939",
+          "durationSec": 5457,
+          "src": "https://archive.org/download/made-for-each-other/MadeForEachOther.ia.mp4"
+        },
+        {
+          "type": "interstitial",
+          "next": "royal-wedding-1951",
+          "durationSec": 90
+        },
+        {
+          "type": "film",
+          "film": "royal-wedding-1951",
+          "durationSec": 5497,
+          "src": "https://archive.org/download/royal_wedding/royal_wedding.mp4"
+        }
+      ]
+    }
+  ],
+  "films": {
+    "sherlock-jr-1924": {
+      "slug": "sherlock-jr-1924",
+      "title": "Sherlock Jr.",
+      "year": 1924,
+      "director": "Buster Keaton",
+      "durationSec": 2649
+    },
+    "nosferatu-1922": {
+      "slug": "nosferatu-1922",
+      "title": "Nosferatu",
+      "year": 1922,
+      "director": "F. W. Murnau",
+      "durationSec": 5514
+    },
+    "the-general-1926": {
+      "slug": "the-general-1926",
+      "title": "The General",
+      "year": 1926,
+      "director": "Buster Keaton & Clyde Bruckman",
+      "durationSec": 4724
+    },
+    "the-cabinet-of-dr-caligari-1920": {
+      "slug": "the-cabinet-of-dr-caligari-1920",
+      "title": "The Cabinet of Dr. Caligari",
+      "year": 1920,
+      "director": "Robert Wiene",
+      "durationSec": 4463
+    },
+    "sunrise-1927": {
+      "slug": "sunrise-1927",
+      "title": "Sunrise: A Song of Two Humans",
+      "year": 1927,
+      "director": "F. W. Murnau",
+      "durationSec": 5697
+    },
+    "battleship-potemkin-1925": {
+      "slug": "battleship-potemkin-1925",
+      "title": "Battleship Potemkin",
+      "year": 1925,
+      "director": "Sergei Eisenstein",
+      "durationSec": 4381
+    },
+    "the-lodger-1927": {
+      "slug": "the-lodger-1927",
+      "title": "The Lodger: A Story of the London Fog",
+      "year": 1927,
+      "director": "Alfred Hitchcock",
+      "durationSec": 5444
+    },
+    "metropolis-1927": {
+      "slug": "metropolis-1927",
+      "title": "Metropolis",
+      "year": 1927,
+      "director": "Fritz Lang",
+      "durationSec": 7118
+    },
+    "detour-1945": {
+      "slug": "detour-1945",
+      "title": "Detour",
+      "year": 1945,
+      "director": "Edgar G. Ulmer",
+      "durationSec": 4076
+    },
+    "the-hitch-hiker-1953": {
+      "slug": "the-hitch-hiker-1953",
+      "title": "The Hitch-Hiker",
+      "year": 1953,
+      "director": "Ida Lupino",
+      "durationSec": 4248
+    },
+    "scarlet-street-1945": {
+      "slug": "scarlet-street-1945",
+      "title": "Scarlet Street",
+      "year": 1945,
+      "director": "Fritz Lang",
+      "durationSec": 6086
+    },
+    "doa-1950": {
+      "slug": "doa-1950",
+      "title": "D.O.A.",
+      "year": 1950,
+      "director": "Rudolph Maté",
+      "durationSec": 4990
+    },
+    "too-late-for-tears-1949": {
+      "slug": "too-late-for-tears-1949",
+      "title": "Too Late for Tears",
+      "year": 1949,
+      "director": "Byron Haskin",
+      "durationSec": 5628
+    },
+    "the-stranger-1946": {
+      "slug": "the-stranger-1946",
+      "title": "The Stranger",
+      "year": 1946,
+      "director": "Orson Welles",
+      "durationSec": 5473
+    },
+    "kansas-city-confidential-1952": {
+      "slug": "kansas-city-confidential-1952",
+      "title": "Kansas City Confidential",
+      "year": 1952,
+      "director": "Phil Karlson",
+      "durationSec": 5956
+    },
+    "suddenly-1954": {
+      "slug": "suddenly-1954",
+      "title": "Suddenly",
+      "year": 1954,
+      "director": "Lewis Allen",
+      "durationSec": 4534
+    },
+    "carnival-of-souls-1962": {
+      "slug": "carnival-of-souls-1962",
+      "title": "Carnival of Souls",
+      "year": 1962,
+      "director": "Herk Harvey",
+      "durationSec": 4979
+    },
+    "night-of-the-living-dead-1968": {
+      "slug": "night-of-the-living-dead-1968",
+      "title": "Night of the Living Dead",
+      "year": 1968,
+      "director": "George A. Romero",
+      "durationSec": 5732
+    },
+    "house-on-haunted-hill-1959": {
+      "slug": "house-on-haunted-hill-1959",
+      "title": "House on Haunted Hill",
+      "year": 1959,
+      "director": "William Castle",
+      "durationSec": 4483
+    },
+    "the-last-man-on-earth-1964": {
+      "slug": "the-last-man-on-earth-1964",
+      "title": "The Last Man on Earth",
+      "year": 1964,
+      "director": "Ubaldo Ragona & Sidney Salkow",
+      "durationSec": 5190
+    },
+    "white-zombie-1932": {
+      "slug": "white-zombie-1932",
+      "title": "White Zombie",
+      "year": 1932,
+      "director": "Victor Halperin",
+      "durationSec": 3922
+    },
+    "dementia-13-1963": {
+      "slug": "dementia-13-1963",
+      "title": "Dementia 13",
+      "year": 1963,
+      "director": "Francis Ford Coppola",
+      "durationSec": 3933
+    },
+    "the-little-shop-of-horrors-1960": {
+      "slug": "the-little-shop-of-horrors-1960",
+      "title": "The Little Shop of Horrors",
+      "year": 1960,
+      "director": "Roger Corman",
+      "durationSec": 4385
+    },
+    "his-girl-friday-1940": {
+      "slug": "his-girl-friday-1940",
+      "title": "His Girl Friday",
+      "year": 1940,
+      "director": "Howard Hawks",
+      "durationSec": 5505
+    },
+    "charade-1963": {
+      "slug": "charade-1963",
+      "title": "Charade",
+      "year": 1963,
+      "director": "Stanley Donen",
+      "durationSec": 6879
+    },
+    "my-man-godfrey-1936": {
+      "slug": "my-man-godfrey-1936",
+      "title": "My Man Godfrey",
+      "year": 1936,
+      "director": "Gregory La Cava",
+      "durationSec": 5687
+    },
+    "nothing-sacred-1937": {
+      "slug": "nothing-sacred-1937",
+      "title": "Nothing Sacred",
+      "year": 1937,
+      "director": "William A. Wellman",
+      "durationSec": 4450
+    },
+    "love-affair-1939": {
+      "slug": "love-affair-1939",
+      "title": "Love Affair",
+      "year": 1939,
+      "director": "Leo McCarey",
+      "durationSec": 5210
+    },
+    "made-for-each-other-1939": {
+      "slug": "made-for-each-other-1939",
+      "title": "Made for Each Other",
+      "year": 1939,
+      "director": "John Cromwell",
+      "durationSec": 5457
+    },
+    "royal-wedding-1951": {
+      "slug": "royal-wedding-1951",
+      "title": "Royal Wedding",
+      "year": 1951,
+      "director": "Stanley Donen",
+      "durationSec": 5497
+    }
+  }
+}
