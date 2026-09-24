@@ -7,9 +7,9 @@
   "scripts": {
     "verify": "node scripts/verify.mjs",
     "bake": "node scripts/build-channels.mjs",
-    "test": "node --test test/broadcast.test.mjs test/slice.test.mjs",
+    "test": "node --test test/broadcast.test.mjs test/slice.test.mjs test/csp.test.mjs test/headend.test.mjs",
     "dev": "astro dev",
-    "build": "npm run test && astro build",
+    "build": "npm run test && astro build && node scripts/check-dist.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

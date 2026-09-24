@@ -41,6 +41,7 @@ const loopH = Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360)
     import { resolve } from '../../lib/broadcast.js';
     const line = document.getElementById('onair-line');
     const ch = network.channels.find((c) => c.id === line.dataset.channel);
+    const tune = Object.assign(document.createElement('a'), { href: `/#${ch.number}`, textContent: 'tune in' });
     const paint = () => {
       const r = resolve(ch, Date.now());
       const film = network.films[r.block.type === 'film' ? r.block.film : r.block.next];
@@ -48,10 +49,10 @@ const loopH = Math.round(ch.blocks.reduce((s, b) => s + b.durationSec, 0) / 360)
         r.block.type === 'film'
           ? `ON AIR NOW — ${film.title} (${film.year}), ${Math.floor(r.offsetSec / 60)} minutes in`
           : `STATION BREAK — ${film.title} begins shortly`;
+      line.append(' · ', tune);
     };
     paint();
     setInterval(paint, 30000);
-    line.insertAdjacentHTML('beforeend', ' · <a href="/">tune in</a>');
   </script>
 </Base>
 
